@@ -1,0 +1,9 @@
+{
+  "gehen": {
+    "exposures": 1,
+    "correct": 0,
+    "incorrect": 1,
+    "last_seen": "2026-02-05T19:06:47.444224",
+    "status": "learning"
+  }
+}

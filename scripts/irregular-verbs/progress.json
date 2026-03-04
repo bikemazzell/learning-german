@@ -1,0 +1,82 @@
+{
+  "gehen": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:57:26.956682",
+    "next_review": "2026-03-01T15:57:26.956682",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "lassen": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:57:37.621610",
+    "next_review": "2026-03-01T15:57:37.621610",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "schlafen": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:57:44.802427",
+    "next_review": "2026-03-01T15:57:44.802427",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "hängen": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:57:51.999451",
+    "next_review": "2026-03-01T15:57:51.999451",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "fangen": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:57:58.106856",
+    "next_review": "2026-03-01T15:57:58.106856",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "halten": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:58:11.239084",
+    "next_review": "2026-03-01T15:58:11.239084",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "laufen": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:58:15.322521",
+    "next_review": "2026-03-01T15:58:15.322521",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "fallen": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:58:20.395002",
+    "next_review": "2026-03-01T15:58:20.395002",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "braten": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:58:23.133759",
+    "next_review": "2026-03-01T15:58:23.133759",
+    "ease_factor": 2.6,
+    "interval": 6
+  },
+  "raten": {
+    "correct": 1,
+    "incorrect": 0,
+    "last_reviewed": "2026-02-23T15:58:29.623648",
+    "next_review": "2026-03-01T15:58:29.623648",
+    "ease_factor": 2.6,
+    "interval": 6
+  }
+}

@@ -1,0 +1,463 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1740 1180" width="1740" height="1180">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap');
+    text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+    .title { font-size: 28px; font-weight: 700; fill: #1a1a2e; }
+    .subtitle { font-size: 14px; fill: #666; }
+    .mnemonic-name { font-size: 18px; font-weight: 700; }
+    .mnemonic-pattern { font-size: 11px; font-weight: 600; }
+    .verb-text { font-size: 11px; font-weight: 600; fill: #2a2a3e; }
+    .verb-english { font-size: 9px; fill: #888; }
+    .verb-forms { font-size: 9px; fill: #555; font-style: italic; }
+    .freq-star { font-size: 9px; }
+  </style>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+  </filter>
+</defs>
+
+<!-- Background -->
+<rect width="1740" height="1180" fill="#FAFBFE" rx="12"/>
+
+<text x="870.0" y="40" text-anchor="middle" class="title">German Irregular Verbs — Mnemonic Clusters</text>
+<text x="870.0" y="62" text-anchor="middle" class="subtitle">81 verbs organized by vowel-change pattern · Verbs radiate from their mnemonic hub</text>
+
+<circle cx="240.0" cy="370.0" r="200" fill="#F5D0D0" opacity="0.4"/>
+<line x1="240.0" y1="370.0" x2="240.0" y2="215.0" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="204.0" y="194.0" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="240.0" y="207.0" text-anchor="middle" class="verb-text">gehen</text>
+<text x="240.0" y="219.0" text-anchor="middle" class="verb-english">to go</text>
+<text x="240.0" y="230.0" text-anchor="middle" class="verb-forms">ging · gegangen</text>
+<line x1="240.0" y1="370.0" x2="331.10671410533337" y2="244.60236587188314" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="295.10671410533337" y="223.60236587188314" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="331.10671410533337" y="236.60236587188314" text-anchor="middle" class="verb-text">lassen</text>
+<text x="331.10671410533337" y="248.60236587188314" text-anchor="middle" class="verb-english">to let</text>
+<text x="331.10671410533337" y="259.60236587188314" text-anchor="middle" class="verb-forms">ließ · gelassen</text>
+<line x1="240.0" y1="370.0" x2="387.4137600257488" y2="322.10236587188314" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="351.4137600257488" y="301.10236587188314" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="387.4137600257488" y="314.10236587188314" text-anchor="middle" class="verb-text">halten</text>
+<text x="387.4137600257488" y="326.10236587188314" text-anchor="middle" class="verb-english">to hold</text>
+<text x="387.4137600257488" y="337.10236587188314" text-anchor="middle" class="verb-forms">hielt · gehalten</text>
+<line x1="240.0" y1="370.0" x2="387.4137600257488" y2="417.89763412811686" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="351.4137600257488" y="396.89763412811686" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="387.4137600257488" y="409.89763412811686" text-anchor="middle" class="verb-text">fallen</text>
+<text x="387.4137600257488" y="421.89763412811686" text-anchor="middle" class="verb-english">to fall</text>
+<text x="387.4137600257488" y="432.89763412811686" text-anchor="middle" class="verb-forms">fiel · gefallen</text>
+<line x1="240.0" y1="370.0" x2="331.10671410533337" y2="495.39763412811686" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="295.10671410533337" y="474.39763412811686" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="331.10671410533337" y="487.39763412811686" text-anchor="middle" class="verb-text">schlafen</text>
+<text x="331.10671410533337" y="499.39763412811686" text-anchor="middle" class="verb-english">to sleep</text>
+<text x="331.10671410533337" y="510.39763412811686" text-anchor="middle" class="verb-forms">schlief · geschlafen</text>
+<line x1="240.0" y1="370.0" x2="240.0" y2="525.0" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="204.0" y="504.0" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="240.0" y="517.0" text-anchor="middle" class="verb-text">laufen</text>
+<text x="240.0" y="529.0" text-anchor="middle" class="verb-english">to walk</text>
+<text x="240.0" y="540.0" text-anchor="middle" class="verb-forms">lief · gelaufen</text>
+<line x1="240.0" y1="370.0" x2="148.8932858946667" y2="495.39763412811686" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="112.89328589466669" y="474.39763412811686" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="148.8932858946667" y="487.39763412811686" text-anchor="middle" class="verb-text">fangen</text>
+<text x="148.8932858946667" y="499.39763412811686" text-anchor="middle" class="verb-english">to catch</text>
+<text x="148.8932858946667" y="510.39763412811686" text-anchor="middle" class="verb-forms">fing · gefangen</text>
+<line x1="240.0" y1="370.0" x2="92.58623997425121" y2="417.89763412811686" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="56.586239974251214" y="396.89763412811686" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="92.58623997425121" y="409.89763412811686" text-anchor="middle" class="verb-text">hängen</text>
+<text x="92.58623997425121" y="421.89763412811686" text-anchor="middle" class="verb-english">to hang</text>
+<text x="92.58623997425121" y="432.89763412811686" text-anchor="middle" class="verb-forms">hing · gehangen</text>
+<line x1="240.0" y1="370.0" x2="92.58623997425119" y2="322.1023658718832" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="56.586239974251185" y="301.1023658718832" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="92.58623997425119" y="314.1023658718832" text-anchor="middle" class="verb-text">raten</text>
+<text x="92.58623997425119" y="326.1023658718832" text-anchor="middle" class="verb-english">to guess</text>
+<text x="92.58623997425119" y="337.1023658718832" text-anchor="middle" class="verb-forms">riet · geraten</text>
+<line x1="240.0" y1="370.0" x2="148.89328589466663" y2="244.60236587188317" stroke="#D45C5C" stroke-width="1.5" opacity="0.5"/>
+<rect x="112.89328589466663" y="223.60236587188317" width="72" height="42" rx="8" fill="white" stroke="#D45C5C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="148.89328589466663" y="236.60236587188317" text-anchor="middle" class="verb-text">braten</text>
+<text x="148.89328589466663" y="248.60236587188317" text-anchor="middle" class="verb-english">to fry</text>
+<text x="148.89328589466663" y="259.6023658718832" text-anchor="middle" class="verb-forms">briet · gebraten</text>
+<circle cx="240.0" cy="370.0" r="38" fill="#B22222" filter="url(#shadow)"/>
+<text x="240.0" y="366.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">INKA</text>
+<text x="240.0" y="384.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">→i/ie, →a</text>
+<circle cx="660.0" cy="370.0" r="200" fill="#D0F0D0" opacity="0.4"/>
+<line x1="660.0" y1="370.0" x2="660.0" y2="215.0" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="624.0" y="194.0" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="660.0" y="207.0" text-anchor="middle" class="verb-text">sehen</text>
+<text x="660.0" y="219.0" text-anchor="middle" class="verb-english">to see</text>
+<text x="660.0" y="230.0" text-anchor="middle" class="verb-forms">sah · gesehen</text>
+<line x1="660.0" y1="370.0" x2="769.6015510839148" y2="260.39844891608516" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="733.6015510839148" y="239.39844891608516" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="769.6015510839148" y="252.39844891608516" text-anchor="middle" class="verb-text">geben</text>
+<text x="769.6015510839148" y="264.39844891608516" text-anchor="middle" class="verb-english">to give</text>
+<text x="769.6015510839148" y="275.39844891608516" text-anchor="middle" class="verb-forms">gab · gegeben</text>
+<line x1="660.0" y1="370.0" x2="815.0" y2="370.0" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="779.0" y="349.0" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="815.0" y="362.0" text-anchor="middle" class="verb-text">lesen</text>
+<text x="815.0" y="374.0" text-anchor="middle" class="verb-english">to read</text>
+<text x="815.0" y="385.0" text-anchor="middle" class="verb-forms">las · gelesen</text>
+<line x1="660.0" y1="370.0" x2="769.6015510839148" y2="479.60155108391484" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="733.6015510839148" y="458.60155108391484" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="769.6015510839148" y="471.60155108391484" text-anchor="middle" class="verb-text">sitzen</text>
+<text x="769.6015510839148" y="483.60155108391484" text-anchor="middle" class="verb-english">to sit</text>
+<text x="769.6015510839148" y="494.60155108391484" text-anchor="middle" class="verb-forms">saß · gesessen</text>
+<line x1="660.0" y1="370.0" x2="660.0" y2="525.0" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="624.0" y="504.0" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="660.0" y="517.0" text-anchor="middle" class="verb-text">liegen</text>
+<text x="660.0" y="529.0" text-anchor="middle" class="verb-english">to lie (down)</text>
+<text x="660.0" y="540.0" text-anchor="middle" class="verb-forms">lag · gelegen</text>
+<line x1="660.0" y1="370.0" x2="550.3984489160852" y2="479.60155108391484" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="514.3984489160852" y="458.60155108391484" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="550.3984489160852" y="471.60155108391484" text-anchor="middle" class="verb-text">essen</text>
+<text x="550.3984489160852" y="483.60155108391484" text-anchor="middle" class="verb-english">to eat</text>
+<text x="550.3984489160852" y="494.60155108391484" text-anchor="middle" class="verb-forms">aß · gegessen</text>
+<line x1="660.0" y1="370.0" x2="505.0" y2="370.0" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="469.0" y="349.0" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="505.0" y="362.0" text-anchor="middle" class="verb-text">treten</text>
+<text x="505.0" y="374.0" text-anchor="middle" class="verb-english">to kick</text>
+<text x="505.0" y="385.0" text-anchor="middle" class="verb-forms">trat · getreten</text>
+<line x1="660.0" y1="370.0" x2="550.3984489160852" y2="260.39844891608516" stroke="#5CB85C" stroke-width="1.5" opacity="0.5"/>
+<rect x="514.3984489160852" y="239.39844891608516" width="72" height="42" rx="8" fill="white" stroke="#5CB85C" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="550.3984489160852" y="252.39844891608516" text-anchor="middle" class="verb-text">bitten</text>
+<text x="550.3984489160852" y="264.39844891608516" text-anchor="middle" class="verb-english">to ask for</text>
+<text x="550.3984489160852" y="275.39844891608516" text-anchor="middle" class="verb-forms">bat · gebeten</text>
+<circle cx="660.0" cy="370.0" r="38" fill="#228B22" filter="url(#shadow)"/>
+<text x="660.0" y="366.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">BARREL</text>
+<text x="660.0" y="384.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">→a, →e</text>
+<circle cx="1080.0" cy="370.0" r="200" fill="#FFF3D0" opacity="0.4"/>
+<line x1="1080.0" y1="370.0" x2="1080.0" y2="215.0" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="1044.0" y="194.0" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1080.0" y="207.0" text-anchor="middle" class="verb-text">finden</text>
+<text x="1080.0" y="219.0" text-anchor="middle" class="verb-english">to find</text>
+<text x="1080.0" y="230.0" text-anchor="middle" class="verb-forms">fand · gefunden</text>
+<line x1="1080.0" y1="370.0" x2="1179.6320795014135" y2="251.26311131655842" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="1143.6320795014135" y="230.26311131655842" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1179.6320795014135" y="243.26311131655842" text-anchor="middle" class="verb-text">trinken</text>
+<text x="1179.6320795014135" y="255.26311131655842" text-anchor="middle" class="verb-english">to drink</text>
+<text x="1179.6320795014135" y="266.2631113165584" text-anchor="middle" class="verb-forms">trank · getrunken</text>
+<line x1="1080.0" y1="370.0" x2="1232.6452017168922" y2="343.08453246162577" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="1196.6452017168922" y="322.08453246162577" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1232.6452017168922" y="335.08453246162577" text-anchor="middle" class="verb-text">singen</text>
+<text x="1232.6452017168922" y="347.08453246162577" text-anchor="middle" class="verb-english">to sing</text>
+<text x="1232.6452017168922" y="358.08453246162577" text-anchor="middle" class="verb-forms">sang · gesungen</text>
+<line x1="1080.0" y1="370.0" x2="1214.2339375865881" y2="447.5" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="1178.2339375865881" y="426.5" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1214.2339375865881" y="439.5" text-anchor="middle" class="verb-text">springen</text>
+<text x="1214.2339375865881" y="451.5" text-anchor="middle" class="verb-english">to jump</text>
+<text x="1214.2339375865881" y="462.5" text-anchor="middle" class="verb-forms">sprang · gesprungen</text>
+<line x1="1080.0" y1="370.0" x2="1133.0131222154787" y2="515.6523562218158" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="1097.0131222154787" y="494.6523562218158" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1133.0131222154787" y="507.6523562218158" text-anchor="middle" class="verb-text">binden</text>
+<text x="1133.0131222154787" y="519.6523562218158" text-anchor="middle" class="verb-english">to tie</text>
+<text x="1133.0131222154787" y="530.6523562218158" text-anchor="middle" class="verb-forms">band · gebunden</text>
+<line x1="1080.0" y1="370.0" x2="1026.9868777845213" y2="515.6523562218158" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="990.9868777845213" y="494.6523562218158" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1026.9868777845213" y="507.6523562218158" text-anchor="middle" class="verb-text">sinken</text>
+<text x="1026.9868777845213" y="519.6523562218158" text-anchor="middle" class="verb-english">to sink</text>
+<text x="1026.9868777845213" y="530.6523562218158" text-anchor="middle" class="verb-forms">sank · gesunken</text>
+<line x1="1080.0" y1="370.0" x2="945.7660624134121" y2="447.50000000000006" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="909.7660624134121" y="426.50000000000006" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="945.7660624134121" y="439.50000000000006" text-anchor="middle" class="verb-text">zwingen</text>
+<text x="945.7660624134121" y="451.50000000000006" text-anchor="middle" class="verb-english">to force</text>
+<text x="945.7660624134121" y="462.50000000000006" text-anchor="middle" class="verb-forms">zwang · gezwungen</text>
+<line x1="1080.0" y1="370.0" x2="927.3547982831077" y2="343.0845324616258" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="891.3547982831077" y="322.0845324616258" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="927.3547982831077" y="335.0845324616258" text-anchor="middle" class="verb-text">gelingen</text>
+<text x="927.3547982831077" y="347.0845324616258" text-anchor="middle" class="verb-english">to succeed</text>
+<text x="927.3547982831077" y="358.0845324616258" text-anchor="middle" class="verb-forms">gelang · gelungen</text>
+<line x1="1080.0" y1="370.0" x2="980.3679204985864" y2="251.26311131655842" stroke="#E8C84A" stroke-width="1.5" opacity="0.5"/>
+<rect x="944.3679204985864" y="230.26311131655842" width="72" height="42" rx="8" fill="white" stroke="#E8C84A" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="980.3679204985864" y="243.26311131655842" text-anchor="middle" class="verb-text">stinken</text>
+<text x="980.3679204985864" y="255.26311131655842" text-anchor="middle" class="verb-english">to stink</text>
+<text x="980.3679204985864" y="266.2631113165584" text-anchor="middle" class="verb-forms">stank · gestunken</text>
+<circle cx="1080.0" cy="370.0" r="38" fill="#DAA520" filter="url(#shadow)"/>
+<text x="1080.0" y="366.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">SAUDI</text>
+<text x="1080.0" y="384.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">→a, →u</text>
+<circle cx="1500.0" cy="370.0" r="185" fill="#D0E0F5" opacity="0.4"/>
+<line x1="1500.0" y1="370.0" x2="1500.0" y2="230.0" stroke="#5B8FD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1464.0" y="209.0" width="72" height="42" rx="8" fill="white" stroke="#5B8FD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1500.0" y="222.0" text-anchor="middle" class="verb-text">fahren</text>
+<text x="1500.0" y="234.0" text-anchor="middle" class="verb-english">to drive</text>
+<text x="1500.0" y="245.0" text-anchor="middle" class="verb-forms">fuhr · gefahren</text>
+<line x1="1500.0" y1="370.0" x2="1609.4564075455241" y2="282.7114277397773" stroke="#5B8FD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1573.4564075455241" y="261.7114277397773" width="72" height="42" rx="8" fill="white" stroke="#5B8FD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1609.4564075455241" y="274.7114277397773" text-anchor="middle" class="verb-text">tragen</text>
+<text x="1609.4564075455241" y="286.7114277397773" text-anchor="middle" class="verb-english">to wear/carry</text>
+<text x="1609.4564075455241" y="297.7114277397773" text-anchor="middle" class="verb-forms">trug · getragen</text>
+<line x1="1500.0" y1="370.0" x2="1636.4899077054554" y2="401.152930753884" stroke="#5B8FD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1600.4899077054554" y="380.152930753884" width="72" height="42" rx="8" fill="white" stroke="#5B8FD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1636.4899077054554" y="393.152930753884" text-anchor="middle" class="verb-text">schlagen</text>
+<text x="1636.4899077054554" y="405.152930753884" text-anchor="middle" class="verb-english">to beat</text>
+<text x="1636.4899077054554" y="416.152930753884" text-anchor="middle" class="verb-forms">schlug · geschlagen</text>
+<line x1="1500.0" y1="370.0" x2="1560.7437234764582" y2="496.1356415063387" stroke="#5B8FD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1524.7437234764582" y="475.1356415063387" width="72" height="42" rx="8" fill="white" stroke="#5B8FD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1560.7437234764582" y="488.1356415063387" text-anchor="middle" class="verb-text">waschen</text>
+<text x="1560.7437234764582" y="500.1356415063387" text-anchor="middle" class="verb-english">to wash</text>
+<text x="1560.7437234764582" y="511.1356415063387" text-anchor="middle" class="verb-forms">wusch · gewaschen</text>
+<line x1="1500.0" y1="370.0" x2="1439.2562765235418" y2="496.1356415063387" stroke="#5B8FD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1403.2562765235418" y="475.1356415063387" width="72" height="42" rx="8" fill="white" stroke="#5B8FD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1439.2562765235418" y="488.1356415063387" text-anchor="middle" class="verb-text">laden</text>
+<text x="1439.2562765235418" y="500.1356415063387" text-anchor="middle" class="verb-english">to load</text>
+<text x="1439.2562765235418" y="511.1356415063387" text-anchor="middle" class="verb-forms">lud · geladen</text>
+<line x1="1500.0" y1="370.0" x2="1363.5100922945446" y2="401.15293075388405" stroke="#5B8FD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1327.5100922945446" y="380.15293075388405" width="72" height="42" rx="8" fill="white" stroke="#5B8FD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1363.5100922945446" y="393.15293075388405" text-anchor="middle" class="verb-text">wachsen</text>
+<text x="1363.5100922945446" y="405.15293075388405" text-anchor="middle" class="verb-english">to grow</text>
+<text x="1363.5100922945446" y="416.15293075388405" text-anchor="middle" class="verb-forms">wuchs · gewachsen</text>
+<line x1="1500.0" y1="370.0" x2="1390.5435924544759" y2="282.7114277397773" stroke="#5B8FD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1354.5435924544759" y="261.7114277397773" width="72" height="42" rx="8" fill="white" stroke="#5B8FD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1390.5435924544759" y="274.7114277397773" text-anchor="middle" class="verb-text">graben</text>
+<text x="1390.5435924544759" y="286.7114277397773" text-anchor="middle" class="verb-english">to dig</text>
+<text x="1390.5435924544759" y="297.7114277397773" text-anchor="middle" class="verb-forms">grub · gegraben</text>
+<circle cx="1500.0" cy="370.0" r="38" fill="#1E5AA8" filter="url(#shadow)"/>
+<text x="1500.0" y="366.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">USA</text>
+<text x="1500.0" y="384.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">→u, →a</text>
+<circle cx="240.0" cy="890.0" r="215" fill="#F5E0D0" opacity="0.4"/>
+<line x1="240.0" y1="890.0" x2="240.0" y2="720.0" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="204.0" y="699.0" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="240.0" y="712.0" text-anchor="middle" class="verb-text">sprechen</text>
+<text x="240.0" y="724.0" text-anchor="middle" class="verb-english">to speak</text>
+<text x="240.0" y="735.0" text-anchor="middle" class="verb-forms">sprach · gesprochen</text>
+<line x1="240.0" y1="890.0" x2="313.7602356499849" y2="736.8352924565887" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="277.7602356499849" y="715.8352924565887" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="313.7602356499849" y="728.8352924565887" text-anchor="middle" class="verb-text">treffen</text>
+<text x="313.7602356499849" y="740.8352924565887" text-anchor="middle" class="verb-english">to meet</text>
+<text x="313.7602356499849" y="751.8352924565887" text-anchor="middle" class="verb-forms">traf · getroffen</text>
+<line x1="240.0" y1="890.0" x2="372.9113520195651" y2="784.0067336840153" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="336.9113520195651" y="763.0067336840153" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="372.9113520195651" y="776.0067336840153" text-anchor="middle" class="verb-text">empfehlen</text>
+<text x="372.9113520195651" y="788.0067336840153" text-anchor="middle" class="verb-english">to recommend</text>
+<text x="372.9113520195651" y="799.0067336840153" text-anchor="middle" class="verb-forms">empfahl · empfohlen</text>
+<line x1="240.0" y1="890.0" x2="405.73774507091" y2="852.1714412274266" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="369.73774507091" y="831.1714412274266" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="405.73774507091" y="844.1714412274266" text-anchor="middle" class="verb-text">nehmen</text>
+<text x="405.73774507091" y="856.1714412274266" text-anchor="middle" class="verb-english">to take</text>
+<text x="405.73774507091" y="867.1714412274266" text-anchor="middle" class="verb-forms">nahm · genommen</text>
+<line x1="240.0" y1="890.0" x2="405.73774507091" y2="927.8285587725734" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="369.73774507091" y="906.8285587725734" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="405.73774507091" y="919.8285587725734" text-anchor="middle" class="verb-text">helfen</text>
+<text x="405.73774507091" y="931.8285587725734" text-anchor="middle" class="verb-english">to help</text>
+<text x="405.73774507091" y="942.8285587725734" text-anchor="middle" class="verb-forms">half · geholfen</text>
+<line x1="240.0" y1="890.0" x2="372.9113520195651" y2="995.9932663159847" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="336.9113520195651" y="974.9932663159847" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="372.9113520195651" y="987.9932663159847" text-anchor="middle" class="verb-text">kommen</text>
+<text x="372.9113520195651" y="999.9932663159847" text-anchor="middle" class="verb-english">to come</text>
+<text x="372.9113520195651" y="1010.9932663159847" text-anchor="middle" class="verb-forms">kam · gekommen</text>
+<line x1="240.0" y1="890.0" x2="313.7602356499849" y2="1043.1647075434112" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="277.7602356499849" y="1022.1647075434112" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="313.7602356499849" y="1035.1647075434112" text-anchor="middle" class="verb-text">werfen</text>
+<text x="313.7602356499849" y="1047.1647075434112" text-anchor="middle" class="verb-english">to throw</text>
+<text x="313.7602356499849" y="1058.1647075434112" text-anchor="middle" class="verb-forms">warf · geworfen</text>
+<line x1="240.0" y1="890.0" x2="240.0" y2="1060.0" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="204.0" y="1039.0" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="240.0" y="1052.0" text-anchor="middle" class="verb-text">brechen</text>
+<text x="240.0" y="1064.0" text-anchor="middle" class="verb-english">to break</text>
+<text x="240.0" y="1075.0" text-anchor="middle" class="verb-forms">brach · gebrochen</text>
+<line x1="240.0" y1="890.0" x2="166.23976435001512" y2="1043.1647075434112" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="130.23976435001512" y="1022.1647075434112" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="166.23976435001512" y="1035.1647075434112" text-anchor="middle" class="verb-text">beginnen</text>
+<text x="166.23976435001512" y="1047.1647075434112" text-anchor="middle" class="verb-english">to begin</text>
+<text x="166.23976435001512" y="1058.1647075434112" text-anchor="middle" class="verb-forms">begann · begonnen</text>
+<line x1="240.0" y1="890.0" x2="107.08864798043493" y2="995.9932663159847" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="71.08864798043493" y="974.9932663159847" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="107.08864798043493" y="987.9932663159847" text-anchor="middle" class="verb-text">gewinnen</text>
+<text x="107.08864798043493" y="999.9932663159847" text-anchor="middle" class="verb-english">to win</text>
+<text x="107.08864798043493" y="1010.9932663159847" text-anchor="middle" class="verb-forms">gewann · gewonnen</text>
+<line x1="240.0" y1="890.0" x2="74.26225492908998" y2="927.8285587725735" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="38.26225492908998" y="906.8285587725735" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="74.26225492908998" y="919.8285587725735" text-anchor="middle" class="verb-text">schwimmen</text>
+<text x="74.26225492908998" y="931.8285587725735" text-anchor="middle" class="verb-english">to swim</text>
+<text x="74.26225492908998" y="942.8285587725735" text-anchor="middle" class="verb-forms">schwamm · geschwommen</text>
+<line x1="240.0" y1="890.0" x2="74.26225492908995" y2="852.1714412274267" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="38.26225492908995" y="831.1714412274267" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="74.26225492908995" y="844.1714412274267" text-anchor="middle" class="verb-text">sterben</text>
+<text x="74.26225492908995" y="856.1714412274267" text-anchor="middle" class="verb-english">to die</text>
+<text x="74.26225492908995" y="867.1714412274267" text-anchor="middle" class="verb-forms">starb · gestorben</text>
+<line x1="240.0" y1="890.0" x2="107.08864798043493" y2="784.0067336840153" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="71.08864798043493" y="763.0067336840153" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="107.08864798043493" y="776.0067336840153" text-anchor="middle" class="verb-text">stehlen</text>
+<text x="107.08864798043493" y="788.0067336840153" text-anchor="middle" class="verb-english">to steal</text>
+<text x="107.08864798043493" y="799.0067336840153" text-anchor="middle" class="verb-forms">stahl · gestohlen</text>
+<line x1="240.0" y1="890.0" x2="166.23976435001524" y2="736.8352924565887" stroke="#E09050" stroke-width="1.5" opacity="0.5"/>
+<rect x="130.23976435001524" y="715.8352924565887" width="72" height="42" rx="8" fill="white" stroke="#E09050" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="166.23976435001524" y="728.8352924565887" text-anchor="middle" class="verb-text">stechen</text>
+<text x="166.23976435001524" y="740.8352924565887" text-anchor="middle" class="verb-english">to stab</text>
+<text x="166.23976435001524" y="751.8352924565887" text-anchor="middle" class="verb-forms">stach · gestochen</text>
+<circle cx="240.0" cy="890.0" r="38" fill="#D2691E" filter="url(#shadow)"/>
+<text x="240.0" y="886.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">LASSO</text>
+<text x="240.0" y="904.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">→a, →o</text>
+<circle cx="660.0" cy="890.0" r="235" fill="#D0F0F0" opacity="0.4"/>
+<line x1="660.0" y1="890.0" x2="660.0" y2="700.0" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="624.0" y="679.0" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="660.0" y="692.0" text-anchor="middle" class="verb-text">ziehen</text>
+<text x="660.0" y="704.0" text-anchor="middle" class="verb-english">to pull</text>
+<text x="660.0" y="715.0" text-anchor="middle" class="verb-forms">zog · gezogen</text>
+<line x1="660.0" y1="890.0" x2="721.6928991488899" y2="710.2947240768794" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="685.6928991488899" y="689.2947240768794" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="721.6928991488899" y="702.2947240768794" text-anchor="middle" class="verb-text">fliegen</text>
+<text x="721.6928991488899" y="714.2947240768794" text-anchor="middle" class="verb-english">to fly</text>
+<text x="721.6928991488899" y="725.2947240768794" text-anchor="middle" class="verb-forms">flog · geflogen</text>
+<line x1="660.0" y1="890.0" x2="776.7004154110368" y2="740.0633032146852" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="740.7004154110368" y="719.0633032146852" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="776.7004154110368" y="732.0633032146852" text-anchor="middle" class="verb-text">schieben</text>
+<text x="776.7004154110368" y="744.0633032146852" text-anchor="middle" class="verb-english">to push</text>
+<text x="776.7004154110368" y="755.0633032146852" text-anchor="middle" class="verb-forms">schob · geschoben</text>
+<line x1="660.0" y1="890.0" x2="819.0616308698804" y2="786.0798499567389" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="783.0616308698804" y="765.0798499567389" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="819.0616308698804" y="778.0798499567389" text-anchor="middle" class="verb-text">biegen</text>
+<text x="819.0616308698804" y="790.0798499567389" text-anchor="middle" class="verb-english">to bend</text>
+<text x="819.0616308698804" y="801.0798499567389" text-anchor="middle" class="verb-forms">bog · gebogen</text>
+<line x1="660.0" y1="890.0" x2="844.1860505284728" y2="843.3577574432481" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="808.1860505284728" y="822.3577574432481" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="844.1860505284728" y="835.3577574432481" text-anchor="middle" class="verb-text">fliehen</text>
+<text x="844.1860505284728" y="847.3577574432481" text-anchor="middle" class="verb-english">to flee</text>
+<text x="844.1860505284728" y="858.3577574432481" text-anchor="middle" class="verb-forms">floh · geflohen</text>
+<line x1="660.0" y1="890.0" x2="849.3510536712672" y2="905.6900756397431" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="813.3510536712672" y="884.6900756397431" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="849.3510536712672" y="897.6900756397431" text-anchor="middle" class="verb-text">schließen</text>
+<text x="849.3510536712672" y="909.6900756397431" text-anchor="middle" class="verb-english">to close</text>
+<text x="849.3510536712672" y="920.6900756397431" text-anchor="middle" class="verb-forms">schloss · geschlossen</text>
+<line x1="660.0" y1="890.0" x2="833.9969320644609" y2="966.3221306840642" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="797.9969320644609" y="945.3221306840642" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="833.9969320644609" y="958.3221306840642" text-anchor="middle" class="verb-text">frieren</text>
+<text x="833.9969320644609" y="970.3221306840642" text-anchor="middle" class="verb-english">to freeze</text>
+<text x="833.9969320644609" y="981.3221306840642" text-anchor="middle" class="verb-forms">fror · gefroren</text>
+<line x1="660.0" y1="890.0" x2="799.787543027895" y2="1018.6834986088908" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="763.787543027895" y="997.6834986088908" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="799.787543027895" y="1010.6834986088908" text-anchor="middle" class="verb-text">fließen</text>
+<text x="799.787543027895" y="1022.6834986088908" text-anchor="middle" class="verb-english">to flow</text>
+<text x="799.787543027895" y="1033.6834986088907" text-anchor="middle" class="verb-forms">floss · geflossen</text>
+<line x1="660.0" y1="890.0" x2="750.4300046770439" y2="1057.100012729233" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="714.4300046770439" y="1036.100012729233" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="750.4300046770439" y="1049.100012729233" text-anchor="middle" class="verb-text">gießen</text>
+<text x="750.4300046770439" y="1061.100012729233" text-anchor="middle" class="verb-english">to pour</text>
+<text x="750.4300046770439" y="1072.100012729233" text-anchor="middle" class="verb-forms">goss · gegossen</text>
+<line x1="660.0" y1="890.0" x2="691.2729721533394" y2="1077.4086476465172" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="655.2729721533394" y="1056.4086476465172" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="691.2729721533394" y="1069.4086476465172" text-anchor="middle" class="verb-text">schmelzen</text>
+<text x="691.2729721533394" y="1081.4086476465172" text-anchor="middle" class="verb-english">to melt</text>
+<text x="691.2729721533394" y="1092.4086476465172" text-anchor="middle" class="verb-forms">schmolz · geschmolzen</text>
+<line x1="660.0" y1="890.0" x2="628.7270278466606" y2="1077.4086476465172" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="592.7270278466606" y="1056.4086476465172" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="628.7270278466606" y="1069.4086476465172" text-anchor="middle" class="verb-text">verlieren</text>
+<text x="628.7270278466606" y="1081.4086476465172" text-anchor="middle" class="verb-english">to lose</text>
+<text x="628.7270278466606" y="1092.4086476465172" text-anchor="middle" class="verb-forms">verlor · verloren</text>
+<line x1="660.0" y1="890.0" x2="569.5699953229561" y2="1057.100012729233" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="533.5699953229561" y="1036.100012729233" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="569.5699953229561" y="1049.100012729233" text-anchor="middle" class="verb-text">bieten</text>
+<text x="569.5699953229561" y="1061.100012729233" text-anchor="middle" class="verb-english">to offer</text>
+<text x="569.5699953229561" y="1072.100012729233" text-anchor="middle" class="verb-forms">bot · geboten</text>
+<line x1="660.0" y1="890.0" x2="520.212456972105" y2="1018.6834986088908" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="484.212456972105" y="997.6834986088908" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="520.212456972105" y="1010.6834986088908" text-anchor="middle" class="verb-text">genießen</text>
+<text x="520.212456972105" y="1022.6834986088908" text-anchor="middle" class="verb-english">to enjoy</text>
+<text x="520.212456972105" y="1033.6834986088907" text-anchor="middle" class="verb-forms">genoss · genossen</text>
+<line x1="660.0" y1="890.0" x2="486.0030679355391" y2="966.3221306840641" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="450.0030679355391" y="945.3221306840641" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="486.0030679355391" y="958.3221306840641" text-anchor="middle" class="verb-text">heben</text>
+<text x="486.0030679355391" y="970.3221306840641" text-anchor="middle" class="verb-english">to lift</text>
+<text x="486.0030679355391" y="981.3221306840641" text-anchor="middle" class="verb-forms">hob · gehoben</text>
+<line x1="660.0" y1="890.0" x2="470.64894632873273" y2="905.6900756397432" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="434.64894632873273" y="884.6900756397432" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="470.64894632873273" y="897.6900756397432" text-anchor="middle" class="verb-text">riechen</text>
+<text x="470.64894632873273" y="909.6900756397432" text-anchor="middle" class="verb-english">to smell</text>
+<text x="470.64894632873273" y="920.6900756397432" text-anchor="middle" class="verb-forms">roch · gerochen</text>
+<line x1="660.0" y1="890.0" x2="475.81394947152717" y2="843.3577574432483" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="439.81394947152717" y="822.3577574432483" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="475.81394947152717" y="835.3577574432483" text-anchor="middle" class="verb-text">wiegen</text>
+<text x="475.81394947152717" y="847.3577574432483" text-anchor="middle" class="verb-english">to weigh</text>
+<text x="475.81394947152717" y="858.3577574432483" text-anchor="middle" class="verb-forms">wog · gewogen</text>
+<line x1="660.0" y1="890.0" x2="500.93836913011955" y2="786.0798499567389" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="464.93836913011955" y="765.0798499567389" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="500.93836913011955" y="778.0798499567389" text-anchor="middle" class="verb-text">lügen</text>
+<text x="500.93836913011955" y="790.0798499567389" text-anchor="middle" class="verb-english">to lie (fib)</text>
+<text x="500.93836913011955" y="801.0798499567389" text-anchor="middle" class="verb-forms">log · gelogen</text>
+<line x1="660.0" y1="890.0" x2="543.2995845889632" y2="740.0633032146851" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="507.29958458896317" y="719.0633032146851" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="543.2995845889632" y="732.0633032146851" text-anchor="middle" class="verb-text">schießen</text>
+<text x="543.2995845889632" y="744.0633032146851" text-anchor="middle" class="verb-english">to shoot</text>
+<text x="543.2995845889632" y="755.0633032146851" text-anchor="middle" class="verb-forms">schoss · geschossen</text>
+<line x1="660.0" y1="890.0" x2="598.3071008511101" y2="710.2947240768794" stroke="#40B0B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="562.3071008511101" y="689.2947240768794" width="72" height="42" rx="8" fill="white" stroke="#40B0B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="598.3071008511101" y="702.2947240768794" text-anchor="middle" class="verb-text">saufen</text>
+<text x="598.3071008511101" y="714.2947240768794" text-anchor="middle" class="verb-english">to booze</text>
+<text x="598.3071008511101" y="725.2947240768794" text-anchor="middle" class="verb-forms">soff · gesoffen</text>
+<circle cx="660.0" cy="890.0" r="38" fill="#008080" filter="url(#shadow)"/>
+<text x="660.0" y="886.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">POLO</text>
+<text x="660.0" y="904.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">→o, →o</text>
+<circle cx="1080.0" cy="890.0" r="185" fill="#D8E8F5" opacity="0.4"/>
+<line x1="1080.0" y1="890.0" x2="1080.0" y2="750.0" stroke="#78AAD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1044.0" y="729.0" width="72" height="42" rx="8" fill="white" stroke="#78AAD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1080.0" y="742.0" text-anchor="middle" class="verb-text">schreiben</text>
+<text x="1080.0" y="754.0" text-anchor="middle" class="verb-english">to write</text>
+<text x="1080.0" y="765.0" text-anchor="middle" class="verb-forms">schrieb · geschrieben</text>
+<line x1="1080.0" y1="890.0" x2="1201.2435565298215" y2="820.0" stroke="#78AAD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1165.2435565298215" y="799.0" width="72" height="42" rx="8" fill="white" stroke="#78AAD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1201.2435565298215" y="812.0" text-anchor="middle" class="verb-text">steigen</text>
+<text x="1201.2435565298215" y="824.0" text-anchor="middle" class="verb-english">to climb/mount</text>
+<text x="1201.2435565298215" y="835.0" text-anchor="middle" class="verb-forms">stieg · gestiegen</text>
+<line x1="1080.0" y1="890.0" x2="1201.2435565298215" y2="960.0" stroke="#78AAD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1165.2435565298215" y="939.0" width="72" height="42" rx="8" fill="white" stroke="#78AAD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1201.2435565298215" y="952.0" text-anchor="middle" class="verb-text">leiden</text>
+<text x="1201.2435565298215" y="964.0" text-anchor="middle" class="verb-english">to suffer</text>
+<text x="1201.2435565298215" y="975.0" text-anchor="middle" class="verb-forms">litt · gelitten</text>
+<line x1="1080.0" y1="890.0" x2="1080.0" y2="1030.0" stroke="#78AAD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1044.0" y="1009.0" width="72" height="42" rx="8" fill="white" stroke="#78AAD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1080.0" y="1022.0" text-anchor="middle" class="verb-text">leihen</text>
+<text x="1080.0" y="1034.0" text-anchor="middle" class="verb-english">to borrow</text>
+<text x="1080.0" y="1045.0" text-anchor="middle" class="verb-forms">lieh · geliehen</text>
+<line x1="1080.0" y1="890.0" x2="958.7564434701786" y2="960.0" stroke="#78AAD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="922.7564434701786" y="939.0" width="72" height="42" rx="8" fill="white" stroke="#78AAD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="958.7564434701786" y="952.0" text-anchor="middle" class="verb-text">meiden</text>
+<text x="958.7564434701786" y="964.0" text-anchor="middle" class="verb-english">to avoid</text>
+<text x="958.7564434701786" y="975.0" text-anchor="middle" class="verb-forms">mied · gemieden</text>
+<line x1="1080.0" y1="890.0" x2="958.7564434701786" y2="820.0" stroke="#78AAD0" stroke-width="1.5" opacity="0.5"/>
+<rect x="922.7564434701786" y="799.0" width="72" height="42" rx="8" fill="white" stroke="#78AAD0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="958.7564434701786" y="812.0" text-anchor="middle" class="verb-text">gleiten</text>
+<text x="958.7564434701786" y="824.0" text-anchor="middle" class="verb-english">to glide</text>
+<text x="958.7564434701786" y="835.0" text-anchor="middle" class="verb-forms">glitt · geglitten</text>
+<circle cx="1080.0" cy="890.0" r="38" fill="#4682B4" filter="url(#shadow)"/>
+<text x="1080.0" y="886.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">WIND</text>
+<text x="1080.0" y="904.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">ei→ie/i</text>
+<circle cx="1500.0" cy="890.0" r="200" fill="#F0D0F0" opacity="0.4"/>
+<line x1="1500.0" y1="890.0" x2="1500.0" y2="735.0" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1464.0" y="714.0" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1500.0" y="727.0" text-anchor="middle" class="verb-text">kennen</text>
+<text x="1500.0" y="739.0" text-anchor="middle" class="verb-english">to know</text>
+<text x="1500.0" y="750.0" text-anchor="middle" class="verb-forms">kannte · gekannt</text>
+<line x1="1500.0" y1="890.0" x2="1609.601551083915" y2="780.3984489160852" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1573.601551083915" y="759.3984489160852" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1609.601551083915" y="772.3984489160852" text-anchor="middle" class="verb-text">brennen</text>
+<text x="1609.601551083915" y="784.3984489160852" text-anchor="middle" class="verb-english">to burn</text>
+<text x="1609.601551083915" y="795.3984489160852" text-anchor="middle" class="verb-forms">brannte · gebrannt</text>
+<line x1="1500.0" y1="890.0" x2="1655.0" y2="890.0" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1619.0" y="869.0" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1655.0" y="882.0" text-anchor="middle" class="verb-text">nennen</text>
+<text x="1655.0" y="894.0" text-anchor="middle" class="verb-english">to call/name</text>
+<text x="1655.0" y="905.0" text-anchor="middle" class="verb-forms">nannte · genannt</text>
+<line x1="1500.0" y1="890.0" x2="1609.601551083915" y2="999.6015510839148" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1573.601551083915" y="978.6015510839148" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1609.601551083915" y="991.6015510839148" text-anchor="middle" class="verb-text">rennen</text>
+<text x="1609.601551083915" y="1003.6015510839148" text-anchor="middle" class="verb-english">to run</text>
+<text x="1609.601551083915" y="1014.6015510839148" text-anchor="middle" class="verb-forms">rannte · gerannt</text>
+<line x1="1500.0" y1="890.0" x2="1500.0" y2="1045.0" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1464.0" y="1024.0" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1500.0" y="1037.0" text-anchor="middle" class="verb-text">denken</text>
+<text x="1500.0" y="1049.0" text-anchor="middle" class="verb-english">to think</text>
+<text x="1500.0" y="1060.0" text-anchor="middle" class="verb-forms">dachte · gedacht</text>
+<line x1="1500.0" y1="890.0" x2="1390.398448916085" y2="999.6015510839148" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1354.398448916085" y="978.6015510839148" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1390.398448916085" y="991.6015510839148" text-anchor="middle" class="verb-text">bringen</text>
+<text x="1390.398448916085" y="1003.6015510839148" text-anchor="middle" class="verb-english">to bring</text>
+<text x="1390.398448916085" y="1014.6015510839148" text-anchor="middle" class="verb-forms">brachte · gebracht</text>
+<line x1="1500.0" y1="890.0" x2="1345.0" y2="890.0" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1309.0" y="869.0" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1345.0" y="882.0" text-anchor="middle" class="verb-text">stehen</text>
+<text x="1345.0" y="894.0" text-anchor="middle" class="verb-english">to stand</text>
+<text x="1345.0" y="905.0" text-anchor="middle" class="verb-forms">stand · gestanden</text>
+<line x1="1500.0" y1="890.0" x2="1390.398448916085" y2="780.3984489160852" stroke="#B050B0" stroke-width="1.5" opacity="0.5"/>
+<rect x="1354.398448916085" y="759.3984489160852" width="72" height="42" rx="8" fill="white" stroke="#B050B0" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="1390.398448916085" y="772.3984489160852" text-anchor="middle" class="verb-text">tun</text>
+<text x="1390.398448916085" y="784.3984489160852" text-anchor="middle" class="verb-english">to do</text>
+<text x="1390.398448916085" y="795.3984489160852" text-anchor="middle" class="verb-forms">tat · getan</text>
+<circle cx="1500.0" cy="890.0" r="38" fill="#800080" filter="url(#shadow)"/>
+<text x="1500.0" y="886.0" text-anchor="middle" class="mnemonic-name" fill="#FFFFFF">ANACONDA</text>
+<text x="1500.0" y="904.0" text-anchor="middle" class="mnemonic-pattern" fill="#FFFFFF" opacity="0.85">mixed</text>
+</svg>

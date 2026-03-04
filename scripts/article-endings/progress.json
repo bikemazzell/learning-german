@@ -1,0 +1,110 @@
+{
+  "Gehirn": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Ferkel": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Polnisch": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Künstler": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "Liebe": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Trainer": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Findling": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Stadion": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "Tourismus": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Fünf": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "Schreinerei": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Fläschchen": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Orchidee": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Zentrum": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Senator": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "November": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "Landschaft": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Pappel": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Fähigkeit": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Techniker": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Singen": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Blitz": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "Primel": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Türkei": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Orkan": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "Schwimmbad": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "Lampe": {
+    "correct": 1,
+    "incorrect": 0
+  }
+}
