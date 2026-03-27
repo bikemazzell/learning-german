@@ -1,0 +1,56 @@
+{
+  "templates": [
+    {
+      "id": "mc-vocab",
+      "type": "multiple-choice",
+      "prompt_template": "What does '{german}' mean in English?",
+      "answer_field": "english",
+      "distractor_strategy": "random-from-topic",
+      "distractor_count": 3,
+      "applicable_kp_types": ["vocabulary"]
+    },
+    {
+      "id": "mc-vocab-reverse",
+      "type": "multiple-choice",
+      "prompt_template": "How do you say '{english}' in German?",
+      "answer_field": "german",
+      "distractor_strategy": "random-from-topic",
+      "distractor_count": 3,
+      "applicable_kp_types": ["vocabulary"]
+    },
+    {
+      "id": "translation-vocab",
+      "type": "translation",
+      "prompt_template": "Translate to German: '{english}'",
+      "answer_field": "german",
+      "direction": "en-to-de",
+      "accept_synonyms": true,
+      "applicable_kp_types": ["vocabulary"]
+    },
+    {
+      "id": "translation-vocab-reverse",
+      "type": "translation",
+      "prompt_template": "Translate to English: '{german}'",
+      "answer_field": "english",
+      "direction": "de-to-en",
+      "accept_synonyms": true,
+      "applicable_kp_types": ["vocabulary"]
+    },
+    {
+      "id": "matching-vocab",
+      "type": "matching",
+      "left_field": "german",
+      "right_field": "english",
+      "pair_count": 5,
+      "applicable_kp_types": ["vocabulary"]
+    },
+    {
+      "id": "fill-blank-vocab",
+      "type": "fill-blank",
+      "prompt_template": "{example_sentence_with_blank}",
+      "answer_field": "german_word",
+      "hint": "Fill in the missing word.",
+      "applicable_kp_types": ["vocabulary"]
+    }
+  ]
+}

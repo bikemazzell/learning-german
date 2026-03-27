@@ -1,0 +1,64 @@
+{
+  "templates": [
+    {
+      "id": "mc-grammar-article",
+      "type": "multiple-choice",
+      "prompt_template": "What is the correct article for '{german_no_article}'?",
+      "answer_field": "article",
+      "distractor_strategy": "same-field-wrong-value",
+      "distractor_pool": ["der", "die", "das"],
+      "applicable_kp_types": ["vocabulary"]
+    },
+    {
+      "id": "mc-grammar-conjugation",
+      "type": "multiple-choice",
+      "prompt_template": "How do you conjugate '{verb}' for '{pronoun}' in {tense}?",
+      "answer_field": "correct_form",
+      "distractor_strategy": "same-paradigm",
+      "distractor_count": 3,
+      "applicable_kp_types": ["conjugation"]
+    },
+    {
+      "id": "mc-grammar-pronoun",
+      "type": "multiple-choice",
+      "prompt_template": "What is the German pronoun for '{english}'?",
+      "answer_field": "german",
+      "distractor_strategy": "random-from-topic",
+      "distractor_count": 3,
+      "applicable_kp_types": ["pronoun"]
+    },
+    {
+      "id": "mc-grammar-rule",
+      "type": "multiple-choice",
+      "prompt_template": "What is the correct form? '{english}'",
+      "answer_field": "correct_form",
+      "distractor_strategy": "random-from-topic",
+      "distractor_count": 3,
+      "applicable_kp_types": ["grammar-rule"]
+    },
+    {
+      "id": "fill-blank-grammar",
+      "type": "fill-blank",
+      "prompt_template": "{example_sentence_with_blank}",
+      "answer_field": "correct_form",
+      "hint": "Complete the sentence with the correct form.",
+      "applicable_kp_types": ["conjugation", "vocabulary", "pronoun", "grammar-rule"]
+    },
+    {
+      "id": "translation-grammar",
+      "type": "translation",
+      "prompt_template": "Translate to German: '{english}'",
+      "answer_field": "german",
+      "direction": "en-to-de",
+      "accept_synonyms": true,
+      "applicable_kp_types": ["conjugation", "vocabulary", "pronoun", "grammar-rule"]
+    },
+    {
+      "id": "sentence-production-grammar",
+      "type": "sentence-production",
+      "prompt_template": "Write a sentence: {scenario}",
+      "required_keywords_field": "required_keywords",
+      "applicable_kp_types": ["conjugation"]
+    }
+  ]
+}

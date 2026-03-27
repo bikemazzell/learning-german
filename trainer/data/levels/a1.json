@@ -1,0 +1,1832 @@
+{
+  "level": "A1",
+  "domains": [
+    {
+      "id": "grammar",
+      "name": "Grammar",
+      "topics": [
+        {
+          "id": "a1-grammar-personal-pronouns",
+          "name": "Personal Pronouns",
+          "description": "German personal pronouns: ich, du, er, sie, es, wir, ihr, sie/Sie",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-pronoun", "fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-pronouns-kp-ich",
+              "prompt_data": { "type": "pronoun", "german": "ich", "english": "I", "person": "1st singular", "example_sentence": "Ich bin Student." },
+              "explanation": "'ich' (I) is always lowercase unless it starts a sentence."
+            },
+            {
+              "id": "a1-gram-pronouns-kp-du",
+              "prompt_data": { "type": "pronoun", "german": "du", "english": "you (informal singular)", "person": "2nd singular", "example_sentence": "Du bist nett." },
+              "explanation": "'du' is used for friends, family, and children."
+            },
+            {
+              "id": "a1-gram-pronouns-kp-er",
+              "prompt_data": { "type": "pronoun", "german": "er", "english": "he", "person": "3rd singular masculine", "example_sentence": "Er spielt Fußball." },
+              "explanation": "'er' replaces masculine nouns."
+            },
+            {
+              "id": "a1-gram-pronouns-kp-sie-she",
+              "prompt_data": { "type": "pronoun", "german": "sie", "english": "she", "person": "3rd singular feminine", "example_sentence": "Sie liest ein Buch." },
+              "explanation": "'sie' (lowercase) means 'she' when the verb is conjugated for 3rd person singular."
+            },
+            {
+              "id": "a1-gram-pronouns-kp-es",
+              "prompt_data": { "type": "pronoun", "german": "es", "english": "it", "person": "3rd singular neuter", "example_sentence": "Es regnet heute." },
+              "explanation": "'es' replaces neuter nouns and is used in impersonal expressions like weather."
+            },
+            {
+              "id": "a1-gram-pronouns-kp-wir",
+              "prompt_data": { "type": "pronoun", "german": "wir", "english": "we", "person": "1st plural", "example_sentence": "Wir lernen Deutsch." },
+              "explanation": "'wir' (we) always takes the same verb form as the infinitive."
+            },
+            {
+              "id": "a1-gram-pronouns-kp-ihr",
+              "prompt_data": { "type": "pronoun", "german": "ihr", "english": "you (informal plural)", "person": "2nd plural", "example_sentence": "Ihr seid meine Freunde." },
+              "explanation": "'ihr' is used to address multiple people informally."
+            },
+            {
+              "id": "a1-gram-pronouns-kp-sie-they",
+              "prompt_data": { "type": "pronoun", "german": "sie/Sie", "english": "they / you (formal)", "person": "3rd plural / formal", "example_sentence": "Sie kommen aus Deutschland." },
+              "explanation": "'sie' (lowercase) means 'they'; 'Sie' (capitalized) is the formal 'you' for polite address."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-verb-sein",
+          "name": "Verb \"sein\" (to be)",
+          "description": "Conjugation of the irregular verb 'sein' for all personal pronouns",
+          "prerequisites": ["a1-grammar-personal-pronouns"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-conjugation", "fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-sein-kp-ich",
+              "prompt_data": { "type": "conjugation", "verb": "sein", "pronoun": "ich", "correct_form": "bin", "tense": "present", "english": "I am", "example_sentence": "Ich bin müde." },
+              "explanation": "'sein' is highly irregular. For 'ich': sein → bin."
+            },
+            {
+              "id": "a1-gram-sein-kp-du",
+              "prompt_data": { "type": "conjugation", "verb": "sein", "pronoun": "du", "correct_form": "bist", "tense": "present", "english": "you are", "example_sentence": "Du bist sehr freundlich." },
+              "explanation": "For 'du': sein → bist."
+            },
+            {
+              "id": "a1-gram-sein-kp-er",
+              "prompt_data": { "type": "conjugation", "verb": "sein", "pronoun": "er/sie/es", "correct_form": "ist", "tense": "present", "english": "he/she/it is", "example_sentence": "Er ist Lehrer." },
+              "explanation": "For 'er/sie/es': sein → ist."
+            },
+            {
+              "id": "a1-gram-sein-kp-wir",
+              "prompt_data": { "type": "conjugation", "verb": "sein", "pronoun": "wir", "correct_form": "sind", "tense": "present", "english": "we are", "example_sentence": "Wir sind zu Hause." },
+              "explanation": "For 'wir': sein → sind."
+            },
+            {
+              "id": "a1-gram-sein-kp-ihr",
+              "prompt_data": { "type": "conjugation", "verb": "sein", "pronoun": "ihr", "correct_form": "seid", "tense": "present", "english": "you (plural) are", "example_sentence": "Ihr seid nett." },
+              "explanation": "For 'ihr': sein → seid."
+            },
+            {
+              "id": "a1-gram-sein-kp-sie-plural",
+              "prompt_data": { "type": "conjugation", "verb": "sein", "pronoun": "sie/Sie", "correct_form": "sind", "tense": "present", "english": "they are / you (formal) are", "example_sentence": "Sie sind aus Österreich." },
+              "explanation": "For 'sie' (they) and 'Sie' (formal you): sein → sind."
+            },
+            {
+              "id": "a1-gram-sein-kp-negation",
+              "prompt_data": { "type": "grammar-rule", "german": "nicht sein", "english": "to not be", "rule": "Negate 'sein' by placing 'nicht' after the conjugated form", "correct_form": "ist nicht", "example_sentence": "Das ist nicht richtig.", "counter_example": "Das ist richtig." },
+              "explanation": "To negate 'sein', place 'nicht' after the conjugated verb: 'Er ist nicht hier.'"
+            },
+            {
+              "id": "a1-gram-sein-kp-question",
+              "prompt_data": { "type": "grammar-rule", "german": "sein + Frage", "english": "to be + question", "rule": "For yes/no questions with 'sein', put the verb first", "correct_form": "Bist du...?", "example_sentence": "Bist du müde?", "counter_example": "Du bist müde." },
+              "explanation": "In yes/no questions, the verb comes first: 'Bist du Student?'"
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-verb-haben",
+          "name": "Verb \"haben\" (to have)",
+          "description": "Conjugation of the irregular verb 'haben' for all personal pronouns",
+          "prerequisites": ["a1-grammar-personal-pronouns"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-conjugation", "fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-haben-kp-ich",
+              "prompt_data": { "type": "conjugation", "verb": "haben", "pronoun": "ich", "correct_form": "habe", "tense": "present", "english": "I have", "example_sentence": "Ich habe einen Hund." },
+              "explanation": "For 'ich': haben → habe (regular pattern)."
+            },
+            {
+              "id": "a1-gram-haben-kp-du",
+              "prompt_data": { "type": "conjugation", "verb": "haben", "pronoun": "du", "correct_form": "hast", "tense": "present", "english": "you have", "example_sentence": "Du hast eine Katze." },
+              "explanation": "For 'du': haben → hast (the 'b' drops out)."
+            },
+            {
+              "id": "a1-gram-haben-kp-er",
+              "prompt_data": { "type": "conjugation", "verb": "haben", "pronoun": "er/sie/es", "correct_form": "hat", "tense": "present", "english": "he/she/it has", "example_sentence": "Sie hat zwei Kinder." },
+              "explanation": "For 'er/sie/es': haben → hat (the 'b' drops out)."
+            },
+            {
+              "id": "a1-gram-haben-kp-wir",
+              "prompt_data": { "type": "conjugation", "verb": "haben", "pronoun": "wir", "correct_form": "haben", "tense": "present", "english": "we have", "example_sentence": "Wir haben Zeit." },
+              "explanation": "For 'wir': haben → haben (same as infinitive)."
+            },
+            {
+              "id": "a1-gram-haben-kp-ihr",
+              "prompt_data": { "type": "conjugation", "verb": "haben", "pronoun": "ihr", "correct_form": "habt", "tense": "present", "english": "you (plural) have", "example_sentence": "Ihr habt ein schönes Haus." },
+              "explanation": "For 'ihr': haben → habt."
+            },
+            {
+              "id": "a1-gram-haben-kp-sie-plural",
+              "prompt_data": { "type": "conjugation", "verb": "haben", "pronoun": "sie/Sie", "correct_form": "haben", "tense": "present", "english": "they have / you (formal) have", "example_sentence": "Sie haben viel Arbeit." },
+              "explanation": "For 'sie' (they) and 'Sie' (formal): haben → haben (same as infinitive)."
+            },
+            {
+              "id": "a1-gram-haben-kp-negation",
+              "prompt_data": { "type": "grammar-rule", "german": "kein + haben", "english": "not having (something)", "rule": "Use 'kein/keine/keinen' instead of 'nicht ein' to negate nouns with 'haben'", "correct_form": "keinen", "example_sentence": "Ich habe keinen Bruder.", "counter_example": "Ich habe einen Bruder." },
+              "explanation": "With 'haben' + noun, negate with 'kein' (not 'nicht ein'): 'Ich habe kein Auto.'"
+            },
+            {
+              "id": "a1-gram-haben-kp-hunger",
+              "prompt_data": { "type": "conjugation", "verb": "haben", "pronoun": "ich", "correct_form": "habe", "tense": "present", "english": "I am hungry (lit: I have hunger)", "example_sentence": "Ich habe Hunger." },
+              "explanation": "German uses 'haben' for states like hunger/thirst: 'Hunger haben' = to be hungry."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-nominative-articles",
+          "name": "Nominative Articles",
+          "description": "Definite (der, die, das) and indefinite (ein, eine) articles in nominative case with example nouns",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-article", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-articles-kp-der-tisch",
+              "prompt_data": { "type": "vocabulary", "german": "der Tisch", "english": "the table", "article": "der", "gender": "masculine", "plural": "die Tische", "example_sentence": "Der Tisch ist groß." },
+              "explanation": "'der' is the definite article for masculine nouns in the nominative case."
+            },
+            {
+              "id": "a1-gram-articles-kp-der-stuhl",
+              "prompt_data": { "type": "vocabulary", "german": "der Stuhl", "english": "the chair", "article": "der", "gender": "masculine", "plural": "die Stühle", "example_sentence": "Der Stuhl ist bequem." },
+              "explanation": "'der Stuhl' is masculine. The plural adds an umlaut: Stühle."
+            },
+            {
+              "id": "a1-gram-articles-kp-der-mann",
+              "prompt_data": { "type": "vocabulary", "german": "der Mann", "english": "the man", "article": "der", "gender": "masculine", "plural": "die Männer", "example_sentence": "Der Mann liest eine Zeitung." },
+              "explanation": "'der Mann' is masculine. Plural: die Männer (with umlaut and -er)."
+            },
+            {
+              "id": "a1-gram-articles-kp-die-frau",
+              "prompt_data": { "type": "vocabulary", "german": "die Frau", "english": "the woman", "article": "die", "gender": "feminine", "plural": "die Frauen", "example_sentence": "Die Frau trinkt Kaffee." },
+              "explanation": "'die' is the definite article for feminine nouns. 'die Frau' can also mean 'Mrs.' or 'wife'."
+            },
+            {
+              "id": "a1-gram-articles-kp-die-lampe",
+              "prompt_data": { "type": "vocabulary", "german": "die Lampe", "english": "the lamp", "article": "die", "gender": "feminine", "plural": "die Lampen", "example_sentence": "Die Lampe ist neu." },
+              "explanation": "'die' is the definite article for feminine nouns. Many nouns ending in '-e' are feminine."
+            },
+            {
+              "id": "a1-gram-articles-kp-die-katze",
+              "prompt_data": { "type": "vocabulary", "german": "die Katze", "english": "the cat", "article": "die", "gender": "feminine", "plural": "die Katzen", "example_sentence": "Die Katze schläft auf dem Sofa." },
+              "explanation": "'die Katze' is feminine. Nouns ending in '-e' are often feminine."
+            },
+            {
+              "id": "a1-gram-articles-kp-das-buch",
+              "prompt_data": { "type": "vocabulary", "german": "das Buch", "english": "the book", "article": "das", "gender": "neuter", "plural": "die Bücher", "example_sentence": "Das Buch ist interessant." },
+              "explanation": "'das' is the definite article for neuter nouns."
+            },
+            {
+              "id": "a1-gram-articles-kp-das-kind",
+              "prompt_data": { "type": "vocabulary", "german": "das Kind", "english": "the child", "article": "das", "gender": "neuter", "plural": "die Kinder", "example_sentence": "Das Kind spielt im Garten." },
+              "explanation": "'das Kind' is neuter. Diminutives (-chen, -lein) are always neuter in German."
+            },
+            {
+              "id": "a1-gram-articles-kp-das-haus",
+              "prompt_data": { "type": "vocabulary", "german": "das Haus", "english": "the house", "article": "das", "gender": "neuter", "plural": "die Häuser", "example_sentence": "Das Haus ist alt." },
+              "explanation": "'das Haus' is neuter. Plural: die Häuser (with umlaut and -er)."
+            },
+            {
+              "id": "a1-gram-articles-kp-ein-mann",
+              "prompt_data": { "type": "vocabulary", "german": "ein Mann", "english": "a man", "article": "ein", "gender": "masculine", "plural": "Männer", "example_sentence": "Ein Mann steht dort." },
+              "explanation": "'ein' is the indefinite article for masculine and neuter nouns in nominative."
+            },
+            {
+              "id": "a1-gram-articles-kp-eine-frau",
+              "prompt_data": { "type": "vocabulary", "german": "eine Frau", "english": "a woman", "article": "eine", "gender": "feminine", "plural": "Frauen", "example_sentence": "Eine Frau wartet an der Haltestelle." },
+              "explanation": "'eine' is the indefinite article for feminine nouns in nominative."
+            },
+            {
+              "id": "a1-gram-articles-kp-ein-kind",
+              "prompt_data": { "type": "vocabulary", "german": "ein Kind", "english": "a child", "article": "ein", "gender": "neuter", "plural": "Kinder", "example_sentence": "Ein Kind spielt im Park." },
+              "explanation": "'ein' is used for both masculine and neuter nouns in nominative. Context determines the gender."
+            },
+            {
+              "id": "a1-gram-articles-kp-die-plural",
+              "prompt_data": { "type": "grammar-rule", "german": "die (Plural)", "english": "the (plural)", "rule": "All plural nouns use 'die' regardless of gender", "correct_form": "die", "example_sentence": "Die Kinder spielen draußen.", "counter_example": "Das Kind spielt draußen." },
+              "explanation": "In the plural, all genders use 'die': der Mann → die Männer, die Frau → die Frauen, das Kind → die Kinder."
+            },
+            {
+              "id": "a1-gram-articles-kp-kein-plural",
+              "prompt_data": { "type": "grammar-rule", "german": "keine (Plural)", "english": "no / not any (plural)", "rule": "There is no plural indefinite article; use 'keine' to negate", "correct_form": "keine", "example_sentence": "Ich habe keine Bücher.", "counter_example": "Ich habe Bücher." },
+              "explanation": "German has no plural indefinite article. Use 'keine' for negation: 'keine Bücher' = no books."
+            },
+            {
+              "id": "a1-gram-articles-kp-der-hund",
+              "prompt_data": { "type": "vocabulary", "german": "der Hund", "english": "the dog", "article": "der", "gender": "masculine", "plural": "die Hunde", "example_sentence": "Der Hund ist treu." },
+              "explanation": "'der Hund' is masculine. Many animal names must be memorized for gender."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-present-tense-regular",
+          "name": "Present Tense Regular Verbs",
+          "description": "Conjugating regular verbs in present tense: -e, -st, -t, -en, -t, -en",
+          "prerequisites": ["a1-grammar-personal-pronouns", "a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-conjugation", "fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-present-kp-spielen-ich",
+              "prompt_data": { "type": "conjugation", "verb": "spielen", "pronoun": "ich", "correct_form": "spiele", "tense": "present", "english": "I play", "example_sentence": "Ich spiele Fußball." },
+              "explanation": "For 'ich', remove '-en' and add '-e': spielen → spiele."
+            },
+            {
+              "id": "a1-gram-present-kp-spielen-du",
+              "prompt_data": { "type": "conjugation", "verb": "spielen", "pronoun": "du", "correct_form": "spielst", "tense": "present", "english": "you play", "example_sentence": "Du spielst Tennis." },
+              "explanation": "For 'du', remove '-en' and add '-st': spielen → spielst."
+            },
+            {
+              "id": "a1-gram-present-kp-lernen-er",
+              "prompt_data": { "type": "conjugation", "verb": "lernen", "pronoun": "er", "correct_form": "lernt", "tense": "present", "english": "he learns", "example_sentence": "Er lernt Deutsch." },
+              "explanation": "For 'er/sie/es', remove '-en' and add '-t': lernen → lernt."
+            },
+            {
+              "id": "a1-gram-present-kp-wohnen-wir",
+              "prompt_data": { "type": "conjugation", "verb": "wohnen", "pronoun": "wir", "correct_form": "wohnen", "tense": "present", "english": "we live", "example_sentence": "Wir wohnen in Berlin." },
+              "explanation": "For 'wir', the verb stays the same as the infinitive: wohnen → wohnen."
+            },
+            {
+              "id": "a1-gram-present-kp-machen-ihr",
+              "prompt_data": { "type": "conjugation", "verb": "machen", "pronoun": "ihr", "correct_form": "macht", "tense": "present", "english": "you (plural) do/make", "example_sentence": "Ihr macht die Hausaufgaben." },
+              "explanation": "For 'ihr', remove '-en' and add '-t': machen → macht."
+            },
+            {
+              "id": "a1-gram-present-kp-kaufen-sie",
+              "prompt_data": { "type": "conjugation", "verb": "kaufen", "pronoun": "sie/Sie", "correct_form": "kaufen", "tense": "present", "english": "they buy / you (formal) buy", "example_sentence": "Sie kaufen Obst im Supermarkt." },
+              "explanation": "For 'sie/Sie', the verb stays the same as the infinitive: kaufen → kaufen."
+            },
+            {
+              "id": "a1-gram-present-kp-trinken-ich",
+              "prompt_data": { "type": "conjugation", "verb": "trinken", "pronoun": "ich", "correct_form": "trinke", "tense": "present", "english": "I drink", "example_sentence": "Ich trinke gern Tee." },
+              "explanation": "For 'ich': trinken → trinke. Regular pattern: remove '-en', add '-e'."
+            },
+            {
+              "id": "a1-gram-present-kp-lernen-du",
+              "prompt_data": { "type": "conjugation", "verb": "lernen", "pronoun": "du", "correct_form": "lernst", "tense": "present", "english": "you learn", "example_sentence": "Du lernst sehr schnell." },
+              "explanation": "For 'du': lernen → lernst. Regular pattern: remove '-en', add '-st'."
+            },
+            {
+              "id": "a1-gram-present-kp-arbeiten-er",
+              "prompt_data": { "type": "conjugation", "verb": "arbeiten", "pronoun": "er", "correct_form": "arbeitet", "tense": "present", "english": "he works", "example_sentence": "Er arbeitet in einem Büro." },
+              "explanation": "When the stem ends in '-t' or '-d', add an extra '-e-' before the ending: arbeiten → arbeitet (not 'arbeitt')."
+            },
+            {
+              "id": "a1-gram-present-kp-arbeiten-du",
+              "prompt_data": { "type": "conjugation", "verb": "arbeiten", "pronoun": "du", "correct_form": "arbeitest", "tense": "present", "english": "you work", "example_sentence": "Du arbeitest viel." },
+              "explanation": "When the stem ends in '-t', add '-est' for 'du': arbeiten → arbeitest."
+            },
+            {
+              "id": "a1-gram-present-kp-wohnen-sie-she",
+              "prompt_data": { "type": "conjugation", "verb": "wohnen", "pronoun": "sie (she)", "correct_form": "wohnt", "tense": "present", "english": "she lives", "example_sentence": "Sie wohnt in München." },
+              "explanation": "For 'sie' (she): wohnen → wohnt. Same '-t' ending as 'er' and 'es'."
+            },
+            {
+              "id": "a1-gram-present-kp-machen-ich",
+              "prompt_data": { "type": "conjugation", "verb": "machen", "pronoun": "ich", "correct_form": "mache", "tense": "present", "english": "I do/make", "example_sentence": "Ich mache Sport." },
+              "explanation": "For 'ich': machen → mache. 'machen' is one of the most common German verbs."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-negation",
+          "name": "Negation",
+          "description": "Using 'nicht' and 'kein/keine/keinen' to form negative sentences",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-article", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-negation-kp-nicht-verb",
+              "prompt_data": { "type": "grammar-rule", "german": "nicht", "english": "not", "rule": "Use 'nicht' to negate verbs — place it after the conjugated verb", "correct_form": "nicht", "example_sentence": "Ich spiele nicht.", "counter_example": "Ich spiele." },
+              "explanation": "'nicht' negates verbs. It usually comes at the end of a simple sentence or before what it specifically negates."
+            },
+            {
+              "id": "a1-gram-negation-kp-nicht-adj",
+              "prompt_data": { "type": "grammar-rule", "german": "nicht + Adjektiv", "english": "not + adjective", "rule": "Use 'nicht' before adjectives and adverbs to negate them", "correct_form": "nicht", "example_sentence": "Das Buch ist nicht interessant.", "counter_example": "Das Buch ist interessant." },
+              "explanation": "'nicht' comes directly before the adjective it negates: 'nicht groß', 'nicht schön'."
+            },
+            {
+              "id": "a1-gram-negation-kp-kein-masc",
+              "prompt_data": { "type": "grammar-rule", "german": "kein", "english": "not a / no (masculine/neuter)", "rule": "Use 'kein' instead of 'nicht ein' for masculine and neuter nouns in nominative", "correct_form": "kein", "example_sentence": "Das ist kein Hund.", "counter_example": "Das ist ein Hund." },
+              "explanation": "'kein' replaces 'nicht ein'. For masculine/neuter nominative: 'ein' → 'kein'."
+            },
+            {
+              "id": "a1-gram-negation-kp-keine-fem",
+              "prompt_data": { "type": "grammar-rule", "german": "keine", "english": "not a / no (feminine)", "rule": "Use 'keine' instead of 'nicht eine' for feminine nouns", "correct_form": "keine", "example_sentence": "Ich habe keine Schwester.", "counter_example": "Ich habe eine Schwester." },
+              "explanation": "'keine' replaces 'nicht eine' for feminine nouns: 'eine Katze' → 'keine Katze'."
+            },
+            {
+              "id": "a1-gram-negation-kp-keine-plural",
+              "prompt_data": { "type": "grammar-rule", "german": "keine (Plural)", "english": "no / not any (plural)", "rule": "Use 'keine' to negate plural nouns", "correct_form": "keine", "example_sentence": "Wir haben keine Kinder.", "counter_example": "Wir haben Kinder." },
+              "explanation": "'keine' is used for all plural negations regardless of the original gender."
+            },
+            {
+              "id": "a1-gram-negation-kp-keinen-acc",
+              "prompt_data": { "type": "grammar-rule", "german": "keinen", "english": "not a / no (masculine accusative)", "rule": "Use 'keinen' for masculine nouns in the accusative case", "correct_form": "keinen", "example_sentence": "Ich habe keinen Bruder.", "counter_example": "Ich habe einen Bruder." },
+              "explanation": "'keinen' is the accusative masculine form: 'einen Hund' → 'keinen Hund'."
+            },
+            {
+              "id": "a1-gram-negation-kp-nicht-position",
+              "prompt_data": { "type": "grammar-rule", "german": "nicht (Position)", "english": "not (word order)", "rule": "'nicht' goes at the end of the clause, or before the specific element being negated", "correct_form": "nicht", "example_sentence": "Er kommt heute nicht.", "counter_example": "Er kommt heute." },
+              "explanation": "Default position for 'nicht' is at the end of the clause. If negating something specific, 'nicht' goes directly before it."
+            },
+            {
+              "id": "a1-gram-negation-kp-nicht-vs-kein",
+              "prompt_data": { "type": "grammar-rule", "german": "nicht vs. kein", "english": "not vs. no", "rule": "Use 'kein' for nouns with ein/eine or no article; use 'nicht' for everything else", "correct_form": "kein / nicht", "example_sentence": "Ich trinke keinen Kaffee. Ich trinke nicht gern.", "counter_example": "Ich trinke einen Kaffee. Ich trinke gern." },
+              "explanation": "Rule of thumb: if the positive sentence has 'ein/eine' or no article before a noun, use 'kein'. Otherwise use 'nicht'."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-questions",
+          "name": "Basic Question Formation",
+          "description": "W-questions (Was, Wer, Wo, Wie, Wann, Woher, Wohin) and yes/no question structure",
+          "prerequisites": ["a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-questions-kp-was",
+              "prompt_data": { "type": "grammar-rule", "german": "Was?", "english": "What?", "rule": "Use 'Was' to ask about things or actions", "correct_form": "Was", "example_sentence": "Was machst du?", "counter_example": "Du machst etwas." },
+              "explanation": "'Was' asks about things or actions. The verb comes directly after: 'Was + verb + subject?'"
+            },
+            {
+              "id": "a1-gram-questions-kp-wer",
+              "prompt_data": { "type": "grammar-rule", "german": "Wer?", "english": "Who?", "rule": "Use 'Wer' to ask about people (nominative)", "correct_form": "Wer", "example_sentence": "Wer ist das?", "counter_example": "Das ist Maria." },
+              "explanation": "'Wer' asks about people in nominative case. The verb is conjugated for 3rd person singular."
+            },
+            {
+              "id": "a1-gram-questions-kp-wo",
+              "prompt_data": { "type": "grammar-rule", "german": "Wo?", "english": "Where?", "rule": "Use 'Wo' to ask about location (static position)", "correct_form": "Wo", "example_sentence": "Wo wohnst du?", "counter_example": "Ich wohne in Berlin." },
+              "explanation": "'Wo' asks about a static location (where something is). Not to be confused with 'Wohin' (where to)."
+            },
+            {
+              "id": "a1-gram-questions-kp-wie",
+              "prompt_data": { "type": "grammar-rule", "german": "Wie?", "english": "How?", "rule": "Use 'Wie' to ask about manner, condition, or name", "correct_form": "Wie", "example_sentence": "Wie heißt du?", "counter_example": "Ich heiße Anna." },
+              "explanation": "'Wie' means 'how' but also appears in 'Wie heißt du?' (What is your name? — literally 'How are you called?')."
+            },
+            {
+              "id": "a1-gram-questions-kp-wann",
+              "prompt_data": { "type": "grammar-rule", "german": "Wann?", "english": "When?", "rule": "Use 'Wann' to ask about time", "correct_form": "Wann", "example_sentence": "Wann kommst du?", "counter_example": "Ich komme um acht Uhr." },
+              "explanation": "'Wann' asks about a point in time: 'Wann beginnt der Kurs?'"
+            },
+            {
+              "id": "a1-gram-questions-kp-woher",
+              "prompt_data": { "type": "grammar-rule", "german": "Woher?", "english": "Where from?", "rule": "Use 'Woher' to ask about origin", "correct_form": "Woher", "example_sentence": "Woher kommst du?", "counter_example": "Ich komme aus Spanien." },
+              "explanation": "'Woher' asks about origin. The standard answer uses 'aus': 'Ich komme aus Deutschland.'"
+            },
+            {
+              "id": "a1-gram-questions-kp-wohin",
+              "prompt_data": { "type": "grammar-rule", "german": "Wohin?", "english": "Where to?", "rule": "Use 'Wohin' to ask about destination or direction", "correct_form": "Wohin", "example_sentence": "Wohin gehst du?", "counter_example": "Ich gehe in die Schule." },
+              "explanation": "'Wohin' asks about direction or destination: 'Wohin fährst du?' — 'Nach Berlin.'"
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-possessive-adjectives",
+          "name": "Possessive Adjectives",
+          "description": "Possessive adjectives: mein, dein, sein, ihr, unser, euer, Ihr",
+          "prerequisites": ["a1-grammar-personal-pronouns", "a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-article", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-possessive-kp-mein",
+              "prompt_data": { "type": "grammar-rule", "german": "mein", "english": "my", "rule": "'mein' takes the same endings as 'ein': mein (m/n), meine (f/pl)", "correct_form": "mein", "example_sentence": "Das ist mein Buch.", "counter_example": "Das ist ein Buch." },
+              "explanation": "'mein' = my. It follows 'ein'-endings: mein Hund (m), meine Katze (f), mein Kind (n), meine Kinder (pl)."
+            },
+            {
+              "id": "a1-gram-possessive-kp-dein",
+              "prompt_data": { "type": "grammar-rule", "german": "dein", "english": "your (informal singular)", "rule": "'dein' follows the same pattern as 'mein'", "correct_form": "dein", "example_sentence": "Wo ist dein Schlüssel?", "counter_example": "Wo ist mein Schlüssel?" },
+              "explanation": "'dein' = your (informal). Same endings as 'mein': dein Vater, deine Mutter, dein Haus."
+            },
+            {
+              "id": "a1-gram-possessive-kp-sein",
+              "prompt_data": { "type": "grammar-rule", "german": "sein", "english": "his / its", "rule": "'sein' is used for masculine and neuter possessors", "correct_form": "sein", "example_sentence": "Er sucht sein Handy.", "counter_example": "Sie sucht ihr Handy." },
+              "explanation": "'sein' = his/its. Refers to a masculine or neuter possessor: 'Der Mann und sein Hund.'"
+            },
+            {
+              "id": "a1-gram-possessive-kp-ihr-her",
+              "prompt_data": { "type": "grammar-rule", "german": "ihr", "english": "her / their", "rule": "'ihr' (lowercase) means 'her' or 'their' depending on context", "correct_form": "ihr", "example_sentence": "Sie liebt ihren Hund.", "counter_example": "Er liebt seinen Hund." },
+              "explanation": "'ihr' (lowercase) = her/their. Same form for both: 'Die Frau und ihr Kind' / 'Die Eltern und ihr Kind.'"
+            },
+            {
+              "id": "a1-gram-possessive-kp-unser",
+              "prompt_data": { "type": "grammar-rule", "german": "unser", "english": "our", "rule": "'unser' takes ein-endings: unser (m/n), unsere (f/pl)", "correct_form": "unser", "example_sentence": "Das ist unsere Wohnung.", "counter_example": "Das ist eure Wohnung." },
+              "explanation": "'unser' = our. Follows ein-endings: unser Vater, unsere Mutter, unser Kind, unsere Kinder."
+            },
+            {
+              "id": "a1-gram-possessive-kp-euer",
+              "prompt_data": { "type": "grammar-rule", "german": "euer", "english": "your (informal plural)", "rule": "'euer' loses the second 'e' when an ending is added: eure (not euere)", "correct_form": "euer", "example_sentence": "Wo ist euer Auto?", "counter_example": "Wo ist unser Auto?" },
+              "explanation": "'euer' = your (plural informal). Note: with endings, the middle 'e' drops: eure Mutter (not euere)."
+            },
+            {
+              "id": "a1-gram-possessive-kp-ihr-formal",
+              "prompt_data": { "type": "grammar-rule", "german": "Ihr", "english": "your (formal)", "rule": "'Ihr' (capitalized) is the formal possessive for 'Sie'", "correct_form": "Ihr", "example_sentence": "Ist das Ihr Koffer, Herr Schmidt?", "counter_example": "Ist das dein Koffer?" },
+              "explanation": "'Ihr' (capitalized) = your (formal). Always capitalized to distinguish from 'ihr' (her/their)."
+            },
+            {
+              "id": "a1-gram-possessive-kp-meine-fem",
+              "prompt_data": { "type": "grammar-rule", "german": "meine", "english": "my (feminine/plural)", "rule": "Add '-e' to possessives for feminine and plural nouns in nominative", "correct_form": "meine", "example_sentence": "Meine Schwester wohnt in Hamburg.", "counter_example": "Mein Bruder wohnt in Hamburg." },
+              "explanation": "For feminine and plural nouns in nominative, add '-e': mein → meine, dein → deine, sein → seine."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-accusative-case",
+          "name": "Accusative Case",
+          "description": "Accusative articles (den, die, das, einen, eine, ein) for direct objects",
+          "prerequisites": ["a1-grammar-nominative-articles", "a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-article", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-accusative-kp-den",
+              "prompt_data": { "type": "grammar-rule", "german": "den", "english": "the (masculine accusative)", "rule": "Masculine definite article changes from 'der' to 'den' in accusative", "correct_form": "den", "example_sentence": "Ich sehe den Mann.", "counter_example": "Der Mann ist hier." },
+              "explanation": "Only masculine changes in accusative: der → den. Feminine, neuter, and plural stay the same."
+            },
+            {
+              "id": "a1-gram-accusative-kp-die-acc",
+              "prompt_data": { "type": "grammar-rule", "german": "die", "english": "the (feminine accusative)", "rule": "Feminine article stays 'die' in accusative — no change", "correct_form": "die", "example_sentence": "Ich lese die Zeitung.", "counter_example": "Die Zeitung liegt auf dem Tisch." },
+              "explanation": "Feminine articles don't change in accusative: die Zeitung (nom.) → die Zeitung (acc.)."
+            },
+            {
+              "id": "a1-gram-accusative-kp-das-acc",
+              "prompt_data": { "type": "grammar-rule", "german": "das", "english": "the (neuter accusative)", "rule": "Neuter article stays 'das' in accusative — no change", "correct_form": "das", "example_sentence": "Er trinkt das Wasser.", "counter_example": "Das Wasser ist kalt." },
+              "explanation": "Neuter articles don't change in accusative: das Buch (nom.) → das Buch (acc.)."
+            },
+            {
+              "id": "a1-gram-accusative-kp-einen",
+              "prompt_data": { "type": "grammar-rule", "german": "einen", "english": "a (masculine accusative)", "rule": "Masculine indefinite article changes from 'ein' to 'einen' in accusative", "correct_form": "einen", "example_sentence": "Sie hat einen Bruder.", "counter_example": "Ein Bruder ist genug." },
+              "explanation": "Masculine indefinite: ein → einen in accusative. 'Ich kaufe einen Apfel.'"
+            },
+            {
+              "id": "a1-gram-accusative-kp-eine-acc",
+              "prompt_data": { "type": "grammar-rule", "german": "eine", "english": "a (feminine accusative)", "rule": "Feminine indefinite article stays 'eine' in accusative — no change", "correct_form": "eine", "example_sentence": "Ich möchte eine Tasse Kaffee.", "counter_example": "Eine Tasse steht auf dem Tisch." },
+              "explanation": "Feminine indefinite doesn't change in accusative: eine Katze (nom.) → eine Katze (acc.)."
+            },
+            {
+              "id": "a1-gram-accusative-kp-ein-acc",
+              "prompt_data": { "type": "grammar-rule", "german": "ein", "english": "a (neuter accusative)", "rule": "Neuter indefinite article stays 'ein' in accusative — no change", "correct_form": "ein", "example_sentence": "Ich lese ein Buch.", "counter_example": "Ein Buch liegt hier." },
+              "explanation": "Neuter indefinite doesn't change in accusative: ein Buch (nom.) → ein Buch (acc.)."
+            },
+            {
+              "id": "a1-gram-accusative-kp-direct-object",
+              "prompt_data": { "type": "grammar-rule", "german": "Akkusativobjekt", "english": "direct object", "rule": "The accusative case marks the direct object — the thing being acted upon", "correct_form": "den/die/das", "example_sentence": "Der Mann kauft den Kuchen.", "counter_example": "Der Kuchen ist lecker." },
+              "explanation": "The direct object (what receives the action) takes accusative: 'Ich sehe den Hund' — 'den Hund' is what I see."
+            },
+            {
+              "id": "a1-gram-accusative-kp-ihn",
+              "prompt_data": { "type": "pronoun", "german": "ihn", "english": "him / it (masculine accusative)", "person": "3rd singular masculine accusative", "example_sentence": "Ich kenne ihn gut." },
+              "explanation": "'er' becomes 'ihn' in accusative: 'Der Mann? Ich sehe ihn.'"
+            },
+            {
+              "id": "a1-gram-accusative-kp-mich-dich",
+              "prompt_data": { "type": "grammar-rule", "german": "mich / dich", "english": "me / you (accusative)", "rule": "'ich' becomes 'mich' and 'du' becomes 'dich' in accusative", "correct_form": "mich / dich", "example_sentence": "Er sieht mich. Ich sehe dich.", "counter_example": "Ich bin hier. Du bist da." },
+              "explanation": "Accusative pronouns: ich → mich, du → dich, er → ihn, sie → sie, es → es, wir → uns, ihr → euch, sie/Sie → sie/Sie."
+            },
+            {
+              "id": "a1-gram-accusative-kp-es-acc",
+              "prompt_data": { "type": "grammar-rule", "german": "es (Akkusativ)", "english": "it (neuter accusative)", "rule": "'es' stays 'es' in accusative — no change for neuter pronouns", "correct_form": "es", "example_sentence": "Das Buch? Ich lese es gerade.", "counter_example": "Es ist ein gutes Buch." },
+              "explanation": "Neuter pronoun 'es' doesn't change in accusative: 'Ich brauche es.'"
+            },
+            {
+              "id": "a1-gram-accusative-kp-uns-euch",
+              "prompt_data": { "type": "grammar-rule", "german": "uns / euch", "english": "us / you (plural accusative)", "rule": "'wir' becomes 'uns' and 'ihr' becomes 'euch' in accusative", "correct_form": "uns / euch", "example_sentence": "Er besucht uns morgen. Ich besuche euch nächste Woche.", "counter_example": "Wir sind hier. Ihr seid dort." },
+              "explanation": "Plural accusative pronouns: wir → uns, ihr → euch."
+            },
+            {
+              "id": "a1-gram-accusative-kp-haben-acc",
+              "prompt_data": { "type": "grammar-rule", "german": "haben + Akkusativ", "english": "to have + accusative", "rule": "The verb 'haben' always takes an accusative object", "correct_form": "einen/eine/ein", "example_sentence": "Ich habe einen Hund und eine Katze.", "counter_example": "Ein Hund und eine Katze sind im Garten." },
+              "explanation": "'haben' always requires accusative: 'Ich habe einen Bruder' (not 'ein Bruder')."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-accusative-prepositions",
+          "name": "Accusative Prepositions",
+          "description": "Prepositions that always take the accusative case: durch, für, gegen, ohne, um",
+          "prerequisites": ["a1-grammar-accusative-case"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-article", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-accprep-kp-fuer",
+              "prompt_data": { "type": "grammar-rule", "german": "für", "english": "for", "rule": "'für' always takes the accusative case", "correct_form": "für + Akkusativ", "example_sentence": "Das Geschenk ist für meinen Vater.", "counter_example": "Mein Vater bekommt ein Geschenk." },
+              "explanation": "'für' (for) always requires accusative: 'für den Mann', 'für die Frau', 'für das Kind'."
+            },
+            {
+              "id": "a1-gram-accprep-kp-ohne",
+              "prompt_data": { "type": "grammar-rule", "german": "ohne", "english": "without", "rule": "'ohne' always takes the accusative case", "correct_form": "ohne + Akkusativ", "example_sentence": "Ich trinke Kaffee ohne Milch.", "counter_example": "Ich trinke Kaffee mit Milch." },
+              "explanation": "'ohne' (without) takes accusative: 'ohne einen Fehler', 'ohne mich'."
+            },
+            {
+              "id": "a1-gram-accprep-kp-durch",
+              "prompt_data": { "type": "grammar-rule", "german": "durch", "english": "through", "rule": "'durch' always takes the accusative case", "correct_form": "durch + Akkusativ", "example_sentence": "Wir gehen durch den Park.", "counter_example": "Der Park ist schön." },
+              "explanation": "'durch' (through) takes accusative: 'durch den Wald', 'durch die Stadt'."
+            },
+            {
+              "id": "a1-gram-accprep-kp-gegen",
+              "prompt_data": { "type": "grammar-rule", "german": "gegen", "english": "against / around (time)", "rule": "'gegen' always takes the accusative case", "correct_form": "gegen + Akkusativ", "example_sentence": "Wir spielen gegen die andere Mannschaft.", "counter_example": "Die andere Mannschaft ist stark." },
+              "explanation": "'gegen' (against) takes accusative. Also used for approximate time: 'gegen acht Uhr' (around 8 o'clock)."
+            },
+            {
+              "id": "a1-gram-accprep-kp-um",
+              "prompt_data": { "type": "grammar-rule", "german": "um", "english": "around / at (time)", "rule": "'um' always takes the accusative case", "correct_form": "um + Akkusativ", "example_sentence": "Der Kurs beginnt um neun Uhr.", "counter_example": "Es ist neun Uhr." },
+              "explanation": "'um' (around/at) takes accusative. Very common for clock times: 'um acht Uhr' (at 8 o'clock)."
+            },
+            {
+              "id": "a1-gram-accprep-kp-mnemonic",
+              "prompt_data": { "type": "grammar-rule", "german": "DOGFU", "english": "durch, ohne, gegen, für, um", "rule": "Remember accusative prepositions with the mnemonic DOGFU: Durch, Ohne, Gegen, Für, Um", "correct_form": "durch/ohne/gegen/für/um", "example_sentence": "Durch den Park, ohne dich, gegen den Wind, für mich, um die Ecke.", "counter_example": "mit, bei, nach, von, zu (dative prepositions)" },
+              "explanation": "The mnemonic DOGFU helps remember all five accusative prepositions: Durch, Ohne, Gegen, Für, Um."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-adjectives-nominative",
+          "name": "Basic Adjectives in Nominative",
+          "description": "Common adjectives used predicatively and with nominative articles",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-article", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-adj-kp-gross",
+              "prompt_data": { "type": "vocabulary", "german": "groß", "english": "big / tall", "example_sentence": "Das Haus ist groß." },
+              "explanation": "'groß' means big or tall. Predicative adjectives (after 'sein') take no ending: 'Der Mann ist groß.'"
+            },
+            {
+              "id": "a1-gram-adj-kp-klein",
+              "prompt_data": { "type": "vocabulary", "german": "klein", "english": "small / short", "example_sentence": "Die Katze ist klein." },
+              "explanation": "'klein' is the opposite of 'groß'. No ending when used predicatively: 'Das Kind ist klein.'"
+            },
+            {
+              "id": "a1-gram-adj-kp-alt",
+              "prompt_data": { "type": "vocabulary", "german": "alt", "english": "old", "example_sentence": "Die Kirche ist alt." },
+              "explanation": "'alt' means old. Used for both people and things: 'Wie alt bist du?' (How old are you?)"
+            },
+            {
+              "id": "a1-gram-adj-kp-neu",
+              "prompt_data": { "type": "vocabulary", "german": "neu", "english": "new", "example_sentence": "Das Auto ist neu." },
+              "explanation": "'neu' is the opposite of 'alt' for things. For people, use 'jung' (young)."
+            },
+            {
+              "id": "a1-gram-adj-kp-gut",
+              "prompt_data": { "type": "vocabulary", "german": "gut", "english": "good", "example_sentence": "Das Essen ist gut." },
+              "explanation": "'gut' means good. Very common: 'Guten Morgen!' (Good morning), 'Alles gut' (All good)."
+            },
+            {
+              "id": "a1-gram-adj-kp-schlecht",
+              "prompt_data": { "type": "vocabulary", "german": "schlecht", "english": "bad", "example_sentence": "Das Wetter ist schlecht." },
+              "explanation": "'schlecht' is the opposite of 'gut'. 'Mir geht es schlecht' = I'm not doing well."
+            },
+            {
+              "id": "a1-gram-adj-kp-schoen",
+              "prompt_data": { "type": "vocabulary", "german": "schön", "english": "beautiful / nice", "example_sentence": "Die Blume ist schön." },
+              "explanation": "'schön' means beautiful or nice. Also used as an exclamation: 'Schön!' (Nice!/Great!)."
+            },
+            {
+              "id": "a1-gram-adj-kp-teuer",
+              "prompt_data": { "type": "vocabulary", "german": "teuer", "english": "expensive", "example_sentence": "Das Restaurant ist teuer." },
+              "explanation": "'teuer' means expensive. Opposite: 'billig' (cheap) or 'günstig' (affordable)."
+            },
+            {
+              "id": "a1-gram-adj-kp-billig",
+              "prompt_data": { "type": "vocabulary", "german": "billig", "english": "cheap", "example_sentence": "Das T-Shirt ist billig." },
+              "explanation": "'billig' means cheap. Can have a slightly negative connotation; 'günstig' (affordable) is more neutral."
+            },
+            {
+              "id": "a1-gram-adj-kp-attributive",
+              "prompt_data": { "type": "grammar-rule", "german": "Adjektivendung", "english": "adjective ending", "rule": "Adjectives before nouns need endings; after 'sein' they don't", "correct_form": "-e/-er/-es", "example_sentence": "Ein großer Mann steht dort. Der Mann ist groß.", "counter_example": "Der Mann ist groß." },
+              "explanation": "Predicative (after sein): no ending ('Der Tisch ist groß'). Attributive (before noun): ending required ('ein großer Tisch')."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-plural-forms",
+          "name": "Plural Forms",
+          "description": "Common German plural patterns: -e, -en, -er, -s, umlaut changes",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-article", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-plural-kp-e",
+              "prompt_data": { "type": "grammar-rule", "german": "Plural: -e", "english": "plural ending -e", "rule": "Many masculine and some neuter nouns add '-e' in plural", "correct_form": "-e", "example_sentence": "der Tisch → die Tische", "counter_example": "der Tisch (singular)" },
+              "explanation": "The '-e' plural is common for masculine nouns: der Freund → die Freunde, der Tag → die Tage."
+            },
+            {
+              "id": "a1-gram-plural-kp-en",
+              "prompt_data": { "type": "grammar-rule", "german": "Plural: -(e)n", "english": "plural ending -(e)n", "rule": "Most feminine nouns add '-(e)n' in plural", "correct_form": "-(e)n", "example_sentence": "die Lampe → die Lampen, die Frau → die Frauen", "counter_example": "die Lampe (singular)" },
+              "explanation": "The '-(e)n' plural is the most common for feminine nouns: die Blume → die Blumen, die Schwester → die Schwestern."
+            },
+            {
+              "id": "a1-gram-plural-kp-er",
+              "prompt_data": { "type": "grammar-rule", "german": "Plural: -er", "english": "plural ending -er (often with umlaut)", "rule": "Some neuter and masculine nouns add '-er', often with an umlaut", "correct_form": "-er", "example_sentence": "das Kind → die Kinder, das Buch → die Bücher", "counter_example": "das Kind (singular)" },
+              "explanation": "The '-er' plural often adds an umlaut: das Haus → die Häuser, der Mann → die Männer."
+            },
+            {
+              "id": "a1-gram-plural-kp-s",
+              "prompt_data": { "type": "grammar-rule", "german": "Plural: -s", "english": "plural ending -s", "rule": "Foreign words and some informal words add '-s' in plural", "correct_form": "-s", "example_sentence": "das Auto → die Autos, das Hotel → die Hotels", "counter_example": "das Auto (singular)" },
+              "explanation": "The '-s' plural is used mainly for foreign/borrowed words: das Kino → die Kinos, das Sofa → die Sofas."
+            },
+            {
+              "id": "a1-gram-plural-kp-umlaut",
+              "prompt_data": { "type": "grammar-rule", "german": "Plural: Umlaut", "english": "plural with umlaut change", "rule": "Some nouns change their vowel (a→ä, o→ö, u→ü) in plural, sometimes with no other ending", "correct_form": "Umlaut (¨)", "example_sentence": "der Vater → die Väter, die Mutter → die Mütter", "counter_example": "der Vater (singular)" },
+              "explanation": "Some nouns only change the vowel: der Bruder → die Brüder, die Tochter → die Töchter."
+            },
+            {
+              "id": "a1-gram-plural-kp-no-change",
+              "prompt_data": { "type": "grammar-rule", "german": "Plural: keine Änderung", "english": "plural with no change", "rule": "Some masculine/neuter nouns ending in '-er', '-el', '-en' don't change in plural", "correct_form": "(no change)", "example_sentence": "das Fenster → die Fenster, der Lehrer → die Lehrer", "counter_example": "das Fenster (singular)" },
+              "explanation": "Nouns ending in '-er', '-el', '-en' often stay the same: der Computer → die Computer, das Zimmer → die Zimmer."
+            },
+            {
+              "id": "a1-gram-plural-kp-die-plural",
+              "prompt_data": { "type": "grammar-rule", "german": "die (Plural)", "english": "the (all plurals)", "rule": "All plural nouns use the article 'die' regardless of their singular gender", "correct_form": "die", "example_sentence": "der Hund → die Hunde, die Katze → die Katzen, das Kind → die Kinder", "counter_example": "der Hund, die Katze, das Kind (singular)" },
+              "explanation": "In plural, the article is always 'die': der/die/das all become 'die' in the plural."
+            },
+            {
+              "id": "a1-gram-plural-kp-practice-tiere",
+              "prompt_data": { "type": "vocabulary", "german": "das Tier", "english": "the animal", "article": "das", "gender": "neuter", "plural": "die Tiere", "example_sentence": "Die Tiere im Zoo sind schön." },
+              "explanation": "'das Tier' → 'die Tiere'. Neuter noun with '-e' plural ending."
+            },
+            {
+              "id": "a1-gram-plural-kp-practice-aepfel",
+              "prompt_data": { "type": "vocabulary", "german": "der Apfel", "english": "the apple", "article": "der", "gender": "masculine", "plural": "die Äpfel", "example_sentence": "Die Äpfel sind rot." },
+              "explanation": "'der Apfel' → 'die Äpfel'. Masculine noun with umlaut-only plural."
+            },
+            {
+              "id": "a1-gram-plural-kp-practice-staedte",
+              "prompt_data": { "type": "vocabulary", "german": "die Stadt", "english": "the city", "article": "die", "gender": "feminine", "plural": "die Städte", "example_sentence": "Die Städte in Deutschland sind interessant." },
+              "explanation": "'die Stadt' → 'die Städte'. Feminine noun with umlaut + '-e' plural."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-irregular-present",
+          "name": "Irregular Present Tense (Stem-Changing Verbs)",
+          "description": "Stem-changing verbs in present tense: fahren, sehen, lesen, sprechen, essen, nehmen, schlafen",
+          "prerequisites": ["a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-conjugation", "fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-irreg-kp-fahren-du",
+              "prompt_data": { "type": "conjugation", "verb": "fahren", "pronoun": "du", "correct_form": "fährst", "tense": "present", "english": "you drive", "example_sentence": "Du fährst nach Hamburg." },
+              "explanation": "'fahren' has a→ä change for du/er: du fährst, er fährt. Other forms are regular."
+            },
+            {
+              "id": "a1-gram-irreg-kp-fahren-er",
+              "prompt_data": { "type": "conjugation", "verb": "fahren", "pronoun": "er", "correct_form": "fährt", "tense": "present", "english": "he drives", "example_sentence": "Er fährt mit dem Zug." },
+              "explanation": "For er/sie/es: fahren → fährt (a→ä stem change)."
+            },
+            {
+              "id": "a1-gram-irreg-kp-sehen-du",
+              "prompt_data": { "type": "conjugation", "verb": "sehen", "pronoun": "du", "correct_form": "siehst", "tense": "present", "english": "you see", "example_sentence": "Du siehst den Film." },
+              "explanation": "'sehen' has e→ie change for du/er: du siehst, er sieht."
+            },
+            {
+              "id": "a1-gram-irreg-kp-sehen-er",
+              "prompt_data": { "type": "conjugation", "verb": "sehen", "pronoun": "er", "correct_form": "sieht", "tense": "present", "english": "he sees", "example_sentence": "Er sieht seine Freunde." },
+              "explanation": "For er/sie/es: sehen → sieht (e→ie stem change)."
+            },
+            {
+              "id": "a1-gram-irreg-kp-lesen-du",
+              "prompt_data": { "type": "conjugation", "verb": "lesen", "pronoun": "du", "correct_form": "liest", "tense": "present", "english": "you read", "example_sentence": "Du liest ein Buch." },
+              "explanation": "'lesen' has e→ie change for du/er: du liest, er liest. Note: 'du liest' and 'er liest' look the same."
+            },
+            {
+              "id": "a1-gram-irreg-kp-sprechen-du",
+              "prompt_data": { "type": "conjugation", "verb": "sprechen", "pronoun": "du", "correct_form": "sprichst", "tense": "present", "english": "you speak", "example_sentence": "Du sprichst gut Deutsch." },
+              "explanation": "'sprechen' has e→i change for du/er: du sprichst, er spricht."
+            },
+            {
+              "id": "a1-gram-irreg-kp-sprechen-er",
+              "prompt_data": { "type": "conjugation", "verb": "sprechen", "pronoun": "er", "correct_form": "spricht", "tense": "present", "english": "he speaks", "example_sentence": "Er spricht drei Sprachen." },
+              "explanation": "For er/sie/es: sprechen → spricht (e→i stem change)."
+            },
+            {
+              "id": "a1-gram-irreg-kp-essen-du",
+              "prompt_data": { "type": "conjugation", "verb": "essen", "pronoun": "du", "correct_form": "isst", "tense": "present", "english": "you eat", "example_sentence": "Du isst gern Pizza." },
+              "explanation": "'essen' has e→i change and an extra 's': du isst (not 'esst'). Note: 'du isst' and 'er isst' look the same."
+            },
+            {
+              "id": "a1-gram-irreg-kp-nehmen-er",
+              "prompt_data": { "type": "conjugation", "verb": "nehmen", "pronoun": "er", "correct_form": "nimmt", "tense": "present", "english": "he takes", "example_sentence": "Er nimmt den Bus." },
+              "explanation": "'nehmen' is highly irregular: du nimmst, er nimmt (e→i plus mm)."
+            },
+            {
+              "id": "a1-gram-irreg-kp-schlafen-du",
+              "prompt_data": { "type": "conjugation", "verb": "schlafen", "pronoun": "du", "correct_form": "schläfst", "tense": "present", "english": "you sleep", "example_sentence": "Du schläfst lange am Wochenende." },
+              "explanation": "'schlafen' has a→ä change for du/er: du schläfst, er schläft."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-modal-verbs",
+          "name": "Modal Verbs",
+          "description": "Modal verbs können, möchten, wollen, müssen and their sentence structure",
+          "prerequisites": ["a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-conjugation", "fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-modal-kp-koennen-ich",
+              "prompt_data": { "type": "conjugation", "verb": "können", "pronoun": "ich", "correct_form": "kann", "tense": "present", "english": "I can", "example_sentence": "Ich kann schwimmen." },
+              "explanation": "'können' (can/to be able to): ich kann, du kannst, er kann. The umlaut disappears in singular."
+            },
+            {
+              "id": "a1-gram-modal-kp-koennen-wir",
+              "prompt_data": { "type": "conjugation", "verb": "können", "pronoun": "wir", "correct_form": "können", "tense": "present", "english": "we can", "example_sentence": "Wir können morgen kommen." },
+              "explanation": "Plural forms keep the umlaut: wir können, ihr könnt, sie können."
+            },
+            {
+              "id": "a1-gram-modal-kp-moechten-ich",
+              "prompt_data": { "type": "conjugation", "verb": "möchten", "pronoun": "ich", "correct_form": "möchte", "tense": "present", "english": "I would like", "example_sentence": "Ich möchte einen Kaffee." },
+              "explanation": "'möchten' (would like) is polite for requests: ich möchte, du möchtest, er möchte."
+            },
+            {
+              "id": "a1-gram-modal-kp-moechten-sie",
+              "prompt_data": { "type": "conjugation", "verb": "möchten", "pronoun": "Sie", "correct_form": "möchten", "tense": "present", "english": "you (formal) would like", "example_sentence": "Was möchten Sie trinken?" },
+              "explanation": "'möchten' is the polite way to order in restaurants: 'Ich möchte bitte eine Suppe.'"
+            },
+            {
+              "id": "a1-gram-modal-kp-wollen-ich",
+              "prompt_data": { "type": "conjugation", "verb": "wollen", "pronoun": "ich", "correct_form": "will", "tense": "present", "english": "I want", "example_sentence": "Ich will nach Hause gehen." },
+              "explanation": "'wollen' (to want): ich will, du willst, er will. More direct/forceful than 'möchten'."
+            },
+            {
+              "id": "a1-gram-modal-kp-muessen-ich",
+              "prompt_data": { "type": "conjugation", "verb": "müssen", "pronoun": "ich", "correct_form": "muss", "tense": "present", "english": "I must / I have to", "example_sentence": "Ich muss arbeiten." },
+              "explanation": "'müssen' (must/have to): ich muss, du musst, er muss. Expresses necessity or obligation."
+            },
+            {
+              "id": "a1-gram-modal-kp-muessen-wir",
+              "prompt_data": { "type": "conjugation", "verb": "müssen", "pronoun": "wir", "correct_form": "müssen", "tense": "present", "english": "we must / we have to", "example_sentence": "Wir müssen jetzt gehen." },
+              "explanation": "Plural forms keep the umlaut: wir müssen, ihr müsst, sie müssen."
+            },
+            {
+              "id": "a1-gram-modal-kp-sentence-structure",
+              "prompt_data": { "type": "grammar-rule", "german": "Modalverb + Infinitiv", "english": "modal verb + infinitive", "rule": "Modal verb is conjugated in position 2; the main verb goes to the end as infinitive", "correct_form": "Modal (pos. 2) ... Infinitiv (Ende)", "example_sentence": "Ich kann gut Deutsch sprechen.", "counter_example": "Ich spreche gut Deutsch." },
+              "explanation": "With modal verbs, the main verb goes to the end as infinitive: 'Ich muss morgen früh aufstehen.'"
+            },
+            {
+              "id": "a1-gram-modal-kp-koennen-du",
+              "prompt_data": { "type": "conjugation", "verb": "können", "pronoun": "du", "correct_form": "kannst", "tense": "present", "english": "you can", "example_sentence": "Kannst du mir helfen?" },
+              "explanation": "For 'du': können → kannst. The umlaut ö disappears in singular forms."
+            },
+            {
+              "id": "a1-gram-modal-kp-muessen-not",
+              "prompt_data": { "type": "grammar-rule", "german": "nicht müssen", "english": "don't have to (not 'must not')", "rule": "'nicht müssen' means 'don't have to', NOT 'must not'. For 'must not' use 'nicht dürfen'", "correct_form": "nicht müssen", "example_sentence": "Du musst nicht kommen. (You don't have to come.)", "counter_example": "Du darfst nicht rauchen. (You must not smoke.)" },
+              "explanation": "Warning: 'nicht müssen' = don't have to (no obligation). 'nicht dürfen' = must not (forbidden)."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-imperatives",
+          "name": "Imperatives",
+          "description": "Imperative forms for du, ihr, and Sie with common verbs",
+          "prerequisites": ["a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-conjugation", "fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-imper-kp-du-regular",
+              "prompt_data": { "type": "grammar-rule", "german": "Imperativ du", "english": "imperative (informal singular)", "rule": "For 'du': use the verb stem (remove -en, drop the -st ending). No pronoun.", "correct_form": "Komm!", "example_sentence": "Komm bitte hierher!", "counter_example": "Du kommst hierher." },
+              "explanation": "du-imperative: take the stem of the verb. kommen → Komm! machen → Mach! spielen → Spiel!"
+            },
+            {
+              "id": "a1-gram-imper-kp-ihr-regular",
+              "prompt_data": { "type": "grammar-rule", "german": "Imperativ ihr", "english": "imperative (informal plural)", "rule": "For 'ihr': use the normal 'ihr' conjugation without the pronoun", "correct_form": "Kommt!", "example_sentence": "Kommt schnell!", "counter_example": "Ihr kommt schnell." },
+              "explanation": "ihr-imperative = the 'ihr' form without the pronoun: Kommt! Macht! Spielt!"
+            },
+            {
+              "id": "a1-gram-imper-kp-sie-regular",
+              "prompt_data": { "type": "grammar-rule", "german": "Imperativ Sie", "english": "imperative (formal)", "rule": "For 'Sie': use infinitive + Sie. The pronoun stays.", "correct_form": "Kommen Sie!", "example_sentence": "Kommen Sie bitte herein!", "counter_example": "Sie kommen herein." },
+              "explanation": "Sie-imperative: infinitive + Sie. Always includes the pronoun: Kommen Sie! Machen Sie! Sprechen Sie!"
+            },
+            {
+              "id": "a1-gram-imper-kp-gehen",
+              "prompt_data": { "type": "conjugation", "verb": "gehen", "pronoun": "du (imperative)", "correct_form": "Geh!", "tense": "imperative", "english": "Go!", "example_sentence": "Geh nach Hause!" },
+              "explanation": "du-imperative of 'gehen': Geh! ihr: Geht! Sie: Gehen Sie!"
+            },
+            {
+              "id": "a1-gram-imper-kp-lesen",
+              "prompt_data": { "type": "conjugation", "verb": "lesen", "pronoun": "du (imperative)", "correct_form": "Lies!", "tense": "imperative", "english": "Read!", "example_sentence": "Lies das Buch!" },
+              "explanation": "Stem-changing e→ie verbs keep the change in du-imperative: lesen → Lies! sehen → Sieh!"
+            },
+            {
+              "id": "a1-gram-imper-kp-sprechen",
+              "prompt_data": { "type": "conjugation", "verb": "sprechen", "pronoun": "du (imperative)", "correct_form": "Sprich!", "tense": "imperative", "english": "Speak!", "example_sentence": "Sprich bitte langsamer!" },
+              "explanation": "Stem-changing e→i verbs keep the change: sprechen → Sprich! essen → Iss! nehmen → Nimm!"
+            },
+            {
+              "id": "a1-gram-imper-kp-sein-imper",
+              "prompt_data": { "type": "conjugation", "verb": "sein", "pronoun": "du (imperative)", "correct_form": "Sei!", "tense": "imperative", "english": "Be!", "example_sentence": "Sei ruhig!" },
+              "explanation": "'sein' is irregular in imperative: du → Sei! ihr → Seid! Sie → Seien Sie!"
+            },
+            {
+              "id": "a1-gram-imper-kp-machen-ihr",
+              "prompt_data": { "type": "conjugation", "verb": "machen", "pronoun": "ihr (imperative)", "correct_form": "Macht!", "tense": "imperative", "english": "Do!/Make!", "example_sentence": "Macht eure Hausaufgaben!" },
+              "explanation": "ihr-imperative of 'machen': Macht! Same as the normal 'ihr' form without the pronoun."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-numbers-time",
+          "name": "Numbers and Time",
+          "description": "Numbers 0-100, telling time with Uhr, and common time expressions",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-grammar-pronoun", "fill-blank-grammar", "translation-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-numtime-kp-0-10",
+              "prompt_data": { "type": "vocabulary", "german": "null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn", "english": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10", "example_sentence": "Ich habe drei Kinder." },
+              "explanation": "Numbers 0-10 must be memorized. Note: 'eins' when counting, but 'ein/eine' before nouns."
+            },
+            {
+              "id": "a1-gram-numtime-kp-11-12",
+              "prompt_data": { "type": "vocabulary", "german": "elf, zwölf", "english": "11, 12", "example_sentence": "Es ist elf Uhr." },
+              "explanation": "'elf' (11) and 'zwölf' (12) are irregular — they don't follow the '-zehn' pattern."
+            },
+            {
+              "id": "a1-gram-numtime-kp-13-19",
+              "prompt_data": { "type": "grammar-rule", "german": "dreizehn bis neunzehn", "english": "13 to 19", "rule": "Numbers 13-19: digit + zehn (like English '-teen')", "correct_form": "dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn", "example_sentence": "Sie ist siebzehn Jahre alt.", "counter_example": "Sie ist sieben Jahre alt." },
+              "explanation": "13-19 follow the pattern: digit + zehn. Note: sechzehn (not 'sechszehn'), siebzehn (not 'siebenzehn')."
+            },
+            {
+              "id": "a1-gram-numtime-kp-20",
+              "prompt_data": { "type": "vocabulary", "german": "zwanzig", "english": "20", "example_sentence": "Ich bin zwanzig Jahre alt." },
+              "explanation": "'zwanzig' (20). Tens from 20 use '-zig': zwanzig, dreißig, vierzig..."
+            },
+            {
+              "id": "a1-gram-numtime-kp-21-99",
+              "prompt_data": { "type": "grammar-rule", "german": "einundzwanzig (21)", "english": "21-99", "rule": "For 21-99: ones FIRST + und + tens (reverse of English)", "correct_form": "einundzwanzig, zweiunddreißig, dreiundvierzig", "example_sentence": "Meine Großmutter ist fünfundsiebzig Jahre alt.", "counter_example": "seventy-five (English: tens first)" },
+              "explanation": "German reverses the order: 25 = fünfundzwanzig (five-and-twenty). This takes practice!"
+            },
+            {
+              "id": "a1-gram-numtime-kp-tens",
+              "prompt_data": { "type": "vocabulary", "german": "dreißig, vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig, hundert", "english": "30, 40, 50, 60, 70, 80, 90, 100", "example_sentence": "Hundert Prozent!" },
+              "explanation": "Note: dreißig (30) uses '-ßig' not '-zig'. Sechzig (not sechszig), siebzig (not siebenzig)."
+            },
+            {
+              "id": "a1-gram-numtime-kp-uhr",
+              "prompt_data": { "type": "grammar-rule", "german": "Uhr", "english": "o'clock", "rule": "Tell time with: Es ist + number + Uhr", "correct_form": "Es ist ... Uhr", "example_sentence": "Es ist drei Uhr.", "counter_example": "It's three o'clock." },
+              "explanation": "Basic time: 'Es ist acht Uhr' (It's 8 o'clock). For minutes: 'Es ist acht Uhr dreißig' (8:30)."
+            },
+            {
+              "id": "a1-gram-numtime-kp-halb",
+              "prompt_data": { "type": "grammar-rule", "german": "halb", "english": "half past (but references the NEXT hour)", "rule": "'halb' + next hour means 30 minutes before that hour", "correct_form": "halb + nächste Stunde", "example_sentence": "Es ist halb drei. (It's 2:30)", "counter_example": "Es ist zwei Uhr dreißig. (also 2:30)" },
+              "explanation": "Warning: 'halb drei' = 2:30 (NOT 3:30)! 'halb' refers to halfway to the next hour."
+            },
+            {
+              "id": "a1-gram-numtime-kp-viertel",
+              "prompt_data": { "type": "grammar-rule", "german": "Viertel vor / Viertel nach", "english": "quarter to / quarter past", "rule": "Use 'Viertel nach' for :15 and 'Viertel vor' for :45", "correct_form": "Viertel nach/vor", "example_sentence": "Es ist Viertel nach zehn. (10:15)", "counter_example": "Es ist zehn Uhr fünfzehn. (also 10:15)" },
+              "explanation": "'Viertel nach zehn' = 10:15. 'Viertel vor elf' = 10:45."
+            },
+            {
+              "id": "a1-gram-numtime-kp-um-time",
+              "prompt_data": { "type": "grammar-rule", "german": "um + Uhrzeit", "english": "at + time", "rule": "Use 'um' to express 'at' a specific time", "correct_form": "um ... Uhr", "example_sentence": "Der Kurs beginnt um neun Uhr.", "counter_example": "Es ist neun Uhr." },
+              "explanation": "'um' indicates a specific time: 'Ich stehe um sieben Uhr auf.' (I get up at 7 o'clock)."
+            },
+            {
+              "id": "a1-gram-numtime-kp-morgens",
+              "prompt_data": { "type": "vocabulary", "german": "morgens, mittags, abends, nachts", "english": "in the morning, at noon, in the evening, at night", "example_sentence": "Morgens trinke ich Kaffee." },
+              "explanation": "Time-of-day adverbs end in '-s': morgens (in the morning), abends (in the evening), nachts (at night)."
+            },
+            {
+              "id": "a1-gram-numtime-kp-heute-morgen",
+              "prompt_data": { "type": "vocabulary", "german": "heute, morgen, gestern", "english": "today, tomorrow, yesterday", "example_sentence": "Morgen habe ich frei." },
+              "explanation": "'heute' = today, 'morgen' = tomorrow, 'gestern' = yesterday. Don't confuse 'morgen' (tomorrow) with 'der Morgen' (the morning)."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-word-order-statements",
+          "name": "Word Order in Statements",
+          "description": "Basic German sentence structure: SVO, verb-second rule, and time-manner-place order",
+          "prerequisites": ["a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-wordorder-kp-v2",
+              "prompt_data": { "type": "grammar-rule", "german": "Verb auf Position 2", "english": "verb in position 2", "rule": "In German statements, the conjugated verb is ALWAYS in position 2", "correct_form": "Subject + Verb + ...", "example_sentence": "Ich spiele heute Fußball.", "counter_example": "Ich heute spiele Fußball. (wrong)" },
+              "explanation": "The V2 (verb-second) rule is fundamental: the conjugated verb must be the second element in a statement."
+            },
+            {
+              "id": "a1-gram-wordorder-kp-inversion",
+              "prompt_data": { "type": "grammar-rule", "german": "Inversion", "english": "subject-verb inversion", "rule": "When a non-subject starts the sentence, the subject moves after the verb (verb stays in position 2)", "correct_form": "Time/Place + Verb + Subject", "example_sentence": "Morgen fahre ich nach Berlin.", "counter_example": "Morgen ich fahre nach Berlin. (wrong)" },
+              "explanation": "If time or another element comes first, the subject flips to after the verb: 'Heute lerne ich Deutsch.'"
+            },
+            {
+              "id": "a1-gram-wordorder-kp-tmp",
+              "prompt_data": { "type": "grammar-rule", "german": "temporal – modal – lokal", "english": "time – manner – place", "rule": "In the middle field, elements follow the order: Time – Manner – Place", "correct_form": "T-M-P", "example_sentence": "Ich fahre morgen schnell nach Berlin.", "counter_example": "Ich fahre nach Berlin morgen schnell. (unnatural)" },
+              "explanation": "German uses T-M-P order: WHEN → HOW → WHERE. 'Ich gehe heute gern ins Kino.'"
+            },
+            {
+              "id": "a1-gram-wordorder-kp-nicht-position",
+              "prompt_data": { "type": "grammar-rule", "german": "nicht am Ende", "english": "nicht at the end", "rule": "In sentences without a specific element to negate, 'nicht' goes at the end", "correct_form": "... nicht.", "example_sentence": "Ich verstehe das nicht.", "counter_example": "Ich verstehe nicht das. (wrong)" },
+              "explanation": "Default position for 'nicht' is at the end: 'Er kommt heute nicht.' But before adjectives/prepositions: 'Er ist nicht müde.'"
+            },
+            {
+              "id": "a1-gram-wordorder-kp-time-first",
+              "prompt_data": { "type": "grammar-rule", "german": "Zeitangabe am Anfang", "english": "time expression first", "rule": "Time expressions can start the sentence for emphasis; the verb must still be in position 2", "correct_form": "Zeit + Verb + Subjekt", "example_sentence": "Am Montag habe ich einen Termin.", "counter_example": "Ich habe am Montag einen Termin." },
+              "explanation": "Both 'Ich lerne morgen Deutsch' and 'Morgen lerne ich Deutsch' are correct. The emphasis shifts."
+            },
+            {
+              "id": "a1-gram-wordorder-kp-infinitive-end",
+              "prompt_data": { "type": "grammar-rule", "german": "Infinitiv am Ende", "english": "infinitive at the end", "rule": "When a modal verb or auxiliary is used, the infinitive goes to the end of the sentence", "correct_form": "Modal + ... + Infinitiv", "example_sentence": "Ich will morgen Tennis spielen.", "counter_example": "Ich will spielen morgen Tennis. (wrong)" },
+              "explanation": "With modals, the infinitive goes to the very end: 'Ich muss heute viel arbeiten.'"
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-sentence-connectors",
+          "name": "Sentence Connectors",
+          "description": "Coordinating conjunctions: und, aber, oder, denn — connecting clauses without changing word order",
+          "prerequisites": ["a1-grammar-word-order-statements"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["fill-blank-grammar", "translation-grammar", "sentence-production-grammar"],
+          "knowledge_points": [
+            {
+              "id": "a1-gram-connectors-kp-und",
+              "prompt_data": { "type": "grammar-rule", "german": "und", "english": "and", "rule": "'und' connects words, phrases, or clauses without changing word order", "correct_form": "und", "example_sentence": "Ich lerne Deutsch und er lernt Spanisch.", "counter_example": "Ich lerne Deutsch. Er lernt Spanisch." },
+              "explanation": "'und' (and) is a coordinating conjunction: it connects two equal parts without affecting word order."
+            },
+            {
+              "id": "a1-gram-connectors-kp-aber",
+              "prompt_data": { "type": "grammar-rule", "german": "aber", "english": "but", "rule": "'aber' expresses contrast without changing word order", "correct_form": "aber", "example_sentence": "Ich möchte kommen, aber ich habe keine Zeit.", "counter_example": "Ich möchte kommen. Ich habe keine Zeit." },
+              "explanation": "'aber' (but) introduces a contrast: 'Das Essen ist gut, aber teuer.'"
+            },
+            {
+              "id": "a1-gram-connectors-kp-oder",
+              "prompt_data": { "type": "grammar-rule", "german": "oder", "english": "or", "rule": "'oder' presents alternatives without changing word order", "correct_form": "oder", "example_sentence": "Möchtest du Tee oder Kaffee?", "counter_example": "Möchtest du Tee? Möchtest du Kaffee?" },
+              "explanation": "'oder' (or) presents choices: 'Kommst du am Montag oder am Dienstag?'"
+            },
+            {
+              "id": "a1-gram-connectors-kp-denn",
+              "prompt_data": { "type": "grammar-rule", "german": "denn", "english": "because (coordinating)", "rule": "'denn' gives a reason without changing word order in the following clause", "correct_form": "denn", "example_sentence": "Ich bleibe zu Hause, denn ich bin krank.", "counter_example": "Ich bleibe zu Hause. Ich bin krank." },
+              "explanation": "'denn' (because) is a coordinating conjunction — word order stays normal: '..., denn + Subject + Verb + ...'"
+            },
+            {
+              "id": "a1-gram-connectors-kp-comma-rule",
+              "prompt_data": { "type": "grammar-rule", "german": "Komma vor aber/denn", "english": "comma before aber/denn", "rule": "Use a comma before 'aber', 'denn', and 'oder'/'und' when connecting full clauses", "correct_form": ", aber / , denn", "example_sentence": "Er ist nett, aber manchmal laut.", "counter_example": "Er ist nett und lustig." },
+              "explanation": "A comma is typically placed before 'aber' and 'denn'. Before 'und' and 'oder', a comma is optional when connecting full clauses."
+            },
+            {
+              "id": "a1-gram-connectors-kp-coordinating",
+              "prompt_data": { "type": "grammar-rule", "german": "Koordinierende Konjunktionen", "english": "coordinating conjunctions", "rule": "und, aber, oder, denn do NOT change word order — the verb stays in position 2 in both clauses", "correct_form": "S+V, conj. S+V", "example_sentence": "Ich koche, und du räumst auf.", "counter_example": "Ich koche, weil du aufräumst. (subordinating — different!)" },
+              "explanation": "Coordinating conjunctions (und, aber, oder, denn) connect equal clauses. The word order stays the same in both clauses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "topics": [
+        {
+          "id": "a1-vocab-greetings",
+          "name": "Greetings & Basics",
+          "description": "Essential greetings, farewells, and polite expressions",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-greet-kp-hallo",
+              "prompt_data": { "type": "vocabulary", "german": "Hallo", "english": "Hello", "example_sentence": "Hallo, wie geht es dir?" },
+              "explanation": "Universal informal greeting, used any time of day."
+            },
+            {
+              "id": "a1-vocab-greet-kp-guten-morgen",
+              "prompt_data": { "type": "vocabulary", "german": "Guten Morgen", "english": "Good morning", "example_sentence": "Guten Morgen, Frau Müller!" },
+              "explanation": "Used in the morning until about noon."
+            },
+            {
+              "id": "a1-vocab-greet-kp-guten-tag",
+              "prompt_data": { "type": "vocabulary", "german": "Guten Tag", "english": "Good day / Hello (formal)", "example_sentence": "Guten Tag, mein Name ist Schmidt." },
+              "explanation": "'Guten Tag' is a polite, formal greeting used during the day."
+            },
+            {
+              "id": "a1-vocab-greet-kp-guten-abend",
+              "prompt_data": { "type": "vocabulary", "german": "Guten Abend", "english": "Good evening", "example_sentence": "Guten Abend, willkommen im Restaurant!" },
+              "explanation": "Used from late afternoon/evening onward."
+            },
+            {
+              "id": "a1-vocab-greet-kp-gute-nacht",
+              "prompt_data": { "type": "vocabulary", "german": "Gute Nacht", "english": "Good night", "example_sentence": "Gute Nacht, schlaf gut!" },
+              "explanation": "Said when going to bed, not as a general evening greeting."
+            },
+            {
+              "id": "a1-vocab-greet-kp-tschuess",
+              "prompt_data": { "type": "vocabulary", "german": "Tschüss", "english": "Bye", "example_sentence": "Tschüss, bis morgen!" },
+              "explanation": "Informal farewell, used with friends and acquaintances."
+            },
+            {
+              "id": "a1-vocab-greet-kp-auf-wiedersehen",
+              "prompt_data": { "type": "vocabulary", "german": "Auf Wiedersehen", "english": "Goodbye (formal)", "example_sentence": "Auf Wiedersehen, Herr Doktor!" },
+              "explanation": "Formal farewell. Literally: 'Until we see each other again.'"
+            },
+            {
+              "id": "a1-vocab-greet-kp-bitte",
+              "prompt_data": { "type": "vocabulary", "german": "Bitte", "english": "Please / You're welcome", "example_sentence": "Einen Kaffee, bitte." },
+              "explanation": "'Bitte' means both 'please' and 'you're welcome' depending on context."
+            },
+            {
+              "id": "a1-vocab-greet-kp-danke",
+              "prompt_data": { "type": "vocabulary", "german": "Danke", "english": "Thank you", "example_sentence": "Danke schön!" },
+              "explanation": "'Danke' is informal. 'Danke schön' or 'Vielen Dank' are more polite."
+            },
+            {
+              "id": "a1-vocab-greet-kp-entschuldigung",
+              "prompt_data": { "type": "vocabulary", "german": "Entschuldigung", "english": "Excuse me / Sorry", "example_sentence": "Entschuldigung, wo ist der Bahnhof?" },
+              "explanation": "'Entschuldigung' is used to get attention or to apologize. Also: 'Entschuldigen Sie bitte' (more formal)."
+            },
+            {
+              "id": "a1-vocab-greet-kp-ja-nein",
+              "prompt_data": { "type": "vocabulary", "german": "ja / nein", "english": "yes / no", "example_sentence": "Ja, das stimmt. Nein, danke." },
+              "explanation": "'ja' = yes, 'nein' = no. Also: 'doch' = yes (contradicting a negative question)."
+            },
+            {
+              "id": "a1-vocab-greet-kp-wie-geht-es",
+              "prompt_data": { "type": "vocabulary", "german": "Wie geht es Ihnen?", "english": "How are you? (formal)", "example_sentence": "Guten Tag! Wie geht es Ihnen?" },
+              "explanation": "Formal: 'Wie geht es Ihnen?' Informal: 'Wie geht's?' or 'Wie geht es dir?'"
+            },
+            {
+              "id": "a1-vocab-greet-kp-mir-geht-es-gut",
+              "prompt_data": { "type": "vocabulary", "german": "Mir geht es gut.", "english": "I'm fine.", "example_sentence": "Mir geht es gut, danke!" },
+              "explanation": "Standard response to 'Wie geht es dir/Ihnen?' Also: 'Gut, danke!' (shorter)."
+            },
+            {
+              "id": "a1-vocab-greet-kp-bis-bald",
+              "prompt_data": { "type": "vocabulary", "german": "Bis bald!", "english": "See you soon!", "example_sentence": "Tschüss, bis bald!" },
+              "explanation": "'Bis bald' = see you soon. Also: 'Bis morgen' (see you tomorrow), 'Bis später' (see you later)."
+            },
+            {
+              "id": "a1-vocab-greet-kp-ich-heisse",
+              "prompt_data": { "type": "vocabulary", "german": "Ich heiße...", "english": "My name is...", "example_sentence": "Hallo, ich heiße Maria." },
+              "explanation": "'Ich heiße...' (My name is...). Alternative: 'Mein Name ist...' (more formal)."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-numbers",
+          "name": "Numbers 0-100",
+          "description": "Cardinal numbers from 0 to 100",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-numbers-kp-null",
+              "prompt_data": { "type": "vocabulary", "german": "null", "english": "zero", "example_sentence": "Die Temperatur ist null Grad." },
+              "explanation": "'null' = zero. Used in phone numbers, temperatures, and scores."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-eins",
+              "prompt_data": { "type": "vocabulary", "german": "eins", "english": "one", "example_sentence": "Ich hätte gern eins, bitte." },
+              "explanation": "'eins' when counting; 'ein/eine' before nouns: 'ein Buch', 'eine Tasse'."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-zwei",
+              "prompt_data": { "type": "vocabulary", "german": "zwei", "english": "two", "example_sentence": "Ich habe zwei Geschwister." },
+              "explanation": "'zwei' = two. On the phone, sometimes 'zwo' is used to avoid confusion with 'drei'."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-drei",
+              "prompt_data": { "type": "vocabulary", "german": "drei", "english": "three", "example_sentence": "Wir kommen um drei Uhr." },
+              "explanation": "'drei' = three."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-zehn",
+              "prompt_data": { "type": "vocabulary", "german": "zehn", "english": "ten", "example_sentence": "Das kostet zehn Euro." },
+              "explanation": "'zehn' = ten. Base for teens: dreizehn (13), vierzehn (14), etc."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-zwanzig",
+              "prompt_data": { "type": "vocabulary", "german": "zwanzig", "english": "twenty", "example_sentence": "Er ist zwanzig Jahre alt." },
+              "explanation": "'zwanzig' = twenty. First of the '-zig' tens."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-dreissig",
+              "prompt_data": { "type": "vocabulary", "german": "dreißig", "english": "thirty", "example_sentence": "Sie ist dreißig Jahre alt." },
+              "explanation": "'dreißig' = thirty. Note: uses '-ßig' (not '-zig'). The only ten with this exception."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-fuenfzig",
+              "prompt_data": { "type": "vocabulary", "german": "fünfzig", "english": "fifty", "example_sentence": "Das kostet fünfzig Cent." },
+              "explanation": "'fünfzig' = fifty."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-siebzig",
+              "prompt_data": { "type": "vocabulary", "german": "siebzig", "english": "seventy", "example_sentence": "Mein Opa ist siebzig Jahre alt." },
+              "explanation": "'siebzig' = seventy. Note: 'siebzig' (not 'siebenzig')."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-hundert",
+              "prompt_data": { "type": "vocabulary", "german": "hundert", "english": "one hundred", "example_sentence": "Das kostet hundert Euro." },
+              "explanation": "'hundert' = one hundred. Can also say 'einhundert' for emphasis."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-reverse-order",
+              "prompt_data": { "type": "vocabulary", "german": "fünfunddreißig", "english": "thirty-five", "example_sentence": "Ich bin fünfunddreißig Jahre alt." },
+              "explanation": "Remember: ones come first in German! 35 = fünf-und-dreißig (five-and-thirty)."
+            },
+            {
+              "id": "a1-vocab-numbers-kp-phone",
+              "prompt_data": { "type": "vocabulary", "german": "Meine Nummer ist...", "english": "My number is...", "example_sentence": "Meine Nummer ist null eins sieben sechs..." },
+              "explanation": "Phone numbers are usually read digit by digit: 0176 = null eins sieben sechs."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-family",
+          "name": "Family Members",
+          "description": "Core family vocabulary with articles and plurals",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-family-kp-mutter",
+              "prompt_data": { "type": "vocabulary", "german": "die Mutter", "english": "the mother", "article": "die", "gender": "feminine", "plural": "die Mütter", "example_sentence": "Meine Mutter kocht sehr gut." },
+              "explanation": "'die Mutter' is feminine. Plural: die Mütter (with umlaut). Informal: 'die Mama'."
+            },
+            {
+              "id": "a1-vocab-family-kp-vater",
+              "prompt_data": { "type": "vocabulary", "german": "der Vater", "english": "the father", "article": "der", "gender": "masculine", "plural": "die Väter", "example_sentence": "Mein Vater arbeitet als Ingenieur." },
+              "explanation": "'der Vater' is masculine. Plural: die Väter (with umlaut). Informal: 'der Papa'."
+            },
+            {
+              "id": "a1-vocab-family-kp-schwester",
+              "prompt_data": { "type": "vocabulary", "german": "die Schwester", "english": "the sister", "article": "die", "gender": "feminine", "plural": "die Schwestern", "example_sentence": "Meine Schwester studiert Medizin." },
+              "explanation": "'die Schwester' is feminine. Plural: die Schwestern."
+            },
+            {
+              "id": "a1-vocab-family-kp-bruder",
+              "prompt_data": { "type": "vocabulary", "german": "der Bruder", "english": "the brother", "article": "der", "gender": "masculine", "plural": "die Brüder", "example_sentence": "Mein Bruder ist zehn Jahre alt." },
+              "explanation": "'der Bruder' is masculine. Plural: die Brüder (with umlaut)."
+            },
+            {
+              "id": "a1-vocab-family-kp-grossmutter",
+              "prompt_data": { "type": "vocabulary", "german": "die Großmutter", "english": "the grandmother", "article": "die", "gender": "feminine", "plural": "die Großmütter", "example_sentence": "Meine Großmutter wohnt auf dem Land." },
+              "explanation": "'die Großmutter' is feminine. Informal: 'die Oma'."
+            },
+            {
+              "id": "a1-vocab-family-kp-grossvater",
+              "prompt_data": { "type": "vocabulary", "german": "der Großvater", "english": "the grandfather", "article": "der", "gender": "masculine", "plural": "die Großväter", "example_sentence": "Mein Großvater erzählt gern Geschichten." },
+              "explanation": "'der Großvater' is masculine. Informal: 'der Opa'."
+            },
+            {
+              "id": "a1-vocab-family-kp-tante",
+              "prompt_data": { "type": "vocabulary", "german": "die Tante", "english": "the aunt", "article": "die", "gender": "feminine", "plural": "die Tanten", "example_sentence": "Meine Tante lebt in Wien." },
+              "explanation": "'die Tante' is feminine. Plural: die Tanten."
+            },
+            {
+              "id": "a1-vocab-family-kp-onkel",
+              "prompt_data": { "type": "vocabulary", "german": "der Onkel", "english": "the uncle", "article": "der", "gender": "masculine", "plural": "die Onkel", "example_sentence": "Mein Onkel hat ein großes Auto." },
+              "explanation": "'der Onkel' is masculine. Plural stays the same: die Onkel."
+            },
+            {
+              "id": "a1-vocab-family-kp-kind",
+              "prompt_data": { "type": "vocabulary", "german": "das Kind", "english": "the child", "article": "das", "gender": "neuter", "plural": "die Kinder", "example_sentence": "Das Kind geht in die Schule." },
+              "explanation": "'das Kind' is neuter. Plural: die Kinder."
+            },
+            {
+              "id": "a1-vocab-family-kp-eltern",
+              "prompt_data": { "type": "vocabulary", "german": "die Eltern", "english": "the parents", "article": "die", "gender": "plural only", "plural": "die Eltern", "example_sentence": "Meine Eltern kommen aus der Türkei." },
+              "explanation": "'die Eltern' is always plural (no singular form). It means 'parents'."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-food",
+          "name": "Food & Drink",
+          "description": "Common food and beverage vocabulary",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-food-kp-brot",
+              "prompt_data": { "type": "vocabulary", "german": "das Brot", "english": "the bread", "article": "das", "gender": "neuter", "plural": "die Brote", "example_sentence": "Ich esse Brot zum Frühstück." },
+              "explanation": "'das Brot' is neuter. Bread is a staple of German cuisine — Germany has over 300 types!"
+            },
+            {
+              "id": "a1-vocab-food-kp-kaese",
+              "prompt_data": { "type": "vocabulary", "german": "der Käse", "english": "the cheese", "article": "der", "gender": "masculine", "plural": "die Käse", "example_sentence": "Ich möchte ein Brot mit Käse." },
+              "explanation": "'der Käse' is masculine. Plural is the same: die Käse."
+            },
+            {
+              "id": "a1-vocab-food-kp-milch",
+              "prompt_data": { "type": "vocabulary", "german": "die Milch", "english": "the milk", "article": "die", "gender": "feminine", "plural": "die Milch", "example_sentence": "Ich trinke Milch zum Frühstück." },
+              "explanation": "'die Milch' is feminine. Usually uncountable (no common plural)."
+            },
+            {
+              "id": "a1-vocab-food-kp-kaffee",
+              "prompt_data": { "type": "vocabulary", "german": "der Kaffee", "english": "the coffee", "article": "der", "gender": "masculine", "plural": "die Kaffees", "example_sentence": "Ich trinke gern Kaffee." },
+              "explanation": "'der Kaffee' is masculine. Germans are among the world's top coffee consumers."
+            },
+            {
+              "id": "a1-vocab-food-kp-tee",
+              "prompt_data": { "type": "vocabulary", "german": "der Tee", "english": "the tea", "article": "der", "gender": "masculine", "plural": "die Tees", "example_sentence": "Möchtest du einen Tee?" },
+              "explanation": "'der Tee' is masculine. Very popular in northern Germany (Ostfriesland)."
+            },
+            {
+              "id": "a1-vocab-food-kp-wasser",
+              "prompt_data": { "type": "vocabulary", "german": "das Wasser", "english": "the water", "article": "das", "gender": "neuter", "plural": "die Wasser", "example_sentence": "Kann ich ein Glas Wasser haben?" },
+              "explanation": "'das Wasser' is neuter. In restaurants, ask for 'Leitungswasser' for tap water."
+            },
+            {
+              "id": "a1-vocab-food-kp-apfel",
+              "prompt_data": { "type": "vocabulary", "german": "der Apfel", "english": "the apple", "article": "der", "gender": "masculine", "plural": "die Äpfel", "example_sentence": "Der Apfel ist rot und süß." },
+              "explanation": "'der Apfel' is masculine. Plural with umlaut: die Äpfel."
+            },
+            {
+              "id": "a1-vocab-food-kp-ei",
+              "prompt_data": { "type": "vocabulary", "german": "das Ei", "english": "the egg", "article": "das", "gender": "neuter", "plural": "die Eier", "example_sentence": "Zum Frühstück esse ich ein Ei." },
+              "explanation": "'das Ei' is neuter. Plural: die Eier."
+            },
+            {
+              "id": "a1-vocab-food-kp-fleisch",
+              "prompt_data": { "type": "vocabulary", "german": "das Fleisch", "english": "the meat", "article": "das", "gender": "neuter", "plural": "die Fleisch", "example_sentence": "Ich esse nicht viel Fleisch." },
+              "explanation": "'das Fleisch' is neuter. Usually uncountable (no common plural)."
+            },
+            {
+              "id": "a1-vocab-food-kp-reis",
+              "prompt_data": { "type": "vocabulary", "german": "der Reis", "english": "the rice", "article": "der", "gender": "masculine", "plural": "die Reis", "example_sentence": "Reis mit Gemüse schmeckt gut." },
+              "explanation": "'der Reis' is masculine. Usually uncountable."
+            },
+            {
+              "id": "a1-vocab-food-kp-suppe",
+              "prompt_data": { "type": "vocabulary", "german": "die Suppe", "english": "the soup", "article": "die", "gender": "feminine", "plural": "die Suppen", "example_sentence": "Die Suppe ist heiß." },
+              "explanation": "'die Suppe' is feminine. Plural: die Suppen."
+            },
+            {
+              "id": "a1-vocab-food-kp-bier",
+              "prompt_data": { "type": "vocabulary", "german": "das Bier", "english": "the beer", "article": "das", "gender": "neuter", "plural": "die Biere", "example_sentence": "Ein Bier, bitte!" },
+              "explanation": "'das Bier' is neuter. Germany has a rich beer culture with over 1,500 breweries."
+            },
+            {
+              "id": "a1-vocab-food-kp-obst",
+              "prompt_data": { "type": "vocabulary", "german": "das Obst", "english": "the fruit", "article": "das", "gender": "neuter", "plural": "die Obst", "example_sentence": "Obst ist gesund." },
+              "explanation": "'das Obst' is neuter. A collective noun (no common plural). Individual fruits have their own articles."
+            },
+            {
+              "id": "a1-vocab-food-kp-gemuese",
+              "prompt_data": { "type": "vocabulary", "german": "das Gemüse", "english": "the vegetables", "article": "das", "gender": "neuter", "plural": "die Gemüse", "example_sentence": "Ich kaufe frisches Gemüse auf dem Markt." },
+              "explanation": "'das Gemüse' is neuter. A collective noun for vegetables."
+            },
+            {
+              "id": "a1-vocab-food-kp-kuchen",
+              "prompt_data": { "type": "vocabulary", "german": "der Kuchen", "english": "the cake", "article": "der", "gender": "masculine", "plural": "die Kuchen", "example_sentence": "Der Kuchen schmeckt wunderbar." },
+              "explanation": "'der Kuchen' is masculine. Plural stays the same: die Kuchen. 'Kaffee und Kuchen' is a German afternoon tradition."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-daily-routines",
+          "name": "Daily Routines",
+          "description": "Verbs and expressions for daily activities",
+          "prerequisites": ["a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-daily-kp-aufstehen",
+              "prompt_data": { "type": "vocabulary", "german": "aufstehen", "english": "to get up", "example_sentence": "Ich stehe um sieben Uhr auf." },
+              "explanation": "'aufstehen' is a separable verb: 'Ich stehe auf.' The prefix 'auf-' goes to the end."
+            },
+            {
+              "id": "a1-vocab-daily-kp-fruehstuecken",
+              "prompt_data": { "type": "vocabulary", "german": "frühstücken", "english": "to have breakfast", "example_sentence": "Wir frühstücken um acht Uhr." },
+              "explanation": "'frühstücken' = to have breakfast. Related: 'das Frühstück' (the breakfast)."
+            },
+            {
+              "id": "a1-vocab-daily-kp-arbeiten",
+              "prompt_data": { "type": "vocabulary", "german": "arbeiten", "english": "to work", "example_sentence": "Er arbeitet von neun bis fünf." },
+              "explanation": "'arbeiten' = to work. Stem ends in '-t', so extra '-e-' in some forms: du arbeitest, er arbeitet."
+            },
+            {
+              "id": "a1-vocab-daily-kp-kochen",
+              "prompt_data": { "type": "vocabulary", "german": "kochen", "english": "to cook", "example_sentence": "Ich koche heute Abend Pasta." },
+              "explanation": "'kochen' = to cook. Also means 'to boil': 'Das Wasser kocht.'"
+            },
+            {
+              "id": "a1-vocab-daily-kp-schlafen",
+              "prompt_data": { "type": "vocabulary", "german": "schlafen", "english": "to sleep", "example_sentence": "Die Kinder schlafen schon." },
+              "explanation": "'schlafen' = to sleep. Stem-changing: du schläfst, er schläft."
+            },
+            {
+              "id": "a1-vocab-daily-kp-duschen",
+              "prompt_data": { "type": "vocabulary", "german": "duschen", "english": "to shower", "example_sentence": "Ich dusche morgens." },
+              "explanation": "'duschen' = to shower. Also reflexive: 'sich duschen'."
+            },
+            {
+              "id": "a1-vocab-daily-kp-einkaufen",
+              "prompt_data": { "type": "vocabulary", "german": "einkaufen", "english": "to go shopping", "example_sentence": "Ich kaufe am Samstag ein." },
+              "explanation": "'einkaufen' is separable: 'Ich kaufe im Supermarkt ein.' Prefix 'ein-' goes to the end."
+            },
+            {
+              "id": "a1-vocab-daily-kp-fernsehen",
+              "prompt_data": { "type": "vocabulary", "german": "fernsehen", "english": "to watch TV", "example_sentence": "Abends sehe ich gern fern." },
+              "explanation": "'fernsehen' is separable: 'Ich sehe fern.' Also stem-changing: du siehst fern, er sieht fern."
+            },
+            {
+              "id": "a1-vocab-daily-kp-putzen",
+              "prompt_data": { "type": "vocabulary", "german": "putzen", "english": "to clean", "example_sentence": "Am Wochenende putze ich die Wohnung." },
+              "explanation": "'putzen' = to clean. 'Zähne putzen' = to brush teeth."
+            },
+            {
+              "id": "a1-vocab-daily-kp-lesen",
+              "prompt_data": { "type": "vocabulary", "german": "lesen", "english": "to read", "example_sentence": "Ich lese abends ein Buch." },
+              "explanation": "'lesen' = to read. Stem-changing: du liest, er liest."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-home",
+          "name": "Home & Furniture",
+          "description": "Rooms, furniture, and household vocabulary",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-home-kp-kueche",
+              "prompt_data": { "type": "vocabulary", "german": "die Küche", "english": "the kitchen", "article": "die", "gender": "feminine", "plural": "die Küchen", "example_sentence": "Ich koche in der Küche." },
+              "explanation": "'die Küche' is feminine. Plural: die Küchen."
+            },
+            {
+              "id": "a1-vocab-home-kp-wohnzimmer",
+              "prompt_data": { "type": "vocabulary", "german": "das Wohnzimmer", "english": "the living room", "article": "das", "gender": "neuter", "plural": "die Wohnzimmer", "example_sentence": "Wir sitzen im Wohnzimmer." },
+              "explanation": "'das Wohnzimmer' is neuter. Compound: Wohn- (living) + Zimmer (room)."
+            },
+            {
+              "id": "a1-vocab-home-kp-schlafzimmer",
+              "prompt_data": { "type": "vocabulary", "german": "das Schlafzimmer", "english": "the bedroom", "article": "das", "gender": "neuter", "plural": "die Schlafzimmer", "example_sentence": "Das Schlafzimmer ist oben." },
+              "explanation": "'das Schlafzimmer' is neuter. Compound: Schlaf- (sleep) + Zimmer (room)."
+            },
+            {
+              "id": "a1-vocab-home-kp-badezimmer",
+              "prompt_data": { "type": "vocabulary", "german": "das Badezimmer", "english": "the bathroom", "article": "das", "gender": "neuter", "plural": "die Badezimmer", "example_sentence": "Das Badezimmer ist klein." },
+              "explanation": "'das Badezimmer' is neuter. Short form: 'das Bad'."
+            },
+            {
+              "id": "a1-vocab-home-kp-tisch",
+              "prompt_data": { "type": "vocabulary", "german": "der Tisch", "english": "the table", "article": "der", "gender": "masculine", "plural": "die Tische", "example_sentence": "Das Essen steht auf dem Tisch." },
+              "explanation": "'der Tisch' is masculine. Plural: die Tische."
+            },
+            {
+              "id": "a1-vocab-home-kp-stuhl",
+              "prompt_data": { "type": "vocabulary", "german": "der Stuhl", "english": "the chair", "article": "der", "gender": "masculine", "plural": "die Stühle", "example_sentence": "Setz dich auf den Stuhl!" },
+              "explanation": "'der Stuhl' is masculine. Plural with umlaut: die Stühle."
+            },
+            {
+              "id": "a1-vocab-home-kp-bett",
+              "prompt_data": { "type": "vocabulary", "german": "das Bett", "english": "the bed", "article": "das", "gender": "neuter", "plural": "die Betten", "example_sentence": "Ich gehe ins Bett." },
+              "explanation": "'das Bett' is neuter. 'ins Bett gehen' = to go to bed."
+            },
+            {
+              "id": "a1-vocab-home-kp-sofa",
+              "prompt_data": { "type": "vocabulary", "german": "das Sofa", "english": "the sofa", "article": "das", "gender": "neuter", "plural": "die Sofas", "example_sentence": "Die Katze liegt auf dem Sofa." },
+              "explanation": "'das Sofa' is neuter. Plural: die Sofas (foreign word, takes -s)."
+            },
+            {
+              "id": "a1-vocab-home-kp-fenster",
+              "prompt_data": { "type": "vocabulary", "german": "das Fenster", "english": "the window", "article": "das", "gender": "neuter", "plural": "die Fenster", "example_sentence": "Mach bitte das Fenster auf!" },
+              "explanation": "'das Fenster' is neuter. Plural stays the same: die Fenster."
+            },
+            {
+              "id": "a1-vocab-home-kp-tuer",
+              "prompt_data": { "type": "vocabulary", "german": "die Tür", "english": "the door", "article": "die", "gender": "feminine", "plural": "die Türen", "example_sentence": "Die Tür ist offen." },
+              "explanation": "'die Tür' is feminine. Plural: die Türen."
+            },
+            {
+              "id": "a1-vocab-home-kp-wohnung",
+              "prompt_data": { "type": "vocabulary", "german": "die Wohnung", "english": "the apartment", "article": "die", "gender": "feminine", "plural": "die Wohnungen", "example_sentence": "Unsere Wohnung hat drei Zimmer." },
+              "explanation": "'die Wohnung' is feminine. Most Germans rent rather than own: 'eine Wohnung mieten'."
+            },
+            {
+              "id": "a1-vocab-home-kp-schrank",
+              "prompt_data": { "type": "vocabulary", "german": "der Schrank", "english": "the cupboard / wardrobe", "article": "der", "gender": "masculine", "plural": "die Schränke", "example_sentence": "Die Teller sind im Schrank." },
+              "explanation": "'der Schrank' is masculine. Plural: die Schränke. 'Kleiderschrank' = wardrobe."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-travel",
+          "name": "Travel & Transport",
+          "description": "Vehicles, places, and travel-related vocabulary",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-travel-kp-auto",
+              "prompt_data": { "type": "vocabulary", "german": "das Auto", "english": "the car", "article": "das", "gender": "neuter", "plural": "die Autos", "example_sentence": "Ich fahre mit dem Auto zur Arbeit." },
+              "explanation": "'das Auto' is neuter. Short for 'das Automobil'. Plural: die Autos."
+            },
+            {
+              "id": "a1-vocab-travel-kp-bus",
+              "prompt_data": { "type": "vocabulary", "german": "der Bus", "english": "the bus", "article": "der", "gender": "masculine", "plural": "die Busse", "example_sentence": "Der Bus kommt in fünf Minuten." },
+              "explanation": "'der Bus' is masculine. Plural: die Busse (double 's')."
+            },
+            {
+              "id": "a1-vocab-travel-kp-zug",
+              "prompt_data": { "type": "vocabulary", "german": "der Zug", "english": "the train", "article": "der", "gender": "masculine", "plural": "die Züge", "example_sentence": "Der Zug nach München fährt um zehn Uhr." },
+              "explanation": "'der Zug' is masculine. Plural: die Züge (with umlaut)."
+            },
+            {
+              "id": "a1-vocab-travel-kp-flugzeug",
+              "prompt_data": { "type": "vocabulary", "german": "das Flugzeug", "english": "the airplane", "article": "das", "gender": "neuter", "plural": "die Flugzeuge", "example_sentence": "Das Flugzeug fliegt nach London." },
+              "explanation": "'das Flugzeug' is neuter. Compound: Flug (flight) + Zeug (thing). Literally 'flying thing'."
+            },
+            {
+              "id": "a1-vocab-travel-kp-fahrrad",
+              "prompt_data": { "type": "vocabulary", "german": "das Fahrrad", "english": "the bicycle", "article": "das", "gender": "neuter", "plural": "die Fahrräder", "example_sentence": "Ich fahre mit dem Fahrrad zur Uni." },
+              "explanation": "'das Fahrrad' is neuter. Short form: 'das Rad'. Very popular transport in Germany."
+            },
+            {
+              "id": "a1-vocab-travel-kp-strasse",
+              "prompt_data": { "type": "vocabulary", "german": "die Straße", "english": "the street", "article": "die", "gender": "feminine", "plural": "die Straßen", "example_sentence": "Die Straße ist lang." },
+              "explanation": "'die Straße' is feminine. Used in addresses: 'Berliner Straße 5'."
+            },
+            {
+              "id": "a1-vocab-travel-kp-bahnhof",
+              "prompt_data": { "type": "vocabulary", "german": "der Bahnhof", "english": "the train station", "article": "der", "gender": "masculine", "plural": "die Bahnhöfe", "example_sentence": "Wir treffen uns am Bahnhof." },
+              "explanation": "'der Bahnhof' is masculine. Compound: Bahn (railway) + Hof (yard/station)."
+            },
+            {
+              "id": "a1-vocab-travel-kp-flughafen",
+              "prompt_data": { "type": "vocabulary", "german": "der Flughafen", "english": "the airport", "article": "der", "gender": "masculine", "plural": "die Flughäfen", "example_sentence": "Der Flughafen ist weit von der Stadt." },
+              "explanation": "'der Flughafen' is masculine. Compound: Flug (flight) + Hafen (port/harbor)."
+            },
+            {
+              "id": "a1-vocab-travel-kp-fahrkarte",
+              "prompt_data": { "type": "vocabulary", "german": "die Fahrkarte", "english": "the ticket (transport)", "article": "die", "gender": "feminine", "plural": "die Fahrkarten", "example_sentence": "Ich kaufe eine Fahrkarte am Automaten." },
+              "explanation": "'die Fahrkarte' is feminine. Also: 'das Ticket' (more modern)."
+            },
+            {
+              "id": "a1-vocab-travel-kp-haltestelle",
+              "prompt_data": { "type": "vocabulary", "german": "die Haltestelle", "english": "the stop (bus/tram)", "article": "die", "gender": "feminine", "plural": "die Haltestellen", "example_sentence": "Die Haltestelle ist um die Ecke." },
+              "explanation": "'die Haltestelle' is feminine. From 'halten' (to stop) + 'Stelle' (place)."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-hobbies",
+          "name": "Hobbies & Leisure",
+          "description": "Sports, hobbies, and leisure activity vocabulary",
+          "prerequisites": ["a1-grammar-present-tense-regular"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-hobbies-kp-sport",
+              "prompt_data": { "type": "vocabulary", "german": "der Sport", "english": "the sport / exercise", "article": "der", "gender": "masculine", "plural": "die Sportarten", "example_sentence": "Ich mache gern Sport." },
+              "explanation": "'der Sport' is masculine. 'Sport machen' or 'Sport treiben' = to do sports/exercise."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-musik",
+              "prompt_data": { "type": "vocabulary", "german": "die Musik", "english": "the music", "article": "die", "gender": "feminine", "plural": "die Musik", "example_sentence": "Ich höre gern Musik." },
+              "explanation": "'die Musik' is feminine. 'Musik hören' = to listen to music. 'Musik machen' = to make music."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-schwimmen",
+              "prompt_data": { "type": "vocabulary", "german": "schwimmen", "english": "to swim / swimming", "example_sentence": "Im Sommer gehe ich schwimmen." },
+              "explanation": "'schwimmen' = to swim. 'schwimmen gehen' = to go swimming."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-tanzen",
+              "prompt_data": { "type": "vocabulary", "german": "tanzen", "english": "to dance / dancing", "example_sentence": "Sie tanzt gern Salsa." },
+              "explanation": "'tanzen' = to dance. Regular verb: ich tanze, du tanzt, er tanzt."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-fussball",
+              "prompt_data": { "type": "vocabulary", "german": "der Fußball", "english": "football / soccer", "article": "der", "gender": "masculine", "plural": "die Fußbälle", "example_sentence": "Fußball ist in Deutschland sehr beliebt." },
+              "explanation": "'der Fußball' is masculine. The most popular sport in Germany. 'Fußball spielen' = to play football."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-kino",
+              "prompt_data": { "type": "vocabulary", "german": "das Kino", "english": "the cinema", "article": "das", "gender": "neuter", "plural": "die Kinos", "example_sentence": "Wir gehen heute Abend ins Kino." },
+              "explanation": "'das Kino' is neuter. 'ins Kino gehen' = to go to the cinema."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-reisen",
+              "prompt_data": { "type": "vocabulary", "german": "reisen", "english": "to travel", "example_sentence": "Ich reise gern nach Italien." },
+              "explanation": "'reisen' = to travel. Regular verb. 'die Reise' = the trip/journey."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-fotografieren",
+              "prompt_data": { "type": "vocabulary", "german": "fotografieren", "english": "to take photos", "example_sentence": "Sie fotografiert gern Landschaften." },
+              "explanation": "'fotografieren' = to take photos. Inseparable verb (the stress is on '-ieren')."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-spazieren",
+              "prompt_data": { "type": "vocabulary", "german": "spazieren gehen", "english": "to go for a walk", "example_sentence": "Am Sonntag gehen wir spazieren." },
+              "explanation": "'spazieren gehen' = to go for a walk. Very common German leisure activity."
+            },
+            {
+              "id": "a1-vocab-hobbies-kp-gern",
+              "prompt_data": { "type": "vocabulary", "german": "gern / gerne", "english": "gladly / to like doing", "example_sentence": "Ich spiele gern Gitarre." },
+              "explanation": "'gern' or 'gerne' (both correct) after a verb means 'to like doing something': 'Ich lese gern' = I like reading."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-colors",
+          "name": "Colors & Descriptions",
+          "description": "Basic color words and descriptive adjectives",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-colors-kp-rot",
+              "prompt_data": { "type": "vocabulary", "german": "rot", "english": "red", "example_sentence": "Die Rose ist rot." },
+              "explanation": "'rot' = red. No ending when predicative: 'Das Auto ist rot.'"
+            },
+            {
+              "id": "a1-vocab-colors-kp-blau",
+              "prompt_data": { "type": "vocabulary", "german": "blau", "english": "blue", "example_sentence": "Der Himmel ist blau." },
+              "explanation": "'blau' = blue. Colloquially, 'blau sein' = to be drunk."
+            },
+            {
+              "id": "a1-vocab-colors-kp-gruen",
+              "prompt_data": { "type": "vocabulary", "german": "grün", "english": "green", "example_sentence": "Das Gras ist grün." },
+              "explanation": "'grün' = green. 'Die Grünen' = the Green Party in Germany."
+            },
+            {
+              "id": "a1-vocab-colors-kp-gelb",
+              "prompt_data": { "type": "vocabulary", "german": "gelb", "english": "yellow", "example_sentence": "Die Banane ist gelb." },
+              "explanation": "'gelb' = yellow."
+            },
+            {
+              "id": "a1-vocab-colors-kp-weiss",
+              "prompt_data": { "type": "vocabulary", "german": "weiß", "english": "white", "example_sentence": "Der Schnee ist weiß." },
+              "explanation": "'weiß' = white. Don't confuse with 'weiß' (knows): 'Ich weiß das' = I know that."
+            },
+            {
+              "id": "a1-vocab-colors-kp-schwarz",
+              "prompt_data": { "type": "vocabulary", "german": "schwarz", "english": "black", "example_sentence": "Die Katze ist schwarz." },
+              "explanation": "'schwarz' = black. 'Schwarzwald' = Black Forest."
+            },
+            {
+              "id": "a1-vocab-colors-kp-gross",
+              "prompt_data": { "type": "vocabulary", "german": "groß", "english": "big / tall", "example_sentence": "Berlin ist eine große Stadt." },
+              "explanation": "'groß' = big/tall. Comparative: größer. Superlative: am größten."
+            },
+            {
+              "id": "a1-vocab-colors-kp-klein",
+              "prompt_data": { "type": "vocabulary", "german": "klein", "english": "small / short", "example_sentence": "Das Baby ist noch klein." },
+              "explanation": "'klein' = small/short. Opposite of 'groß'."
+            },
+            {
+              "id": "a1-vocab-colors-kp-schoen",
+              "prompt_data": { "type": "vocabulary", "german": "schön", "english": "beautiful / nice", "example_sentence": "Das Wetter ist heute schön." },
+              "explanation": "'schön' = beautiful/nice. Very versatile: 'schönes Wetter', 'ein schöner Tag', 'Schön!' (Great!)."
+            },
+            {
+              "id": "a1-vocab-colors-kp-braun",
+              "prompt_data": { "type": "vocabulary", "german": "braun", "english": "brown", "example_sentence": "Der Hund ist braun." },
+              "explanation": "'braun' = brown."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-days-months",
+          "name": "Days, Months, Seasons",
+          "description": "Days of the week, months of the year, and seasons",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-days-kp-montag",
+              "prompt_data": { "type": "vocabulary", "german": "der Montag", "english": "Monday", "article": "der", "gender": "masculine", "example_sentence": "Am Montag beginnt die Arbeitswoche." },
+              "explanation": "All days are masculine ('der'). 'am Montag' = on Monday."
+            },
+            {
+              "id": "a1-vocab-days-kp-dienstag",
+              "prompt_data": { "type": "vocabulary", "german": "der Dienstag", "english": "Tuesday", "article": "der", "gender": "masculine", "example_sentence": "Am Dienstag habe ich Deutschkurs." },
+              "explanation": "'der Dienstag' = Tuesday. All days of the week are masculine."
+            },
+            {
+              "id": "a1-vocab-days-kp-mittwoch",
+              "prompt_data": { "type": "vocabulary", "german": "der Mittwoch", "english": "Wednesday", "article": "der", "gender": "masculine", "example_sentence": "Mittwoch ist die Mitte der Woche." },
+              "explanation": "'Mittwoch' literally means 'mid-week' (Mitte + Woche)."
+            },
+            {
+              "id": "a1-vocab-days-kp-donnerstag",
+              "prompt_data": { "type": "vocabulary", "german": "der Donnerstag", "english": "Thursday", "article": "der", "gender": "masculine", "example_sentence": "Am Donnerstag gehe ich zum Sport." },
+              "explanation": "'Donnerstag' comes from 'Donner' (thunder) — named after the god of thunder."
+            },
+            {
+              "id": "a1-vocab-days-kp-freitag",
+              "prompt_data": { "type": "vocabulary", "german": "der Freitag", "english": "Friday", "article": "der", "gender": "masculine", "example_sentence": "Freitag ist mein Lieblingstag!" },
+              "explanation": "'Freitag' comes from the goddess Freya."
+            },
+            {
+              "id": "a1-vocab-days-kp-samstag",
+              "prompt_data": { "type": "vocabulary", "german": "der Samstag", "english": "Saturday", "article": "der", "gender": "masculine", "example_sentence": "Am Samstag gehen wir einkaufen." },
+              "explanation": "'Samstag' (Saturday). In northern Germany also called 'Sonnabend'."
+            },
+            {
+              "id": "a1-vocab-days-kp-sonntag",
+              "prompt_data": { "type": "vocabulary", "german": "der Sonntag", "english": "Sunday", "article": "der", "gender": "masculine", "example_sentence": "Am Sonntag haben die Geschäfte zu." },
+              "explanation": "'Sonntag' = Sunday. Most shops in Germany are closed on Sundays."
+            },
+            {
+              "id": "a1-vocab-days-kp-januar",
+              "prompt_data": { "type": "vocabulary", "german": "der Januar", "english": "January", "article": "der", "gender": "masculine", "example_sentence": "Im Januar ist es kalt." },
+              "explanation": "All months are masculine ('der'). 'im Januar' = in January."
+            },
+            {
+              "id": "a1-vocab-days-kp-maerz",
+              "prompt_data": { "type": "vocabulary", "german": "der März", "english": "March", "article": "der", "gender": "masculine", "example_sentence": "Im März beginnt der Frühling." },
+              "explanation": "'der März' = March. Note the umlaut: März (not Marz)."
+            },
+            {
+              "id": "a1-vocab-days-kp-juni",
+              "prompt_data": { "type": "vocabulary", "german": "der Juni", "english": "June", "article": "der", "gender": "masculine", "example_sentence": "Im Juni ist es warm." },
+              "explanation": "'der Juni' = June. Careful: 'Juni' vs. 'Juli' sound similar — Germans sometimes say 'Juno' and 'Julei' to distinguish."
+            },
+            {
+              "id": "a1-vocab-days-kp-dezember",
+              "prompt_data": { "type": "vocabulary", "german": "der Dezember", "english": "December", "article": "der", "gender": "masculine", "example_sentence": "Im Dezember feiern wir Weihnachten." },
+              "explanation": "'der Dezember' = December. Christmas markets ('Weihnachtsmärkte') are a highlight."
+            },
+            {
+              "id": "a1-vocab-days-kp-fruehling",
+              "prompt_data": { "type": "vocabulary", "german": "der Frühling", "english": "spring", "article": "der", "gender": "masculine", "example_sentence": "Im Frühling blühen die Blumen." },
+              "explanation": "'der Frühling' = spring. Also called 'das Frühjahr'. 'im Frühling' = in spring."
+            },
+            {
+              "id": "a1-vocab-days-kp-sommer",
+              "prompt_data": { "type": "vocabulary", "german": "der Sommer", "english": "summer", "article": "der", "gender": "masculine", "example_sentence": "Im Sommer fahren wir ans Meer." },
+              "explanation": "'der Sommer' = summer. 'die Sommerferien' = summer holidays."
+            },
+            {
+              "id": "a1-vocab-days-kp-herbst",
+              "prompt_data": { "type": "vocabulary", "german": "der Herbst", "english": "autumn / fall", "article": "der", "gender": "masculine", "example_sentence": "Im Herbst werden die Blätter bunt." },
+              "explanation": "'der Herbst' = autumn/fall. Related to English 'harvest'."
+            },
+            {
+              "id": "a1-vocab-days-kp-winter",
+              "prompt_data": { "type": "vocabulary", "german": "der Winter", "english": "winter", "article": "der", "gender": "masculine", "example_sentence": "Im Winter schneit es manchmal." },
+              "explanation": "'der Winter' = winter. 'im Winter' = in winter."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-shopping",
+          "name": "Shopping & Commerce",
+          "description": "Shopping vocabulary: buying, prices, and stores",
+          "prerequisites": ["a1-grammar-accusative-case"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-shop-kp-kaufen",
+              "prompt_data": { "type": "vocabulary", "german": "kaufen", "english": "to buy", "example_sentence": "Ich kaufe ein neues Buch." },
+              "explanation": "'kaufen' = to buy. Regular verb: ich kaufe, du kaufst, er kauft."
+            },
+            {
+              "id": "a1-vocab-shop-kp-preis",
+              "prompt_data": { "type": "vocabulary", "german": "der Preis", "english": "the price", "article": "der", "gender": "masculine", "plural": "die Preise", "example_sentence": "Was ist der Preis?" },
+              "explanation": "'der Preis' is masculine. 'Wie viel kostet das?' = How much does that cost?"
+            },
+            {
+              "id": "a1-vocab-shop-kp-euro",
+              "prompt_data": { "type": "vocabulary", "german": "der Euro", "english": "the euro", "article": "der", "gender": "masculine", "plural": "die Euro(s)", "example_sentence": "Das kostet fünf Euro." },
+              "explanation": "'der Euro' is masculine. In spoken German, the plural is often just 'Euro': 'fünf Euro'."
+            },
+            {
+              "id": "a1-vocab-shop-kp-cent",
+              "prompt_data": { "type": "vocabulary", "german": "der Cent", "english": "the cent", "article": "der", "gender": "masculine", "plural": "die Cent(s)", "example_sentence": "Das kostet neunundneunzig Cent." },
+              "explanation": "'der Cent' is masculine. 'drei Euro fünfzig' = 3.50 EUR."
+            },
+            {
+              "id": "a1-vocab-shop-kp-teuer",
+              "prompt_data": { "type": "vocabulary", "german": "teuer", "english": "expensive", "example_sentence": "München ist sehr teuer." },
+              "explanation": "'teuer' = expensive. Comparative: teurer. Opposite: 'billig' or 'günstig'."
+            },
+            {
+              "id": "a1-vocab-shop-kp-billig",
+              "prompt_data": { "type": "vocabulary", "german": "billig", "english": "cheap", "example_sentence": "Im Supermarkt ist es billig." },
+              "explanation": "'billig' = cheap. Can sound slightly negative; 'günstig' (affordable/good value) is more neutral."
+            },
+            {
+              "id": "a1-vocab-shop-kp-geschaeft",
+              "prompt_data": { "type": "vocabulary", "german": "das Geschäft", "english": "the shop / store", "article": "das", "gender": "neuter", "plural": "die Geschäfte", "example_sentence": "Das Geschäft ist um die Ecke." },
+              "explanation": "'das Geschäft' is neuter. Also means 'business' in general."
+            },
+            {
+              "id": "a1-vocab-shop-kp-supermarkt",
+              "prompt_data": { "type": "vocabulary", "german": "der Supermarkt", "english": "the supermarket", "article": "der", "gender": "masculine", "plural": "die Supermärkte", "example_sentence": "Ich gehe in den Supermarkt." },
+              "explanation": "'der Supermarkt' is masculine. Common chains in Germany: Aldi, Lidl, Rewe, Edeka."
+            },
+            {
+              "id": "a1-vocab-shop-kp-bezahlen",
+              "prompt_data": { "type": "vocabulary", "german": "bezahlen", "english": "to pay", "example_sentence": "Ich möchte bitte bezahlen." },
+              "explanation": "'bezahlen' = to pay. Also: 'zahlen' (shorter form). 'Kann ich mit Karte bezahlen?'"
+            },
+            {
+              "id": "a1-vocab-shop-kp-kosten",
+              "prompt_data": { "type": "vocabulary", "german": "kosten", "english": "to cost", "example_sentence": "Was kostet das?" },
+              "explanation": "'kosten' = to cost. 'Wie viel kostet das?' and 'Was kostet das?' are both common."
+            }
+          ]
+        },
+        {
+          "id": "a1-vocab-professions",
+          "name": "Professions",
+          "description": "Common job titles and professional vocabulary",
+          "prerequisites": ["a1-grammar-nominative-articles"],
+          "mastery_threshold": 0.85,
+          "exercise_templates": ["mc-vocab", "mc-vocab-reverse", "translation-vocab", "translation-vocab-reverse", "matching-vocab", "fill-blank-vocab"],
+          "knowledge_points": [
+            {
+              "id": "a1-vocab-prof-kp-arzt",
+              "prompt_data": { "type": "vocabulary", "german": "der Arzt / die Ärztin", "english": "the doctor (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Ärzte / die Ärztinnen", "example_sentence": "Der Arzt untersucht den Patienten." },
+              "explanation": "'der Arzt' (male), 'die Ärztin' (female). Most professions have feminine forms with '-in'."
+            },
+            {
+              "id": "a1-vocab-prof-kp-lehrer",
+              "prompt_data": { "type": "vocabulary", "german": "der Lehrer / die Lehrerin", "english": "the teacher (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Lehrer / die Lehrerinnen", "example_sentence": "Die Lehrerin erklärt die Grammatik." },
+              "explanation": "'der Lehrer' (male), 'die Lehrerin' (female). Add '-in' for the feminine form."
+            },
+            {
+              "id": "a1-vocab-prof-kp-student",
+              "prompt_data": { "type": "vocabulary", "german": "der Student / die Studentin", "english": "the (university) student (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Studenten / die Studentinnen", "example_sentence": "Ich bin Student an der Universität." },
+              "explanation": "'Student' is specifically for university students. For school pupils: 'der Schüler / die Schülerin'."
+            },
+            {
+              "id": "a1-vocab-prof-kp-koch",
+              "prompt_data": { "type": "vocabulary", "german": "der Koch / die Köchin", "english": "the cook / chef (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Köche / die Köchinnen", "example_sentence": "Der Koch bereitet das Essen vor." },
+              "explanation": "'der Koch' (male), 'die Köchin' (female). Related to 'kochen' (to cook)."
+            },
+            {
+              "id": "a1-vocab-prof-kp-ingenieur",
+              "prompt_data": { "type": "vocabulary", "german": "der Ingenieur / die Ingenieurin", "english": "the engineer (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Ingenieure / die Ingenieurinnen", "example_sentence": "Sie arbeitet als Ingenieurin bei Siemens." },
+              "explanation": "'der Ingenieur' (male), 'die Ingenieurin' (female). Germany is famous for its engineers."
+            },
+            {
+              "id": "a1-vocab-prof-kp-verkaeufer",
+              "prompt_data": { "type": "vocabulary", "german": "der Verkäufer / die Verkäuferin", "english": "the salesperson (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Verkäufer / die Verkäuferinnen", "example_sentence": "Der Verkäufer hilft dem Kunden." },
+              "explanation": "'Verkäufer' from 'verkaufen' (to sell). '-er' for doer of the action, '-in' for feminine."
+            },
+            {
+              "id": "a1-vocab-prof-kp-polizist",
+              "prompt_data": { "type": "vocabulary", "german": "der Polizist / die Polizistin", "english": "the police officer (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Polizisten / die Polizistinnen", "example_sentence": "Der Polizist steht an der Kreuzung." },
+              "explanation": "'der Polizist' (male), 'die Polizistin' (female). Note: 'die Polizei' = the police (institution)."
+            },
+            {
+              "id": "a1-vocab-prof-kp-krankenschwester",
+              "prompt_data": { "type": "vocabulary", "german": "der Krankenpfleger / die Krankenschwester", "english": "the nurse (m/f)", "article": "der/die", "gender": "masculine/feminine", "plural": "die Krankenpfleger / die Krankenschwestern", "example_sentence": "Die Krankenschwester hilft den Patienten." },
+              "explanation": "Traditional: 'Krankenschwester' (f). Modern gender-neutral: 'Pflegefachkraft'. Male: 'Krankenpfleger'."
+            },
+            {
+              "id": "a1-vocab-prof-kp-beruf",
+              "prompt_data": { "type": "vocabulary", "german": "der Beruf", "english": "the profession / occupation", "article": "der", "gender": "masculine", "plural": "die Berufe", "example_sentence": "Was ist dein Beruf?" },
+              "explanation": "'der Beruf' = profession. 'Was sind Sie von Beruf?' = What do you do for a living?"
+            },
+            {
+              "id": "a1-vocab-prof-kp-als",
+              "prompt_data": { "type": "vocabulary", "german": "als", "english": "as (profession)", "example_sentence": "Er arbeitet als Kellner." },
+              "explanation": "'als' + profession (no article): 'Ich arbeite als Lehrerin.' NOT 'als eine Lehrerin'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

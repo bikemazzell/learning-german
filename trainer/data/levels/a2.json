@@ -1,0 +1,3709 @@
+{
+  "level": "A2",
+  "domains": [
+    {
+      "id": "grammar",
+      "name": "Grammar",
+      "topics": [
+        {
+          "id": "a2-grammar-perfekt-haben",
+          "name": "Perfekt with haben",
+          "description": "Present perfect tense with 'haben' auxiliary for regular verbs",
+          "prerequisites": [
+            "a1-grammar-present-tense-regular"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-perfhaben-kp-gemacht-ich",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "machen",
+                "pronoun": "ich",
+                "correct_form": "habe gemacht",
+                "tense": "perfekt",
+                "english": "I did / I have done",
+                "auxiliary": "haben",
+                "past_participle": "gemacht",
+                "example_sentence": "Ich habe meine Hausaufgaben gemacht."
+              },
+              "explanation": "Regular verbs: 'ge-' + stem + '-t'. machen → gemacht. 'Ich' uses 'habe'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gespielt-du",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "spielen",
+                "pronoun": "du",
+                "correct_form": "hast gespielt",
+                "tense": "perfekt",
+                "english": "you played / you have played",
+                "auxiliary": "haben",
+                "past_participle": "gespielt",
+                "example_sentence": "Du hast gestern Fußball gespielt."
+              },
+              "explanation": "Regular Perfekt: spielen → gespielt. 'Du' uses 'hast'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gekocht-er",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "kochen",
+                "pronoun": "er",
+                "correct_form": "hat gekocht",
+                "tense": "perfekt",
+                "english": "he cooked / he has cooked",
+                "auxiliary": "haben",
+                "past_participle": "gekocht",
+                "example_sentence": "Er hat das Abendessen gekocht."
+              },
+              "explanation": "Regular Perfekt: kochen → gekocht. 'Er/sie/es' uses 'hat'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gekauft-sie",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "kaufen",
+                "pronoun": "sie",
+                "correct_form": "hat gekauft",
+                "tense": "perfekt",
+                "english": "she bought / she has bought",
+                "auxiliary": "haben",
+                "past_participle": "gekauft",
+                "example_sentence": "Sie hat ein neues Kleid gekauft."
+              },
+              "explanation": "Regular Perfekt: kaufen → gekauft. 'Sie' (she) uses 'hat'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gelernt-wir",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "lernen",
+                "pronoun": "wir",
+                "correct_form": "haben gelernt",
+                "tense": "perfekt",
+                "english": "we learned / we have learned",
+                "auxiliary": "haben",
+                "past_participle": "gelernt",
+                "example_sentence": "Wir haben viel Deutsch gelernt."
+              },
+              "explanation": "Regular Perfekt: lernen → gelernt. 'Wir' uses 'haben'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gehoert-ihr",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "hören",
+                "pronoun": "ihr",
+                "correct_form": "habt gehört",
+                "tense": "perfekt",
+                "english": "you (plural) heard / you have heard",
+                "auxiliary": "haben",
+                "past_participle": "gehört",
+                "example_sentence": "Habt ihr die Musik gehört?"
+              },
+              "explanation": "Regular Perfekt: hören → gehört. 'Ihr' uses 'habt'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gemacht-sie-pl",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "machen",
+                "pronoun": "sie (plural)",
+                "correct_form": "haben gemacht",
+                "tense": "perfekt",
+                "english": "they did / they have done",
+                "auxiliary": "haben",
+                "past_participle": "gemacht",
+                "example_sentence": "Sie haben einen Kuchen gemacht."
+              },
+              "explanation": "Regular Perfekt: machen → gemacht. 'Sie' (they) uses 'haben'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gekauft-ich",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "kaufen",
+                "pronoun": "ich",
+                "correct_form": "habe gekauft",
+                "tense": "perfekt",
+                "english": "I bought / I have bought",
+                "auxiliary": "haben",
+                "past_participle": "gekauft",
+                "example_sentence": "Ich habe Milch und Brot gekauft."
+              },
+              "explanation": "Regular Perfekt: kaufen → gekauft. Auxiliary 'haben' conjugated for 'ich' → 'habe'."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gespielt-wir",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "spielen",
+                "pronoun": "wir",
+                "correct_form": "haben gespielt",
+                "tense": "perfekt",
+                "english": "we played / we have played",
+                "auxiliary": "haben",
+                "past_participle": "gespielt",
+                "example_sentence": "Wir haben am Wochenende Karten gespielt."
+              },
+              "explanation": "Regular Perfekt: spielen → gespielt. Past participle goes to the end of the sentence."
+            },
+            {
+              "id": "a2-gram-perfhaben-kp-gekocht-Sie",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "kochen",
+                "pronoun": "Sie",
+                "correct_form": "haben gekocht",
+                "tense": "perfekt",
+                "english": "you (formal) cooked / you have cooked",
+                "auxiliary": "haben",
+                "past_participle": "gekocht",
+                "example_sentence": "Haben Sie schon gekocht?"
+              },
+              "explanation": "Regular Perfekt: kochen → gekocht. Formal 'Sie' uses 'haben', same as 'sie' (they)."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-perfekt-sein",
+          "name": "Perfekt with sein",
+          "description": "Present perfect tense with 'sein' auxiliary for verbs of movement and change of state",
+          "prerequisites": [
+            "a2-grammar-perfekt-haben"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-perfsein-kp-gegangen-ich",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "gehen",
+                "pronoun": "ich",
+                "correct_form": "bin gegangen",
+                "tense": "perfekt",
+                "english": "I went / I have gone",
+                "auxiliary": "sein",
+                "past_participle": "gegangen",
+                "example_sentence": "Ich bin gestern ins Kino gegangen."
+              },
+              "explanation": "Verbs of movement use 'sein'. gehen → gegangen (irregular). 'Ich' uses 'bin'."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-gefahren-du",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "fahren",
+                "pronoun": "du",
+                "correct_form": "bist gefahren",
+                "tense": "perfekt",
+                "english": "you drove / you have driven",
+                "auxiliary": "sein",
+                "past_participle": "gefahren",
+                "example_sentence": "Du bist nach Hamburg gefahren."
+              },
+              "explanation": "fahren → gefahren (irregular, a→a). 'Du' uses 'bist'."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-gekommen-er",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "kommen",
+                "pronoun": "er",
+                "correct_form": "ist gekommen",
+                "tense": "perfekt",
+                "english": "he came / he has come",
+                "auxiliary": "sein",
+                "past_participle": "gekommen",
+                "example_sentence": "Er ist pünktlich gekommen."
+              },
+              "explanation": "kommen → gekommen (irregular). 'Er/sie/es' uses 'ist'."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-geflogen-wir",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "fliegen",
+                "pronoun": "wir",
+                "correct_form": "sind geflogen",
+                "tense": "perfekt",
+                "english": "we flew / we have flown",
+                "auxiliary": "sein",
+                "past_participle": "geflogen",
+                "example_sentence": "Wir sind nach Spanien geflogen."
+              },
+              "explanation": "fliegen → geflogen (irregular). 'Wir' uses 'sind'."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-gelaufen-ihr",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "laufen",
+                "pronoun": "ihr",
+                "correct_form": "seid gelaufen",
+                "tense": "perfekt",
+                "english": "you (plural) ran / you have run",
+                "auxiliary": "sein",
+                "past_participle": "gelaufen",
+                "example_sentence": "Ihr seid durch den Park gelaufen."
+              },
+              "explanation": "laufen → gelaufen (irregular). 'Ihr' uses 'seid'."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-geworden-sie",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "werden",
+                "pronoun": "sie",
+                "correct_form": "ist geworden",
+                "tense": "perfekt",
+                "english": "she became / she has become",
+                "auxiliary": "sein",
+                "past_participle": "geworden",
+                "example_sentence": "Sie ist Lehrerin geworden."
+              },
+              "explanation": "Change of state verbs also use 'sein'. werden → geworden (irregular)."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-gegangen-sie-pl",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "gehen",
+                "pronoun": "sie (plural)",
+                "correct_form": "sind gegangen",
+                "tense": "perfekt",
+                "english": "they went / they have gone",
+                "auxiliary": "sein",
+                "past_participle": "gegangen",
+                "example_sentence": "Sie sind nach Hause gegangen."
+              },
+              "explanation": "'Sie' (they) uses 'sind' with sein-verbs. gehen → gegangen."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-gefahren-ich",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "fahren",
+                "pronoun": "ich",
+                "correct_form": "bin gefahren",
+                "tense": "perfekt",
+                "english": "I drove / I have driven",
+                "auxiliary": "sein",
+                "past_participle": "gefahren",
+                "example_sentence": "Ich bin mit dem Zug gefahren."
+              },
+              "explanation": "fahren → gefahren. Movement verbs use 'sein': 'bin gefahren'."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-gekommen-wir",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "kommen",
+                "pronoun": "wir",
+                "correct_form": "sind gekommen",
+                "tense": "perfekt",
+                "english": "we came / we have come",
+                "auxiliary": "sein",
+                "past_participle": "gekommen",
+                "example_sentence": "Wir sind gerade erst gekommen."
+              },
+              "explanation": "kommen → gekommen. 'Wir' + 'sein' → 'sind gekommen'."
+            },
+            {
+              "id": "a2-gram-perfsein-kp-geflogen-er",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "fliegen",
+                "pronoun": "er",
+                "correct_form": "ist geflogen",
+                "tense": "perfekt",
+                "english": "he flew / he has flown",
+                "auxiliary": "sein",
+                "past_participle": "geflogen",
+                "example_sentence": "Er ist nach New York geflogen."
+              },
+              "explanation": "fliegen → geflogen (ie→o). All flying/movement verbs use 'sein'."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-irregular-participles",
+          "name": "Irregular Past Participles",
+          "description": "Common irregular past participles that don't follow the regular ge- + stem + -t pattern",
+          "prerequisites": [
+            "a2-grammar-perfekt-haben"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-irr-kp-getrunken",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "trinken",
+                "pronoun": "ich",
+                "correct_form": "habe getrunken",
+                "tense": "perfekt",
+                "english": "I drank / I have drunk",
+                "auxiliary": "haben",
+                "past_participle": "getrunken",
+                "example_sentence": "Ich habe zu viel Kaffee getrunken."
+              },
+              "explanation": "trinken → getrunken (irregular: i→u). Strong verbs change their stem vowel."
+            },
+            {
+              "id": "a2-gram-irr-kp-gegessen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "essen",
+                "pronoun": "wir",
+                "correct_form": "haben gegessen",
+                "tense": "perfekt",
+                "english": "we ate / we have eaten",
+                "auxiliary": "haben",
+                "past_participle": "gegessen",
+                "example_sentence": "Wir haben Pizza gegessen."
+              },
+              "explanation": "essen → gegessen (irregular: e→e, but ends in -en not -t). Note: ge- + g + essen."
+            },
+            {
+              "id": "a2-gram-irr-kp-geschrieben",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "schreiben",
+                "pronoun": "er",
+                "correct_form": "hat geschrieben",
+                "tense": "perfekt",
+                "english": "he wrote / he has written",
+                "auxiliary": "haben",
+                "past_participle": "geschrieben",
+                "example_sentence": "Er hat einen Brief geschrieben."
+              },
+              "explanation": "schreiben → geschrieben (irregular: ei→ie). Strong verb with vowel change."
+            },
+            {
+              "id": "a2-gram-irr-kp-gelesen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "lesen",
+                "pronoun": "sie",
+                "correct_form": "hat gelesen",
+                "tense": "perfekt",
+                "english": "she read / she has read",
+                "auxiliary": "haben",
+                "past_participle": "gelesen",
+                "example_sentence": "Sie hat das Buch gelesen."
+              },
+              "explanation": "lesen → gelesen (irregular: ends in -en). Strong verb, but stem vowel stays the same."
+            },
+            {
+              "id": "a2-gram-irr-kp-gesprochen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sprechen",
+                "pronoun": "du",
+                "correct_form": "hast gesprochen",
+                "tense": "perfekt",
+                "english": "you spoke / you have spoken",
+                "auxiliary": "haben",
+                "past_participle": "gesprochen",
+                "example_sentence": "Du hast mit dem Chef gesprochen."
+              },
+              "explanation": "sprechen → gesprochen (irregular: e→o). Strong verb with stem vowel change."
+            },
+            {
+              "id": "a2-gram-irr-kp-genommen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "nehmen",
+                "pronoun": "ich",
+                "correct_form": "habe genommen",
+                "tense": "perfekt",
+                "english": "I took / I have taken",
+                "auxiliary": "haben",
+                "past_participle": "genommen",
+                "example_sentence": "Ich habe den Bus genommen."
+              },
+              "explanation": "nehmen → genommen (irregular: e→o, double m). One of the trickiest irregular forms."
+            },
+            {
+              "id": "a2-gram-irr-kp-gesehen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sehen",
+                "pronoun": "ihr",
+                "correct_form": "habt gesehen",
+                "tense": "perfekt",
+                "english": "you (plural) saw / you have seen",
+                "auxiliary": "haben",
+                "past_participle": "gesehen",
+                "example_sentence": "Habt ihr den Film gesehen?"
+              },
+              "explanation": "sehen → gesehen (irregular: ends in -en). The stem vowel stays 'e'."
+            },
+            {
+              "id": "a2-gram-irr-kp-gefunden",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "finden",
+                "pronoun": "wir",
+                "correct_form": "haben gefunden",
+                "tense": "perfekt",
+                "english": "we found / we have found",
+                "auxiliary": "haben",
+                "past_participle": "gefunden",
+                "example_sentence": "Wir haben den Schlüssel gefunden."
+              },
+              "explanation": "finden → gefunden (irregular: i→u). Strong verb with vowel change."
+            },
+            {
+              "id": "a2-gram-irr-kp-getrunken-er",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "trinken",
+                "pronoun": "er",
+                "correct_form": "hat getrunken",
+                "tense": "perfekt",
+                "english": "he drank / he has drunk",
+                "auxiliary": "haben",
+                "past_participle": "getrunken",
+                "example_sentence": "Er hat ein Glas Wasser getrunken."
+              },
+              "explanation": "trinken → getrunken. Remember: irregular participles end in '-en', not '-t'."
+            },
+            {
+              "id": "a2-gram-irr-kp-gegessen-du",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "essen",
+                "pronoun": "du",
+                "correct_form": "hast gegessen",
+                "tense": "perfekt",
+                "english": "you ate / you have eaten",
+                "auxiliary": "haben",
+                "past_participle": "gegessen",
+                "example_sentence": "Hast du schon gegessen?"
+              },
+              "explanation": "essen → gegessen. 'Hast du schon gegessen?' is a very common daily question."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-dative-case",
+          "name": "Dative Case",
+          "description": "The dative case for indirect objects: articles dem, der, dem and pronouns mir, dir, ihm, ihr, uns, euch, ihnen",
+          "prerequisites": [
+            "a1-grammar-accusative-case"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-article",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-dative-kp-dem-m",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "dem",
+                "english": "the (dative masculine)",
+                "rule": "Dative case: der (masc.) → dem",
+                "correct_form": "dem",
+                "example_sentence": "Ich gebe dem Mann das Buch.",
+                "counter_example": "Ich sehe den Mann. (accusative)"
+              },
+              "explanation": "Dative masculine article: der → dem. Used for indirect objects (to/for whom)."
+            },
+            {
+              "id": "a2-gram-dative-kp-der-f",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "der",
+                "english": "the (dative feminine)",
+                "rule": "Dative case: die (fem.) → der",
+                "correct_form": "der",
+                "example_sentence": "Er hilft der Frau.",
+                "counter_example": "Er sieht die Frau. (accusative)"
+              },
+              "explanation": "Dative feminine article: die → der. Note: same form as nominative masculine 'der'!"
+            },
+            {
+              "id": "a2-gram-dative-kp-dem-n",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "dem",
+                "english": "the (dative neuter)",
+                "rule": "Dative case: das (neut.) → dem",
+                "correct_form": "dem",
+                "example_sentence": "Sie gibt dem Kind einen Apfel.",
+                "counter_example": "Sie sieht das Kind. (accusative)"
+              },
+              "explanation": "Dative neuter article: das → dem. Same as dative masculine."
+            },
+            {
+              "id": "a2-gram-dative-kp-einem",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "einem",
+                "english": "a (dative masculine/neuter)",
+                "rule": "Dative case: ein (masc./neut.) → einem",
+                "correct_form": "einem",
+                "example_sentence": "Ich erzähle einem Freund die Geschichte.",
+                "counter_example": "Ich habe einen Freund. (accusative)"
+              },
+              "explanation": "Dative indefinite masculine/neuter: ein → einem."
+            },
+            {
+              "id": "a2-gram-dative-kp-einer",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "einer",
+                "english": "a (dative feminine)",
+                "rule": "Dative case: eine (fem.) → einer",
+                "correct_form": "einer",
+                "example_sentence": "Er schreibt einer Freundin einen Brief.",
+                "counter_example": "Er hat eine Freundin. (accusative)"
+              },
+              "explanation": "Dative indefinite feminine: eine → einer."
+            },
+            {
+              "id": "a2-gram-dative-kp-mir",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "mir",
+                "english": "me (dative)",
+                "rule": "Dative pronoun: ich → mir",
+                "correct_form": "mir",
+                "example_sentence": "Kannst du mir helfen?",
+                "counter_example": "Er sieht mich. (accusative)"
+              },
+              "explanation": "Dative of 'ich' is 'mir'. Common phrase: 'Hilf mir!' (Help me!)"
+            },
+            {
+              "id": "a2-gram-dative-kp-dir",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "dir",
+                "english": "you (dative, informal)",
+                "rule": "Dative pronoun: du → dir",
+                "correct_form": "dir",
+                "example_sentence": "Ich gebe dir das Geld.",
+                "counter_example": "Ich sehe dich. (accusative)"
+              },
+              "explanation": "Dative of 'du' is 'dir'. Common: 'Wie geht es dir?' (How are you?)"
+            },
+            {
+              "id": "a2-gram-dative-kp-ihm",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "ihm",
+                "english": "him / it (dative)",
+                "rule": "Dative pronoun: er/es → ihm",
+                "correct_form": "ihm",
+                "example_sentence": "Ich habe ihm eine Nachricht geschickt.",
+                "counter_example": "Ich sehe ihn. (accusative)"
+              },
+              "explanation": "Dative of 'er' and 'es' is 'ihm'."
+            },
+            {
+              "id": "a2-gram-dative-kp-ihr-pron",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "ihr",
+                "english": "her (dative)",
+                "rule": "Dative pronoun: sie (she) → ihr",
+                "correct_form": "ihr",
+                "example_sentence": "Ich bringe ihr Blumen mit.",
+                "counter_example": "Ich sehe sie. (accusative)"
+              },
+              "explanation": "Dative of 'sie' (she) is 'ihr'. Same form as 'ihr' (you plural) and possessive."
+            },
+            {
+              "id": "a2-gram-dative-kp-uns",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "uns",
+                "english": "us (dative)",
+                "rule": "Dative pronoun: wir → uns",
+                "correct_form": "uns",
+                "example_sentence": "Er hat uns geholfen.",
+                "counter_example": "Er sieht uns. (accusative — same form!)"
+              },
+              "explanation": "Dative of 'wir' is 'uns'. Same form in accusative and dative."
+            },
+            {
+              "id": "a2-gram-dative-kp-euch",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "euch",
+                "english": "you all (dative)",
+                "rule": "Dative pronoun: ihr → euch",
+                "correct_form": "euch",
+                "example_sentence": "Ich zeige euch die Stadt.",
+                "counter_example": "Ich besuche euch. (accusative — same form!)"
+              },
+              "explanation": "Dative of 'ihr' is 'euch'. Same form in accusative and dative."
+            },
+            {
+              "id": "a2-gram-dative-kp-ihnen",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "ihnen",
+                "english": "them (dative)",
+                "rule": "Dative pronoun: sie (they) → ihnen",
+                "correct_form": "ihnen",
+                "example_sentence": "Ich habe ihnen die Antwort gegeben.",
+                "counter_example": "Ich sehe sie. (accusative)"
+              },
+              "explanation": "Dative of 'sie' (they) is 'ihnen'. 'Ihnen' (capitalized) = formal 'you' dative."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-dative-prepositions",
+          "name": "Dative Prepositions",
+          "description": "Prepositions that always require the dative case: aus, bei, mit, nach, seit, von, zu",
+          "prerequisites": [
+            "a2-grammar-dative-case"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-article",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-datprep-kp-aus",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "aus",
+                "english": "from / out of",
+                "rule": "aus + dative: origin or coming out of",
+                "correct_form": "aus",
+                "example_sentence": "Ich komme aus der Schweiz.",
+                "counter_example": "Ich gehe in die Schweiz. (accusative with movement)"
+              },
+              "explanation": "'aus' (from/out of) always takes dative. 'Ich komme aus dem Haus' = I come out of the house."
+            },
+            {
+              "id": "a2-gram-datprep-kp-bei",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "bei",
+                "english": "at / near / at someone's place",
+                "rule": "bei + dative: location near or at someone's",
+                "correct_form": "bei",
+                "example_sentence": "Ich wohne bei meiner Mutter.",
+                "counter_example": "Ich gehe zu meiner Mutter. (direction)"
+              },
+              "explanation": "'bei' (at/near) always takes dative. 'bei + dem' contracts to 'beim'."
+            },
+            {
+              "id": "a2-gram-datprep-kp-mit",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "mit",
+                "english": "with",
+                "rule": "mit + dative: accompaniment or means",
+                "correct_form": "mit",
+                "example_sentence": "Ich fahre mit dem Bus.",
+                "counter_example": "Ich nehme den Bus. (accusative, no preposition)"
+              },
+              "explanation": "'mit' (with) always takes dative. 'mit dem Auto' = by car, 'mit mir' = with me."
+            },
+            {
+              "id": "a2-gram-datprep-kp-nach",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "nach",
+                "english": "to / after",
+                "rule": "nach + dative: direction (cities/countries) or time",
+                "correct_form": "nach",
+                "example_sentence": "Wir fahren nach Berlin.",
+                "counter_example": "Wir fahren in die Stadt. (accusative with 'in')"
+              },
+              "explanation": "'nach' (to/after) always takes dative. Used with cities and most countries without articles."
+            },
+            {
+              "id": "a2-gram-datprep-kp-seit",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "seit",
+                "english": "since / for (time)",
+                "rule": "seit + dative: duration from a point in time",
+                "correct_form": "seit",
+                "example_sentence": "Ich lerne seit einem Jahr Deutsch.",
+                "counter_example": "Ich lerne Deutsch für die Prüfung. (purpose, not duration)"
+              },
+              "explanation": "'seit' (since/for) always takes dative. Used with present tense for ongoing actions."
+            },
+            {
+              "id": "a2-gram-datprep-kp-von",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "von",
+                "english": "from / of / by",
+                "rule": "von + dative: origin, possession, or agent",
+                "correct_form": "von",
+                "example_sentence": "Das ist ein Geschenk von meinem Bruder.",
+                "counter_example": "Das Buch meines Bruders. (genitive alternative)"
+              },
+              "explanation": "'von' (from/of) always takes dative. 'von + dem' contracts to 'vom'."
+            },
+            {
+              "id": "a2-gram-datprep-kp-zu",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "zu",
+                "english": "to / towards",
+                "rule": "zu + dative: direction towards a person or place",
+                "correct_form": "zu",
+                "example_sentence": "Ich gehe zum Arzt.",
+                "counter_example": "Ich bin beim Arzt. (location, not direction)"
+              },
+              "explanation": "'zu' (to) always takes dative. 'zu + dem' = 'zum', 'zu + der' = 'zur'."
+            },
+            {
+              "id": "a2-gram-datprep-kp-mnemonic",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "aus, bei, mit, nach, seit, von, zu",
+                "english": "Dative prepositions mnemonic",
+                "rule": "All seven prepositions always take dative case",
+                "correct_form": "aus bei mit nach seit von zu",
+                "example_sentence": "Nach der Arbeit fahre ich mit dem Bus von der Firma zu mir.",
+                "counter_example": "Ich gehe in den Park. (two-way preposition, accusative)"
+              },
+              "explanation": "Mnemonic: 'Aus bei mit nach seit von zu — dative prepositions through and through!'"
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-two-way-prepositions",
+          "name": "Two-way Prepositions",
+          "description": "Prepositions that take accusative (movement) or dative (location): in, an, auf, über, unter, vor, hinter, neben, zwischen",
+          "prerequisites": [
+            "a1-grammar-accusative-case",
+            "a2-grammar-dative-case"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-article",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-twoway-kp-in-akk",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "in + accusative",
+                "english": "into (movement)",
+                "rule": "in + accusative = movement into a place (wohin?)",
+                "correct_form": "in den/die/das",
+                "example_sentence": "Ich gehe in den Park.",
+                "counter_example": "Ich bin in dem Park. (dative, location)"
+              },
+              "explanation": "'in' + accusative = moving into. 'Ich gehe in den Park' = I go into the park."
+            },
+            {
+              "id": "a2-gram-twoway-kp-in-dat",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "in + dative",
+                "english": "in (location)",
+                "rule": "in + dative = being in a place (wo?)",
+                "correct_form": "in dem/der/dem (im)",
+                "example_sentence": "Ich bin im Supermarkt.",
+                "counter_example": "Ich gehe in den Supermarkt. (accusative, movement)"
+              },
+              "explanation": "'in' + dative = located in. 'in dem' contracts to 'im'. Ask 'wo?' for dative."
+            },
+            {
+              "id": "a2-gram-twoway-kp-an-akk",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "an + accusative",
+                "english": "to (movement towards a surface)",
+                "rule": "an + accusative = movement towards a surface or edge (wohin?)",
+                "correct_form": "an den/die/das",
+                "example_sentence": "Er hängt das Bild an die Wand.",
+                "counter_example": "Das Bild hängt an der Wand. (dative, location)"
+              },
+              "explanation": "'an' + accusative = movement to a surface. 'an' + dative = at a surface/edge."
+            },
+            {
+              "id": "a2-gram-twoway-kp-auf-akk",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "auf + accusative",
+                "english": "onto (movement)",
+                "rule": "auf + accusative = movement onto a surface (wohin?)",
+                "correct_form": "auf den/die/das",
+                "example_sentence": "Ich lege das Buch auf den Tisch.",
+                "counter_example": "Das Buch liegt auf dem Tisch. (dative, location)"
+              },
+              "explanation": "'auf' + accusative = onto. 'auf' + dative = on top of. Ask wohin? vs. wo?"
+            },
+            {
+              "id": "a2-gram-twoway-kp-auf-dat",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "auf + dative",
+                "english": "on (location)",
+                "rule": "auf + dative = being on a surface (wo?)",
+                "correct_form": "auf dem/der/dem",
+                "example_sentence": "Die Katze sitzt auf dem Stuhl.",
+                "counter_example": "Die Katze springt auf den Stuhl. (accusative, movement)"
+              },
+              "explanation": "'auf' + dative = located on. 'Die Katze sitzt auf dem Stuhl' = The cat sits on the chair."
+            },
+            {
+              "id": "a2-gram-twoway-kp-ueber",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "über",
+                "english": "over / above / across",
+                "rule": "über + accusative (movement over) or dative (located above)",
+                "correct_form": "über den/dem",
+                "example_sentence": "Die Lampe hängt über dem Tisch.",
+                "counter_example": "Der Vogel fliegt über den See. (accusative, movement)"
+              },
+              "explanation": "'über' = over/above. Dative for location, accusative for movement across."
+            },
+            {
+              "id": "a2-gram-twoway-kp-unter",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "unter",
+                "english": "under / below",
+                "rule": "unter + accusative (movement under) or dative (located under)",
+                "correct_form": "unter den/dem",
+                "example_sentence": "Die Schuhe stehen unter dem Bett.",
+                "counter_example": "Der Hund kriecht unter den Tisch. (accusative, movement)"
+              },
+              "explanation": "'unter' = under. 'unter dem Bett' (location) vs. 'unter das Bett' (movement)."
+            },
+            {
+              "id": "a2-gram-twoway-kp-vor",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "vor",
+                "english": "in front of / before",
+                "rule": "vor + accusative (movement) or dative (location/time)",
+                "correct_form": "vor den/dem",
+                "example_sentence": "Er steht vor dem Haus.",
+                "counter_example": "Er stellt das Auto vor das Haus. (accusative, movement)"
+              },
+              "explanation": "'vor' = in front of / before. Also used for time: 'vor einer Stunde' = an hour ago."
+            },
+            {
+              "id": "a2-gram-twoway-kp-hinter",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "hinter",
+                "english": "behind",
+                "rule": "hinter + accusative (movement) or dative (location)",
+                "correct_form": "hinter den/dem",
+                "example_sentence": "Der Garten ist hinter dem Haus.",
+                "counter_example": "Das Kind läuft hinter das Haus. (accusative, movement)"
+              },
+              "explanation": "'hinter' = behind. 'hinter dem Haus' (location) vs. 'hinter das Haus' (movement)."
+            },
+            {
+              "id": "a2-gram-twoway-kp-neben",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "neben",
+                "english": "next to / beside",
+                "rule": "neben + accusative (movement) or dative (location)",
+                "correct_form": "neben den/dem",
+                "example_sentence": "Die Bank ist neben der Kirche.",
+                "counter_example": "Er setzt sich neben die Frau. (accusative, movement)"
+              },
+              "explanation": "'neben' = next to. 'neben der Kirche' (location) vs. 'neben die Frau' (movement)."
+            },
+            {
+              "id": "a2-gram-twoway-kp-zwischen",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "zwischen",
+                "english": "between",
+                "rule": "zwischen + accusative (movement) or dative (location)",
+                "correct_form": "zwischen den/dem",
+                "example_sentence": "Das Restaurant ist zwischen dem Kino und der Post.",
+                "counter_example": "Er stellt sich zwischen die zwei Männer. (accusative, movement)"
+              },
+              "explanation": "'zwischen' = between. Often used with two dative objects for location."
+            },
+            {
+              "id": "a2-gram-twoway-kp-rule",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "Wechselpräpositionen",
+                "english": "Two-way prepositions rule",
+                "rule": "Wohin? (where to?) → accusative. Wo? (where?) → dative.",
+                "correct_form": "wo? → dative / wohin? → accusative",
+                "example_sentence": "Wo bist du? — Im Park. Wohin gehst du? — In den Park.",
+                "counter_example": "Dative-only prepositions (mit, von, zu) always take dative regardless."
+              },
+              "explanation": "Key rule: ask 'wo?' (where, location) → dative. Ask 'wohin?' (where to, direction) → accusative."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-separable-verbs",
+          "name": "Separable Verbs",
+          "description": "Verbs with separable prefixes that split in main clauses: aufstehen, anrufen, einkaufen, etc.",
+          "prerequisites": [
+            "a1-grammar-present-tense-regular"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-sepverb-kp-aufstehen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "aufstehen",
+                "pronoun": "ich",
+                "correct_form": "stehe auf",
+                "tense": "present",
+                "english": "I get up",
+                "example_sentence": "Ich stehe um sieben Uhr auf."
+              },
+              "explanation": "aufstehen: prefix 'auf-' goes to the end. 'Ich stehe um 7 Uhr auf.'"
+            },
+            {
+              "id": "a2-gram-sepverb-kp-anrufen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "anrufen",
+                "pronoun": "du",
+                "correct_form": "rufst an",
+                "tense": "present",
+                "english": "you call (phone)",
+                "example_sentence": "Du rufst deine Mutter an."
+              },
+              "explanation": "anrufen: prefix 'an-' separates. 'Du rufst mich morgen an.'"
+            },
+            {
+              "id": "a2-gram-sepverb-kp-einkaufen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "einkaufen",
+                "pronoun": "wir",
+                "correct_form": "kaufen ein",
+                "tense": "present",
+                "english": "we shop / we go shopping",
+                "example_sentence": "Wir kaufen im Supermarkt ein."
+              },
+              "explanation": "einkaufen: prefix 'ein-' goes to the end. 'einkaufen gehen' = to go shopping."
+            },
+            {
+              "id": "a2-gram-sepverb-kp-fernsehen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "fernsehen",
+                "pronoun": "er",
+                "correct_form": "sieht fern",
+                "tense": "present",
+                "english": "he watches TV",
+                "example_sentence": "Er sieht jeden Abend fern."
+              },
+              "explanation": "fernsehen: prefix 'fern-' separates. Note irregular stem: seh- → sieht."
+            },
+            {
+              "id": "a2-gram-sepverb-kp-anfangen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "anfangen",
+                "pronoun": "sie",
+                "correct_form": "fängt an",
+                "tense": "present",
+                "english": "she begins / starts",
+                "example_sentence": "Der Film fängt um acht Uhr an."
+              },
+              "explanation": "anfangen: prefix 'an-' separates. Note vowel change: a → ä in du/er/sie/es."
+            },
+            {
+              "id": "a2-gram-sepverb-kp-aufhoeren",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "aufhören",
+                "pronoun": "ihr",
+                "correct_form": "hört auf",
+                "tense": "present",
+                "english": "you (plural) stop",
+                "example_sentence": "Hört bitte auf!"
+              },
+              "explanation": "aufhören: prefix 'auf-' separates. 'aufhören mit' = to stop doing something."
+            },
+            {
+              "id": "a2-gram-sepverb-kp-mitkommen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "mitkommen",
+                "pronoun": "du",
+                "correct_form": "kommst mit",
+                "tense": "present",
+                "english": "you come along",
+                "example_sentence": "Kommst du mit?"
+              },
+              "explanation": "mitkommen: prefix 'mit-' separates. 'Kommst du mit?' = Are you coming along?"
+            },
+            {
+              "id": "a2-gram-sepverb-kp-zurueckkommen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "zurückkommen",
+                "pronoun": "sie (plural)",
+                "correct_form": "kommen zurück",
+                "tense": "present",
+                "english": "they come back",
+                "example_sentence": "Sie kommen morgen zurück."
+              },
+              "explanation": "zurückkommen: prefix 'zurück-' separates. Long prefix but same rule applies."
+            },
+            {
+              "id": "a2-gram-sepverb-kp-aufstehen-perfekt",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "aufstehen",
+                "pronoun": "ich",
+                "correct_form": "bin aufgestanden",
+                "tense": "perfekt",
+                "english": "I got up",
+                "auxiliary": "sein",
+                "past_participle": "aufgestanden",
+                "example_sentence": "Ich bin heute früh aufgestanden."
+              },
+              "explanation": "In Perfekt, 'ge-' goes between prefix and stem: auf-ge-standen. Uses 'sein' (movement)."
+            },
+            {
+              "id": "a2-gram-sepverb-kp-anrufen-perfekt",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "anrufen",
+                "pronoun": "er",
+                "correct_form": "hat angerufen",
+                "tense": "perfekt",
+                "english": "he called",
+                "auxiliary": "haben",
+                "past_participle": "angerufen",
+                "example_sentence": "Er hat mich gestern angerufen."
+              },
+              "explanation": "In Perfekt, 'ge-' goes between prefix and stem: an-ge-rufen. Uses 'haben'."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-reflexive-verbs",
+          "name": "Reflexive Verbs",
+          "description": "Verbs used with reflexive pronouns: sich freuen, sich waschen, sich erinnern, etc.",
+          "prerequisites": [
+            "a2-grammar-dative-case"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-reflex-kp-sich-freuen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sich freuen",
+                "pronoun": "ich",
+                "correct_form": "freue mich",
+                "tense": "present",
+                "english": "I am happy / I look forward to",
+                "example_sentence": "Ich freue mich auf die Ferien."
+              },
+              "explanation": "sich freuen: 'ich freue mich'. 'sich freuen auf' = to look forward to (+ accusative)."
+            },
+            {
+              "id": "a2-gram-reflex-kp-sich-waschen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sich waschen",
+                "pronoun": "du",
+                "correct_form": "wäschst dich",
+                "tense": "present",
+                "english": "you wash yourself",
+                "example_sentence": "Du wäschst dich jeden Morgen."
+              },
+              "explanation": "sich waschen: 'du wäschst dich'. Note vowel change a→ä. Reflexive pronoun matches subject."
+            },
+            {
+              "id": "a2-gram-reflex-kp-sich-erinnern",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sich erinnern",
+                "pronoun": "er",
+                "correct_form": "erinnert sich",
+                "tense": "present",
+                "english": "he remembers",
+                "example_sentence": "Er erinnert sich an den Urlaub."
+              },
+              "explanation": "sich erinnern an (+ accusative) = to remember. 'er erinnert sich'."
+            },
+            {
+              "id": "a2-gram-reflex-kp-sich-interessieren",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sich interessieren",
+                "pronoun": "wir",
+                "correct_form": "interessieren uns",
+                "tense": "present",
+                "english": "we are interested in",
+                "example_sentence": "Wir interessieren uns für Musik."
+              },
+              "explanation": "sich interessieren für (+ accusative) = to be interested in. 'wir interessieren uns'."
+            },
+            {
+              "id": "a2-gram-reflex-kp-sich-fuehlen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sich fühlen",
+                "pronoun": "sie",
+                "correct_form": "fühlt sich",
+                "tense": "present",
+                "english": "she feels",
+                "example_sentence": "Sie fühlt sich heute nicht gut."
+              },
+              "explanation": "sich fühlen = to feel. 'Ich fühle mich krank' = I feel sick."
+            },
+            {
+              "id": "a2-gram-reflex-kp-sich-setzen",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sich setzen",
+                "pronoun": "ich",
+                "correct_form": "setze mich",
+                "tense": "present",
+                "english": "I sit down",
+                "example_sentence": "Ich setze mich auf den Stuhl."
+              },
+              "explanation": "sich setzen = to sit down (movement). Compare: sitzen = to be sitting (location)."
+            },
+            {
+              "id": "a2-gram-reflex-kp-sich-freuen-perfekt",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sich freuen",
+                "pronoun": "wir",
+                "correct_form": "haben uns gefreut",
+                "tense": "perfekt",
+                "english": "we were happy",
+                "auxiliary": "haben",
+                "past_participle": "gefreut",
+                "example_sentence": "Wir haben uns sehr gefreut."
+              },
+              "explanation": "Reflexive verbs in Perfekt: auxiliary + reflexive pronoun + past participle."
+            },
+            {
+              "id": "a2-gram-reflex-kp-pronouns",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "mich, dich, sich, uns, euch, sich",
+                "english": "Reflexive pronouns (accusative)",
+                "rule": "Reflexive pronouns: ich→mich, du→dich, er/sie/es→sich, wir→uns, ihr→euch, sie/Sie→sich",
+                "correct_form": "mich, dich, sich, uns, euch, sich",
+                "example_sentence": "Ich wasche mich. Du wäschst dich. Er wäscht sich.",
+                "counter_example": "Er wäscht ihn. (not reflexive — washing someone else)"
+              },
+              "explanation": "Reflexive pronouns refer back to the subject. 3rd person always uses 'sich'."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-comparatives",
+          "name": "Comparative Adjectives",
+          "description": "Comparing things using comparative adjectives with -er ending and 'als'",
+          "prerequisites": [
+            "a1-grammar-adjectives-nominative"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-comp-kp-groesser",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "größer",
+                "english": "bigger / taller",
+                "rule": "groß → größer (comparative with umlaut)",
+                "correct_form": "größer",
+                "example_sentence": "Berlin ist größer als München.",
+                "counter_example": "Berlin ist groß. (positive form)"
+              },
+              "explanation": "groß → größer. Many one-syllable adjectives with a/o/u add umlaut in comparative."
+            },
+            {
+              "id": "a2-gram-comp-kp-kleiner",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "kleiner",
+                "english": "smaller",
+                "rule": "klein → kleiner (regular comparative)",
+                "correct_form": "kleiner",
+                "example_sentence": "Mein Zimmer ist kleiner als dein Zimmer.",
+                "counter_example": "Das Zimmer ist klein. (positive form)"
+              },
+              "explanation": "klein → kleiner. Regular: just add '-er'. No umlaut needed."
+            },
+            {
+              "id": "a2-gram-comp-kp-besser",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "besser",
+                "english": "better",
+                "rule": "gut → besser (irregular comparative)",
+                "correct_form": "besser",
+                "example_sentence": "Dieses Restaurant ist besser als das andere.",
+                "counter_example": "Das Restaurant ist gut. (positive form)"
+              },
+              "explanation": "gut → besser (irregular). One of the most important irregular comparatives."
+            },
+            {
+              "id": "a2-gram-comp-kp-schlechter",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "schlechter",
+                "english": "worse",
+                "rule": "schlecht → schlechter (regular comparative)",
+                "correct_form": "schlechter",
+                "example_sentence": "Das Wetter ist heute schlechter als gestern.",
+                "counter_example": "Das Wetter ist schlecht. (positive form)"
+              },
+              "explanation": "schlecht → schlechter. Regular formation despite 'gut → besser' being irregular."
+            },
+            {
+              "id": "a2-gram-comp-kp-aelter",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "älter",
+                "english": "older",
+                "rule": "alt → älter (comparative with umlaut)",
+                "correct_form": "älter",
+                "example_sentence": "Mein Bruder ist älter als ich.",
+                "counter_example": "Mein Bruder ist alt. (positive form)"
+              },
+              "explanation": "alt → älter. Umlaut change: a → ä. Common pattern for short adjectives."
+            },
+            {
+              "id": "a2-gram-comp-kp-juenger",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "jünger",
+                "english": "younger",
+                "rule": "jung → jünger (comparative with umlaut)",
+                "correct_form": "jünger",
+                "example_sentence": "Meine Schwester ist jünger als ich.",
+                "counter_example": "Sie ist jung. (positive form)"
+              },
+              "explanation": "jung → jünger. Umlaut change: u → ü."
+            },
+            {
+              "id": "a2-gram-comp-kp-als",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "als",
+                "english": "than (comparison)",
+                "rule": "Use 'als' after comparative adjectives to mean 'than'",
+                "correct_form": "als",
+                "example_sentence": "Er ist schneller als sie.",
+                "counter_example": "Er ist so schnell wie sie. (equal comparison)"
+              },
+              "explanation": "'als' = than (comparing differences). 'wie' = as (comparing equals). Never say 'als wie'!"
+            },
+            {
+              "id": "a2-gram-comp-kp-lieber",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "lieber",
+                "english": "rather / prefer",
+                "rule": "gern → lieber (irregular comparative)",
+                "correct_form": "lieber",
+                "example_sentence": "Ich trinke lieber Tee als Kaffee.",
+                "counter_example": "Ich trinke gern Kaffee. (positive form)"
+              },
+              "explanation": "gern → lieber (irregular). 'Ich trinke lieber...' = I prefer to drink..."
+            },
+            {
+              "id": "a2-gram-comp-kp-mehr",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "mehr",
+                "english": "more",
+                "rule": "viel → mehr (irregular comparative)",
+                "correct_form": "mehr",
+                "example_sentence": "Ich brauche mehr Zeit.",
+                "counter_example": "Ich habe viel Zeit. (positive form)"
+              },
+              "explanation": "viel → mehr (irregular). 'mehr' does not decline — it stays 'mehr'."
+            },
+            {
+              "id": "a2-gram-comp-kp-schneller",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "schneller",
+                "english": "faster",
+                "rule": "schnell → schneller (regular comparative)",
+                "correct_form": "schneller",
+                "example_sentence": "Der ICE ist schneller als der Regionalzug.",
+                "counter_example": "Der ICE ist schnell. (positive form)"
+              },
+              "explanation": "schnell → schneller. Regular: add '-er'. No umlaut for adjectives with 'e'."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-superlatives",
+          "name": "Superlative Adjectives",
+          "description": "Expressing the highest degree: am größten, am besten, am schönsten",
+          "prerequisites": [
+            "a2-grammar-comparatives"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-super-kp-am-groessten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am größten",
+                "english": "the biggest / tallest",
+                "rule": "groß → größer → am größten (superlative with 'am' + -sten)",
+                "correct_form": "am größten",
+                "example_sentence": "Der Mount Everest ist am höchsten.",
+                "counter_example": "Berlin ist größer als München. (comparative)"
+              },
+              "explanation": "Superlative predicate form: 'am' + adjective + '-sten'. Umlaut carries over from comparative."
+            },
+            {
+              "id": "a2-gram-super-kp-am-besten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am besten",
+                "english": "the best",
+                "rule": "gut → besser → am besten (irregular superlative)",
+                "correct_form": "am besten",
+                "example_sentence": "Dieses Buch gefällt mir am besten.",
+                "counter_example": "Das Buch ist besser als der Film. (comparative)"
+              },
+              "explanation": "gut → besser → am besten. Completely irregular — must memorize."
+            },
+            {
+              "id": "a2-gram-super-kp-am-schoensten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am schönsten",
+                "english": "the most beautiful",
+                "rule": "schön → schöner → am schönsten (regular superlative)",
+                "correct_form": "am schönsten",
+                "example_sentence": "Im Frühling ist es hier am schönsten.",
+                "counter_example": "Der Park ist schöner als der Garten. (comparative)"
+              },
+              "explanation": "schön → am schönsten. Regular superlative: 'am' + stem + '-sten'."
+            },
+            {
+              "id": "a2-gram-super-kp-am-meisten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am meisten",
+                "english": "the most",
+                "rule": "viel → mehr → am meisten (irregular superlative)",
+                "correct_form": "am meisten",
+                "example_sentence": "Sie hat am meisten gelernt.",
+                "counter_example": "Er hat mehr gelernt als ich. (comparative)"
+              },
+              "explanation": "viel → mehr → am meisten. Irregular chain. Used for quantity."
+            },
+            {
+              "id": "a2-gram-super-kp-am-liebsten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am liebsten",
+                "english": "most of all / favorite",
+                "rule": "gern → lieber → am liebsten (irregular superlative)",
+                "correct_form": "am liebsten",
+                "example_sentence": "Am liebsten esse ich Pizza.",
+                "counter_example": "Ich esse lieber Pizza als Pasta. (comparative)"
+              },
+              "explanation": "gern → lieber → am liebsten. 'Am liebsten' = most of all / my favorite."
+            },
+            {
+              "id": "a2-gram-super-kp-am-aeltesten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am ältesten",
+                "english": "the oldest",
+                "rule": "alt → älter → am ältesten (superlative with umlaut + -esten)",
+                "correct_form": "am ältesten",
+                "example_sentence": "Meine Großmutter ist am ältesten.",
+                "counter_example": "Mein Bruder ist älter als ich. (comparative)"
+              },
+              "explanation": "alt → am ältesten. Adjectives ending in -t/-d add '-esten' (not just '-sten')."
+            },
+            {
+              "id": "a2-gram-super-kp-am-hoechsten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am höchsten",
+                "english": "the highest",
+                "rule": "hoch → höher → am höchsten (irregular superlative)",
+                "correct_form": "am höchsten",
+                "example_sentence": "Dieses Gebäude ist am höchsten.",
+                "counter_example": "Das Haus ist höher als die Schule. (comparative)"
+              },
+              "explanation": "hoch → höher → am höchsten. Note: 'hoch' loses the 'c' in comparative/superlative."
+            },
+            {
+              "id": "a2-gram-super-kp-am-schnellsten",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "am schnellsten",
+                "english": "the fastest",
+                "rule": "schnell → schneller → am schnellsten (regular superlative)",
+                "correct_form": "am schnellsten",
+                "example_sentence": "Der ICE fährt am schnellsten.",
+                "counter_example": "Der ICE ist schneller als der Bus. (comparative)"
+              },
+              "explanation": "schnell → am schnellsten. Regular formation: 'am' + stem + '-sten'."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-subordinate-weil-dass",
+          "name": "Subordinate Clauses with weil and dass",
+          "description": "Subordinating conjunctions 'weil' (because) and 'dass' (that) with verb-final position",
+          "prerequisites": [
+            "a1-grammar-word-order-statements"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-subord-kp-weil-basic",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "weil",
+                "english": "because",
+                "rule": "weil + subject + ... + conjugated verb (at the end)",
+                "correct_form": "weil ... verb-final",
+                "example_sentence": "Ich bleibe zu Hause, weil ich krank bin.",
+                "counter_example": "Ich bin krank. Ich bleibe zu Hause. (two main clauses)"
+              },
+              "explanation": "'weil' = because. The conjugated verb moves to the END of the subordinate clause."
+            },
+            {
+              "id": "a2-gram-subord-kp-weil-perfekt",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "weil + Perfekt",
+                "english": "because (with past tense)",
+                "rule": "weil + subject + ... + past participle + auxiliary (at the end)",
+                "correct_form": "weil ... participle + aux",
+                "example_sentence": "Ich bin müde, weil ich schlecht geschlafen habe.",
+                "counter_example": "Ich habe schlecht geschlafen. (main clause word order)"
+              },
+              "explanation": "With Perfekt in weil-clause: participle before auxiliary, both at end. '...geschlafen habe'."
+            },
+            {
+              "id": "a2-gram-subord-kp-dass-basic",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "dass",
+                "english": "that (conjunction)",
+                "rule": "dass + subject + ... + conjugated verb (at the end)",
+                "correct_form": "dass ... verb-final",
+                "example_sentence": "Ich denke, dass er nett ist.",
+                "counter_example": "Ich denke: Er ist nett. (without dass, normal word order)"
+              },
+              "explanation": "'dass' = that. Same verb-final rule as 'weil'. Very common in reported speech."
+            },
+            {
+              "id": "a2-gram-subord-kp-dass-wissen",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "dass + wissen",
+                "english": "that (with knowing)",
+                "rule": "Ich weiß, dass + subject + ... + verb (final)",
+                "correct_form": "dass ... verb-final",
+                "example_sentence": "Ich weiß, dass du Deutsch lernst.",
+                "counter_example": "Ich weiß: Du lernst Deutsch. (main clause order)"
+              },
+              "explanation": "Common verbs with 'dass': wissen, denken, glauben, hoffen, sagen, finden."
+            },
+            {
+              "id": "a2-gram-subord-kp-weil-modal",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "weil + modal verb",
+                "english": "because (with modal)",
+                "rule": "weil + subject + ... + infinitive + modal verb (at the end)",
+                "correct_form": "weil ... infinitive + modal",
+                "example_sentence": "Ich komme nicht, weil ich arbeiten muss.",
+                "counter_example": "Ich muss arbeiten. (main clause: modal before infinitive)"
+              },
+              "explanation": "With modal verbs in subordinate clause: infinitive before modal, both at end."
+            },
+            {
+              "id": "a2-gram-subord-kp-dass-hoffen",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "dass + hoffen",
+                "english": "that (with hoping)",
+                "rule": "Ich hoffe, dass + subject + ... + verb (final)",
+                "correct_form": "dass ... verb-final",
+                "example_sentence": "Ich hoffe, dass das Wetter morgen schön ist.",
+                "counter_example": "Hoffentlich ist das Wetter morgen schön. (main clause)"
+              },
+              "explanation": "'Ich hoffe, dass...' is a very common pattern. Verb always goes to the end."
+            },
+            {
+              "id": "a2-gram-subord-kp-comma-rule",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "Kommaregel",
+                "english": "Comma rule for subordinate clauses",
+                "rule": "Always place a comma before weil/dass",
+                "correct_form": "Hauptsatz, weil/dass Nebensatz",
+                "example_sentence": "Er sagt, dass er morgen kommt.",
+                "counter_example": "Er sagt dass er morgen kommt. (missing comma — incorrect)"
+              },
+              "explanation": "German always requires a comma before subordinating conjunctions like 'weil' and 'dass'."
+            },
+            {
+              "id": "a2-gram-subord-kp-weil-beginning",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "Weil-Satz am Anfang",
+                "english": "weil-clause at the beginning",
+                "rule": "Weil + subordinate clause, verb + subject + ... (inverted main clause)",
+                "correct_form": "Weil ..., Verb + Subject",
+                "example_sentence": "Weil es regnet, bleibe ich zu Hause.",
+                "counter_example": "Ich bleibe zu Hause, weil es regnet. (weil-clause at end)"
+              },
+              "explanation": "When weil-clause comes first, main clause starts with verb (inversion). The subordinate clause counts as position 1."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-temporal-wenn-als",
+          "name": "Temporal Clauses with wenn and als",
+          "description": "Time clauses: 'wenn' for repeated/present/future events, 'als' for single past events",
+          "prerequisites": [
+            "a2-grammar-subordinate-weil-dass"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-temporal-kp-wenn-present",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "wenn (present)",
+                "english": "when / whenever (present)",
+                "rule": "wenn + present tense for current/repeated events (verb-final)",
+                "correct_form": "wenn",
+                "example_sentence": "Wenn es regnet, bleibe ich zu Hause.",
+                "counter_example": "Als es gestern regnete, blieb ich zu Hause. (single past event)"
+              },
+              "explanation": "'wenn' for present/future events: 'Wenn ich Zeit habe, lese ich.' Verb goes to end."
+            },
+            {
+              "id": "a2-gram-temporal-kp-wenn-repeated",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "wenn (repeated past)",
+                "english": "whenever (repeated past)",
+                "rule": "wenn + past tense for repeated events in the past",
+                "correct_form": "wenn",
+                "example_sentence": "Wenn ich als Kind krank war, hat meine Mutter Suppe gekocht.",
+                "counter_example": "Als ich einmal krank war, hat sie Suppe gekocht. (single event)"
+              },
+              "explanation": "'wenn' for repeated past events: 'Immer wenn...' (whenever). Compare: 'als' = one-time past."
+            },
+            {
+              "id": "a2-gram-temporal-kp-als-single",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "als",
+                "english": "when (single past event)",
+                "rule": "als + past tense for a single event in the past (verb-final)",
+                "correct_form": "als",
+                "example_sentence": "Als ich ein Kind war, lebte ich in Berlin.",
+                "counter_example": "Wenn ich ein Kind bin, ... (incorrect — use als for past)"
+              },
+              "explanation": "'als' = when (one specific past event). 'Als ich 18 war...' Verb goes to end."
+            },
+            {
+              "id": "a2-gram-temporal-kp-als-perfekt",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "als + Perfekt",
+                "english": "when (past, with Perfekt)",
+                "rule": "als + subject + ... + past participle + auxiliary (at the end)",
+                "correct_form": "als ... participle + aux",
+                "example_sentence": "Als ich angekommen bin, hat es geregnet.",
+                "counter_example": "Ich bin angekommen und es hat geregnet. (two main clauses)"
+              },
+              "explanation": "'als' with Perfekt: past participle + auxiliary at end. 'Als ich gekommen bin, ...'"
+            },
+            {
+              "id": "a2-gram-temporal-kp-wenn-future",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "wenn (future)",
+                "english": "when / if (future)",
+                "rule": "wenn + present tense for future events (verb-final)",
+                "correct_form": "wenn",
+                "example_sentence": "Wenn du morgen kommst, kochen wir zusammen.",
+                "counter_example": "Als du morgen kommst... (incorrect — als not for future)"
+              },
+              "explanation": "'wenn' for future: 'Wenn ich fertig bin, rufe ich dich an.' Also means 'if' in conditional."
+            },
+            {
+              "id": "a2-gram-temporal-kp-wenn-vs-als",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "wenn vs. als",
+                "english": "when (choice rule)",
+                "rule": "Single past event → als. Repeated past / present / future → wenn.",
+                "correct_form": "wenn (repeated/present/future) / als (single past)",
+                "example_sentence": "Als ich 10 war, zogen wir um. Wenn ich traurig bin, höre ich Musik.",
+                "counter_example": "Als ich traurig bin... (incorrect — present situation needs wenn)"
+              },
+              "explanation": "Key rule: 'als' = one-time past only. 'wenn' = everything else (repeated, present, future)."
+            },
+            {
+              "id": "a2-gram-temporal-kp-als-childhood",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "als + Kindheit",
+                "english": "when (childhood memories)",
+                "rule": "als + past tense for specific childhood memories",
+                "correct_form": "als",
+                "example_sentence": "Als ich klein war, hatte ich einen Hund.",
+                "counter_example": "Wenn ich klein war, hatte ich einen Hund. (only if repeated)"
+              },
+              "explanation": "'Als ich klein war...' is a very common phrase for childhood memories. Single time period = als."
+            },
+            {
+              "id": "a2-gram-temporal-kp-wenn-immer",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "immer wenn",
+                "english": "whenever / every time",
+                "rule": "immer wenn + verb-final for emphasis on repetition",
+                "correct_form": "immer wenn",
+                "example_sentence": "Immer wenn ich Musik höre, bin ich glücklich.",
+                "counter_example": "Jedes Mal, als ich... (incorrect — repeated = wenn)"
+              },
+              "explanation": "'Immer wenn' = whenever/every time. Emphasizes the repeated nature. Always with 'wenn'."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-expanded-modals",
+          "name": "Expanded Modal Verbs",
+          "description": "dürfen, sollen, müssen in expanded contexts and Perfekt with modals",
+          "prerequisites": [
+            "a1-grammar-modal-verbs"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-modal-kp-duerfen-ich",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "dürfen",
+                "pronoun": "ich",
+                "correct_form": "darf",
+                "tense": "present",
+                "english": "I am allowed to / I may",
+                "example_sentence": "Darf ich hier rauchen?"
+              },
+              "explanation": "dürfen = to be allowed to / may. 'ich darf', 'du darfst'. Used for permission."
+            },
+            {
+              "id": "a2-gram-modal-kp-duerfen-neg",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "nicht dürfen",
+                "english": "must not / not allowed to",
+                "rule": "nicht dürfen = prohibition (must not)",
+                "correct_form": "darf nicht",
+                "example_sentence": "Man darf hier nicht parken.",
+                "counter_example": "Man muss hier nicht parken. (don't have to — different meaning)"
+              },
+              "explanation": "'nicht dürfen' = must not / forbidden. Different from 'nicht müssen' (don't have to)."
+            },
+            {
+              "id": "a2-gram-modal-kp-sollen-du",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sollen",
+                "pronoun": "du",
+                "correct_form": "sollst",
+                "tense": "present",
+                "english": "you should / you are supposed to",
+                "example_sentence": "Du sollst mehr Wasser trinken."
+              },
+              "explanation": "sollen = should / supposed to. Often for advice, expectations, or relaying messages."
+            },
+            {
+              "id": "a2-gram-modal-kp-sollen-advice",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "sollen (Ratschlag)",
+                "english": "should (advice)",
+                "rule": "sollen for giving advice or recommendations",
+                "correct_form": "sollst/soll/sollen",
+                "example_sentence": "Der Arzt sagt, ich soll mehr Sport machen.",
+                "counter_example": "Ich muss Sport machen. (obligation, not advice)"
+              },
+              "explanation": "'sollen' for advice: 'Du sollst...' = you should. Often relays someone else's recommendation."
+            },
+            {
+              "id": "a2-gram-modal-kp-muessen-neg",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "nicht müssen",
+                "english": "don't have to / don't need to",
+                "rule": "nicht müssen = no obligation (not the same as 'must not')",
+                "correct_form": "muss nicht",
+                "example_sentence": "Du musst heute nicht arbeiten.",
+                "counter_example": "Du darfst heute nicht arbeiten. (you are not allowed to)"
+              },
+              "explanation": "'nicht müssen' = don't have to. NOT 'must not'! 'Must not' = 'nicht dürfen'."
+            },
+            {
+              "id": "a2-gram-modal-kp-modal-perfekt",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "Modal im Perfekt",
+                "english": "Modal verbs in Perfekt",
+                "rule": "haben + infinitive + modal infinitive (double infinitive construction)",
+                "correct_form": "haben + inf. + modal inf.",
+                "example_sentence": "Ich habe gestern arbeiten müssen.",
+                "counter_example": "Ich habe gemusst. (incorrect with another verb)"
+              },
+              "explanation": "Modals in Perfekt use double infinitive: 'Ich habe arbeiten müssen.' Both verbs stay as infinitives."
+            },
+            {
+              "id": "a2-gram-modal-kp-duerfen-er",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "dürfen",
+                "pronoun": "er",
+                "correct_form": "darf",
+                "tense": "present",
+                "english": "he is allowed to / he may",
+                "example_sentence": "Er darf heute früher nach Hause gehen."
+              },
+              "explanation": "dürfen: ich darf, du darfst, er/sie/es darf. Singular forms: darf/darfst/darf."
+            },
+            {
+              "id": "a2-gram-modal-kp-sollen-wir",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "sollen",
+                "pronoun": "wir",
+                "correct_form": "sollen",
+                "tense": "present",
+                "english": "we should / we are supposed to",
+                "example_sentence": "Sollen wir ins Kino gehen?"
+              },
+              "explanation": "sollen: wir sollen. 'Sollen wir...?' = Shall we...? Common for suggestions."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-futur-eins",
+          "name": "Futur I",
+          "description": "Future tense with 'werden' + infinitive for all pronouns",
+          "prerequisites": [
+            "a1-grammar-present-tense-regular"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-conjugation",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-futur-kp-ich",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "werden",
+                "pronoun": "ich",
+                "correct_form": "werde",
+                "tense": "futur",
+                "english": "I will",
+                "example_sentence": "Ich werde morgen nach Berlin fahren."
+              },
+              "explanation": "Futur I: 'werden' (conjugated) + infinitive at the end. 'ich werde'."
+            },
+            {
+              "id": "a2-gram-futur-kp-du",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "werden",
+                "pronoun": "du",
+                "correct_form": "wirst",
+                "tense": "futur",
+                "english": "you will",
+                "example_sentence": "Du wirst das schaffen!"
+              },
+              "explanation": "Futur I with 'du': 'du wirst'. 'Du wirst das schaffen!' = You will manage that!"
+            },
+            {
+              "id": "a2-gram-futur-kp-er",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "werden",
+                "pronoun": "er",
+                "correct_form": "wird",
+                "tense": "futur",
+                "english": "he will",
+                "example_sentence": "Er wird nächstes Jahr Medizin studieren."
+              },
+              "explanation": "Futur I with 'er/sie/es': 'wird'. Infinitive goes to the end of the sentence."
+            },
+            {
+              "id": "a2-gram-futur-kp-wir",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "werden",
+                "pronoun": "wir",
+                "correct_form": "werden",
+                "tense": "futur",
+                "english": "we will",
+                "example_sentence": "Wir werden im Sommer nach Italien reisen."
+              },
+              "explanation": "Futur I with 'wir': 'werden' (same as infinitive). Context clarifies meaning."
+            },
+            {
+              "id": "a2-gram-futur-kp-ihr",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "werden",
+                "pronoun": "ihr",
+                "correct_form": "werdet",
+                "tense": "futur",
+                "english": "you (plural) will",
+                "example_sentence": "Ihr werdet viel Spaß haben."
+              },
+              "explanation": "Futur I with 'ihr': 'werdet'. 'Ihr werdet viel Spaß haben' = You'll have a lot of fun."
+            },
+            {
+              "id": "a2-gram-futur-kp-sie-pl",
+              "prompt_data": {
+                "type": "conjugation",
+                "verb": "werden",
+                "pronoun": "sie (plural)",
+                "correct_form": "werden",
+                "tense": "futur",
+                "english": "they will",
+                "example_sentence": "Sie werden bald ankommen."
+              },
+              "explanation": "Futur I with 'sie' (they) / 'Sie' (formal): 'werden'. Same form as 'wir'."
+            },
+            {
+              "id": "a2-gram-futur-kp-prediction",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "Futur I für Vermutung",
+                "english": "Futur I for prediction/assumption",
+                "rule": "werden + infinitive can express assumptions about the present",
+                "correct_form": "werden + wohl + infinitive",
+                "example_sentence": "Er wird wohl krank sein.",
+                "counter_example": "Er ist krank. (stating a fact)"
+              },
+              "explanation": "Futur I + 'wohl' expresses assumption: 'Er wird wohl schlafen' = He's probably sleeping."
+            },
+            {
+              "id": "a2-gram-futur-kp-vs-present",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "Futur vs. Präsens",
+                "english": "Future vs. present tense for future",
+                "rule": "German often uses present tense + time word for future events",
+                "correct_form": "Morgen fahre ich... / Ich werde morgen fahren...",
+                "example_sentence": "Morgen fahre ich nach München. = Ich werde morgen nach München fahren.",
+                "counter_example": "I will go tomorrow. (English requires 'will')"
+              },
+              "explanation": "In everyday German, present tense + time word is more common than Futur I for plans."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-adjective-declension",
+          "name": "Adjective Declension with Cases",
+          "description": "Adjective endings in nominative, accusative, and dative with definite and indefinite articles",
+          "prerequisites": [
+            "a2-grammar-dative-case",
+            "a1-grammar-adjectives-nominative"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-grammar-article",
+            "fill-blank-grammar",
+            "translation-grammar",
+            "sentence-production-grammar"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-gram-adjdecl-kp-def-nom-m",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "der große Mann",
+                "english": "the tall man (nominative)",
+                "rule": "Definite article + adjective in nominative: -e (masc/fem), -e (neut)",
+                "correct_form": "der große",
+                "example_sentence": "Der große Mann steht dort.",
+                "counter_example": "Ein großer Mann steht dort. (indefinite: -er)"
+              },
+              "explanation": "After definite articles in nominative: adjective takes -e (masc/fem/neut). 'der große', 'die große', 'das große'."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-indef-nom-m",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "ein großer Mann",
+                "english": "a tall man (nominative)",
+                "rule": "Indefinite article + adjective in nominative masculine: -er",
+                "correct_form": "ein großer",
+                "example_sentence": "Ein großer Mann wartet draußen.",
+                "counter_example": "Der große Mann wartet draußen. (definite: -e)"
+              },
+              "explanation": "After indefinite articles in nominative: masc. -er, fem. -e, neut. -es. The adjective shows the gender."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-def-akk-m",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "den großen Mann",
+                "english": "the tall man (accusative)",
+                "rule": "Definite article + adjective in accusative masculine: -en",
+                "correct_form": "den großen",
+                "example_sentence": "Ich sehe den großen Mann.",
+                "counter_example": "Ich sehe den groß Mann. (missing adjective ending)"
+              },
+              "explanation": "Accusative masculine with definite article: -en. 'den großen Mann'. Feminine/neuter stay like nominative."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-indef-akk-m",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "einen großen Mann",
+                "english": "a tall man (accusative)",
+                "rule": "Indefinite article + adjective in accusative masculine: -en",
+                "correct_form": "einen großen",
+                "example_sentence": "Ich suche einen großen Tisch.",
+                "counter_example": "Ich suche ein großes Buch. (neuter: -es)"
+              },
+              "explanation": "Accusative masculine with indefinite article: -en. Same ending as definite accusative masculine."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-def-dat-m",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "dem großen Mann",
+                "english": "the tall man (dative)",
+                "rule": "Definite article + adjective in dative: always -en",
+                "correct_form": "dem großen",
+                "example_sentence": "Ich gebe dem großen Mann das Buch.",
+                "counter_example": "Ich gebe dem große Mann... (missing -n ending)"
+              },
+              "explanation": "In dative, ALL adjective endings are -en regardless of gender: dem großen, der großen, dem großen."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-def-dat-f",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "der netten Frau",
+                "english": "the nice woman (dative)",
+                "rule": "Definite article + adjective in dative feminine: -en",
+                "correct_form": "der netten",
+                "example_sentence": "Er hilft der netten Frau.",
+                "counter_example": "Er sieht die nette Frau. (accusative: -e)"
+              },
+              "explanation": "Dative feminine: 'der netten Frau'. All dative adjective endings are -en. Simplest rule!"
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-indef-dat-m",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "einem großen Mann",
+                "english": "a tall man (dative)",
+                "rule": "Indefinite article + adjective in dative: always -en",
+                "correct_form": "einem großen",
+                "example_sentence": "Sie spricht mit einem großen Mann.",
+                "counter_example": "Sie spricht mit einem groß Mann. (missing ending)"
+              },
+              "explanation": "Dative with indefinite article: also always -en. 'einem großen', 'einer netten', 'einem kleinen'."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-def-nom-f",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "die kleine Katze",
+                "english": "the small cat (nominative)",
+                "rule": "Definite article + adjective in nominative feminine: -e",
+                "correct_form": "die kleine",
+                "example_sentence": "Die kleine Katze schläft.",
+                "counter_example": "Eine kleine Katze schläft. (indefinite: also -e for feminine)"
+              },
+              "explanation": "Nominative feminine with definite article: -e. 'die kleine Katze', 'die alte Frau'."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-def-nom-n",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "das schöne Haus",
+                "english": "the beautiful house (nominative)",
+                "rule": "Definite article + adjective in nominative neuter: -e",
+                "correct_form": "das schöne",
+                "example_sentence": "Das schöne Haus steht am See.",
+                "counter_example": "Ein schönes Haus steht am See. (indefinite neuter: -es)"
+              },
+              "explanation": "Nominative neuter with definite article: -e. 'das schöne Haus', 'das kleine Kind'."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-indef-nom-n",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "ein schönes Haus",
+                "english": "a beautiful house (nominative)",
+                "rule": "Indefinite article + adjective in nominative neuter: -es",
+                "correct_form": "ein schönes",
+                "example_sentence": "Das ist ein schönes Haus.",
+                "counter_example": "Das schöne Haus. (definite: -e)"
+              },
+              "explanation": "Indefinite nominative neuter: -es. The adjective takes -es to show neuter gender since 'ein' doesn't."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-plural-nom",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "die großen Häuser",
+                "english": "the big houses (nominative plural)",
+                "rule": "Definite article + adjective in nominative/accusative plural: -en",
+                "correct_form": "die großen",
+                "example_sentence": "Die großen Häuser sind teuer.",
+                "counter_example": "Große Häuser sind teuer. (no article: -e)"
+              },
+              "explanation": "Plural with definite article: adjective always takes -en. 'die großen Häuser/Männer/Frauen'."
+            },
+            {
+              "id": "a2-gram-adjdecl-kp-summary",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "Adjektivendungen Zusammenfassung",
+                "english": "Adjective endings summary",
+                "rule": "After definite articles: mostly -e (nom) and -en (acc masc, all dative, all plural). After indefinite: endings show gender.",
+                "correct_form": "-e / -en / -er / -es",
+                "example_sentence": "Der alte Mann gibt der jungen Frau ein schönes Buch.",
+                "counter_example": "Der alt Mann gibt der jung Frau ein schön Buch. (missing all endings)"
+              },
+              "explanation": "Shortcut: dative = always -en. Plural with article = always -en. Nominative definite = -e."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "topics": [
+        {
+          "id": "a2-vocab-health",
+          "name": "Health & Body Parts",
+          "description": "Body parts, illnesses, and health-related vocabulary",
+          "prerequisites": [
+            "a1-grammar-nominative-articles"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-health-kp-kopf",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Kopf",
+                "english": "the head",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Köpfe",
+                "example_sentence": "Mein Kopf tut weh."
+              },
+              "explanation": "'der Kopf' is masculine. 'Kopfschmerzen' = headache."
+            },
+            {
+              "id": "a2-vocab-health-kp-arm",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Arm",
+                "english": "the arm",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Arme",
+                "example_sentence": "Ich habe mir den Arm gebrochen."
+              },
+              "explanation": "'der Arm' is masculine. 'sich den Arm brechen' = to break one's arm."
+            },
+            {
+              "id": "a2-vocab-health-kp-bein",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Bein",
+                "english": "the leg",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Beine",
+                "example_sentence": "Mein Bein tut weh."
+              },
+              "explanation": "'das Bein' is neuter. Not to be confused with 'Knochen' (bone)."
+            },
+            {
+              "id": "a2-vocab-health-kp-hand",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Hand",
+                "english": "the hand",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Hände",
+                "example_sentence": "Gib mir bitte die Hand."
+              },
+              "explanation": "'die Hand' is feminine. 'Hände waschen' = to wash hands."
+            },
+            {
+              "id": "a2-vocab-health-kp-auge",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Auge",
+                "english": "the eye",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Augen",
+                "example_sentence": "Sie hat blaue Augen."
+              },
+              "explanation": "'das Auge' is neuter. 'Augenarzt' = eye doctor."
+            },
+            {
+              "id": "a2-vocab-health-kp-ohr",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Ohr",
+                "english": "the ear",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Ohren",
+                "example_sentence": "Mein Ohr tut weh."
+              },
+              "explanation": "'das Ohr' is neuter. 'Ohrenschmerzen' = earache."
+            },
+            {
+              "id": "a2-vocab-health-kp-nase",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Nase",
+                "english": "the nose",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Nasen",
+                "example_sentence": "Meine Nase läuft."
+              },
+              "explanation": "'die Nase' is feminine. 'Die Nase läuft' = runny nose."
+            },
+            {
+              "id": "a2-vocab-health-kp-mund",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Mund",
+                "english": "the mouth",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Münder",
+                "example_sentence": "Mach bitte den Mund auf."
+              },
+              "explanation": "'der Mund' is masculine. 'den Mund aufmachen' = to open one's mouth."
+            },
+            {
+              "id": "a2-vocab-health-kp-herz",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Herz",
+                "english": "the heart",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Herzen",
+                "example_sentence": "Mein Herz schlägt schnell."
+              },
+              "explanation": "'das Herz' is neuter. Unusual declension: des Herzens (genitive)."
+            },
+            {
+              "id": "a2-vocab-health-kp-ruecken",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Rücken",
+                "english": "the back",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Rücken",
+                "example_sentence": "Mein Rücken tut weh."
+              },
+              "explanation": "'der Rücken' is masculine. 'Rückenschmerzen' = back pain."
+            },
+            {
+              "id": "a2-vocab-health-kp-bauch",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Bauch",
+                "english": "the belly / stomach",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Bäuche",
+                "example_sentence": "Ich habe Bauchschmerzen."
+              },
+              "explanation": "'der Bauch' is masculine. 'Bauchschmerzen' = stomachache."
+            },
+            {
+              "id": "a2-vocab-health-kp-zahn",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Zahn",
+                "english": "the tooth",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Zähne",
+                "example_sentence": "Ich muss zum Zahnarzt."
+              },
+              "explanation": "'der Zahn' is masculine. 'Zahnarzt' = dentist. 'Zahnschmerzen' = toothache."
+            },
+            {
+              "id": "a2-vocab-health-kp-krank",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "krank",
+                "english": "sick / ill",
+                "example_sentence": "Ich bin seit drei Tagen krank."
+              },
+              "explanation": "'krank' is an adjective. 'krank sein' = to be sick. 'Krankheit' = illness."
+            },
+            {
+              "id": "a2-vocab-health-kp-gesund",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "gesund",
+                "english": "healthy",
+                "example_sentence": "Obst ist gesund."
+              },
+              "explanation": "'gesund' is an adjective. Opposite of 'krank'. 'Gesundheit!' = Bless you! (after a sneeze)"
+            },
+            {
+              "id": "a2-vocab-health-kp-schmerzen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Schmerzen",
+                "english": "the pain (plural)",
+                "article": "die",
+                "gender": "masculine",
+                "plural": "die Schmerzen",
+                "example_sentence": "Ich habe starke Schmerzen."
+              },
+              "explanation": "'der Schmerz' (m), usually used in plural: 'die Schmerzen'. 'Kopfschmerzen', 'Bauchschmerzen'."
+            },
+            {
+              "id": "a2-vocab-health-kp-fieber",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Fieber",
+                "english": "the fever",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Fieber",
+                "example_sentence": "Das Kind hat Fieber."
+              },
+              "explanation": "'das Fieber' is neuter. 'Fieber haben' = to have a fever. 'Fieber messen' = to take temperature."
+            },
+            {
+              "id": "a2-vocab-health-kp-arzt",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Arzt",
+                "english": "the doctor",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Ärzte",
+                "example_sentence": "Ich muss zum Arzt gehen."
+              },
+              "explanation": "'der Arzt' (m) / 'die Ärztin' (f). 'zum Arzt gehen' = to go to the doctor."
+            },
+            {
+              "id": "a2-vocab-health-kp-krankenhaus",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Krankenhaus",
+                "english": "the hospital",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Krankenhäuser",
+                "example_sentence": "Er liegt im Krankenhaus."
+              },
+              "explanation": "'das Krankenhaus' is neuter. Compound: krank + en + Haus. 'im Krankenhaus' = in the hospital."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-weather",
+          "name": "Weather & Seasons",
+          "description": "Expanded weather vocabulary and seasonal expressions",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-weather-kp-regen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Regen",
+                "english": "the rain",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Regen",
+                "example_sentence": "Der Regen hört nicht auf."
+              },
+              "explanation": "'der Regen' is masculine. Related verb: 'regnen' = to rain."
+            },
+            {
+              "id": "a2-vocab-weather-kp-schnee",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Schnee",
+                "english": "the snow",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "-",
+                "example_sentence": "Im Winter gibt es viel Schnee."
+              },
+              "explanation": "'der Schnee' is masculine. No common plural. 'schneien' = to snow."
+            },
+            {
+              "id": "a2-vocab-weather-kp-sonne",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Sonne",
+                "english": "the sun",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Sonnen",
+                "example_sentence": "Die Sonne scheint heute."
+              },
+              "explanation": "'die Sonne' is feminine. 'Die Sonne scheint' = The sun is shining. 'sonnig' = sunny."
+            },
+            {
+              "id": "a2-vocab-weather-kp-wind",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Wind",
+                "english": "the wind",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Winde",
+                "example_sentence": "Heute weht ein starker Wind."
+              },
+              "explanation": "'der Wind' is masculine. 'windig' = windy. 'es weht' = it's blowing."
+            },
+            {
+              "id": "a2-vocab-weather-kp-wolke",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Wolke",
+                "english": "the cloud",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Wolken",
+                "example_sentence": "Heute gibt es viele Wolken."
+              },
+              "explanation": "'die Wolke' is feminine. 'bewölkt' = cloudy. 'wolkenlos' = cloudless."
+            },
+            {
+              "id": "a2-vocab-weather-kp-gewitter",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Gewitter",
+                "english": "the thunderstorm",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Gewitter",
+                "example_sentence": "Heute Abend gibt es ein Gewitter."
+              },
+              "explanation": "'das Gewitter' is neuter. 'Es gibt ein Gewitter' = There's a thunderstorm."
+            },
+            {
+              "id": "a2-vocab-weather-kp-warm",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "warm",
+                "english": "warm",
+                "example_sentence": "Heute ist es warm."
+              },
+              "explanation": "'warm' = warm. Comparative: wärmer. 'Es ist warm draußen' = It's warm outside."
+            },
+            {
+              "id": "a2-vocab-weather-kp-kalt",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "kalt",
+                "english": "cold",
+                "example_sentence": "Im Winter ist es sehr kalt."
+              },
+              "explanation": "'kalt' = cold. Comparative: kälter. 'Mir ist kalt' = I am cold (dative construction)."
+            },
+            {
+              "id": "a2-vocab-weather-kp-heiss",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "heiß",
+                "english": "hot",
+                "example_sentence": "Im Sommer ist es manchmal sehr heiß."
+              },
+              "explanation": "'heiß' = hot. Comparative: heißer. Used for weather and food/drinks."
+            },
+            {
+              "id": "a2-vocab-weather-kp-kuehl",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "kühl",
+                "english": "cool",
+                "example_sentence": "Die Nächte sind schon kühl."
+              },
+              "explanation": "'kühl' = cool (temperature). Between 'kalt' and 'warm'."
+            },
+            {
+              "id": "a2-vocab-weather-kp-regnen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "regnen",
+                "english": "to rain",
+                "example_sentence": "Es regnet seit drei Tagen."
+              },
+              "explanation": "'regnen' = to rain. Always with 'es': 'Es regnet.' Perfekt: 'Es hat geregnet.'"
+            },
+            {
+              "id": "a2-vocab-weather-kp-scheinen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "scheinen",
+                "english": "to shine",
+                "example_sentence": "Die Sonne scheint den ganzen Tag."
+              },
+              "explanation": "'scheinen' = to shine (also: to seem). 'Die Sonne scheint' = The sun is shining."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-work",
+          "name": "Work & Career",
+          "description": "Office, workplace, and career-related vocabulary",
+          "prerequisites": [
+            "a1-vocab-professions"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-work-kp-buero",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Büro",
+                "english": "the office",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Büros",
+                "example_sentence": "Ich arbeite in einem Büro."
+              },
+              "explanation": "'das Büro' is neuter. 'im Büro arbeiten' = to work in an office."
+            },
+            {
+              "id": "a2-vocab-work-kp-chef",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Chef",
+                "english": "the boss",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Chefs",
+                "example_sentence": "Mein Chef ist sehr nett."
+              },
+              "explanation": "'der Chef' (m) / 'die Chefin' (f). Borrowed from French, pronounced with 'sch'."
+            },
+            {
+              "id": "a2-vocab-work-kp-kollege",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Kollege",
+                "english": "the colleague",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Kollegen",
+                "example_sentence": "Mein Kollege hilft mir oft."
+              },
+              "explanation": "'der Kollege' (m) / 'die Kollegin' (f). Weak noun: den Kollegen, dem Kollegen."
+            },
+            {
+              "id": "a2-vocab-work-kp-firma",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Firma",
+                "english": "the company / firm",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Firmen",
+                "example_sentence": "Die Firma hat 200 Mitarbeiter."
+              },
+              "explanation": "'die Firma' is feminine. Plural: 'Firmen'. Also: 'das Unternehmen' (company)."
+            },
+            {
+              "id": "a2-vocab-work-kp-gehalt",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Gehalt",
+                "english": "the salary",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Gehälter",
+                "example_sentence": "Das Gehalt kommt am Ende des Monats."
+              },
+              "explanation": "'das Gehalt' is neuter. 'Gehalt bekommen' = to receive a salary."
+            },
+            {
+              "id": "a2-vocab-work-kp-bewerbung",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Bewerbung",
+                "english": "the application (job)",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Bewerbungen",
+                "example_sentence": "Ich schreibe eine Bewerbung."
+              },
+              "explanation": "'die Bewerbung' is feminine. 'sich bewerben' = to apply (for a job)."
+            },
+            {
+              "id": "a2-vocab-work-kp-termin",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Termin",
+                "english": "the appointment",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Termine",
+                "example_sentence": "Ich habe morgen einen wichtigen Termin."
+              },
+              "explanation": "'der Termin' is masculine. 'einen Termin haben/machen' = to have/make an appointment."
+            },
+            {
+              "id": "a2-vocab-work-kp-besprechung",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Besprechung",
+                "english": "the meeting",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Besprechungen",
+                "example_sentence": "Die Besprechung beginnt um zehn Uhr."
+              },
+              "explanation": "'die Besprechung' is feminine. Also: 'das Meeting' (borrowed from English)."
+            },
+            {
+              "id": "a2-vocab-work-kp-projekt",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Projekt",
+                "english": "the project",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Projekte",
+                "example_sentence": "Wir arbeiten an einem neuen Projekt."
+              },
+              "explanation": "'das Projekt' is neuter. 'an einem Projekt arbeiten' = to work on a project."
+            },
+            {
+              "id": "a2-vocab-work-kp-arbeitsplatz",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Arbeitsplatz",
+                "english": "the workplace / job",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Arbeitsplätze",
+                "example_sentence": "Mein Arbeitsplatz ist in der Nähe."
+              },
+              "explanation": "'der Arbeitsplatz' is masculine. Compound: Arbeit + s + Platz."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-education",
+          "name": "Education & School",
+          "description": "School, university, and education-related vocabulary",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-edu-kp-schule",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Schule",
+                "english": "the school",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Schulen",
+                "example_sentence": "Die Kinder gehen in die Schule."
+              },
+              "explanation": "'die Schule' is feminine. 'in die Schule gehen' = to go to school."
+            },
+            {
+              "id": "a2-vocab-edu-kp-universitaet",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Universität",
+                "english": "the university",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Universitäten",
+                "example_sentence": "Sie studiert an der Universität."
+              },
+              "explanation": "'die Universität' is feminine. Short form: 'die Uni'. 'an der Uni studieren'."
+            },
+            {
+              "id": "a2-vocab-edu-kp-klasse",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Klasse",
+                "english": "the class / grade",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Klassen",
+                "example_sentence": "Er ist in der fünften Klasse."
+              },
+              "explanation": "'die Klasse' is feminine. Can mean classroom, grade level, or class group."
+            },
+            {
+              "id": "a2-vocab-edu-kp-pruefung",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Prüfung",
+                "english": "the exam",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Prüfungen",
+                "example_sentence": "Morgen habe ich eine wichtige Prüfung."
+              },
+              "explanation": "'die Prüfung' is feminine. 'eine Prüfung bestehen' = to pass an exam."
+            },
+            {
+              "id": "a2-vocab-edu-kp-hausaufgabe",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Hausaufgabe",
+                "english": "the homework",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Hausaufgaben",
+                "example_sentence": "Hast du deine Hausaufgaben gemacht?"
+              },
+              "explanation": "'die Hausaufgabe' is feminine. Usually plural: 'die Hausaufgaben'. Compound: Haus + Aufgabe."
+            },
+            {
+              "id": "a2-vocab-edu-kp-zeugnis",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Zeugnis",
+                "english": "the report card / certificate",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Zeugnisse",
+                "example_sentence": "Er hat ein gutes Zeugnis bekommen."
+              },
+              "explanation": "'das Zeugnis' is neuter. School report card or certificate. Given twice a year."
+            },
+            {
+              "id": "a2-vocab-edu-kp-note",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Note",
+                "english": "the grade (mark)",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Noten",
+                "example_sentence": "Ich habe eine gute Note in Mathe."
+              },
+              "explanation": "'die Note' is feminine. German grades: 1 (sehr gut) to 6 (ungenügend). 1 is the best!"
+            },
+            {
+              "id": "a2-vocab-edu-kp-fach",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Fach",
+                "english": "the subject (school)",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Fächer",
+                "example_sentence": "Mein Lieblingsfach ist Mathematik."
+              },
+              "explanation": "'das Fach' is neuter. 'Lieblingsfach' = favorite subject. Also means 'compartment'."
+            },
+            {
+              "id": "a2-vocab-edu-kp-lehrer",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Lehrer",
+                "english": "the teacher",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Lehrer",
+                "example_sentence": "Der Lehrer erklärt die Grammatik."
+              },
+              "explanation": "'der Lehrer' (m) / 'die Lehrerin' (f). 'Professor' is for university level."
+            },
+            {
+              "id": "a2-vocab-edu-kp-schueler",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Schüler",
+                "english": "the student (school)",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Schüler",
+                "example_sentence": "Die Schüler machen eine Klassenarbeit."
+              },
+              "explanation": "'der Schüler' (m) / 'die Schülerin' (f). For school students. University: 'Student/Studentin'."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-services",
+          "name": "Services & Establishments",
+          "description": "Public services, shops, and establishments vocabulary",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-serv-kp-bank",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Bank",
+                "english": "the bank",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Banken",
+                "example_sentence": "Ich muss zur Bank gehen."
+              },
+              "explanation": "'die Bank' is feminine. Plural 'Banken' for financial institution. 'Bänke' = benches."
+            },
+            {
+              "id": "a2-vocab-serv-kp-post",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Post",
+                "english": "the post office / mail",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "-",
+                "example_sentence": "Ich bringe das Paket zur Post."
+              },
+              "explanation": "'die Post' is feminine. 'zur Post gehen' = to go to the post office."
+            },
+            {
+              "id": "a2-vocab-serv-kp-friseur",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Friseur",
+                "english": "the hairdresser / barber",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Friseure",
+                "example_sentence": "Ich gehe morgen zum Friseur."
+              },
+              "explanation": "'der Friseur' (m) / 'die Friseurin' (f). 'zum Friseur gehen' = to go to the hairdresser."
+            },
+            {
+              "id": "a2-vocab-serv-kp-werkstatt",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Werkstatt",
+                "english": "the workshop / garage (car repair)",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Werkstätten",
+                "example_sentence": "Mein Auto ist in der Werkstatt."
+              },
+              "explanation": "'die Werkstatt' is feminine. 'Autowerkstatt' = car repair shop."
+            },
+            {
+              "id": "a2-vocab-serv-kp-bibliothek",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Bibliothek",
+                "english": "the library",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Bibliotheken",
+                "example_sentence": "Ich leihe Bücher aus der Bibliothek."
+              },
+              "explanation": "'die Bibliothek' is feminine. 'Bücher ausleihen' = to borrow books."
+            },
+            {
+              "id": "a2-vocab-serv-kp-rathaus",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Rathaus",
+                "english": "the town hall / city hall",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Rathäuser",
+                "example_sentence": "Das Rathaus ist am Marktplatz."
+              },
+              "explanation": "'das Rathaus' is neuter. Where city administration is located. Compound: Rat + Haus."
+            },
+            {
+              "id": "a2-vocab-serv-kp-polizei",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Polizei",
+                "english": "the police",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "-",
+                "example_sentence": "Ruf die Polizei!"
+              },
+              "explanation": "'die Polizei' is feminine, no plural form. Emergency number in Germany: 110."
+            },
+            {
+              "id": "a2-vocab-serv-kp-apotheke",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Apotheke",
+                "english": "the pharmacy",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Apotheken",
+                "example_sentence": "Ich kaufe die Medikamente in der Apotheke."
+              },
+              "explanation": "'die Apotheke' is feminine. In Germany, many medicines are only available at the Apotheke."
+            },
+            {
+              "id": "a2-vocab-serv-kp-supermarkt",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Supermarkt",
+                "english": "the supermarket",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Supermärkte",
+                "example_sentence": "Ich gehe jeden Samstag in den Supermarkt."
+              },
+              "explanation": "'der Supermarkt' is masculine. German supermarkets close on Sundays!"
+            },
+            {
+              "id": "a2-vocab-serv-kp-baeckerei",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Bäckerei",
+                "english": "the bakery",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Bäckereien",
+                "example_sentence": "Ich kaufe Brötchen in der Bäckerei."
+              },
+              "explanation": "'die Bäckerei' is feminine. Germany has over 10,000 bakeries! 'der Bäcker' = the baker."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-entertainment",
+          "name": "Entertainment & Media",
+          "description": "Film, music, media, and entertainment vocabulary",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-ent-kp-film",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Film",
+                "english": "the film / movie",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Filme",
+                "example_sentence": "Wir sehen uns heute Abend einen Film an."
+              },
+              "explanation": "'der Film' is masculine. 'sich einen Film ansehen' = to watch a movie."
+            },
+            {
+              "id": "a2-vocab-ent-kp-konzert",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Konzert",
+                "english": "the concert",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Konzerte",
+                "example_sentence": "Das Konzert war fantastisch."
+              },
+              "explanation": "'das Konzert' is neuter. 'ins Konzert gehen' = to go to a concert."
+            },
+            {
+              "id": "a2-vocab-ent-kp-theater",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Theater",
+                "english": "the theater",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Theater",
+                "example_sentence": "Wir gehen morgen ins Theater."
+              },
+              "explanation": "'das Theater' is neuter. 'ins Theater gehen' = to go to the theater."
+            },
+            {
+              "id": "a2-vocab-ent-kp-zeitung",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Zeitung",
+                "english": "the newspaper",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Zeitungen",
+                "example_sentence": "Liest du die Zeitung?"
+              },
+              "explanation": "'die Zeitung' is feminine. 'die Zeitung lesen' = to read the newspaper."
+            },
+            {
+              "id": "a2-vocab-ent-kp-zeitschrift",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Zeitschrift",
+                "english": "the magazine",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Zeitschriften",
+                "example_sentence": "Ich lese gern Zeitschriften."
+              },
+              "explanation": "'die Zeitschrift' is feminine. Different from 'Zeitung' (newspaper). 'Zeitschrift' = periodical/magazine."
+            },
+            {
+              "id": "a2-vocab-ent-kp-fernsehen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Fernsehen",
+                "english": "the television (medium)",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "-",
+                "example_sentence": "Was kommt heute im Fernsehen?"
+              },
+              "explanation": "'das Fernsehen' is neuter (the medium). 'der Fernseher' = TV set. 'fernsehen' = to watch TV."
+            },
+            {
+              "id": "a2-vocab-ent-kp-internet",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Internet",
+                "english": "the internet",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "-",
+                "example_sentence": "Ich suche die Information im Internet."
+              },
+              "explanation": "'das Internet' is neuter. 'im Internet surfen' = to surf the internet."
+            },
+            {
+              "id": "a2-vocab-ent-kp-programm",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Programm",
+                "english": "the program / channel",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Programme",
+                "example_sentence": "Was läuft im Programm?"
+              },
+              "explanation": "'das Programm' is neuter. Can mean TV program, schedule, or software program."
+            },
+            {
+              "id": "a2-vocab-ent-kp-musik",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Musik",
+                "english": "the music",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "-",
+                "example_sentence": "Ich höre gern Musik."
+              },
+              "explanation": "'die Musik' is feminine. 'Musik hören' = to listen to music. 'der Musiker' = musician."
+            },
+            {
+              "id": "a2-vocab-ent-kp-spiel",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Spiel",
+                "english": "the game / match",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Spiele",
+                "example_sentence": "Das Spiel war sehr spannend."
+              },
+              "explanation": "'das Spiel' is neuter. 'ein Spiel spielen' = to play a game. 'Computerspiel' = computer game."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-clothing",
+          "name": "Clothing",
+          "description": "Clothing items and fashion vocabulary",
+          "prerequisites": [
+            "a1-grammar-nominative-articles"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-cloth-kp-hemd",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Hemd",
+                "english": "the shirt",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Hemden",
+                "example_sentence": "Er trägt ein weißes Hemd."
+              },
+              "explanation": "'das Hemd' is neuter. Usually refers to a dress shirt/button-up. 'T-Shirt' for casual."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-hose",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Hose",
+                "english": "the pants / trousers",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Hosen",
+                "example_sentence": "Diese Hose ist zu lang."
+              },
+              "explanation": "'die Hose' is feminine and SINGULAR in German (unlike English 'pants'). 'Jeans' is also used."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-kleid",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Kleid",
+                "english": "the dress",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Kleider",
+                "example_sentence": "Sie trägt ein rotes Kleid."
+              },
+              "explanation": "'das Kleid' is neuter. Plural 'Kleider' also means 'clothes' in general."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-rock",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Rock",
+                "english": "the skirt",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Röcke",
+                "example_sentence": "Der Rock ist sehr schön."
+              },
+              "explanation": "'der Rock' is masculine. Not 'rock music'! 'Rock' = skirt in German."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-jacke",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Jacke",
+                "english": "the jacket",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Jacken",
+                "example_sentence": "Zieh deine Jacke an, es ist kalt."
+              },
+              "explanation": "'die Jacke' is feminine. 'eine Jacke anziehen' = to put on a jacket."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-mantel",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Mantel",
+                "english": "the coat",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Mäntel",
+                "example_sentence": "Im Winter trage ich einen warmen Mantel."
+              },
+              "explanation": "'der Mantel' is masculine. Heavier than 'Jacke'. 'Wintermantel' = winter coat."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-schuhe",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Schuh",
+                "english": "the shoe",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Schuhe",
+                "example_sentence": "Diese Schuhe sind sehr bequem."
+              },
+              "explanation": "'der Schuh' is masculine. Usually used in plural: 'die Schuhe'. 'Turnschuhe' = sneakers."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-socken",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Socke",
+                "english": "the sock",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Socken",
+                "example_sentence": "Wo ist meine zweite Socke?"
+              },
+              "explanation": "'die Socke' is feminine. Usually plural: 'die Socken'. Germans and socks with sandals are a cliche!"
+            },
+            {
+              "id": "a2-vocab-cloth-kp-muetze",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Mütze",
+                "english": "the hat / cap (warm)",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Mützen",
+                "example_sentence": "Setz deine Mütze auf, es ist kalt!"
+              },
+              "explanation": "'die Mütze' is feminine. Warm hat/beanie. 'der Hut' = a formal hat."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-handschuh",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Handschuh",
+                "english": "the glove",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Handschuhe",
+                "example_sentence": "Im Winter trage ich Handschuhe."
+              },
+              "explanation": "'der Handschuh' is masculine. Compound: Hand + Schuh (hand shoe). Usually plural."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-tragen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "tragen",
+                "english": "to wear / to carry",
+                "example_sentence": "Was trägst du heute?"
+              },
+              "explanation": "'tragen' = to wear or to carry. Irregular: ich trage, du trägst, er trägt. Perfekt: hat getragen."
+            },
+            {
+              "id": "a2-vocab-cloth-kp-anziehen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "anziehen",
+                "english": "to put on (clothes)",
+                "example_sentence": "Ich ziehe mir eine Jacke an."
+              },
+              "explanation": "'anziehen' = to put on (separable). 'sich anziehen' = to get dressed. Opposite: 'ausziehen'."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-emotions",
+          "name": "Emotions & Personality",
+          "description": "Feelings, emotions, and personality trait vocabulary",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-emo-kp-gluecklich",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "glücklich",
+                "english": "happy",
+                "example_sentence": "Ich bin heute sehr glücklich."
+              },
+              "explanation": "'glücklich' = happy. 'das Glück' = happiness/luck. 'Herzlichen Glückwunsch!' = Congratulations!"
+            },
+            {
+              "id": "a2-vocab-emo-kp-traurig",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "traurig",
+                "english": "sad",
+                "example_sentence": "Warum bist du so traurig?"
+              },
+              "explanation": "'traurig' = sad. 'die Trauer' = grief/mourning. 'traurig sein' = to be sad."
+            },
+            {
+              "id": "a2-vocab-emo-kp-wuetend",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "wütend",
+                "english": "angry / furious",
+                "example_sentence": "Er ist wütend auf seinen Bruder."
+              },
+              "explanation": "'wütend' = angry/furious. 'wütend auf jemanden sein' = to be angry at someone. 'die Wut' = anger."
+            },
+            {
+              "id": "a2-vocab-emo-kp-aufgeregt",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "aufgeregt",
+                "english": "excited / nervous",
+                "example_sentence": "Die Kinder sind vor Weihnachten aufgeregt."
+              },
+              "explanation": "'aufgeregt' = excited or agitated. Context determines meaning. 'sich aufregen' = to get upset."
+            },
+            {
+              "id": "a2-vocab-emo-kp-nervoes",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "nervös",
+                "english": "nervous",
+                "example_sentence": "Ich bin vor der Prüfung nervös."
+              },
+              "explanation": "'nervös' = nervous. 'nervös sein/werden' = to be/get nervous."
+            },
+            {
+              "id": "a2-vocab-emo-kp-freundlich",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "freundlich",
+                "english": "friendly",
+                "example_sentence": "Die Nachbarn sind sehr freundlich."
+              },
+              "explanation": "'freundlich' = friendly. From 'der Freund' (friend). Opposite: 'unfreundlich'."
+            },
+            {
+              "id": "a2-vocab-emo-kp-ehrlich",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "ehrlich",
+                "english": "honest",
+                "example_sentence": "Sei bitte ehrlich mit mir."
+              },
+              "explanation": "'ehrlich' = honest. 'die Ehrlichkeit' = honesty. 'ehrlich gesagt' = honestly speaking."
+            },
+            {
+              "id": "a2-vocab-emo-kp-geduldig",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "geduldig",
+                "english": "patient",
+                "example_sentence": "Der Lehrer ist sehr geduldig."
+              },
+              "explanation": "'geduldig' = patient. 'die Geduld' = patience. Opposite: 'ungeduldig' = impatient."
+            },
+            {
+              "id": "a2-vocab-emo-kp-mutig",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "mutig",
+                "english": "brave / courageous",
+                "example_sentence": "Das war sehr mutig von dir."
+              },
+              "explanation": "'mutig' = brave. 'der Mut' = courage. 'Mut haben' = to have courage."
+            },
+            {
+              "id": "a2-vocab-emo-kp-stolz",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "stolz",
+                "english": "proud",
+                "example_sentence": "Ich bin stolz auf dich."
+              },
+              "explanation": "'stolz' = proud. 'stolz auf jemanden sein' = to be proud of someone. 'der Stolz' = pride."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-culture",
+          "name": "German Culture & Traditions",
+          "description": "Holidays, traditions, and cultural vocabulary",
+          "prerequisites": [],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-cult-kp-weihnachten",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "Weihnachten",
+                "english": "Christmas",
+                "example_sentence": "An Weihnachten besuchen wir die Großeltern."
+              },
+              "explanation": "'Weihnachten' = Christmas. Can be neuter singular or plural. Germans celebrate on December 24th (Heiligabend)."
+            },
+            {
+              "id": "a2-vocab-cult-kp-ostern",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "Ostern",
+                "english": "Easter",
+                "example_sentence": "An Ostern suchen die Kinder Ostereier."
+              },
+              "explanation": "'Ostern' = Easter. 'Ostereier' = Easter eggs. 'Osterhase' = Easter bunny."
+            },
+            {
+              "id": "a2-vocab-cult-kp-karneval",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Karneval",
+                "english": "the carnival",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "-",
+                "example_sentence": "Karneval wird besonders im Rheinland gefeiert."
+              },
+              "explanation": "'der Karneval' is masculine. Also called 'Fasching' (south) or 'Fastnacht'. Big in Cologne!"
+            },
+            {
+              "id": "a2-vocab-cult-kp-oktoberfest",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Oktoberfest",
+                "english": "the Oktoberfest",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "-",
+                "example_sentence": "Das Oktoberfest findet in München statt."
+              },
+              "explanation": "'das Oktoberfest' is neuter. World's largest folk festival, held in Munich. Starts in September!"
+            },
+            {
+              "id": "a2-vocab-cult-kp-feiertag",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "der Feiertag",
+                "english": "the public holiday",
+                "article": "der",
+                "gender": "masculine",
+                "plural": "die Feiertage",
+                "example_sentence": "Morgen ist ein Feiertag."
+              },
+              "explanation": "'der Feiertag' is masculine. Compound: Feier (celebration) + Tag (day). Germany has many regional holidays."
+            },
+            {
+              "id": "a2-vocab-cult-kp-tradition",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Tradition",
+                "english": "the tradition",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Traditionen",
+                "example_sentence": "Das ist eine alte deutsche Tradition."
+              },
+              "explanation": "'die Tradition' is feminine. 'traditionell' = traditional."
+            },
+            {
+              "id": "a2-vocab-cult-kp-fest",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Fest",
+                "english": "the festival / celebration",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Feste",
+                "example_sentence": "Wir feiern ein großes Fest."
+              },
+              "explanation": "'das Fest' is neuter. 'ein Fest feiern' = to celebrate a festival. 'fröhliches Fest!' = happy celebration!"
+            },
+            {
+              "id": "a2-vocab-cult-kp-geschenk",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "das Geschenk",
+                "english": "the gift / present",
+                "article": "das",
+                "gender": "neuter",
+                "plural": "die Geschenke",
+                "example_sentence": "Ich habe ein Geschenk für dich."
+              },
+              "explanation": "'das Geschenk' is neuter. 'Geschenke auspacken' = to unwrap presents. 'schenken' = to give (as gift)."
+            }
+          ]
+        },
+        {
+          "id": "a2-vocab-directions",
+          "name": "Directions & Location",
+          "description": "Expanded directions, navigation, and location vocabulary",
+          "prerequisites": [
+            "a2-grammar-two-way-prepositions"
+          ],
+          "mastery_threshold": 0.85,
+          "exercise_templates": [
+            "mc-vocab",
+            "mc-vocab-reverse",
+            "translation-vocab",
+            "translation-vocab-reverse",
+            "matching-vocab",
+            "fill-blank-vocab"
+          ],
+          "knowledge_points": [
+            {
+              "id": "a2-vocab-dir-kp-links",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "links",
+                "english": "left",
+                "example_sentence": "Biegen Sie links ab."
+              },
+              "explanation": "'links' = left. 'nach links' = to the left. 'links abbiegen' = to turn left."
+            },
+            {
+              "id": "a2-vocab-dir-kp-rechts",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "rechts",
+                "english": "right",
+                "example_sentence": "Das Restaurant ist rechts."
+              },
+              "explanation": "'rechts' = right. 'nach rechts' = to the right. 'rechts abbiegen' = to turn right."
+            },
+            {
+              "id": "a2-vocab-dir-kp-geradeaus",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "geradeaus",
+                "english": "straight ahead",
+                "example_sentence": "Gehen Sie geradeaus bis zur Ampel."
+              },
+              "explanation": "'geradeaus' = straight ahead. 'immer geradeaus' = keep going straight."
+            },
+            {
+              "id": "a2-vocab-dir-kp-kreuzung",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Kreuzung",
+                "english": "the intersection / crossroad",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Kreuzungen",
+                "example_sentence": "An der Kreuzung biegen Sie links ab."
+              },
+              "explanation": "'die Kreuzung' is feminine. 'an der Kreuzung' = at the intersection. From 'kreuzen' (to cross)."
+            },
+            {
+              "id": "a2-vocab-dir-kp-ampel",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Ampel",
+                "english": "the traffic light",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Ampeln",
+                "example_sentence": "Warten Sie an der Ampel."
+              },
+              "explanation": "'die Ampel' is feminine. 'bei Rot stehen bleiben' = stop at red. 'Fußgängerampel' = pedestrian light."
+            },
+            {
+              "id": "a2-vocab-dir-kp-ecke",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Ecke",
+                "english": "the corner",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Ecken",
+                "example_sentence": "Der Laden ist an der Ecke."
+              },
+              "explanation": "'die Ecke' is feminine. 'an der Ecke' = at the corner. 'um die Ecke' = around the corner."
+            },
+            {
+              "id": "a2-vocab-dir-kp-gegenueber",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "gegenüber",
+                "english": "opposite / across from",
+                "example_sentence": "Die Apotheke ist gegenüber der Post."
+              },
+              "explanation": "'gegenüber' = opposite/across from. Takes dative: 'gegenüber dem Bahnhof'."
+            },
+            {
+              "id": "a2-vocab-dir-kp-zwischen",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "zwischen",
+                "english": "between",
+                "example_sentence": "Das Café ist zwischen der Bank und der Post."
+              },
+              "explanation": "'zwischen' = between. Two-way preposition: dative for location, accusative for movement."
+            },
+            {
+              "id": "a2-vocab-dir-kp-neben",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "neben",
+                "english": "next to / beside",
+                "example_sentence": "Der Parkplatz ist neben dem Supermarkt."
+              },
+              "explanation": "'neben' = next to. Two-way preposition: dative for location, accusative for movement."
+            },
+            {
+              "id": "a2-vocab-dir-kp-strasse",
+              "prompt_data": {
+                "type": "vocabulary",
+                "german": "die Straße",
+                "english": "the street",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Straßen",
+                "example_sentence": "Gehen Sie die Straße entlang."
+              },
+              "explanation": "'die Straße' is feminine. 'die Straße entlanggehen' = to walk along the street."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
