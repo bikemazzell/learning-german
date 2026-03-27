@@ -76,7 +76,7 @@ window.UI = (function () {
       var kps = topics[i].knowledge_points || [];
       var states = kps.map(function (kp) { return Progress.getKPState(level, kp.id); });
       var score = Engine.getTopicMasteryScore(states);
-      if (Engine.getTopicState(score) === 'mastered') mastered++;
+      if (Engine.getTopicState(score, states) === 'mastered') mastered++;
     }
     var pct = topics.length > 0 ? Math.round((mastered / topics.length) * 100) : 0;
     return { mastered: mastered, total: topics.length, pct: pct };
@@ -96,7 +96,7 @@ window.UI = (function () {
       var kps = t.knowledge_points || [];
       var states = kps.map(function (kp) { return Progress.getKPState(level, kp.id); });
       var score = Engine.getTopicMasteryScore(states);
-      var state = Engine.getTopicState(score);
+      var state = Engine.getTopicState(score, states);
       var pct = Math.round(score * 100);
       html += '<div class="topic-dot ' + state + '" data-action="view-topic" data-topic="' + esc(t.id) + '">';
       html += '<div class="topic-dot-name">' + esc(t.name) + '</div>';
@@ -138,7 +138,7 @@ window.UI = (function () {
       var kps = t.knowledge_points || [];
       var states = kps.map(function (kp) { return Progress.getKPState(level, kp.id); });
       var score = Engine.getTopicMasteryScore(states);
-      var tState = Engine.getTopicState(score);
+      var tState = Engine.getTopicState(score, states);
       var pct = Math.round(score * 100);
 
       html += '<div class="topic-row" data-action="view-topic" data-topic="' + esc(t.id) + '">';
@@ -166,7 +166,7 @@ window.UI = (function () {
     var kps = topic.knowledge_points || [];
     var states = kps.map(function (kp) { return Progress.getKPState(level, kp.id); });
     var score = Engine.getTopicMasteryScore(states);
-    var tState = Engine.getTopicState(score);
+    var tState = Engine.getTopicState(score, states);
     var pct = Math.round(score * 100);
 
     var prereqCheck = Recommender.checkPrerequisites(topicId, state.allTopics, level);

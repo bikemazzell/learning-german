@@ -28,7 +28,13 @@ window.Recommender = (function () {
 
   /** Get topic state string ("new", "learning", "mastered"). */
   function topicState(topic, level) {
-    return Engine.getTopicState(topicMastery(topic, level));
+    var kps = topic.knowledge_points;
+    if (!kps || !kps.length) return 'new';
+    var states = [];
+    for (var i = 0; i < kps.length; i++) {
+      states.push(Progress.getKPState(level, kps[i].id));
+    }
+    return Engine.getTopicState(Engine.getTopicMasteryScore(states), states);
   }
 
   // ---- Public API ----
@@ -75,19 +81,33 @@ window.Recommender = (function () {
   }
 
   /**
-   * Returns the first topic that is in "learning" state (some KPs attempted but
-   * not yet mastered). Returns null if none found.
+   * Returns the most recently practiced topic in "learning" state.
+   * Falls back to the first learning topic if no last-practiced info is available.
    */
   function getInProgressTopic(allTopics, level) {
     if (!allTopics || !allTopics.length) return null;
 
+    // Collect all learning topics
+    var learning = [];
     for (var i = 0; i < allTopics.length; i++) {
-      var topic = allTopics[i];
-      var state = topicState(topic, level);
-      if (state === "learning") return topic;
+      if (topicState(allTopics[i], level) === "learning") {
+        learning.push(allTopics[i]);
+      }
     }
 
-    return null;
+    if (learning.length === 0) return null;
+
+    // Prefer the most recently practiced topic (if App is loaded)
+    if (typeof App !== 'undefined' && App.getLastPracticedTopic) {
+      var lastId = App.getLastPracticedTopic();
+      if (lastId) {
+        for (var j = 0; j < learning.length; j++) {
+          if (learning[j].id === lastId) return learning[j];
+        }
+      }
+    }
+
+    return learning[0];
   }
 
   /**

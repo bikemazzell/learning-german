@@ -4,6 +4,9 @@ window.App = (function () {
   // State
   // ---------------------------------------------------------------------------
 
+  var SESSION_KEY = 'trainer-active-session';
+  var LAST_TOPIC_KEY = 'trainer-last-topic';
+
   var state = {
     currentLevel: 'a1',
     levels: {},          // { a1: { level, domains }, a2: ... }
@@ -31,7 +34,12 @@ window.App = (function () {
       setLevel(state.currentLevel);
       renderLevelTabs();
       setupEventDelegation();
-      navigate('dashboard');
+      // Restore mid-quiz session if page was refreshed
+      if (restoreSession()) {
+        navigate('quiz');
+      } else {
+        navigate('dashboard');
+      }
     }).catch(function (err) {
       document.getElementById('app').innerHTML =
         '<div class="card text-center"><div class="card-title text-error">Failed to load data</div>' +
@@ -112,6 +120,76 @@ window.App = (function () {
   }
 
   // ---------------------------------------------------------------------------
+  // Session persistence
+  // ---------------------------------------------------------------------------
+
+  function saveSession() {
+    if (!state.session) {
+      try { localStorage.removeItem(SESSION_KEY); } catch (e) {}
+      return;
+    }
+    try {
+      var data = {
+        level: state.currentLevel,
+        topicId: state.session.topicId,
+        queue: state.session.queue,
+        currentIndex: state.session.currentIndex,
+        results: state.session.results
+      };
+      localStorage.setItem(SESSION_KEY, JSON.stringify(data));
+    } catch (e) {}
+  }
+
+  function restoreSession() {
+    try {
+      var raw = localStorage.getItem(SESSION_KEY);
+      if (!raw) return false;
+      var data = JSON.parse(raw);
+      if (data.level !== state.currentLevel) return false;
+      if (data.currentIndex >= data.queue.length) return false;
+
+      state.session = {
+        topicId: data.topicId,
+        queue: data.queue,
+        currentIndex: data.currentIndex,
+        currentExercise: null,
+        results: data.results || [],
+        matchState: { selectedLeft: null, pairs: {} }
+      };
+      generateCurrentExercise();
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function clearSession() {
+    try { localStorage.removeItem(SESSION_KEY); } catch (e) {}
+  }
+
+  function setLastPracticedTopic(topicId) {
+    try {
+      var data = {};
+      var raw = localStorage.getItem(LAST_TOPIC_KEY);
+      if (raw) data = JSON.parse(raw);
+      data[state.currentLevel] = { topicId: topicId, timestamp: Date.now() };
+      localStorage.setItem(LAST_TOPIC_KEY, JSON.stringify(data));
+    } catch (e) {}
+  }
+
+  function getLastPracticedTopic() {
+    try {
+      var raw = localStorage.getItem(LAST_TOPIC_KEY);
+      if (!raw) return null;
+      var data = JSON.parse(raw);
+      var entry = data[state.currentLevel];
+      return entry ? entry.topicId : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  // ---------------------------------------------------------------------------
   // Session lifecycle
   // ---------------------------------------------------------------------------
 
@@ -132,7 +210,9 @@ window.App = (function () {
       matchState: { selectedLeft: null, pairs: {} }
     };
 
+    setLastPracticedTopic(topicId);
     generateCurrentExercise();
+    saveSession();
     navigate('quiz');
   }
 
@@ -172,6 +252,7 @@ window.App = (function () {
       exercise: exercise.type
     });
 
+    saveSession();
     UI.showFeedback(result, exercise);
   }
 
@@ -180,12 +261,14 @@ window.App = (function () {
     session.currentIndex++;
 
     if (session.currentIndex >= session.queue.length) {
+      clearSession();
       navigate('summary');
       return;
     }
 
     session.matchState = { selectedLeft: null, pairs: {} };
     generateCurrentExercise();
+    saveSession();
     navigate('quiz');
   }
 
@@ -313,6 +396,7 @@ window.App = (function () {
           break;
 
         case 'end-session':
+          clearSession();
           navigate('summary');
           break;
 
@@ -414,7 +498,8 @@ window.App = (function () {
 
   return {
     init: init,
-    state: state
+    state: state,
+    getLastPracticedTopic: getLastPracticedTopic
   };
 
 })();

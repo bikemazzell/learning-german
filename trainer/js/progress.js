@@ -10,6 +10,9 @@ window.Progress = (function () {
     total_attempts: 0
   };
 
+  // In-memory cache: { level: progressObject }
+  var cache = {};
+
   function storageKey(level) {
     return STORAGE_PREFIX + level;
   }
@@ -19,20 +22,30 @@ window.Progress = (function () {
   }
 
   function loadProgress(level) {
+    if (cache[level]) return cache[level];
     try {
       var raw = localStorage.getItem(storageKey(level));
-      if (!raw) return emptyProgress();
+      if (!raw) {
+        cache[level] = emptyProgress();
+        return cache[level];
+      }
       var parsed = JSON.parse(raw);
-      if (!parsed || typeof parsed.kpStates !== 'object') return emptyProgress();
-      return parsed;
+      if (!parsed || typeof parsed.kpStates !== 'object') {
+        cache[level] = emptyProgress();
+        return cache[level];
+      }
+      cache[level] = parsed;
+      return cache[level];
     } catch (e) {
-      return emptyProgress();
+      cache[level] = emptyProgress();
+      return cache[level];
     }
   }
 
   function saveProgress(level, data) {
+    data.lastUpdated = new Date().toISOString();
+    cache[level] = data;
     try {
-      data.lastUpdated = new Date().toISOString();
       localStorage.setItem(storageKey(level), JSON.stringify(data));
     } catch (e) {
       // storage full or unavailable
@@ -43,14 +56,33 @@ window.Progress = (function () {
     var progress = loadProgress(level);
     var state = progress.kpStates[kpId];
     if (!state) {
-      return JSON.parse(JSON.stringify(DEFAULT_KP_STATE));
+      // Return a fresh default (copy so caller can't mutate the template)
+      return {
+        ease_factor: 2.5,
+        interval_days: 0,
+        next_review: null,
+        correct_streak: 0,
+        total_correct: 0,
+        total_attempts: 0
+      };
     }
-    return JSON.parse(JSON.stringify(state));
+    // Return a shallow copy so caller can't corrupt cache
+    return {
+      ease_factor: state.ease_factor,
+      interval_days: state.interval_days,
+      next_review: state.next_review,
+      correct_streak: state.correct_streak,
+      total_correct: state.total_correct,
+      total_attempts: state.total_attempts
+    };
   }
 
   function updateKPState(level, kpId, newState) {
     var progress = loadProgress(level);
-    var current = progress.kpStates[kpId] || JSON.parse(JSON.stringify(DEFAULT_KP_STATE));
+    var current = progress.kpStates[kpId] || {
+      ease_factor: 2.5, interval_days: 0, next_review: null,
+      correct_streak: 0, total_correct: 0, total_attempts: 0
+    };
     for (var key in newState) {
       if (newState.hasOwnProperty(key)) {
         current[key] = newState[key];
@@ -72,7 +104,8 @@ window.Progress = (function () {
       var state = progress.kpStates[knowledgePoints[i].id];
       if (!state) continue;
       if (state.total_attempts > 0) attempted++;
-      if (state.interval_days >= 21) mastered++;
+      if (state.interval_days >= 7 && state.total_attempts > 0 &&
+          (state.total_correct / state.total_attempts) >= 0.85) mastered++;
       totalCorrect += state.total_correct || 0;
       totalAttempts += state.total_attempts || 0;
     }
@@ -116,6 +149,7 @@ window.Progress = (function () {
         var entry = data[level];
         if (!entry || typeof entry.kpStates !== 'object') continue;
         localStorage.setItem(storageKey(level), JSON.stringify(entry));
+        cache[level] = entry; // update cache
       }
     } catch (e) {
       return false;
@@ -132,10 +166,20 @@ window.Progress = (function () {
   }
 
   function resetLevel(level) {
+    delete cache[level];
     try {
       localStorage.removeItem(storageKey(level));
     } catch (e) {
       // ignore removal errors
+    }
+  }
+
+  /** Force reload from localStorage (useful after external changes). */
+  function invalidateCache(level) {
+    if (level) {
+      delete cache[level];
+    } else {
+      cache = {};
     }
   }
 
@@ -148,6 +192,7 @@ window.Progress = (function () {
     exportProgress: exportProgress,
     importProgress: importProgress,
     resetTopic: resetTopic,
-    resetLevel: resetLevel
+    resetLevel: resetLevel,
+    invalidateCache: invalidateCache
   };
 })();

@@ -104,10 +104,20 @@ window.Engine = (function () {
     return mastered / kpStates.length;
   }
 
-  function getTopicState(masteryScore) {
-    if (masteryScore === 0)     return 'new';
-    if (masteryScore < 0.85)    return 'learning';
-    return 'mastered';
+  /**
+   * @param {number} masteryScore  Fraction of mastered KPs.
+   * @param {Array}  [kpStates]    Optional array of KP states to check if any were attempted.
+   */
+  function getTopicState(masteryScore, kpStates) {
+    if (masteryScore >= 0.85) return 'mastered';
+    if (masteryScore > 0)     return 'learning';
+    // Score is 0 — check if any KP was actually attempted
+    if (kpStates) {
+      for (var i = 0; i < kpStates.length; i++) {
+        if (kpStates[i].total_attempts > 0) return 'learning';
+      }
+    }
+    return 'new';
   }
 
   // ---------------------------------------------------------------------------
