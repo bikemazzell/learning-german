@@ -434,8 +434,15 @@ body {
 .quiz-prompt {
   font-size: 1.1rem;
   color: var(--text-heading);
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   line-height: 1.6;
+}
+
+.quiz-context-hint {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 16px;
 }
 
 .quiz-prompt .blank {

@@ -76,7 +76,8 @@
                 "english": "she bought / she has bought",
                 "auxiliary": "haben",
                 "past_participle": "gekauft",
-                "example_sentence": "Sie hat ein neues Kleid gekauft."
+                "example_sentence": "Sie hat ein neues Kleid gekauft.",
+                "pronoun_label": "sie = she (sg.)"
               },
               "explanation": "Regular Perfekt: kaufen → gekauft. 'Sie' (she) uses 'hat'."
             },
@@ -121,7 +122,8 @@
                 "english": "they did / they have done",
                 "auxiliary": "haben",
                 "past_participle": "gemacht",
-                "example_sentence": "Sie haben einen Kuchen gemacht."
+                "example_sentence": "Sie haben einen Kuchen gemacht.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "Regular Perfekt: machen → gemacht. 'Sie' (they) uses 'haben'."
             },
@@ -273,7 +275,8 @@
                 "english": "she became / she has become",
                 "auxiliary": "sein",
                 "past_participle": "geworden",
-                "example_sentence": "Sie ist Lehrerin geworden."
+                "example_sentence": "Sie ist Lehrerin geworden.",
+                "pronoun_label": "sie = she (sg.)"
               },
               "explanation": "Change of state verbs also use 'sein'. werden → geworden (irregular)."
             },
@@ -288,7 +291,8 @@
                 "english": "they went / they have gone",
                 "auxiliary": "sein",
                 "past_participle": "gegangen",
-                "example_sentence": "Sie sind nach Hause gegangen."
+                "example_sentence": "Sie sind nach Hause gegangen.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "'Sie' (they) uses 'sind' with sein-verbs. gehen → gegangen."
             },
@@ -410,7 +414,8 @@
                 "english": "she read / she has read",
                 "auxiliary": "haben",
                 "past_participle": "gelesen",
-                "example_sentence": "Sie hat das Buch gelesen."
+                "example_sentence": "Sie hat das Buch gelesen.",
+                "pronoun_label": "sie = she (sg.)"
               },
               "explanation": "lesen → gelesen (irregular: ends in -en). Strong verb, but stem vowel stays the same."
             },
@@ -1089,7 +1094,8 @@
                 "correct_form": "kommen zurück",
                 "tense": "present",
                 "english": "they come back",
-                "example_sentence": "Sie kommen morgen zurück."
+                "example_sentence": "Sie kommen morgen zurück.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "zurückkommen: prefix 'zurück-' separates. Long prefix but same rule applies."
             },
@@ -1201,7 +1207,8 @@
                 "correct_form": "fühlt sich",
                 "tense": "present",
                 "english": "she feels",
-                "example_sentence": "Sie fühlt sich heute nicht gut."
+                "example_sentence": "Sie fühlt sich heute nicht gut.",
+                "pronoun_label": "sie = she (sg.)"
               },
               "explanation": "sich fühlen = to feel. 'Ich fühle mich krank' = I feel sick."
             },
@@ -1967,7 +1974,8 @@
                 "correct_form": "werden",
                 "tense": "futur",
                 "english": "they will",
-                "example_sentence": "Sie werden bald ankommen."
+                "example_sentence": "Sie werden bald ankommen.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "Futur I with 'sie' (they) / 'Sie' (formal): 'werden'. Same form as 'wir'."
             },

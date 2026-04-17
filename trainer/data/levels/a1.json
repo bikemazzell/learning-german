@@ -57,7 +57,8 @@
                 "german": "sie",
                 "english": "she",
                 "person": "3rd singular feminine",
-                "example_sentence": "Sie liest ein Buch."
+                "example_sentence": "Sie liest ein Buch.",
+                "pronoun_label": "sie = she (sg.)"
               },
               "explanation": "'sie' (lowercase) means 'she' when the verb is conjugated for 3rd person singular."
             },
@@ -101,7 +102,8 @@
                 "german": "sie/Sie",
                 "english": "they / you (formal)",
                 "person": "3rd plural / formal",
-                "example_sentence": "Sie kommen aus Deutschland."
+                "example_sentence": "Sie kommen aus Deutschland.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "'sie' (lowercase) means 'they'; 'Sie' (capitalized) is the formal 'you' for polite address."
             }
@@ -196,7 +198,8 @@
                 "correct_form": "sind",
                 "tense": "present",
                 "english": "they are / you (formal) are",
-                "example_sentence": "Sie sind aus Österreich."
+                "example_sentence": "Sie sind aus Österreich.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "For 'sie' (they) and 'Sie' (formal you): sein → sind."
             },
@@ -265,7 +268,8 @@
                 "correct_form": "hat",
                 "tense": "present",
                 "english": "he/she/it has",
-                "example_sentence": "Sie hat zwei Kinder."
+                "example_sentence": "Sie hat zwei Kinder.",
+                "pronoun_label": "sie = she (sg.)"
               },
               "explanation": "For 'er/sie/es': haben → hat (the 'b' drops out)."
             },
@@ -304,7 +308,8 @@
                 "correct_form": "haben",
                 "tense": "present",
                 "english": "they have / you (formal) have",
-                "example_sentence": "Sie haben viel Arbeit."
+                "example_sentence": "Sie haben viel Arbeit.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "For 'sie' (they) and 'Sie' (formal): haben → haben (same as infinitive)."
             },
@@ -622,7 +627,8 @@
                 "correct_form": "kaufen",
                 "tense": "present",
                 "english": "they buy / you (formal) buy",
-                "example_sentence": "Sie kaufen Obst im Supermarkt."
+                "example_sentence": "Sie kaufen Obst im Supermarkt.",
+                "pronoun_label": "sie = they (pl.) / Sie = formal you"
               },
               "explanation": "For 'sie/Sie', the verb stays the same as the infinitive: kaufen → kaufen."
             },
@@ -687,7 +693,8 @@
                 "correct_form": "wohnt",
                 "tense": "present",
                 "english": "she lives",
-                "example_sentence": "Sie wohnt in München."
+                "example_sentence": "Sie wohnt in München.",
+                "pronoun_label": "sie = she (sg.)"
               },
               "explanation": "For 'sie' (she): wohnen → wohnt. Same '-t' ending as 'er' and 'es'."
             },

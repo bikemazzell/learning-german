@@ -358,6 +358,7 @@ window.Exercises = (function () {
       correctAnswer: displayAnswer,
       acceptAlternatives: accept,
       hint: template.hint || '',
+      contextHint: pd.pronoun_label || '',
       explanation: kpData.explanation || '',
       kpId: kpData.id
     };

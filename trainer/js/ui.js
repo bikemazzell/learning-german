@@ -220,6 +220,9 @@ window.UI = (function () {
 
     html += '<div class="quiz-card">';
     html += '<div class="quiz-prompt">' + esc(exercise.prompt) + '</div>';
+    if (exercise.contextHint) {
+      html += '<div class="quiz-context-hint">' + esc(exercise.contextHint) + '</div>';
+    }
 
     switch (exercise.type) {
       case 'multiple-choice':
