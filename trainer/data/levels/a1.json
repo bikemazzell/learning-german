@@ -2548,350 +2548,323 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "ab",
-                "english": "Ab morgen muss ich arbeiten.",
-                "example_sentence": ""
+                "english": "from / starting from",
+                "example_sentence": "Ab morgen muss ich arbeiten."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'ab' = from (a point in time or place). E.g. 'ab morgen' = starting from tomorrow."
             },
             {
               "id": "a1-vocab-greetings-kp-auf",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "auf",
-                "english": "Die Kinder spielen auf der Straße.",
-                "example_sentence": ""
+                "english": "on / onto / open",
+                "example_sentence": "Die Kinder spielen auf der Straße."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'auf' = on (location) or open. E.g. 'auf dem Tisch' = on the table."
             },
             {
               "id": "a1-vocab-greetings-kp-bitte-1",
               "prompt_data": {
                 "type": "vocabulary",
-                "german": "bitte(1)",
-                "english": "Eine Tasse Kaffee, bitte!",
-                "example_sentence": ""
+                "german": "bitte",
+                "english": "please",
+                "example_sentence": "Eine Tasse Kaffee, bitte!"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'bitte' = please (used when making a request)."
             },
             {
               "id": "a1-vocab-greetings-kp-bitte-2",
               "prompt_data": {
                 "type": "vocabulary",
-                "german": "bitte(2)",
-                "english": "Sprechen Sie bitte leise!",
-                "example_sentence": ""
+                "german": "Bitte!",
+                "english": "you're welcome / here you go",
+                "example_sentence": "Danke! – Bitte!"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'Bitte!' as a reply to 'Danke' = you're welcome."
             },
             {
               "id": "a1-vocab-greetings-kp-bitten",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "bitten",
-                "english": "Darf ich Sie um etwas bitten?",
-                "example_sentence": ""
+                "english": "to ask / to request",
+                "example_sentence": "Darf ich Sie um etwas bitten?"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'bitten' = to ask someone for something. E.g. 'Darf ich Sie um etwas bitten?' = May I ask you something?"
             },
             {
               "id": "a1-vocab-greetings-kp-bitter",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "bitter",
-                "english": "Der Kaffee schmeckt bitter.",
-                "example_sentence": ""
+                "english": "bitter",
+                "example_sentence": "Der Kaffee schmeckt bitter."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'bitter' = bitter (taste). E.g. 'Der Kaffee schmeckt bitter.' = The coffee tastes bitter."
             },
             {
               "id": "a1-vocab-greetings-kp-danken",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "danken",
-                "english": "Ich danke Ihnen für die Einladung.",
-                "example_sentence": ""
+                "english": "to thank",
+                "example_sentence": "Ich danke Ihnen für die Einladung."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'danken' = to thank. Takes dative: 'Ich danke dir' = I thank you."
             },
             {
               "id": "a1-vocab-greetings-kp-ei",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Ei",
-                "english": "Möchtest du ein Ei zum Frühstück?",
+                "english": "egg",
                 "article": "das",
                 "gender": "neuter",
-                "plural": "die -er",
-                "example_sentence": ""
+                "plural": "die Eier",
+                "example_sentence": "Möchtest du ein Ei zum Frühstück?"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'das Ei' = egg. Plural: die Eier."
             },
             {
               "id": "a1-vocab-greetings-kp-geburtsjahr",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Geburtsjahr",
-                "english": "Das Geburtsjahr Ihres Sohnes, bitte?",
+                "english": "year of birth",
                 "article": "das",
                 "gender": "neuter",
-                "example_sentence": ""
+                "example_sentence": "Das Geburtsjahr Ihres Sohnes, bitte?"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'das Geburtsjahr' = year of birth. Compound: Geburt (birth) + Jahr (year)."
             },
             {
               "id": "a1-vocab-greetings-kp-geht",
               "prompt_data": {
                 "type": "vocabulary",
-                "german": "das geht",
-                "english": "nicht!",
-                "article": "das",
-                "gender": "neuter",
-                "example_sentence": ""
+                "german": "Das geht nicht.",
+                "english": "That doesn't work. / That's not possible.",
+                "example_sentence": "Können wir morgen treffen? – Das geht nicht."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'Das geht (nicht).' = That works / That doesn't work. A very common everyday phrase."
             },
             {
               "id": "a1-vocab-greetings-kp-wiedersehen",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Wiedersehen",
-                "english": "Auf Wiedersehen!",
+                "english": "reunion / seeing (someone) again",
                 "article": "das",
                 "gender": "neuter",
-                "example_sentence": ""
+                "example_sentence": "Auf Wiedersehen!"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'Auf Wiedersehen!' = Goodbye! (literally 'until we see each other again')."
             },
             {
-              "id": "a1-vocab-greetings-kp-der",
+              "id": "a1-vocab-greetings-kp-der-samstag",
               "prompt_data": {
                 "type": "vocabulary",
-                "german": "der",
-                "english": "Samstag/Sonnabend",
-                "example_sentence": ""
+                "german": "der Samstag / der Sonnabend",
+                "english": "Saturday",
+                "article": "der",
+                "gender": "masculine",
+                "example_sentence": "Am Samstag gehe ich einkaufen."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'der Samstag' = Saturday. 'Sonnabend' is an alternative name used in northern Germany."
             },
             {
               "id": "a1-vocab-greetings-kp-dank",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Dank",
-                "english": "Vielen Dank!",
+                "english": "thanks / gratitude",
                 "article": "der",
                 "gender": "masculine",
-                "example_sentence": ""
+                "example_sentence": "Vielen Dank!"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'der Dank' = gratitude/thanks. 'Vielen Dank!' = Many thanks! / Thank you very much!"
             },
             {
               "id": "a1-vocab-greetings-kp-januar",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Januar",
-                "english": "der Juli",
+                "english": "January",
                 "article": "der",
                 "gender": "masculine",
-                "example_sentence": ""
+                "example_sentence": "Im Januar ist es oft sehr kalt."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'der Januar' = January. All months are masculine in German."
             },
             {
               "id": "a1-vocab-greetings-kp-morgen",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Morgen",
-                "english": "der Abend,-e",
+                "english": "morning",
                 "article": "der",
                 "gender": "masculine",
-                "example_sentence": ""
+                "example_sentence": "Guten Morgen!"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'der Morgen' = morning. 'Guten Morgen!' = Good morning!"
             },
             {
               "id": "a1-vocab-greetings-kp-tag",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Tag",
-                "english": "der Nachmittag,-e",
+                "english": "day",
                 "article": "der",
                 "gender": "masculine",
-                "example_sentence": ""
+                "example_sentence": "Guten Tag!"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'der Tag' = day. 'Guten Tag!' = Good day! (standard formal greeting)."
             },
             {
               "id": "a1-vocab-greetings-kp-bitte---n",
               "prompt_data": {
                 "type": "vocabulary",
-                "german": "die Bitte, -n",
-                "english": "Ich habe noch eine Bitte.",
-                "example_sentence": ""
+                "german": "die Bitte",
+                "english": "request / favour",
+                "article": "die",
+                "gender": "feminine",
+                "plural": "die Bitten",
+                "example_sentence": "Ich habe noch eine Bitte."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'die Bitte' = a request or favour. E.g. 'Ich habe eine Bitte.' = I have a favour to ask."
             },
             {
               "id": "a1-vocab-greetings-kp-jacke",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Jacke",
-                "english": "Zieh dir eine Jacke an. Es ist kalt.",
+                "english": "jacket / coat",
                 "article": "die",
                 "gender": "feminine",
-                "plural": "die -n",
-                "example_sentence": ""
+                "plural": "die Jacken",
+                "example_sentence": "Zieh dir eine Jacke an. Es ist kalt."
               },
-              "explanation": "From Goethe A1 word list."
-            },
-            {
-              "id": "a1-vocab-greetings-kp-jacke---n",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Jacke, -n",
-                "english": "Zieh dir eine Jacke an. Es ist kalt.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'die Jacke' = jacket/coat. Plural: die Jacken."
             },
             {
               "id": "a1-vocab-greetings-kp-ein",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "ein",
-                "english": "Meter = 1 m",
-                "example_sentence": ""
+                "english": "one / a / an",
+                "example_sentence": "Ich habe ein Kind."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'ein' = one (numeral) or the indefinite article a/an for neuter/masculine nouns."
             },
             {
               "id": "a1-vocab-greetings-kp-er",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "er",
-                "english": "Er heißt Ali.",
-                "example_sentence": ""
+                "english": "he",
+                "example_sentence": "Er heißt Ali."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'er' = he (third-person masculine singular pronoun)."
             },
             {
               "id": "a1-vocab-greetings-kp-gut",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "gut",
-                "english": "Das finde ich gut.",
-                "example_sentence": ""
+                "english": "good / well",
+                "example_sentence": "Das finde ich gut."
               },
-              "explanation": "From Goethe A1 word list."
-            },
-            {
-              "id": "a1-vocab-greetings-kp-guten",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Guten",
-                "english": "Tag, Frau Schmitt!",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'gut' = good (adjective) or well (adverb). E.g. 'Es geht mir gut.' = I'm doing well."
             },
             {
               "id": "a1-vocab-greetings-kp-herzlich",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "herzlich",
-                "english": "Herzlichen Glückwunsch!",
-                "example_sentence": ""
+                "english": "warmly / cordially / heartfelt",
+                "example_sentence": "Herzlich willkommen!"
               },
-              "explanation": "From Goethe A1 word list."
-            },
-            {
-              "id": "a1-vocab-greetings-kp-herzlichen",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Herzlichen",
-                "english": "Dank!",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'herzlich' = warm, cordial, heartfelt. Used in greetings: 'Herzlich willkommen!' = Welcome!"
             },
             {
               "id": "a1-vocab-greetings-kp-ich",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "ich",
-                "english": "Ich heiße Veronika.",
-                "example_sentence": ""
+                "english": "I",
+                "example_sentence": "Ich heiße Veronika."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'ich' = I (first-person singular pronoun). Always lowercase except at the start of a sentence."
             },
             {
               "id": "a1-vocab-greetings-kp-ja",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "ja",
-                "english": "Sind Sie Herr Watanabe? – Ja.",
-                "example_sentence": ""
+                "english": "yes",
+                "example_sentence": "Sind Sie Herr Watanabe? – Ja."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'ja' = yes. The most basic affirmative response in German."
             },
             {
               "id": "a1-vocab-greetings-kp-kommen",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "kommen",
-                "english": "Woher kommen Sie? – Aus Frankreich.",
-                "example_sentence": ""
+                "english": "to come",
+                "example_sentence": "Woher kommen Sie? – Aus Frankreich."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'kommen' = to come. 'Woher kommen Sie?' = Where are you from?"
             },
             {
               "id": "a1-vocab-greetings-kp-nach",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "nach",
-                "english": "Ich gehe jetzt nach Hause.",
-                "example_sentence": ""
+                "english": "to / after / according to",
+                "example_sentence": "Ich gehe jetzt nach Hause."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'nach' = to (with city/country names), after (time), or according to. E.g. 'nach Hause' = (going) home."
             },
             {
               "id": "a1-vocab-greetings-kp-nein",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "nein",
-                "english": "Fährst du auch nach München? – Nein, ich habe keine Zeit.",
-                "example_sentence": ""
+                "english": "no",
+                "example_sentence": "Fährst du auch nach München? – Nein, ich habe keine Zeit."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'nein' = no. The basic negative response in German."
             },
             {
               "id": "a1-vocab-greetings-kp-sehen",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "sehen",
-                "english": "Ich kann dich nicht sehen.",
-                "example_sentence": ""
+                "english": "to see",
+                "example_sentence": "Ich kann dich nicht sehen."
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'sehen' = to see. Irregular verb: ich sehe, du siehst, er sieht."
             },
             {
               "id": "a1-vocab-greetings-kp-wie",
               "prompt_data": {
                 "type": "vocabulary",
-                "german": "Wie",
-                "english": "heißt das auf Deutsch?",
-                "example_sentence": ""
+                "german": "wie",
+                "english": "how / what (in questions)",
+                "example_sentence": "Wie heißt das auf Deutsch?"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'wie' = how (or 'what' in 'Wie heißt...?' = What is ... called?). Used in many common questions."
             },
             {
               "id": "a1-vocab-greetings-kp-willkommen",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "willkommen",
-                "english": "Herzlich willkommen!",
-                "example_sentence": ""
+                "english": "welcome",
+                "example_sentence": "Herzlich willkommen!"
               },
-              "explanation": "From Goethe A1 word list."
+              "explanation": "'willkommen' = welcome. 'Herzlich willkommen!' = Warm welcome! / Welcome!"
             }
           ]
         },
