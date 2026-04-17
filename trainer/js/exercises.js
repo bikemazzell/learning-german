@@ -70,8 +70,10 @@ window.Exercises = (function () {
 
   function normalize(str) {
     return (str || '').trim().toLowerCase()
-      .replace(/[.,!?;:'"()]/g, '')
-      .replace(/\s+/g, ' ');
+      .replace(/[,;]/g, ' ')       // treat comma/semicolon as word separator before stripping
+      .replace(/[.!?:'"()]/g, '')  // remove remaining punctuation
+      .replace(/\s+/g, ' ')        // collapse any run of spaces
+      .trim();
   }
 
   /** Extract the bare word from "der Tisch" -> "Tisch", "das Buch" -> "Buch" */
