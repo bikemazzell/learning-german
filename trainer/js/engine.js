@@ -109,6 +109,28 @@ window.Engine = (function () {
   }
 
   /**
+   * Display progress score (0-1) giving partial credit for KPs that are being
+   * learned but not yet mastered. Mastered KPs contribute 1.0; others
+   * contribute correct_streak / 3 (since 3 consecutive corrects = mastery).
+   * Use this for percentage display only — not for mastery state decisions.
+   * @param {Array} kpStates  Array of individual KP state objects.
+   */
+  function getTopicProgressScore(kpStates) {
+    if (!kpStates || kpStates.length === 0) return 0;
+    var total = 0;
+    for (var i = 0; i < kpStates.length; i++) {
+      var s = kpStates[i];
+      if (isKPMastered(s)) {
+        total += 1;
+      } else {
+        // Partial credit: 3 consecutive correct answers leads to mastery
+        total += Math.min(s.correct_streak, 3) / 3;
+      }
+    }
+    return total / kpStates.length;
+  }
+
+  /**
    * @param {number} masteryScore  Fraction of mastered KPs.
    * @param {Array}  [kpStates]    Optional array of KP states to check if any were attempted.
    */
@@ -231,14 +253,15 @@ window.Engine = (function () {
   // ---------------------------------------------------------------------------
 
   return {
-    todayISO:             todayISO,
-    addDays:              addDays,
-    sm2Update:            sm2Update,
-    isKPMastered:         isKPMastered,
-    isKPDue:              isKPDue,
-    getTopicMasteryScore: getTopicMasteryScore,
-    getTopicState:        getTopicState,
-    composeSession:       composeSession
+    todayISO:              todayISO,
+    addDays:               addDays,
+    sm2Update:             sm2Update,
+    isKPMastered:          isKPMastered,
+    isKPDue:               isKPDue,
+    getTopicMasteryScore:  getTopicMasteryScore,
+    getTopicProgressScore: getTopicProgressScore,
+    getTopicState:         getTopicState,
+    composeSession:        composeSession
   };
 
 })();

@@ -97,7 +97,7 @@ window.UI = (function () {
       var states = kps.map(function (kp) { return Progress.getKPState(level, kp.id); });
       var score = Engine.getTopicMasteryScore(states);
       var state = Engine.getTopicState(score, states);
-      var pct = Math.round(score * 100);
+      var pct = Math.round(Engine.getTopicProgressScore(states) * 100);
       html += '<div class="topic-dot ' + state + '" data-action="view-topic" data-topic="' + esc(t.id) + '">';
       html += '<div class="topic-dot-name">' + esc(t.name) + '</div>';
       html += '<div class="topic-dot-pct">' + pct + '%</div>';
@@ -139,7 +139,7 @@ window.UI = (function () {
       var states = kps.map(function (kp) { return Progress.getKPState(level, kp.id); });
       var score = Engine.getTopicMasteryScore(states);
       var tState = Engine.getTopicState(score, states);
-      var pct = Math.round(score * 100);
+      var pct = Math.round(Engine.getTopicProgressScore(states) * 100);
 
       html += '<div class="topic-row" data-action="view-topic" data-topic="' + esc(t.id) + '">';
       html += '<div class="topic-status-dot ' + tState + '"></div>';
@@ -167,7 +167,7 @@ window.UI = (function () {
     var states = kps.map(function (kp) { return Progress.getKPState(level, kp.id); });
     var score = Engine.getTopicMasteryScore(states);
     var tState = Engine.getTopicState(score, states);
-    var pct = Math.round(score * 100);
+    var pct = Math.round(Engine.getTopicProgressScore(states) * 100);
 
     var prereqCheck = Recommender.checkPrerequisites(topicId, state.allTopics, level);
 
