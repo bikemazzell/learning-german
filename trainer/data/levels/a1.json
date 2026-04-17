@@ -347,6 +347,7 @@
                 "german": "der Tisch",
                 "english": "the table",
                 "article": "der",
+                "article_label": "definite",
                 "gender": "masculine",
                 "plural": "die Tische",
                 "example_sentence": "Der Tisch ist groß."
@@ -360,6 +361,7 @@
                 "german": "der Stuhl",
                 "english": "the chair",
                 "article": "der",
+                "article_label": "definite",
                 "gender": "masculine",
                 "plural": "die Stühle",
                 "example_sentence": "Der Stuhl ist bequem."
@@ -373,6 +375,7 @@
                 "german": "der Mann",
                 "english": "the man",
                 "article": "der",
+                "article_label": "definite",
                 "gender": "masculine",
                 "plural": "die Männer",
                 "example_sentence": "Der Mann liest eine Zeitung."
@@ -386,6 +389,7 @@
                 "german": "die Frau",
                 "english": "the woman",
                 "article": "die",
+                "article_label": "definite",
                 "gender": "feminine",
                 "plural": "die Frauen",
                 "example_sentence": "Die Frau trinkt Kaffee."
@@ -399,6 +403,7 @@
                 "german": "die Lampe",
                 "english": "the lamp",
                 "article": "die",
+                "article_label": "definite",
                 "gender": "feminine",
                 "plural": "die Lampen",
                 "example_sentence": "Die Lampe ist neu."
@@ -412,6 +417,7 @@
                 "german": "die Katze",
                 "english": "the cat",
                 "article": "die",
+                "article_label": "definite",
                 "gender": "feminine",
                 "plural": "die Katzen",
                 "example_sentence": "Die Katze schläft auf dem Sofa."
@@ -425,6 +431,7 @@
                 "german": "das Buch",
                 "english": "the book",
                 "article": "das",
+                "article_label": "definite",
                 "gender": "neuter",
                 "plural": "die Bücher",
                 "example_sentence": "Das Buch ist interessant."
@@ -438,6 +445,7 @@
                 "german": "das Kind",
                 "english": "the child",
                 "article": "das",
+                "article_label": "definite",
                 "gender": "neuter",
                 "plural": "die Kinder",
                 "example_sentence": "Das Kind spielt im Garten."
@@ -451,6 +459,7 @@
                 "german": "das Haus",
                 "english": "the house",
                 "article": "das",
+                "article_label": "definite",
                 "gender": "neuter",
                 "plural": "die Häuser",
                 "example_sentence": "Das Haus ist alt."
@@ -464,6 +473,7 @@
                 "german": "ein Mann",
                 "english": "a man",
                 "article": "ein",
+                "article_label": "indefinite",
                 "gender": "masculine",
                 "plural": "Männer",
                 "example_sentence": "Ein Mann steht dort."
@@ -477,6 +487,7 @@
                 "german": "eine Frau",
                 "english": "a woman",
                 "article": "eine",
+                "article_label": "indefinite",
                 "gender": "feminine",
                 "plural": "Frauen",
                 "example_sentence": "Eine Frau wartet an der Haltestelle."
@@ -490,6 +501,7 @@
                 "german": "ein Kind",
                 "english": "a child",
                 "article": "ein",
+                "article_label": "indefinite",
                 "gender": "neuter",
                 "plural": "Kinder",
                 "example_sentence": "Ein Kind spielt im Park."
@@ -504,6 +516,7 @@
                 "english": "the (plural)",
                 "rule": "All plural nouns use 'die' regardless of gender",
                 "correct_form": "die",
+                "article_label": "plural",
                 "example_sentence": "Die Kinder spielen draußen.",
                 "counter_example": "Das Kind spielt draußen."
               },
@@ -517,6 +530,7 @@
                 "english": "no / not any (plural)",
                 "rule": "There is no plural indefinite article; use 'keine' to negate",
                 "correct_form": "keine",
+                "article_label": "plural negation",
                 "example_sentence": "Ich habe keine Bücher.",
                 "counter_example": "Ich habe Bücher."
               },
@@ -529,6 +543,7 @@
                 "german": "der Hund",
                 "english": "the dog",
                 "article": "der",
+                "article_label": "definite",
                 "gender": "masculine",
                 "plural": "die Hunde",
                 "example_sentence": "Der Hund ist treu."

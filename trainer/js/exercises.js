@@ -311,6 +311,7 @@ window.Exercises = (function () {
       prompt: prompt,
       options: options,
       correctAnswer: correctAnswer,
+      contextHint: pd.article_label ? pd.article_label + ' article' : '',
       explanation: kpData.explanation || '',
       kpId: kpData.id
     };
@@ -353,13 +354,17 @@ window.Exercises = (function () {
     }
 
     // Build context hint: pronoun disambiguation takes priority;
-    // for all conjugation KPs add "(verb only)" so the learner knows not to
-    // include the pronoun in their answer.
+    // for conjugation KPs add "verb only" so the learner knows not to include
+    // the pronoun; for article KPs add "noun only" since the article is already
+    // visible in the sentence and the blank is just for the noun.
     var fillContextHint = pd.pronoun_label || '';
     if (pd.type === 'conjugation' && !fillContextHint) {
       fillContextHint = 'verb only';
     } else if (pd.type === 'conjugation' && fillContextHint) {
       fillContextHint = fillContextHint + ' — verb only';
+    }
+    if (pd.article_label) {
+      fillContextHint = fillContextHint ? fillContextHint + ' — noun only' : 'noun only';
     }
 
     return {
@@ -443,6 +448,12 @@ window.Exercises = (function () {
         correctAnswer = baseAnswer;
         addAlt(correctAnswer);
         addAlt(stripArticle(correctAnswer));
+        // Article-type vocabulary KPs: show definite/indefinite label so the
+        // learner knows which article form is expected when similar nouns exist
+        // for both definite and indefinite (e.g. "der Mann" vs "ein Mann").
+        if (pd.article_label) {
+          transContextHint = pd.article_label + ' article';
+        }
       }
     } else {
       prompt = fillPromptTemplate(template.prompt_template || "Translate to English: '{german}'", pd);
