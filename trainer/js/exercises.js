@@ -130,11 +130,29 @@ window.Exercises = (function () {
    * @returns {Object} exercise instance
    */
   function generateExercise(kpData, templateIds, difficulty, allKPsInTopic) {
-    var templates = [];
+    var kpType = (kpData && kpData.prompt_data && kpData.prompt_data.type) || null;
+
+    // Collect all templates declared on the topic.
+    var allForTopic = [];
     for (var i = 0; i < templateIds.length; i++) {
       var t = findTemplate(templateIds[i]);
-      if (t) templates.push(t);
+      if (t) allForTopic.push(t);
     }
+
+    // Filter to templates actually applicable to THIS KP's type. A missing
+    // `applicable_kp_types` on a template means "any", matching legacy behaviour.
+    var templates = [];
+    for (i = 0; i < allForTopic.length; i++) {
+      var tpl = allForTopic[i];
+      if (!tpl.applicable_kp_types || !kpType ||
+          tpl.applicable_kp_types.indexOf(kpType) !== -1) {
+        templates.push(tpl);
+      }
+    }
+
+    // Last-resort fallback: if filtering left nothing (e.g. data drift), use
+    // the unfiltered set so we still produce some exercise rather than crash.
+    if (templates.length === 0) templates = allForTopic;
 
     // Get available types from these templates
     var availableTypes = [];
@@ -176,6 +194,7 @@ window.Exercises = (function () {
     var pd = kpData.prompt_data;
     var answerField = template.answer_field || 'german';
     var correctAnswer = resolveField(pd, answerField);
+    if (!correctAnswer) correctAnswer = fallbackAnswer(pd);
     var prompt = fillPromptTemplate(template.prompt_template, pd);
 
     // Build distractors
@@ -232,6 +251,7 @@ window.Exercises = (function () {
     var pd = kpData.prompt_data;
     var answerField = template.answer_field || 'correct_form';
     var correctAnswer = resolveField(pd, answerField);
+    if (!correctAnswer) correctAnswer = fallbackAnswer(pd);
 
     var prompt;
     if (pd.example_sentence && correctAnswer) {
@@ -295,7 +315,7 @@ window.Exercises = (function () {
 
     if (direction === 'en-to-de') {
       prompt = fillPromptTemplate(template.prompt_template || "Translate to German: '{english}'", pd);
-      correctAnswer = pd.german || pd.correct_form || '';
+      correctAnswer = pd.german || pd.correct_form || fallbackAnswer(pd) || '';
       acceptAlternatives = [correctAnswer, stripArticle(correctAnswer)];
     } else {
       prompt = fillPromptTemplate(template.prompt_template || "Translate to English: '{german}'", pd);
@@ -492,7 +512,11 @@ window.Exercises = (function () {
         var answer = data.correct_form || stripArticle(data.german || '');
         return makeBlankedSentence(data.example_sentence || '', answer);
       }
-      return data[key] !== undefined ? data[key] : match;
+      // If the key isn't present in the KP's prompt_data, drop the placeholder
+      // rather than leaking `{key}` into the UI. Template filtering in
+      // `generateExercise` should prevent most mismatches, but this guards
+      // against data drift.
+      return data[key] !== undefined ? data[key] : '';
     });
   }
 
@@ -503,9 +527,26 @@ window.Exercises = (function () {
     return data[field] !== undefined ? String(data[field]) : '';
   }
 
+  /** Best-effort answer when a template's declared `answer_field` is missing
+   *  on a KP. Picks the first non-empty common field. */
+  function fallbackAnswer(pd) {
+    if (!pd) return '';
+    return pd.correct_form
+        || stripArticle(pd.german || '')
+        || pd.german
+        || pd.english
+        || '';
+  }
+
   // ---------------------------------------------------------------------------
   // Public API
   // ---------------------------------------------------------------------------
+
+  // Test seam: allow synchronous template injection (used by the Node test harness).
+  function __setTemplates(grammar, vocab) {
+    grammarTemplates = grammar || [];
+    vocabTemplates = vocab || [];
+  }
 
   return {
     loadTemplates: loadTemplates,
@@ -516,7 +557,8 @@ window.Exercises = (function () {
     generateTranslation: generateTranslation,
     generateSentenceProduction: generateSentenceProduction,
     validateAnswer: validateAnswer,
-    levenshtein: levenshtein
+    levenshtein: levenshtein,
+    __setTemplates: __setTemplates
   };
 
 })();

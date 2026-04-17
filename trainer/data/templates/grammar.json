@@ -42,7 +42,15 @@
       "prompt_template": "{example_sentence_with_blank}",
       "answer_field": "correct_form",
       "hint": "Complete the sentence with the correct form.",
-      "applicable_kp_types": ["conjugation", "vocabulary", "pronoun", "grammar-rule"]
+      "applicable_kp_types": ["conjugation", "vocabulary", "grammar-rule"]
+    },
+    {
+      "id": "fill-blank-pronoun",
+      "type": "fill-blank",
+      "prompt_template": "{example_sentence_with_blank}",
+      "answer_field": "german",
+      "hint": "Fill in the missing pronoun.",
+      "applicable_kp_types": ["pronoun"]
     },
     {
       "id": "translation-grammar",

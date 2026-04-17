@@ -13,9 +13,8 @@
           "mastery_threshold": 0.85,
           "exercise_templates": [
             "mc-grammar-pronoun",
-            "fill-blank-grammar",
-            "translation-grammar",
-            "sentence-production-grammar"
+            "fill-blank-pronoun",
+            "translation-grammar"
           ],
           "knowledge_points": [
             {
@@ -321,19 +320,6 @@
                 "example_sentence": "Sie haben viel Arbeit."
               },
               "explanation": "For 'sie' (they) and 'Sie' (formal): haben → haben (same as infinitive)."
-            },
-            {
-              "id": "a1-gram-haben-kp-negation",
-              "prompt_data": {
-                "type": "grammar-rule",
-                "german": "kein + haben",
-                "english": "not having (something)",
-                "rule": "Use 'kein/keine/keinen' instead of 'nicht ein' to negate nouns with 'haben'",
-                "correct_form": "keinen",
-                "example_sentence": "Ich habe keinen Bruder.",
-                "counter_example": "Ich habe einen Bruder."
-              },
-              "explanation": "With 'haben' + noun, negate with 'kein' (not 'nicht ein'): 'Ich habe kein Auto.'"
             },
             {
               "id": "a1-gram-haben-kp-hunger",
@@ -850,6 +836,19 @@
                 "counter_example": "Ich trinke einen Kaffee. Ich trinke gern."
               },
               "explanation": "Rule of thumb: if the positive sentence has 'ein/eine' or no article before a noun, use 'kein'. Otherwise use 'nicht'."
+            },
+            {
+              "id": "a1-gram-negation-kp-kein-haben",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "kein + haben",
+                "english": "not having (something)",
+                "rule": "Use 'kein/keine/keinen' instead of 'nicht ein' to negate nouns with 'haben'",
+                "correct_form": "keinen",
+                "example_sentence": "Ich habe keinen Bruder.",
+                "counter_example": "Ich habe einen Bruder."
+              },
+              "explanation": "With 'haben' + noun, negate with 'kein' (not 'nicht ein'): 'Ich habe kein Auto.'"
             }
           ]
         },

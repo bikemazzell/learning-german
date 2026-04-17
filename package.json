@@ -1,0 +1,9 @@
+{
+  "name": "learning-german",
+  "version": "0.0.0",
+  "private": true,
+  "description": "German A1/A2 trainer — tests for the browser trainer.",
+  "scripts": {
+    "test": "node --test trainer/tests/*.test.js"
+  }
+}
