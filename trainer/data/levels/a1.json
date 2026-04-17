@@ -201,19 +201,6 @@
               "explanation": "For 'sie' (they) and 'Sie' (formal you): sein → sind."
             },
             {
-              "id": "a1-gram-sein-kp-negation",
-              "prompt_data": {
-                "type": "grammar-rule",
-                "german": "nicht sein",
-                "english": "to not be",
-                "rule": "Negate 'sein' by placing 'nicht' after the conjugated form",
-                "correct_form": "ist nicht",
-                "example_sentence": "Das ist nicht richtig.",
-                "counter_example": "Das ist richtig."
-              },
-              "explanation": "To negate 'sein', place 'nicht' after the conjugated verb: 'Er ist nicht hier.'"
-            },
-            {
               "id": "a1-gram-sein-kp-question",
               "prompt_data": {
                 "type": "grammar-rule",
@@ -849,6 +836,19 @@
                 "counter_example": "Ich habe einen Bruder."
               },
               "explanation": "With 'haben' + noun, negate with 'kein' (not 'nicht ein'): 'Ich habe kein Auto.'"
+            },
+            {
+              "id": "a1-gram-negation-kp-nicht-sein",
+              "prompt_data": {
+                "type": "grammar-rule",
+                "german": "nicht + sein",
+                "english": "to not be",
+                "rule": "Negate 'sein' by placing 'nicht' after the conjugated form",
+                "correct_form": "nicht",
+                "example_sentence": "Das ist nicht richtig.",
+                "counter_example": "Das ist richtig."
+              },
+              "explanation": "To negate 'sein', place 'nicht' after the conjugated verb: 'Er ist nicht hier.'"
             }
           ]
         },
