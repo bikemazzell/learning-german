@@ -82,9 +82,13 @@ window.Engine = (function () {
   // ---------------------------------------------------------------------------
 
   function isKPMastered(kpState) {
-    return kpState.interval_days >= 7
-      && kpState.total_attempts > 0
-      && (kpState.total_correct / kpState.total_attempts) >= 0.85;
+    // A KP is mastered once the SM-2 interval reaches 7 days, which requires
+    // at least 3 consecutive correct answers. We intentionally do NOT gate on
+    // accuracy (total_correct / total_attempts): historical wrong answers from
+    // earlier buggy exercise versions permanently dragged accuracy below the
+    // old 85% threshold even for learners who were consistently correct after
+    // the fixes. The interval itself is the proper SM-2 mastery signal.
+    return kpState.interval_days >= 7 && kpState.total_attempts > 0;
   }
 
   function isKPDue(kpState) {

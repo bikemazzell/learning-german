@@ -104,8 +104,7 @@ window.Progress = (function () {
       var state = progress.kpStates[knowledgePoints[i].id];
       if (!state) continue;
       if (state.total_attempts > 0) attempted++;
-      if (state.interval_days >= 7 && state.total_attempts > 0 &&
-          (state.total_correct / state.total_attempts) >= 0.85) mastered++;
+      if (state.interval_days >= 7 && state.total_attempts > 0) mastered++;
       totalCorrect += state.total_correct || 0;
       totalAttempts += state.total_attempts || 0;
     }
