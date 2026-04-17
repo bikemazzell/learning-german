@@ -79,22 +79,81 @@ window.Exercises = (function () {
     return (str || '').replace(/^(der|die|das|ein|eine|einen|einem|einer)\s+/i, '');
   }
 
-  /** Build a blank sentence from example_sentence by replacing the target word */
+  /** Split multi-form answers like "sie/Sie" or "er/sie/es" into individual forms. */
+  function splitForms(str) {
+    if (!str) return [];
+    var parts = String(str).split(/\s*\/\s*/);
+    var out = [];
+    for (var i = 0; i < parts.length; i++) {
+      var p = parts[i].trim();
+      if (p && out.indexOf(p) === -1) out.push(p);
+    }
+    return out;
+  }
+
+  function escapeRegex(str) {
+    return String(str).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  /**
+   * Blank out the target word in the example sentence, handling multi-form
+   * answers (e.g. "sie/Sie", "er/sie/es") by trying each form plus stripped
+   * articles. Returns { sentence, matchedForm } so callers can display the
+   * specific form that was blanked.
+   */
+  function blankSentenceDetailed(sentence, targetWord) {
+    if (!sentence || !targetWord) return { sentence: sentence || '', matchedForm: null };
+
+    var candidates = [];
+    function push(x) {
+      if (x && candidates.indexOf(x) === -1) candidates.push(x);
+    }
+    push(targetWord);
+    var forms = splitForms(targetWord);
+    for (var i = 0; i < forms.length; i++) {
+      push(forms[i]);
+      var bare = stripArticle(forms[i]);
+      if (bare) push(bare);
+    }
+    push(stripArticle(targetWord));
+
+    for (var j = 0; j < candidates.length; j++) {
+      var c = candidates[j];
+      var re = new RegExp('\\b' + escapeRegex(c) + '\\b');
+      var m = sentence.match(re);
+      if (m) {
+        return { sentence: sentence.replace(re, '______'), matchedForm: m[0] };
+      }
+      // Case-insensitive fallback if case-sensitive didn't hit.
+      var reI = new RegExp('\\b' + escapeRegex(c) + '\\b', 'i');
+      var mI = sentence.match(reI);
+      if (mI) {
+        return { sentence: sentence.replace(reI, '______'), matchedForm: mI[0] };
+      }
+    }
+    return { sentence: sentence + ' (______)', matchedForm: null };
+  }
+
+  /** Backwards-compatible helper returning only the blanked sentence string. */
   function makeBlankedSentence(sentence, targetWord) {
-    if (!sentence || !targetWord) return sentence || '';
-    // Try exact match first
-    var escaped = targetWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    var re = new RegExp('\\b' + escaped + '\\b', 'i');
-    if (re.test(sentence)) {
-      return sentence.replace(re, '______');
-    }
-    // Fallback: strip article and try bare word
-    var bare = stripArticle(targetWord);
-    var rebare = new RegExp('\\b' + bare.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
-    if (rebare.test(sentence)) {
-      return sentence.replace(rebare, '______');
-    }
-    return sentence + ' (______)';
+    return blankSentenceDetailed(sentence, targetWord).sentence;
+  }
+
+  /**
+   * Can `template` (a fill-blank template) produce an inline blank for `kpData`?
+   * Many grammar-rule KPs store a descriptive `correct_form` (e.g. "-e",
+   * "Bist du...?", "zu") that does not occur verbatim in `example_sentence`.
+   * For those, fill-blank would emit a trailing "(______)" fallback; the
+   * engine filters them out and picks another exercise type instead.
+   */
+  function canFillBlankInline(kpData, template) {
+    var pd = kpData && kpData.prompt_data;
+    if (!pd || !pd.example_sentence) return false;
+    var answerField = (template && template.answer_field) || 'correct_form';
+    var raw = resolveField(pd, answerField);
+    if (!raw) raw = fallbackAnswer(pd);
+    if (!raw) return false;
+    return blankSentenceDetailed(pd.example_sentence, raw).matchedForm != null;
   }
 
   // ---------------------------------------------------------------------------
@@ -153,6 +212,20 @@ window.Exercises = (function () {
     // Last-resort fallback: if filtering left nothing (e.g. data drift), use
     // the unfiltered set so we still produce some exercise rather than crash.
     if (templates.length === 0) templates = allForTopic;
+
+    // Further filter: drop fill-blank templates that cannot produce an inline
+    // blank for THIS KP (e.g. correct_form is a rule description like "-e" or
+    // "Bist du...?"). Without this, getExerciseType would pick fill-blank and
+    // generateFillBlank would emit a trailing "(______)" fallback. Keep at
+    // least one template overall so the engine can still pick something.
+    var filteredByBlankability = [];
+    for (i = 0; i < templates.length; i++) {
+      if (templates[i].type === 'fill-blank' && !canFillBlankInline(kpData, templates[i])) {
+        continue;
+      }
+      filteredByBlankability.push(templates[i]);
+    }
+    if (filteredByBlankability.length > 0) templates = filteredByBlankability;
 
     // Get available types from these templates
     var availableTypes = [];
@@ -250,23 +323,41 @@ window.Exercises = (function () {
   function generateFillBlank(kpData, template) {
     var pd = kpData.prompt_data;
     var answerField = template.answer_field || 'correct_form';
-    var correctAnswer = resolveField(pd, answerField);
-    if (!correctAnswer) correctAnswer = fallbackAnswer(pd);
+    var rawAnswer = resolveField(pd, answerField);
+    if (!rawAnswer) rawAnswer = fallbackAnswer(pd);
+
+    // Collect every acceptable form up front so multi-form answers
+    // (e.g. "sie/Sie", "er/sie/es") are handled consistently.
+    var accept = [];
+    function addAccept(x) {
+      if (x && accept.indexOf(x) === -1) accept.push(x);
+    }
+    addAccept(rawAnswer);
+    var forms = splitForms(rawAnswer);
+    for (var i = 0; i < forms.length; i++) addAccept(forms[i]);
 
     var prompt;
-    if (pd.example_sentence && correctAnswer) {
-      prompt = makeBlankedSentence(pd.example_sentence, correctAnswer);
+    // Default displayed answer is the raw field; if we blank inside a
+    // sentence, prefer the exact form found there so the hint shown on
+    // failure matches what the blank required.
+    var displayAnswer = rawAnswer;
+    if (pd.example_sentence && rawAnswer) {
+      var blanked = blankSentenceDetailed(pd.example_sentence, rawAnswer);
+      prompt = blanked.sentence;
+      if (blanked.matchedForm) {
+        displayAnswer = blanked.matchedForm;
+        addAccept(blanked.matchedForm);
+      }
     } else {
       prompt = fillPromptTemplate(template.prompt_template || 'Fill in: ______', pd);
     }
 
-    var hint = template.hint || '';
-
     return {
       type: 'fill-blank',
       prompt: prompt,
-      correctAnswer: correctAnswer,
-      hint: hint,
+      correctAnswer: displayAnswer,
+      acceptAlternatives: accept,
+      hint: template.hint || '',
       explanation: kpData.explanation || '',
       kpId: kpData.id
     };
@@ -402,8 +493,16 @@ window.Exercises = (function () {
 
   function validateFillBlank(exercise, userAnswer) {
     var normalized = normalize(userAnswer);
-    var expected = normalize(exercise.correctAnswer);
-    var correct = normalized === expected || levenshtein(normalized, expected) <= 1;
+    var candidates = [exercise.correctAnswer].concat(exercise.acceptAlternatives || []);
+    var correct = false;
+    for (var i = 0; i < candidates.length; i++) {
+      var exp = normalize(candidates[i]);
+      if (!exp) continue;
+      if (normalized === exp || levenshtein(normalized, exp) <= 1) {
+        correct = true;
+        break;
+      }
+    }
     return {
       correct: correct,
       correctAnswer: exercise.correctAnswer,
