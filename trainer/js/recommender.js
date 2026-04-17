@@ -212,17 +212,35 @@ window.Recommender = (function () {
       return result;
     }
 
-    // Priority 2: In-progress topic.
-    if (inProgress) {
+    // Priority 2: In-progress topic below the graduate threshold.
+    //
+    // Once a topic reaches GRADUATE_THRESHOLD (80%) its remaining KPs will be
+    // handled automatically by the spaced-repetition schedule. At that point
+    // the recommender should advance the learner to new content rather than
+    // keep them stuck on one topic. If multiple topics are still in progress
+    // we pick the one with the LOWEST mastery (needs the most attention).
+    var GRADUATE_THRESHOLD = 0.8;
+    var activeLearning = null;
+    var lowestMastery = GRADUATE_THRESHOLD; // only candidates strictly below
+    for (var j = 0; j < allTopics.length; j++) {
+      if (topicState(allTopics[j], level) !== 'learning') continue;
+      var m = topicMastery(allTopics[j], level);
+      if (m < lowestMastery) {
+        lowestMastery = m;
+        activeLearning = allTopics[j];
+      }
+    }
+
+    if (activeLearning) {
       result.action = "continue";
-      result.topicId = inProgress.id;
-      result.topicName = inProgress.name;
+      result.topicId = activeLearning.id;
+      result.topicName = activeLearning.name;
       result.dueCount = dueReviews.length;
       result.reason = "Continue learning this topic — it is already in progress.";
       return result;
     }
 
-    // Priority 3: Next recommended new topic.
+    // Priority 3: Next recommended new topic (all in-progress topics >= 80%).
     var next = getNextRecommendedTopic(allTopics, level);
     if (next) {
       result.action = "new_topic";
@@ -233,7 +251,18 @@ window.Recommender = (function () {
       return result;
     }
 
-    // Priority 4: All done.
+    // Priority 4: Graduated in-progress topic (>= 80%, no new topics yet).
+    // Keep reinforcing until the topic is fully mastered (>= 85%).
+    if (inProgress) {
+      result.action = "continue";
+      result.topicId = inProgress.id;
+      result.topicName = inProgress.name;
+      result.dueCount = dueReviews.length;
+      result.reason = "Almost there — keep reinforcing to reach full mastery!";
+      return result;
+    }
+
+    // Priority 5: All done.
     result.dueCount = dueReviews.length;
     result.reason = "All topics are mastered or no new topics have their prerequisites met.";
     return result;
