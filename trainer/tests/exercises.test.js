@@ -98,6 +98,30 @@ test('Pronouns topic: fill-blank and translation for pronoun KPs have usable pro
   }
 });
 
+test('fill-blank conjugation hint includes the infinitive verb', () => {
+  const { Exercises } = loadTrainer();
+  const a1 = loadLevel('a1');
+  const topic = findTopic(a1, 'a1-grammar-present-tense-regular');
+  assert.ok(topic, 'present-tense-regular topic must exist');
+
+  const conjugationKPs = topic.knowledge_points.filter(kp => kp.prompt_data.type === 'conjugation');
+  assert.ok(conjugationKPs.length > 0, 'test precondition: conjugation KPs must exist');
+
+  for (const kp of conjugationKPs) {
+    // Difficulty 2 targets fill-blank exercises
+    const ex = withSeed(1, () =>
+      Exercises.generateExercise(kp, topic.exercise_templates, 2, topic.knowledge_points)
+    );
+    if (ex.type === 'fill-blank') {
+      const verb = kp.prompt_data.verb;
+      assert.ok(
+        ex.contextHint && ex.contextHint.indexOf(verb) !== -1,
+        `fill-blank for KP ${kp.id} (verb="${verb}") missing verb in contextHint: "${ex.contextHint}"`
+      );
+    }
+  }
+});
+
 test('Grammar-rule KPs in sein topic never pick the conjugation template', () => {
   const { Exercises } = loadTrainer();
   const a1 = loadLevel('a1');
