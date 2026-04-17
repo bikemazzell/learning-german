@@ -455,11 +455,19 @@ window.Exercises = (function () {
         correctAnswer = baseAnswer;
         addAlt(correctAnswer);
         addAlt(stripArticle(correctAnswer));
-        // Article-type vocabulary KPs: show definite/indefinite label so the
-        // learner knows which article form is expected when similar nouns exist
-        // for both definite and indefinite (e.g. "der Mann" vs "ein Mann").
+        // Article-type vocabulary KPs: show definite/indefinite label.
         if (pd.article_label) {
           transContextHint = pd.article_label + ' article';
+        }
+        // Grammar-rule KPs with a comma-separated correct_form (e.g. pattern
+        // examples like "einundzwanzig, zweiunddreißig, dreiundvierzig"):
+        // accept any individual example form as a correct answer so the learner
+        // can demonstrate the pattern without having to recall one specific form.
+        if (pd.type === 'grammar-rule' && pd.correct_form) {
+          var cfForms = pd.correct_form.split(/\s*,\s*/);
+          for (var cfi = 0; cfi < cfForms.length; cfi++) {
+            addAlt(cfForms[cfi]);
+          }
         }
       }
     } else {
