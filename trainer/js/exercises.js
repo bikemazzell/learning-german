@@ -352,13 +352,23 @@ window.Exercises = (function () {
       prompt = fillPromptTemplate(template.prompt_template || 'Fill in: ______', pd);
     }
 
+    // Build context hint: pronoun disambiguation takes priority;
+    // for all conjugation KPs add "(verb only)" so the learner knows not to
+    // include the pronoun in their answer.
+    var fillContextHint = pd.pronoun_label || '';
+    if (pd.type === 'conjugation' && !fillContextHint) {
+      fillContextHint = 'verb only';
+    } else if (pd.type === 'conjugation' && fillContextHint) {
+      fillContextHint = fillContextHint + ' — verb only';
+    }
+
     return {
       type: 'fill-blank',
       prompt: prompt,
       correctAnswer: displayAnswer,
       acceptAlternatives: accept,
       hint: template.hint || '',
-      contextHint: pd.pronoun_label || '',
+      contextHint: fillContextHint,
       explanation: kpData.explanation || '',
       kpId: kpData.id
     };
@@ -414,19 +424,21 @@ window.Exercises = (function () {
 
       var baseAnswer = pd.german || pd.correct_form || fallbackAnswer(pd) || '';
 
-      // For conjugation KPs the `correct_form` is only the inflected verb
-      // (e.g. "hast"). The learner may naturally write the full phrase
-      // "du hast" — both should be accepted and the full form shown on failure.
+      // For conjugation KPs the correct_form is only the inflected verb
+      // (e.g. "hast"). The learner may also write the full phrase "du hast" —
+      // both are accepted, but we display the verb alone and label it
+      // "(verb only)" so the expectation is clear before answering.
+      var transContextHint = '';
       if (pd.type === 'conjugation' && pd.pronoun && pd.correct_form) {
         var pronounForms = splitForms(pd.pronoun);   // handles "er/sie/es"
-        // Primary displayed answer: first pronoun form + correct_form
-        correctAnswer = pronounForms[0] + ' ' + pd.correct_form;
-        // Accept every pronoun variant + form, the bare form, and the base field
+        // Displayed answer: bare verb only — pronoun+verb also accepted.
+        correctAnswer = pd.correct_form;
+        addAlt(pd.correct_form);
+        addAlt(baseAnswer);
         for (var pi = 0; pi < pronounForms.length; pi++) {
           addAlt(pronounForms[pi] + ' ' + pd.correct_form);
         }
-        addAlt(pd.correct_form);
-        addAlt(baseAnswer);
+        transContextHint = 'verb only — pronoun optional';
       } else {
         correctAnswer = baseAnswer;
         addAlt(correctAnswer);
@@ -443,6 +455,7 @@ window.Exercises = (function () {
       prompt: prompt,
       correctAnswer: correctAnswer,
       acceptAlternatives: accept,
+      contextHint: transContextHint || '',
       direction: direction,
       explanation: kpData.explanation || '',
       kpId: kpData.id
