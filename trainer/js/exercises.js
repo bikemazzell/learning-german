@@ -403,23 +403,46 @@ window.Exercises = (function () {
   function generateTranslation(kpData, template) {
     var pd = kpData.prompt_data;
     var direction = template.direction || 'en-to-de';
-    var prompt, correctAnswer, acceptAlternatives;
+    var prompt, correctAnswer;
+    var accept = [];
+    function addAlt(x) {
+      if (x && accept.indexOf(x) === -1) accept.push(x);
+    }
 
     if (direction === 'en-to-de') {
       prompt = fillPromptTemplate(template.prompt_template || "Translate to German: '{english}'", pd);
-      correctAnswer = pd.german || pd.correct_form || fallbackAnswer(pd) || '';
-      acceptAlternatives = [correctAnswer, stripArticle(correctAnswer)];
+
+      var baseAnswer = pd.german || pd.correct_form || fallbackAnswer(pd) || '';
+
+      // For conjugation KPs the `correct_form` is only the inflected verb
+      // (e.g. "hast"). The learner may naturally write the full phrase
+      // "du hast" — both should be accepted and the full form shown on failure.
+      if (pd.type === 'conjugation' && pd.pronoun && pd.correct_form) {
+        var pronounForms = splitForms(pd.pronoun);   // handles "er/sie/es"
+        // Primary displayed answer: first pronoun form + correct_form
+        correctAnswer = pronounForms[0] + ' ' + pd.correct_form;
+        // Accept every pronoun variant + form, the bare form, and the base field
+        for (var pi = 0; pi < pronounForms.length; pi++) {
+          addAlt(pronounForms[pi] + ' ' + pd.correct_form);
+        }
+        addAlt(pd.correct_form);
+        addAlt(baseAnswer);
+      } else {
+        correctAnswer = baseAnswer;
+        addAlt(correctAnswer);
+        addAlt(stripArticle(correctAnswer));
+      }
     } else {
       prompt = fillPromptTemplate(template.prompt_template || "Translate to English: '{german}'", pd);
       correctAnswer = pd.english || '';
-      acceptAlternatives = [correctAnswer];
+      addAlt(correctAnswer);
     }
 
     return {
       type: 'translation',
       prompt: prompt,
       correctAnswer: correctAnswer,
-      acceptAlternatives: acceptAlternatives,
+      acceptAlternatives: accept,
       direction: direction,
       explanation: kpData.explanation || '',
       kpId: kpData.id
