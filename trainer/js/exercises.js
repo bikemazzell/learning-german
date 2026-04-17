@@ -353,10 +353,11 @@ window.Exercises = (function () {
       prompt = fillPromptTemplate(template.prompt_template || 'Fill in: ______', pd);
     }
 
-    // Build context hint: pronoun disambiguation takes priority;
-    // for conjugation KPs add "verb only" so the learner knows not to include
-    // the pronoun; for article KPs add "noun only" since the article is already
-    // visible in the sentence and the blank is just for the noun.
+    // Build context hint:
+    // - Conjugation KPs: pronoun label (e.g. "sie = they") + "verb only"
+    // - Article vocabulary KPs: "noun only" (article is already visible in sentence)
+    // - ALL vocabulary KPs: prepend English translation so the learner knows
+    //   which word to fill in (without it "Das ______ ist alt." is unsolvable).
     var fillContextHint = pd.pronoun_label || '';
     if (pd.type === 'conjugation' && !fillContextHint) {
       fillContextHint = 'verb only';
@@ -365,6 +366,10 @@ window.Exercises = (function () {
     }
     if (pd.article_label) {
       fillContextHint = fillContextHint ? fillContextHint + ' — noun only' : 'noun only';
+    }
+    if (pd.type === 'vocabulary' && pd.english) {
+      // Prepend English so the exercise reads: "Das ______ ist alt." / "the house — noun only"
+      fillContextHint = pd.english + (fillContextHint ? ' — ' + fillContextHint : '');
     }
 
     return {
