@@ -523,20 +523,6 @@
               "explanation": "In the plural, all genders use 'die': der Mann → die Männer, die Frau → die Frauen, das Kind → die Kinder."
             },
             {
-              "id": "a1-gram-articles-kp-kein-plural",
-              "prompt_data": {
-                "type": "grammar-rule",
-                "german": "keine (Plural)",
-                "english": "no / not any (plural)",
-                "rule": "There is no plural indefinite article; use 'keine' to negate",
-                "correct_form": "keine",
-                "article_label": "plural negation",
-                "example_sentence": "Ich habe keine Bücher.",
-                "counter_example": "Ich habe Bücher."
-              },
-              "explanation": "German has no plural indefinite article. Use 'keine' for negation: 'keine Bücher' = no books."
-            },
-            {
               "id": "a1-gram-articles-kp-der-hund",
               "prompt_data": {
                 "type": "vocabulary",
