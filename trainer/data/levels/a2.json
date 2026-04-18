@@ -2437,18 +2437,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "ab",
-                "english": "Ab morgen muss ich wieder arbeiten.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-health-kp-alle",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Alle",
-                "english": "Freunde kommen. beantworter, - den Anrufbeantworter.",
-                "example_sentence": ""
+                "english": "from / starting from / off",
+                "example_sentence": "Ab morgen muss ich wieder arbeiten."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2457,8 +2447,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "als",
-                "english": "Hector ist jünger als seine Schwester.",
-                "example_sentence": ""
+                "english": "than / as / when (comparison)",
+                "example_sentence": "Hector ist jünger als seine Schwester."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2467,8 +2457,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "an",
-                "english": "Fahren Sie an der nächsten Kreuzung nach rechts.",
-                "example_sentence": ""
+                "english": "on / at / to (preposition)",
+                "example_sentence": "Fahren Sie an der nächsten Kreuzung nach rechts."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2477,8 +2467,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "auch",
-                "english": "Ich bin auch Spanier.",
-                "example_sentence": ""
+                "english": "also / too / as well",
+                "example_sentence": "Ich bin auch Spanier."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2517,8 +2507,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Auge, -n",
-                "english": "Er hat blaue Augen.",
-                "example_sentence": ""
+                "english": "eye",
+                "example_sentence": "TODO: das Auge, -n → Er hat blaue Augen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2537,11 +2527,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Ei",
-                "english": "Möchtest du ein Ei zum Frühstück? empfehlen, Welchen Wein können Sie mir empfehlen?",
+                "english": "egg",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -er",
-                "example_sentence": ""
+                "example_sentence": "Möchtest du ein Ei zum Frühstück?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2550,8 +2540,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Fieber (Sg.)",
-                "english": "Sie hat hohes Fieber.",
-                "example_sentence": ""
+                "english": "fever / temperature",
+                "example_sentence": "Sie hat hohes Fieber."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2613,8 +2603,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Krankenhaus, ¨-er(2)",
-                "english": "Er hat sich verletzt und muss ins Krankenhaus.",
-                "example_sentence": ""
+                "english": "hospital (injury)",
+                "example_sentence": "Er hat sich verletzt und muss ins Krankenhaus."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2646,8 +2636,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Ohr, -en",
-                "english": "Ich habe Ohrenschmerzen.",
-                "example_sentence": ""
+                "english": "ear",
+                "example_sentence": "Ich habe Ohrenschmerzen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2722,8 +2712,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Fuß(2)",
-                "english": "Gehen Sie zu Fuß zur Arbeit?",
-                "example_sentence": ""
+                "english": "on foot",
+                "example_sentence": "Gehen Sie zu Fuß zur Arbeit?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2732,8 +2722,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Fuß, ¨-e",
-                "english": "Der linke Fuß tut mir weh.",
-                "example_sentence": ""
+                "english": "foot",
+                "example_sentence": "Der linke Fuß tut mir weh."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2742,8 +2732,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Fußball, ¨-e",
-                "english": "Spielt ihr gern Fußball?",
-                "example_sentence": ""
+                "english": "football / soccer ball",
+                "example_sentence": "Spielt ihr gern Fußball?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2762,8 +2752,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Hals, ¨-e(2)",
-                "english": "Ich habe seit gestern Halsschmerzen.",
-                "example_sentence": ""
+                "english": "sore throat",
+                "example_sentence": "Ich habe seit gestern Halsschmerzen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2782,11 +2772,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Körper",
-                "english": "Der Arzt sagt, ich muss etwas für meinen Körper die Lampe, -n Mach bitte die Lampe an. Es ist so dunkel.",
+                "english": "body",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -",
-                "example_sentence": ""
+                "example_sentence": "Der Arzt sagt, ich muss etwas für meinen Körper tun."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2795,8 +2785,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Mund, ¨-er",
-                "english": "Öffnen Sie bitte den Mund. Ich möchte in Ihren Hals sehen.",
-                "example_sentence": ""
+                "english": "mouth",
+                "example_sentence": "Öffnen Sie bitte den Mund."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2805,8 +2795,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Rücken, -",
-                "english": "Mein Rücken tut mir weh.",
-                "example_sentence": ""
+                "english": "back (body)",
+                "example_sentence": "Mein Rücken tut mir weh."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2815,11 +2805,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Schmerz",
-                "english": "Haben Sie Schmerzen?",
+                "english": "pain / ache",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "TODO: der Schmerz → Haben Sie Schmerzen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2828,8 +2818,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Schmerz, -en",
-                "english": "Haben Sie Schmerzen?",
-                "example_sentence": ""
+                "english": "pain / ache",
+                "example_sentence": "TODO: der Schmerz, -en → Haben Sie Schmerzen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2838,8 +2828,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Schmerz, -en(2)",
-                "english": "Ich habe Bauchschmerzen.",
-                "example_sentence": ""
+                "english": "pain / ache",
+                "example_sentence": "Ich habe Bauchschmerzen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2848,8 +2838,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Zahn, ¨-e",
-                "english": "Der Zahn tut mir schon seit einer Woche weh.",
-                "example_sentence": ""
+                "english": "tooth",
+                "example_sentence": "Der Zahn tut mir schon seit einer Woche weh."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2858,11 +2848,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Apotheke",
-                "english": "Das Medikament bekommen Sie in der Apotheke.",
+                "english": "pharmacy / chemist",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "Das Medikament bekommen Sie in der Apotheke."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2871,8 +2861,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Apotheke, -n",
-                "english": "Das Medikament bekommen Sie in der Apotheke.",
-                "example_sentence": ""
+                "english": "pharmacy / chemist",
+                "example_sentence": "Das Medikament bekommen Sie in der Apotheke."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2881,10 +2871,10 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Gesundheit",
-                "english": "Gesundheit! Sind Sie erkältet?",
+                "english": "health",
                 "article": "die",
                 "gender": "feminine",
-                "example_sentence": ""
+                "example_sentence": "Gesundheit! Sind Sie erkältet?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2893,8 +2883,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Gesundheit (Sg.)",
-                "english": "Gesundheit! Sind Sie erkältet?",
-                "example_sentence": ""
+                "english": "health",
+                "example_sentence": "Gesundheit! Sind Sie erkältet?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2903,8 +2893,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Hand, ¨-e",
-                "english": "Wasch dir bitte die Hände vor dem Essen.",
-                "example_sentence": ""
+                "english": "hand",
+                "example_sentence": "Wasch dir bitte die Hände vor dem Essen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2958,11 +2948,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Rezeption",
-                "english": "Geben Sie bitte den Schlüssel an der Rezeption ab.",
+                "english": "reception / front desk",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die en",
-                "example_sentence": ""
+                "example_sentence": "Geben Sie bitte den Schlüssel an der Rezeption ab."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2971,8 +2961,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Rezeption, -en",
-                "english": "Geben Sie bitte den Schlüssel an der Rezeption ab.",
-                "example_sentence": ""
+                "english": "reception / front desk",
+                "example_sentence": "Geben Sie bitte den Schlüssel an der Rezeption ab."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2981,11 +2971,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Tablette",
-                "english": "Du sollst am Abend zwei Tabletten nehmen. tot Meine Großeltern sind schon lange tot.",
+                "english": "tablet / pill",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "Du sollst am Abend zwei Tabletten nehmen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -2994,8 +2984,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Tablette, -n",
-                "english": "Du sollst am Abend zwei Tabletten nehmen.",
-                "example_sentence": ""
+                "english": "tablet / pill",
+                "example_sentence": "Du sollst am Abend zwei Tabletten nehmen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3004,8 +2994,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "drücken(2)",
-                "english": "Drücken Sie „Bestätigen“!",
-                "example_sentence": ""
+                "english": "to press (a button)",
+                "example_sentence": "Drücken Sie „Bestätigen\"!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3014,8 +3004,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "drücken(3)",
-                "english": "Meine Schuhe drücken.",
-                "example_sentence": ""
+                "english": "to pinch / to be tight (shoes)",
+                "example_sentence": "Meine Schuhe drücken."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3024,8 +3014,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "drücken, drückt",
-                "english": "An dieser Tür musst du drücken, nicht ziehen, dann geht sie auf.",
-                "example_sentence": ""
+                "english": "to push / to press",
+                "example_sentence": "An dieser Tür musst du drücken, nicht ziehen, dann geht sie auf."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3064,8 +3054,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "herzlich",
-                "english": "Herzlichen Glückwunsch!",
-                "example_sentence": ""
+                "english": "warmly / cordially",
+                "example_sentence": "Herzlichen Glückwunsch!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3084,8 +3074,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "husten, hustet, hat gehustet",
-                "english": "Sie hustet seit zwei Tagen. Sie ist krank.",
-                "example_sentence": ""
+                "english": "to cough",
+                "example_sentence": "Sie hustet seit zwei Tagen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3094,8 +3084,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "in",
-                "english": "Ich wohne in Wiesbaden.",
-                "example_sentence": ""
+                "english": "in / into",
+                "example_sentence": "Ich wohne in Wiesbaden."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3104,8 +3094,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "und",
-                "english": "Ich habe heute und morgen frei.",
-                "example_sentence": ""
+                "english": "and",
+                "example_sentence": "Ich habe heute und morgen frei."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3124,8 +3114,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "verletzen (sich), verletzt",
-                "english": "Sind Sie verletzt? – Ja, am Bein.",
-                "example_sentence": ""
+                "english": "to injure (oneself)",
+                "example_sentence": "Sind Sie verletzt?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3134,8 +3124,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "verletzen (sich), verletzt(2)",
-                "english": "Haben Sie sich verletzt?",
-                "example_sentence": ""
+                "english": "to injure (oneself) – past",
+                "example_sentence": "Haben Sie sich verletzt?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3164,8 +3154,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "warm (3)",
-                "english": "Ich brauche einen warmen Pullover.",
-                "example_sentence": ""
+                "english": "warm (clothing)",
+                "example_sentence": "Ich brauche einen warmen Pullover."
               },
               "explanation": "From Goethe A2 word list."
             }
@@ -3335,22 +3325,12 @@
               "explanation": "From Goethe A2 word list."
             },
             {
-              "id": "a2-vocab-weather-kp-anweisungssprache",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Anweisungssprache",
-                "english": "zur Prüfung",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
               "id": "a2-vocab-weather-kp-aufregend",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "aufregend",
-                "english": "Die letzte Woche war sehr aufregend.",
-                "example_sentence": ""
+                "english": "exciting",
+                "example_sentence": "Die letzte Woche war sehr aufregend."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3359,18 +3339,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "aufregend(2)",
-                "english": "Der Film ist nicht besonders aufregend.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-weather-kp-beispielsweise",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "beispielsweise",
-                "english": "bei dem Wort Kindergarten.",
-                "example_sentence": ""
+                "english": "exciting (film)",
+                "example_sentence": "Der Film ist nicht besonders aufregend."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3379,8 +3349,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "bewölkt",
-                "english": "Heute ist es bewölkt.",
-                "example_sentence": ""
+                "english": "cloudy / overcast",
+                "example_sentence": "Heute ist es bewölkt."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3389,8 +3359,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Eis (Sg.)",
-                "english": "Möchtest du auch ein Eis?",
-                "example_sentence": ""
+                "english": "ice cream / ice",
+                "example_sentence": "Möchtest du auch ein Eis?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3421,11 +3391,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Gleis",
-                "english": "Der ICE nach Berlin hält heute an Gleis 12.",
+                "english": "platform / track (train)",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Der ICE nach Berlin hält heute an Gleis 12."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3434,8 +3404,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Gleis, -e",
-                "english": "Der ICE nach Berlin hält heute an Gleis 12.",
-                "example_sentence": ""
+                "english": "platform / track (train)",
+                "example_sentence": "Der ICE nach Berlin hält heute an Gleis 12."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3444,11 +3414,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Reisebüro",
-                "english": "Wir organisieren eine Rundreise durch Deutschland.",
+                "english": "travel agency",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -s",
-                "example_sentence": ""
+                "example_sentence": "Wir organisieren eine Rundreise durch Deutschland."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3457,8 +3427,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Reisebüro, -s",
-                "english": "Wir organisieren eine Rundreise durch Deutschland.",
-                "example_sentence": ""
+                "english": "travel agency",
+                "example_sentence": "Wir organisieren eine Rundreise durch Deutschland."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3467,8 +3437,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Reisebüro, -s(2)",
-                "english": "Wir buchen die Reise im Reisebüro.",
-                "example_sentence": ""
+                "english": "travel agency",
+                "example_sentence": "Wir buchen die Reise im Reisebüro."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3499,8 +3469,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Wetter (Sg.) (2)",
-                "english": "Wir hatten im Urlaub schlechtes Wetter.",
-                "example_sentence": ""
+                "english": "weather (bad)",
+                "example_sentence": "Wir hatten im Urlaub schlechtes Wetter."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3509,11 +3479,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Öl",
-                "english": "Machen wir den Salat mit Öl?",
+                "english": "oil",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Machen wir den Salat mit Öl?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3555,10 +3525,10 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Kühl-",
-                "english": "Haben wir noch Milch? – Ja, im Kühlschrank.",
+                "english": "fridge (prefix)",
                 "article": "der",
                 "gender": "masculine",
-                "example_sentence": ""
+                "example_sentence": "Haben wir noch Milch? – Ja, im Kühlschrank."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3567,8 +3537,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Kühlschrank, ¨-e",
-                "english": "Haben wir noch Milch? – Ja, im Kühlschrank.",
-                "example_sentence": ""
+                "english": "refrigerator / fridge",
+                "example_sentence": "Haben wir noch Milch?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3577,11 +3547,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Preis",
-                "english": "Die Preise sind hier viel höher als bei uns. hat recht,",
+                "english": "price",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Die Preise sind hier viel höher als bei uns."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3590,8 +3560,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Preis, -e",
-                "english": "Die Preise sind hier viel höher als bei uns.",
-                "example_sentence": ""
+                "english": "price",
+                "example_sentence": "Die Preise sind hier viel höher als bei uns."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3610,10 +3580,10 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Reis",
-                "english": "(Sg.) Ich esse gern Reis mit Gemüse und Fisch. rund Unser Wohnzimmertisch ist rund.",
+                "english": "rice",
                 "article": "der",
                 "gender": "masculine",
-                "example_sentence": ""
+                "example_sentence": "Ich esse gern Reis mit Gemüse und Fisch."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3622,21 +3592,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Reis (Sg.)",
-                "english": "Ich esse gern Reis mit Gemüse und Fisch.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-weather-kp-reisef-hrer",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "der Reiseführer",
-                "english": "Ich kaufe mir einen Reiseführer von Berlin. S",
-                "article": "der",
-                "gender": "masculine",
-                "plural": "die -",
-                "example_sentence": ""
+                "english": "rice",
+                "example_sentence": "Ich esse gern Reis mit Gemüse und Fisch."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3645,8 +3602,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Reiseführer, - (2)",
-                "english": "Unser Reiseführer heißt Robert und ist sehr sympathisch.",
-                "example_sentence": ""
+                "english": "tour guide (person)",
+                "example_sentence": "Unser Reiseführer heißt Robert und ist sehr sympathisch."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3665,8 +3622,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Wind, -e",
-                "english": "Der Wind ist kalt.",
-                "example_sentence": ""
+                "english": "wind",
+                "example_sentence": "TODO: der Wind, -e → Der Wind ist kalt."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3683,27 +3640,15 @@
               "explanation": "From Goethe A2 word list."
             },
             {
-              "id": "a2-vocab-weather-kp-preise",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Preise",
-                "english": "in diesem Laden sind sehr hoch.",
-                "article": "die",
-                "gender": "feminine",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
               "id": "a2-vocab-weather-kp-reise",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Reise",
-                "english": "Wir machen eine Reise nach Österreich.",
+                "english": "trip / journey / travel",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "Wir machen eine Reise nach Österreich."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3712,8 +3657,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Reise, -n",
-                "english": "Wir machen eine Reise nach Österreich.",
-                "example_sentence": ""
+                "english": "trip / journey / travel",
+                "example_sentence": "Wir machen eine Reise nach Österreich."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3722,8 +3667,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Reise, -n(2)",
-                "english": "Ich mache nächste Woche eine Geschäftsreise.",
-                "example_sentence": ""
+                "english": "business trip",
+                "example_sentence": "Ich mache nächste Woche eine Geschäftsreise."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3732,8 +3677,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Sonne, -n",
-                "english": "Die Sonne scheint.",
-                "example_sentence": ""
+                "english": "sun",
+                "example_sentence": "TODO: die Sonne, -n → Die Sonne scheint."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3775,8 +3720,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "heiß(2)",
-                "english": "Mir ist heiß. Kannst du das Fenster öffnen?",
-                "example_sentence": ""
+                "english": "hot",
+                "example_sentence": "Mir ist heiß. Kannst du das Fenster öffnen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3785,8 +3730,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "heißen, heißt, hat geheißen",
-                "english": "Ich heiße Charlotte Meier.",
-                "example_sentence": ""
+                "english": "to be called (name)",
+                "example_sentence": "Ich heiße Charlotte Meier."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3795,18 +3740,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "heißen, heißt, hat geheißen(2)",
-                "english": "Wie heißt das auf Deutsch?",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-weather-kp-hinweis",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Hinweis",
-                "english": "zu § 52a UrhG: Weder das Werk noch seine Teile dürfen ohne eine solche",
-                "example_sentence": ""
+                "english": "to be called (word)",
+                "example_sentence": "Wie heißt das auf Deutsch?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3815,8 +3750,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "kalt(2)",
-                "english": "Der Kaffee ist kalt. Ich möchte ihn nicht mehr trinken.",
-                "example_sentence": ""
+                "english": "cold",
+                "example_sentence": "Der Kaffee ist kalt. Ich möchte ihn nicht mehr trinken."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3845,8 +3780,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "meist-",
-                "english": "Ich bin neu hier im Haus. Die meisten Nachbarn kenne ich noch nicht.",
-                "example_sentence": ""
+                "english": "most (prefix)",
+                "example_sentence": "Ich bin neu hier im Haus."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3855,8 +3790,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "meistens",
-                "english": "Meistens trinke ich zum Frühstück nur einen Kaffee.",
-                "example_sentence": ""
+                "english": "usually / most of the time",
+                "example_sentence": "Meistens trinke ich zum Frühstück nur einen Kaffee."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3865,8 +3800,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "preiswert",
-                "english": "Die Jacke ist sehr preiswert. Sie kostet nur 15 Euro.",
-                "example_sentence": ""
+                "english": "good value / worth the price",
+                "example_sentence": "Die Jacke ist sehr preiswert."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3875,8 +3810,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "reisen, reist",
-                "english": "Ich reise gern.",
-                "example_sentence": ""
+                "english": "to travel",
+                "example_sentence": "TODO: reisen, reist → Ich reise gern."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3885,8 +3820,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "reisen, reist(2)",
-                "english": "Wir sind schon nach Spanien gereist.",
-                "example_sentence": ""
+                "english": "to travel (past)",
+                "example_sentence": "Wir sind schon nach Spanien gereist."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3895,8 +3830,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "so",
-                "english": "Sie müssen das so machen!",
-                "example_sentence": ""
+                "english": "so / like that / in this way",
+                "example_sentence": "Sie müssen das so machen!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3915,8 +3850,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "trocken",
-                "english": "Die Wäsche ist bald trocken.",
-                "example_sentence": ""
+                "english": "dry",
+                "example_sentence": "Die Wäsche ist bald trocken."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3935,8 +3870,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "verreisen, verreist(2)",
-                "english": "Frau Doktor Müller ist zur Zeit verreist. Sie kommt erst nächste Woche zurück.",
-                "example_sentence": ""
+                "english": "to go on a trip (away)",
+                "example_sentence": "Frau Doktor Müller ist zur Zeit verreist."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3945,8 +3880,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "vor",
-                "english": "Er ist vor einer Stunde gegangen.",
-                "example_sentence": ""
+                "english": "before / ago",
+                "example_sentence": "Er ist vor einer Stunde gegangen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -3955,8 +3890,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "vorher",
-                "english": "Ich komme mit ins Café. Vorher muss ich aber noch zur Bank.",
-                "example_sentence": ""
+                "english": "before / beforehand",
+                "example_sentence": "Ich komme mit ins Café."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4005,8 +3940,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "überweisen, überweist",
-                "english": "Sie können das Geld auch überweisen.",
-                "example_sentence": ""
+                "english": "to transfer (money)",
+                "example_sentence": "Sie können das Geld auch überweisen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4015,8 +3950,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "überweisen, überweist (2)",
-                "english": "Ich überweise dir das Geld.",
-                "example_sentence": ""
+                "english": "to transfer (money)",
+                "example_sentence": "Ich überweise dir das Geld."
               },
               "explanation": "From Goethe A2 word list."
             }
@@ -4174,8 +4109,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "arbeiten(2)",
-                "english": "Ich arbeite als Krankenschwester in einem Krankenhaus.",
-                "example_sentence": ""
+                "english": "to work (profession)",
+                "example_sentence": "Ich arbeite als Krankenschwester in einem Krankenhaus."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4214,18 +4149,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "auf",
-                "english": "Das Wörterbuch liegt auf dem Tisch.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-work-kp-bearbeiten",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Bearbeiten",
-                "english": "der geschriebenen Texte verstanden werden muss. Es gibt Wörter innerhalb",
-                "example_sentence": ""
+                "english": "on / onto",
+                "example_sentence": "Das Wörterbuch liegt auf dem Tisch."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4234,8 +4159,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "bestellen",
-                "english": "Wir möchten bitte bestellen.",
-                "example_sentence": ""
+                "english": "to order",
+                "example_sentence": "Wir möchten bitte bestellen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4244,8 +4169,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "bestellen(2)",
-                "english": "Dieses Buch haben wir nicht da. Sollen wir es für Sie bestellen?",
-                "example_sentence": ""
+                "english": "to order (a book for someone)",
+                "example_sentence": "Dieses Buch haben wir nicht da. Sollen wir es für Sie bestellen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4254,8 +4179,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "bestellen(3)",
-                "english": "hat bestellt",
-                "example_sentence": ""
+                "english": "to order (past form: hat bestellt)",
+                "example_sentence": "Sie hat das Buch bestellt."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4264,8 +4189,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Büro(2)",
-                "english": "Unser Büro ist bis Dienstag geschlossen.",
-                "example_sentence": ""
+                "english": "office (closed)",
+                "example_sentence": "Unser Büro ist bis Dienstag geschlossen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4274,8 +4199,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Büro, -s",
-                "english": "Ich arbeite in einem Büro.",
-                "example_sentence": ""
+                "english": "office",
+                "example_sentence": "Ich arbeite in einem Büro."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4284,8 +4209,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Gehalt, ¨-er",
-                "english": "Sie ist mit ihrem Gehalt zufrieden.",
-                "example_sentence": ""
+                "english": "salary / wage",
+                "example_sentence": "Sie ist mit ihrem Gehalt zufrieden."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4294,11 +4219,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Geschäft",
-                "english": "Die Geschäfte schließen um 18.30 Uhr.",
+                "english": "shop / business",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Die Geschäfte schließen um 18.30 Uhr."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4320,11 +4245,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Praktikum",
-                "english": "Ich mache ein Praktikum bei Siemens. der Raum, ¨-e Der Unterricht findet heute in Raum 332 statt.",
+                "english": "internship / work placement",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -a",
-                "example_sentence": ""
+                "example_sentence": "Ich mache ein Praktikum bei Siemens."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4333,8 +4258,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Praktikum, -a",
-                "english": "Ich mache ein Praktikum bei Siemens.",
-                "example_sentence": ""
+                "english": "internship / work placement",
+                "example_sentence": "Ich mache ein Praktikum bei Siemens."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4343,8 +4268,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Projekt, -e",
-                "english": "Wir machen ein Projekt über Sehenswürdigkeiten in unserer Stadt.",
-                "example_sentence": ""
+                "english": "project",
+                "example_sentence": "Wir machen ein Projekt über Sehenswürdigkeiten in unserer Stadt."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4376,8 +4301,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Chef, -s / die Chefin, -ne",
-                "english": "Wir haben eine neue Chefin.",
-                "example_sentence": ""
+                "english": "boss / manager",
+                "example_sentence": "Wir haben eine neue Chefin."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4386,8 +4311,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Kollege, -n / die Kollegin, -nen",
-                "english": "Wie heißt die neue Kollegin?",
-                "example_sentence": ""
+                "english": "colleague",
+                "example_sentence": "Wie heißt die neue Kollegin?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4396,11 +4321,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Mitarbeiter",
-                "english": "Unsere Firma hat sieben Mitarbeiter. Ihr nächster Termin ist in einem Monat.",
+                "english": "employee / staff member",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -",
-                "example_sentence": ""
+                "example_sentence": "Unsere Firma hat sieben Mitarbeiter."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4419,8 +4344,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Termin, -e (2)",
-                "english": "Ich habe heute einen Termin bei meiner Zahnärztin.",
-                "example_sentence": ""
+                "english": "appointment (dentist)",
+                "example_sentence": "Ich habe heute einen Termin bei meiner Zahnärztin."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4429,11 +4354,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Urlaub",
-                "english": "Ich nehme im September Urlaub.",
+                "english": "holiday / vacation",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Ich nehme im September Urlaub."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4442,8 +4367,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Urlaub, -e",
-                "english": "Ich nehme im September Urlaub.",
-                "example_sentence": ""
+                "english": "holiday / vacation",
+                "example_sentence": "Ich nehme im September Urlaub."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4452,8 +4377,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Vertrag, ¨-e",
-                "english": "Ich muss den Vertrag noch unterschreiben.",
-                "example_sentence": ""
+                "english": "contract",
+                "example_sentence": "Ich muss den Vertrag noch unterschreiben."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4485,11 +4410,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Baustelle",
-                "english": "Vor unserem Haus ist eine große Baustelle.",
+                "english": "construction site",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "Vor unserem Haus ist eine große Baustelle."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4498,8 +4423,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Baustelle, -n",
-                "english": "Vor unserem Haus ist eine große Baustelle.",
-                "example_sentence": ""
+                "english": "construction site",
+                "example_sentence": "Vor unserem Haus ist eine große Baustelle."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4508,11 +4433,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Chefin",
-                "english": "Wir haben eine neue Chefin.",
+                "english": "female boss / manager",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -nen",
-                "example_sentence": ""
+                "example_sentence": "Wir haben eine neue Chefin."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4521,11 +4446,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Erfahrung",
-                "english": "Ich habe zehn Jahre Erfahrung in diesem Beruf.",
+                "english": "experience",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Ich habe zehn Jahre Erfahrung in diesem Beruf."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4534,8 +4459,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Erfahrung, -en",
-                "english": "Ich habe zehn Jahre Erfahrung in diesem Beruf.",
-                "example_sentence": ""
+                "english": "experience",
+                "example_sentence": "Ich habe zehn Jahre Erfahrung in diesem Beruf."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4544,8 +4469,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Firma, -en",
-                "english": "Er arbeitet jetzt bei einer anderen Firma.",
-                "example_sentence": ""
+                "english": "company / firm",
+                "example_sentence": "Er arbeitet jetzt bei einer anderen Firma."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4554,11 +4479,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Haltestelle",
-                "english": "An der nächsten Haltestelle müssen Sie aussteigen.",
+                "english": "bus/tram stop",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "An der nächsten Haltestelle müssen Sie aussteigen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4567,8 +4492,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Haltestelle, -n",
-                "english": "An der nächsten Haltestelle müssen Sie aussteigen.",
-                "example_sentence": ""
+                "english": "bus/tram stop",
+                "example_sentence": "An der nächsten Haltestelle müssen Sie aussteigen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4577,11 +4502,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Stelle",
-                "english": "Ich habe eine neue Stelle. Ich arbeite jetzt bei",
+                "english": "position / job / spot",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "TODO: die Stelle → Ich habe eine neue Stelle."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4590,8 +4515,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Stelle, -n",
-                "english": "Ich habe eine neue Stelle. Ich arbeite jetzt bei Mercedes.",
-                "example_sentence": ""
+                "english": "position / job",
+                "example_sentence": "Ich habe eine neue Stelle. Ich arbeite jetzt bei Mercedes."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4600,8 +4525,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Stelle, -n(2)",
-                "english": "Wir treffen uns hier an dieser Stelle.",
-                "example_sentence": ""
+                "english": "place / spot",
+                "example_sentence": "Wir treffen uns hier an dieser Stelle."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4610,11 +4535,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Zeit",
-                "english": "Ich habe heute keine Zeit.",
+                "english": "time",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Ich habe heute keine Zeit."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4623,18 +4548,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "erst",
-                "english": "Wir können erst morgen kommen.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-work-kp-geh",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Geh",
-                "english": "doch mal wieder ins Kino!",
-                "example_sentence": ""
+                "english": "only / not until / first",
+                "example_sentence": "Wir können erst morgen kommen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4643,8 +4558,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "halten, hält, hat gehalten",
-                "english": "Dieser Zug hält nicht in Rüdesheim.",
-                "example_sentence": ""
+                "english": "to stop (transport)",
+                "example_sentence": "Dieser Zug hält nicht in Rüdesheim."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4663,8 +4578,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "herstellen, stellt her, hat hergestellt",
-                "english": "In unserer Firma stellen wir Möbel her.",
-                "example_sentence": ""
+                "english": "to produce / to manufacture",
+                "example_sentence": "In unserer Firma stellen wir Möbel her."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4683,8 +4598,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "stellen, stellt",
-                "english": "Stell die Milch bitte in den Kühlschrank!",
-                "example_sentence": ""
+                "english": "to place / to put",
+                "example_sentence": "Stell die Milch bitte in den Kühlschrank!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4713,18 +4628,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "voll",
-                "english": "Morgens und abends sind die Züge immer sehr voll.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-work-kp-vorstellen",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "vorstellen",
-                "english": "(sich), Wir wollen uns kennenlernen. Können Sie sich",
-                "example_sentence": ""
+                "english": "full",
+                "example_sentence": "Morgens und abends sind die Züge immer sehr voll."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4733,18 +4638,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "vorstellen (sich), vorgestellt",
-                "english": "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-work-kp-wer",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Wer",
-                "english": "spielt gegen wen? - Bayern gegen Dortmund.",
-                "example_sentence": ""
+                "english": "to introduce oneself",
+                "example_sentence": "Wir wollen uns kennenlernen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4753,8 +4648,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "über",
-                "english": "Gehen Sie lieber hier über die Straße.",
-                "example_sentence": ""
+                "english": "over / about / via",
+                "example_sentence": "Gehen Sie lieber hier über die Straße."
               },
               "explanation": "From Goethe A2 word list."
             }
@@ -4910,11 +4805,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Bild",
-                "english": "Hast du ein Bild von deinem Sohn? das Brötchen, - Möchtest du Brot oder Brötchen zum Frühstück?",
+                "english": "picture / image",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -er",
-                "example_sentence": ""
+                "example_sentence": "Hast du ein Bild von deinem Sohn?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4945,8 +4840,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Studium (Sg.)",
-                "english": "Das Studium dauert drei Jahre.",
-                "example_sentence": ""
+                "english": "studies / degree",
+                "example_sentence": "Das Studium dauert drei Jahre."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4955,11 +4850,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Thema",
-                "english": "Heute heißt unser Thema: „Essen und Trinken“.",
+                "english": "topic / subject / theme",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Heute heißt unser Thema: „Essen und Trinken“."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -4988,21 +4883,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Kurs, -e",
-                "english": "Der Deutschkurs dauert zwei Monate.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-education-kp-mitsch-ler",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "der Mitschüler",
-                "english": "Zahlung. Bei Verben werden Komposita, die sich durch Präfixe ergeben,",
-                "article": "der",
-                "gender": "masculine",
-                "plural": "die die",
-                "example_sentence": ""
+                "english": "course / class",
+                "example_sentence": "Der Deutschkurs dauert zwei Monate."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5011,8 +4893,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Schüler, - / die Schülerin, -nen",
-                "english": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
-                "example_sentence": ""
+                "english": "pupil / student",
+                "example_sentence": "In meinem Kurs sind acht Schülerinnen und fünf Schüler."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5021,8 +4903,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Student, -en / die Studentin, -nen",
-                "english": "Ich bin Studentin.",
-                "example_sentence": ""
+                "english": "student",
+                "example_sentence": "Ich bin Studentin."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5043,8 +4925,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Unterricht (Sg.)",
-                "english": "Der Unterricht dauert bis 19 Uhr.",
-                "example_sentence": ""
+                "english": "lessons / instruction",
+                "example_sentence": "Der Unterricht dauert bis 19 Uhr."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5069,37 +4951,15 @@
               "explanation": "From Goethe A2 word list."
             },
             {
-              "id": "a2-vocab-education-kp-deutschpr-fung",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "DEUTSCHPRÜFUNG",
-                "english": "FÜR",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-education-kp-aufgabe",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Aufgabe",
-                "english": "ist nicht leicht. Das erste Mal war ich vor fünf Jahren in England.",
-                "article": "die",
-                "gender": "feminine",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
               "id": "a2-vocab-education-kp-ausbildung",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Ausbildung",
-                "english": "Ich möchte eine Ausbildung zum Krankenpfleger",
+                "english": "training / apprenticeship",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Ich möchte eine Ausbildung zum Krankenpfleger"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5108,8 +4968,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Ausbildung,-en",
-                "english": "Ich möchte eine Ausbildung zum Krankenpfleger machen.",
-                "example_sentence": ""
+                "english": "training / apprenticeship",
+                "example_sentence": "Ich möchte eine Ausbildung zum Krankenpfleger machen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5118,11 +4978,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Bibliothek",
-                "english": "Sie lernt jeden Tag in der Bibliothek. das Brot, -e Nimm doch noch ein Brot für das Abendessen.",
+                "english": "library",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Sie lernt jeden Tag in der Bibliothek."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5131,8 +4991,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Bibliothek, -en",
-                "english": "Sie lernt jeden Tag in der Bibliothek.",
-                "example_sentence": ""
+                "english": "library",
+                "example_sentence": "Sie lernt jeden Tag in der Bibliothek."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5151,8 +5011,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Prüfung, -en",
-                "english": "Ich habe die Prüfung bestanden.",
-                "example_sentence": ""
+                "english": "exam / test",
+                "example_sentence": "Ich habe die Prüfung bestanden."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5171,33 +5031,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Schule, -n(2)",
-                "english": "Die Schule ist gleich hier um die Ecke.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-education-kp-sch-lerin",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Schülerin",
-                "english": "Schüler.",
-                "article": "die",
-                "gender": "feminine",
-                "plural": "die -nen",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-education-kp-studenten",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Studenten",
-                "english": "kommen aus vielen Ländern. Sie hat gewohnt",
-                "article": "die",
-                "gender": "feminine",
-                "example_sentence": ""
+                "english": "school (location)",
+                "example_sentence": "Die Schule ist gleich hier um die Ecke."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5206,8 +5041,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Universität, -en",
-                "english": "Er studiert an der Universität Freiburg.",
-                "example_sentence": ""
+                "english": "university",
+                "example_sentence": "Er studiert an der Universität Freiburg."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5216,8 +5051,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "einfach",
-                "english": "Die Prüfung ist ganz einfach.",
-                "example_sentence": ""
+                "english": "simple / easy",
+                "example_sentence": "Die Prüfung ist ganz einfach."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5226,8 +5061,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "einfach(2)",
-                "english": "Ich verstehe das nicht. Kannst du es bitte einfacher sagen?",
-                "example_sentence": ""
+                "english": "simpler / more simply",
+                "example_sentence": "Kannst du es bitte einfacher sagen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5236,8 +5071,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "einfach(3)",
-                "english": "Hin und zurück? – Nein, bitte nur eine einfache Fahrt nach Berlin.",
-                "example_sentence": ""
+                "english": "one-way (ticket)",
+                "example_sentence": "Hin und zurück? – Nein, bitte nur eine einfache Fahrt nach Berlin."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5246,8 +5081,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "eng",
-                "english": "Diese Hose ist zu eng. Gibt es sie auch eine Nummer größer?",
-                "example_sentence": ""
+                "english": "tight / narrow",
+                "example_sentence": "Diese Hose ist zu eng. Gibt es sie auch eine Nummer größer?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5276,8 +5111,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "kenne",
-                "english": "ich noch nicht.",
-                "example_sentence": ""
+                "english": "to know (ich kenne = I know)",
+                "example_sentence": "Die meisten Nachbarn kenne ich noch nicht."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5286,8 +5121,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "kennenlernen, lernt kennen, hat kennengelernt",
-                "english": "Wo habt ihr euch kennengelernt? – Wir haben uns in München kennengelernt.",
-                "example_sentence": ""
+                "english": "to get to know / to meet",
+                "example_sentence": "Wo habt ihr euch kennengelernt?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5483,11 +5318,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Formular",
-                "english": "Sie müssen dieses Formular ausfüllen.",
+                "english": "form",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Sie müssen dieses Formular ausfüllen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5496,8 +5331,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Formular, -e",
-                "english": "Sie müssen dieses Formular ausfüllen.",
-                "example_sentence": ""
+                "english": "form",
+                "example_sentence": "Sie müssen dieses Formular ausfüllen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5506,11 +5341,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Konto",
-                "english": "Das Geld überweisen wir am ersten März auf Ihr kurz Ricardo hat kurze Haare.",
+                "english": "bank account",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Das Geld überweisen wir am ersten März auf Ihr Konto."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5519,8 +5354,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Konto, -en",
-                "english": "Das Geld überweisen wir am ersten März auf Ihr Konto.",
-                "example_sentence": ""
+                "english": "bank account",
+                "example_sentence": "Das Geld überweisen wir am ersten März auf Ihr Konto."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5552,11 +5387,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Poster",
-                "english": "Das Poster hängt über dem Bett. Sie müssen sich im Rathaus anmelden.",
+                "english": "poster",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -",
-                "example_sentence": ""
+                "example_sentence": "Das Poster hängt über dem Bett."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5565,8 +5400,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Rathaus, ¨-er",
-                "english": "Das Formular bekommen Sie im Rathaus.",
-                "example_sentence": ""
+                "english": "town hall / city hall",
+                "example_sentence": "Das Formular bekommen Sie im Rathaus."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5575,20 +5410,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Rathaus, ¨-er(2)",
-                "english": "Sie müssen sich im Rathaus anmelden.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-services-kp-werk",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "das Werk",
-                "english": "und seine Teile sind urheberrechtlich geschützt.",
-                "article": "das",
-                "gender": "neuter",
-                "example_sentence": ""
+                "english": "town hall (registration)",
+                "example_sentence": "Sie müssen sich im Rathaus anmelden."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5597,8 +5420,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Brief, -e",
-                "english": "Haben Sie einen Brief für mich?",
-                "example_sentence": ""
+                "english": "letter",
+                "example_sentence": "Haben Sie einen Brief für mich?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5607,8 +5430,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Führerschein(2)",
-                "english": "Sie hat die Führerscheinprüfung bestanden.",
-                "example_sentence": ""
+                "english": "driving licence (exam)",
+                "example_sentence": "Sie hat die Führerscheinprüfung bestanden."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5617,8 +5440,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Führerschein, -e",
-                "english": "Hast du den Führerschein?",
-                "example_sentence": ""
+                "english": "driving licence",
+                "example_sentence": "Hast du den Führerschein?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5627,11 +5450,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Anmeldung",
-                "english": "Wo bekomme ich das Formular für die Anmeldung?",
+                "english": "registration",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Wo bekomme ich das Formular für die Anmeldung?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5640,8 +5463,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Anmeldung,-en",
-                "english": "Wo bekomme ich das Formular für die Anmeldung?",
-                "example_sentence": ""
+                "english": "registration",
+                "example_sentence": "Wo bekomme ich das Formular für die Anmeldung?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5670,8 +5493,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Briefmarke, -n",
-                "english": "Bitte die Briefmarke nicht vergessen!",
-                "example_sentence": ""
+                "english": "stamp (postage)",
+                "example_sentence": "Bitte die Briefmarke nicht vergessen!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5680,11 +5503,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Karte",
-                "english": "Ich schreibe meinen Bekannten eine Karte aus",
+                "english": "card / map / menu / ticket",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "TODO: die Karte → Ich schreibe meinen Bekannten eine Karte"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5713,8 +5536,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Post (Sg.) (2)",
-                "english": "Ist Post für mich da?",
-                "example_sentence": ""
+                "english": "mail / post",
+                "example_sentence": "Ist Post für mich da?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5723,11 +5546,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Postkarte",
-                "english": "Schreibst du mir eine Postkarte aus Kanada? das Rätsel, - Das Rätsel ist schwierig! Ich weiß die Antwort nicht.",
+                "english": "postcard",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "Schreibst du mir eine Postkarte aus Kanada?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5737,18 +5560,6 @@
                 "type": "vocabulary",
                 "german": "die Postkarte, -n",
                 "english": "Schreibst du mir eine Postkarte aus Kanada?",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-services-kp-postleit",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Postleit-",
-                "english": "Wie ist Ihre Postleitzahl? rauchen, raucht, Stört es Sie, wenn ich rauche?",
-                "article": "die",
-                "gender": "feminine",
                 "example_sentence": ""
               },
               "explanation": "From Goethe A2 word list."
@@ -5778,21 +5589,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Zahl",
-                "english": "Können Sie die Zahl bitte wiederholen?",
+                "english": "number / figure",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -en",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-services-kp-sich",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "sich",
-                "english": "umziehen, Warte bitte, ich muss mich noch umziehen.",
-                "example_sentence": ""
+                "example_sentence": "Können Sie die Zahl bitte wiederholen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5978,8 +5779,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "buchen(3)",
-                "english": "hat gebucht",
-                "example_sentence": ""
+                "english": "to book (past: hat gebucht)",
+                "example_sentence": "Sie hat den Flug online gebucht."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -5988,8 +5789,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "buchstabieren",
-                "english": "Würden Sie bitte Ihren Namen buchstabieren?",
-                "example_sentence": ""
+                "english": "to spell out",
+                "example_sentence": "Würden Sie bitte Ihren Namen buchstabieren?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6008,8 +5809,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "buchstabieren(3)",
-                "english": "hat buchstabiert",
-                "example_sentence": ""
+                "english": "to spell out (past: hat buchstabiert)",
+                "example_sentence": "Er hat seinen Namen buchstabiert."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6018,10 +5819,10 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Buch",
-                "english": "ist fantastisch. Du musst es unbedingt",
+                "english": "book",
                 "article": "das",
                 "gender": "neuter",
-                "example_sentence": ""
+                "example_sentence": "Das Buch ist fantastisch. Du musst es unbedingt lesen!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6030,8 +5831,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Buch(2)",
-                "english": "In diesem Wörterbuch finden Sie mehr als 20.000 Wörter.",
-                "example_sentence": ""
+                "english": "dictionary / reference book",
+                "example_sentence": "In diesem Wörterbuch finden Sie mehr als 20.000 Wörter."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6073,8 +5874,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Internet (Sg.)",
-                "english": "Das findest du im Internet.",
-                "example_sentence": ""
+                "english": "internet",
+                "example_sentence": "Das findest du im Internet."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6083,8 +5884,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Internet (Sg.)(2)",
-                "english": "Du kannst im Internet Musik hören oder Spiele spielen.",
-                "example_sentence": ""
+                "english": "internet (browsing)",
+                "example_sentence": "Du kannst im Internet Musik hören oder Spiele spielen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6093,8 +5894,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Kino, -s",
-                "english": "Gehen wir heute Abend zusammen ins Kino?",
-                "example_sentence": ""
+                "english": "cinema / movie theater",
+                "example_sentence": "Gehen wir heute Abend zusammen ins Kino?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6103,8 +5904,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Konzert, -e",
-                "english": "Für das Konzert am Sonntag gibt es noch Karten.",
-                "example_sentence": ""
+                "english": "concert",
+                "example_sentence": "Für das Konzert am Sonntag gibt es noch Karten."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6166,11 +5967,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Radio",
-                "english": "Ich höre im Auto gern Radio.",
+                "english": "radio",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -s",
-                "example_sentence": ""
+                "example_sentence": "Ich höre im Auto gern Radio."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6179,8 +5980,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Radio, -s",
-                "english": "Ich höre im Auto gern Radio.",
-                "example_sentence": ""
+                "english": "radio",
+                "example_sentence": "Ich höre im Auto gern Radio."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6222,8 +6023,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Theater, -",
-                "english": "Ich gehe nicht gern ins Theater.",
-                "example_sentence": ""
+                "english": "theatre",
+                "example_sentence": "Ich gehe nicht gern ins Theater."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6268,8 +6069,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Apparat(2)",
-                "english": "Ich habe einen neuen Fotoapparat.",
-                "example_sentence": ""
+                "english": "camera (Fotoapparat)",
+                "example_sentence": "Ich habe einen neuen Fotoapparat."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6311,11 +6112,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Eintritt",
-                "english": "Der Eintritt kostet fünf Euro.",
+                "english": "admission / entry fee",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Der Eintritt kostet fünf Euro."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6324,8 +6125,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Film, -e",
-                "english": "Ich möchte gern diesen Film sehen.",
-                "example_sentence": ""
+                "english": "film / movie",
+                "example_sentence": "Ich möchte gern diesen Film sehen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6334,11 +6135,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Fotoapparat",
-                "english": "möchte mir einen Fotoapparat kaufen.",
+                "english": "camera",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -eIch",
-                "example_sentence": ""
+                "example_sentence": "Ich möchte mir einen Fotoapparat kaufen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6347,8 +6148,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Fotoapparat, -e",
-                "english": "Ich möchte mir einen Fotoapparat kaufen.",
-                "example_sentence": ""
+                "english": "camera",
+                "example_sentence": "Ich möchte mir einen Fotoapparat kaufen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6390,8 +6191,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Musik (Sg.)(2)",
-                "english": "Spanische Musik gefällt mir gut.",
-                "example_sentence": ""
+                "english": "music (preference)",
+                "example_sentence": "Spanische Musik gefällt mir gut."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6400,18 +6201,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Nachricht, -en",
-                "english": "Ich sehe abends immer die Nachrichten im Fernsehen.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-entertainment-kp-nachricht---en-2",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Nachricht, -en(2)",
-                "english": "Kommst du mit ins Kino? - Ich weiß es noch nicht.",
-                "example_sentence": ""
+                "english": "news (TV)",
+                "example_sentence": "Ich sehe abends immer die Nachrichten im Fernsehen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6420,8 +6211,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Nachricht, -en(3)",
-                "english": "Ich schreibe dir später eine Nachricht.",
-                "example_sentence": ""
+                "english": "message",
+                "example_sentence": "Ich schreibe dir später eine Nachricht."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6430,8 +6221,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Nachricht, -en(4)",
-                "english": "Sie haben keine neuen Nachrichten.",
-                "example_sentence": ""
+                "english": "messages (inbox)",
+                "example_sentence": "Sie haben keine neuen Nachrichten."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6463,8 +6254,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Sendung, -en(2)",
-                "english": "Diese Sendung ist nicht für Jugendliche unter 18 Jahren.",
-                "example_sentence": ""
+                "english": "broadcast (age restriction)",
+                "example_sentence": "Diese Sendung ist nicht für Jugendliche unter 18 Jahren."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6493,8 +6284,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Zeitung, -en",
-                "english": "Ich lese manchmal Zeitung.",
-                "example_sentence": ""
+                "english": "newspaper",
+                "example_sentence": "Ich lese manchmal Zeitung."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6513,8 +6304,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "fernsehen(2)",
-                "english": "hat ferngesehen",
-                "example_sentence": ""
+                "english": "to watch TV (past: hat ferngesehen)",
+                "example_sentence": "Er hat den ganzen Abend ferngesehen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6533,8 +6324,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "klappen, klappt, hat geklappt",
-                "english": "Können wir uns heute Mittag treffen? – Ja, das klappt.",
-                "example_sentence": ""
+                "english": "to work out / to be okay",
+                "example_sentence": "Können wir uns heute Mittag treffen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6553,8 +6344,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "nach",
-                "english": "Ich gehe jetzt nach Hause.",
-                "example_sentence": ""
+                "english": "to / after / according to",
+                "example_sentence": "Ich gehe jetzt nach Hause."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6573,8 +6364,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "online(2)",
-                "english": "Ich habe hier kein Internet. Ich bin erst heute Abend wieder online.",
-                "example_sentence": ""
+                "english": "online (connectivity)",
+                "example_sentence": "Ich bin erst heute Abend wieder online."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6583,8 +6374,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "online(3)",
-                "english": "Sie können das Geld auch online überweisen.",
-                "example_sentence": ""
+                "english": "online (transfer)",
+                "example_sentence": "Sie können das Geld auch online überweisen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6593,8 +6384,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "spielen, spielt",
-                "english": "Die Kinder spielen draußen.",
-                "example_sentence": ""
+                "english": "to play",
+                "example_sentence": "Die Kinder spielen draußen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6623,8 +6414,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "telefonieren, hat telefoniert",
-                "english": "Er hat den ganzen Abend telefoniert.",
-                "example_sentence": ""
+                "english": "to phone / to call",
+                "example_sentence": "Er hat den ganzen Abend telefoniert."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6633,8 +6424,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "telefonieren, telefoniert",
-                "english": "Ich muss kurz telefonieren.",
-                "example_sentence": ""
+                "english": "to phone / to call",
+                "example_sentence": "Ich muss kurz telefonieren."
               },
               "explanation": "From Goethe A2 word list."
             }
@@ -6812,8 +6603,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "aufpassen",
-                "english": "Pass auf, der Teller fällt gleich auf den Boden!",
-                "example_sentence": ""
+                "english": "to watch out / to be careful",
+                "example_sentence": "Pass auf, der Teller fällt gleich auf den Boden!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6822,8 +6613,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "aufpassen(2)",
-                "english": "Der Babysitter passt heute Abend auf die Kinder auf.",
-                "example_sentence": ""
+                "english": "to look after / to watch over",
+                "example_sentence": "Der Babysitter passt heute Abend auf die Kinder auf."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6832,8 +6623,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "aufpassen(3)",
-                "english": "hat aufgepasst",
-                "example_sentence": ""
+                "english": "to watch out (past: hat aufgepasst)",
+                "example_sentence": "Er hat gut aufgepasst."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6852,8 +6643,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "bringen(2)",
-                "english": "hat gebracht",
-                "example_sentence": ""
+                "english": "to bring (past: hat gebracht)",
+                "example_sentence": "Sie hat Blumen mitgebracht."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6862,11 +6653,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Bier",
-                "english": "Noch ein Bier, bitte. Haben Sie auch Weißbrot?",
+                "english": "beer",
                 "article": "das",
                 "gender": "neuter",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Noch ein Bier, bitte."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6875,8 +6666,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Hemd, -en",
-                "english": "Nick trägt heute ein neues Hemd.",
-                "example_sentence": ""
+                "english": "shirt",
+                "example_sentence": "Nick trägt heute ein neues Hemd."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6885,20 +6676,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Kleid, -er",
-                "english": "Julia möchte ein rotes Kleid kaufen.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-clothing-kp-t-shirt",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "das T-Shirt",
-                "english": "kostet nur fünf Euro.",
-                "article": "das",
-                "gender": "neuter",
-                "example_sentence": ""
+                "english": "dress",
+                "example_sentence": "Julia möchte ein rotes Kleid kaufen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6907,8 +6686,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das T-Shirt, -s",
-                "english": "Haben Sie dieses T-Shirt auch in M?",
-                "example_sentence": ""
+                "english": "T-shirt",
+                "example_sentence": "Haben Sie dieses T-Shirt auch in M?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6917,10 +6696,10 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das Taschengeld",
-                "english": "Wie viel Taschengeld bekommen deine Kinder? hat getragen Er trägt heute einen blauen Anzug.",
+                "english": "pocket money / allowance",
                 "article": "das",
                 "gender": "neuter",
-                "example_sentence": ""
+                "example_sentence": "Wie viel Taschengeld bekommen deine Kinder?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6945,18 +6724,6 @@
               "explanation": "From Goethe A2 word list."
             },
             {
-              "id": "a2-vocab-clothing-kp-lichtschalter",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "der Lichtschalter",
-                "english": "ist neben der Tür.",
-                "article": "der",
-                "gender": "masculine",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
               "id": "a2-vocab-clothing-kp-mantel",
               "prompt_data": {
                 "type": "vocabulary",
@@ -6971,8 +6738,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Pullover, -",
-                "english": "Ich muss mir einen Pullover kaufen.",
-                "example_sentence": ""
+                "english": "jumper / sweater / pullover",
+                "example_sentence": "Ich muss mir einen Pullover kaufen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6981,11 +6748,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Ring",
-                "english": "Ich habe meinen Ring verloren.",
+                "english": "ring",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Ich habe meinen Ring verloren."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -6994,8 +6761,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Ring, -e",
-                "english": "Ich habe meinen Ring verloren.",
-                "example_sentence": ""
+                "english": "ring",
+                "example_sentence": "Ich habe meinen Ring verloren."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7004,8 +6771,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Rock, ¨-e",
-                "english": "Der Rock ist zu eng.",
-                "example_sentence": ""
+                "english": "skirt",
+                "example_sentence": "TODO: der Rock, ¨-e → Der Rock ist zu eng."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7014,11 +6781,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Schalter",
-                "english": "Gehen Sie bitte zum Schalter drei!",
+                "english": "counter / service window",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -",
-                "example_sentence": ""
+                "example_sentence": "Gehen Sie bitte zum Schalter drei!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7027,8 +6794,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Schalter, - (2)",
-                "english": "Der Lichtschalter ist neben der Tür.",
-                "example_sentence": ""
+                "english": "light switch",
+                "example_sentence": "Der Lichtschalter ist neben der Tür."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7047,8 +6814,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Schuh, -e(2)",
-                "english": "Die neuen Schuhe sind mir zu eng. Sie drücken.",
-                "example_sentence": ""
+                "english": "shoe (tight)",
+                "example_sentence": "Die neuen Schuhe sind mir zu eng. Sie drücken."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7066,24 +6833,12 @@
               "explanation": "From Goethe A2 word list."
             },
             {
-              "id": "a2-vocab-clothing-kp-zug",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "der Zug",
-                "english": "kommt in fünf Minuten.",
-                "article": "der",
-                "gender": "masculine",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
               "id": "a2-vocab-clothing-kp-bluse---n",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Bluse, -n",
-                "english": "Ich suche eine weiße Bluse.",
-                "example_sentence": ""
+                "english": "blouse",
+                "example_sentence": "Ich suche eine weiße Bluse."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7112,11 +6867,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Größe",
-                "english": "Haben Sie das T-Shirt auch in Größe M?",
+                "english": "size",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -n",
-                "example_sentence": ""
+                "example_sentence": "Haben Sie das T-Shirt auch in Größe M?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7125,8 +6880,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Größe, -n",
-                "english": "Haben Sie das T-Shirt auch in Größe M?",
-                "example_sentence": ""
+                "english": "size",
+                "example_sentence": "Haben Sie das T-Shirt auch in Größe M?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7167,8 +6922,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Kleidung (Sg.)",
-                "english": "Wo finde ich Kleidung? – Hosen im ersten, Kleider und Röcke im zweiten Stock.",
-                "example_sentence": ""
+                "english": "clothing / clothes",
+                "example_sentence": "Wo finde ich Kleidung?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7200,21 +6955,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Mütze, -n",
-                "english": "Haben Sie rote Mützen?",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-clothing-kp-tasche",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Tasche",
-                "english": "Ich habe die Schlüssel in der Tasche. die Touristin, -nen",
-                "article": "die",
-                "gender": "feminine",
-                "plural": "die -n",
-                "example_sentence": ""
+                "english": "hat / beanie / cap",
+                "example_sentence": "Haben Sie rote Mützen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7223,8 +6965,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Tasche, -n",
-                "english": "Ich habe die Schlüssel in der Tasche.",
-                "example_sentence": ""
+                "english": "bag / handbag",
+                "example_sentence": "Ich habe die Schlüssel in der Tasche."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7233,8 +6975,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Tasche, -n(2)",
-                "english": "Ich habe nicht viel Gepäck. Nur eine Tasche.",
-                "example_sentence": ""
+                "english": "bag (travel)",
+                "example_sentence": "Ich habe nicht viel Gepäck. Nur eine Tasche."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7275,8 +7017,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "dringend",
-                "english": "Bitte kommen Sie schnell. Es ist dringend.",
-                "example_sentence": ""
+                "english": "urgent / urgently",
+                "example_sentence": "Bitte kommen Sie schnell."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7285,8 +7027,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "ja",
-                "english": "Sind Sie Herr Watanabe? – Ja.",
-                "example_sentence": ""
+                "english": "yes",
+                "example_sentence": "Sind Sie Herr Watanabe?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7315,18 +7057,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "modern",
-                "english": "Das Stadtzentrum von Frankfurt ist sehr modern.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-clothing-kp-pass",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Pass",
-                "english": "auf! Das Messer ist sehr scharf.",
-                "example_sentence": ""
+                "english": "modern / fashionable",
+                "example_sentence": "Das Stadtzentrum von Frankfurt ist sehr modern."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7335,8 +7067,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "passen, passt, hat gepasst",
-                "english": "Die Bluse passt mir nicht.",
-                "example_sentence": ""
+                "english": "to fit / to suit",
+                "example_sentence": "Die Bluse passt mir nicht."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7345,8 +7077,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "passen, passt, hat gepasst(2)",
-                "english": "Welches Wort passt? Wählen Sie.",
-                "example_sentence": ""
+                "english": "to fit / to match",
+                "example_sentence": "Welches Wort passt? Wählen Sie."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7355,8 +7087,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "pro",
-                "english": "Das Zimmer kostet 100 Euro pro Nacht.",
-                "example_sentence": ""
+                "english": "per / each",
+                "example_sentence": "Das Zimmer kostet 100 Euro pro Nacht."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7385,8 +7117,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "sich umziehen, zieht sich um (2)",
-                "english": "Er hat sich schnell umgezogen.",
-                "example_sentence": ""
+                "english": "to get changed (past)",
+                "example_sentence": "Er hat sich schnell umgezogen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7415,8 +7147,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "um",
-                "english": "Er kommt um sieben Uhr.",
-                "example_sentence": ""
+                "english": "at (time) / around",
+                "example_sentence": "Er kommt um sieben Uhr."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7425,8 +7157,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "umziehen, zieht um",
-                "english": "Nächsten Monat ziehen wir um.",
-                "example_sentence": ""
+                "english": "to move (house)",
+                "example_sentence": "Nächsten Monat ziehen wir um."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7435,8 +7167,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "umziehen, zieht um (2)",
-                "english": "Er ist in eine neue Wohnung umgezogen.",
-                "example_sentence": ""
+                "english": "to move house (past)",
+                "example_sentence": "Er ist in eine neue Wohnung umgezogen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7445,8 +7177,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "verpassen, verpasst",
-                "english": "Ich habe den Zug verpasst.",
-                "example_sentence": ""
+                "english": "to miss (bus/train)",
+                "example_sentence": "Ich habe den Zug verpasst."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7455,8 +7187,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "zu",
-                "english": "Der Bus fährt zum Bahnhof.",
-                "example_sentence": ""
+                "english": "to / closed / too (adverb)",
+                "example_sentence": "Der Bus fährt zum Bahnhof."
               },
               "explanation": "From Goethe A2 word list."
             }
@@ -7582,8 +7314,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "beliebt",
-                "english": "Fußball ist bei vielen Menschen beliebt.",
-                "example_sentence": ""
+                "english": "popular / well-liked",
+                "example_sentence": "Fußball ist bei vielen Menschen beliebt."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7592,8 +7324,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "böse",
-                "english": "Sie ist richtig böse auf mich.",
-                "example_sentence": ""
+                "english": "angry / upset",
+                "example_sentence": "Sie ist richtig böse auf mich."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7602,33 +7334,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "böse(2)",
-                "english": "Ich habe dein Buch vergessen. Hoffentlich bist du mir nicht böse.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-emotions-kp-gl-ck",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "das Glück",
-                "english": "(Sg.) Viel Glück!",
-                "article": "das",
-                "gender": "neuter",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-emotions-kp-wein",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "der Wein",
-                "english": "Nein danke, ich möchte keinen Wein. wissen, weiß, Weißt du, wie der Hausmeister heißt?",
-                "article": "der",
-                "gender": "masculine",
-                "plural": "die -e",
-                "example_sentence": ""
+                "english": "upset / cross with",
+                "example_sentence": "Hoffentlich bist du mir nicht böse."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7637,8 +7344,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Angst(2)",
-                "english": "Ich habe Angst vor großen Hunden.",
-                "example_sentence": ""
+                "english": "fear / anxiety (of something)",
+                "example_sentence": "Ich habe Angst vor großen Hunden."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7675,32 +7382,12 @@
               "explanation": "From Goethe A2 word list."
             },
             {
-              "id": "a2-vocab-emotions-kp-eine",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Eine",
-                "english": "grüne Hose und gelbe Schuhe? Das sieht",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-emotions-kp-einen",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "einen",
-                "english": "Club/Klub mit guter Musik? deutlich Sprechen Sie bitte deutlich!",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
               "id": "a2-vocab-emotions-kp-freundlich-2",
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "freundlich(2)",
-                "english": "Mit freundlichen Grüßen",
-                "example_sentence": ""
+                "english": "friendly / kind (formal letter: \"Mit freundlichen Grussen\" = Yours sincerely)",
+                "example_sentence": "Mit freundlichen Grüßen"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7709,8 +7396,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "fühlen (sich)(2)",
-                "english": "Ich fühle mich heute nicht gut.",
-                "example_sentence": ""
+                "english": "to feel (unwell)",
+                "example_sentence": "Ich fühle mich heute nicht gut."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7719,8 +7406,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "fühlen (sich), fühlt",
-                "english": "Wie fühlen Sie sich?",
-                "example_sentence": ""
+                "english": "to feel",
+                "example_sentence": "Wie fühlen Sie sich?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7729,8 +7416,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "gern, lieber, am liebsten",
-                "english": "Ich helfe Ihnen gern.",
-                "example_sentence": ""
+                "english": "gladly / with pleasure",
+                "example_sentence": "Ich helfe Ihnen gern."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7759,8 +7446,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "glücklich(2)",
-                "english": "Ein glückliches neues Jahr!",
-                "example_sentence": ""
+                "english": "happy / lucky",
+                "example_sentence": "Ein glückliches neues Jahr!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7769,8 +7456,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "lachen, lacht, hat gelacht",
-                "english": "Die Kinder lachen über den Witz.",
-                "example_sentence": ""
+                "english": "to laugh",
+                "example_sentence": "Die Kinder lachen über den Witz."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7789,8 +7476,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "lang",
-                "english": "Die Hose ist zu lang. Können Sie sie ändern?",
-                "example_sentence": ""
+                "english": "long",
+                "example_sentence": "Die Hose ist zu lang."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7809,8 +7496,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "langweilig(2)",
-                "english": "Sie findet Fußball sehr langweilig.",
-                "example_sentence": ""
+                "english": "boring",
+                "example_sentence": "Sie findet Fußball sehr langweilig."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7829,8 +7516,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "lieb-(2)",
-                "english": "Ich fahre lieber mit dem Zug als mit dem Bus.",
-                "example_sentence": ""
+                "english": "rather / prefer",
+                "example_sentence": "Ich fahre lieber mit dem Zug als mit dem Bus."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7839,18 +7526,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "lieb-(3)",
-                "english": "Möchtest du Pommes oder lieber eine Pizza?",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-emotions-kp-liebe",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Liebe",
-                "english": "Grüße",
-                "example_sentence": ""
+                "english": "would rather",
+                "example_sentence": "Möchtest du Pommes oder lieber eine Pizza?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7859,8 +7536,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "lieben, liebt, hat geliebt",
-                "english": "Ich liebe dich!",
-                "example_sentence": ""
+                "english": "to love",
+                "example_sentence": "TODO: lieben, liebt, hat geliebt → Ich liebe dich!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7889,8 +7566,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "lustig(2)",
-                "english": "Ich mag lustige Filme.",
-                "example_sentence": ""
+                "english": "funny (films)",
+                "example_sentence": "Ich mag lustige Filme."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7899,8 +7576,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "mögen, mag, hat gemocht",
-                "english": "Magst du Schokolade? - Nein, ich mag keine Süßigkeiten.",
-                "example_sentence": ""
+                "english": "to like",
+                "example_sentence": "Magst du Schokolade?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7909,8 +7586,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "müde",
-                "english": "Ich bin müde. Ich gehe schlafen.",
-                "example_sentence": ""
+                "english": "tired",
+                "example_sentence": "Ich bin müde."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7919,8 +7596,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "nett",
-                "english": "Ich habe viele nette Kollegen.",
-                "example_sentence": ""
+                "english": "nice / friendly",
+                "example_sentence": "Ich habe viele nette Kollegen."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7929,18 +7606,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "nett(2)",
-                "english": "Vielen Dank! Das ist sehr nett von dir.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-emotions-kp-verlieben",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "verlieben",
-                "english": "(sich), Ich bin total verliebt.",
-                "example_sentence": ""
+                "english": "kind / nice of you",
+                "example_sentence": "Das ist sehr nett von dir."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7949,8 +7616,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "verlieben (sich), verliebt",
-                "english": "Ich bin total verliebt.",
-                "example_sentence": ""
+                "english": "to fall in love",
+                "example_sentence": "Ich bin total verliebt."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7959,8 +7626,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "verlieben (sich), verliebt(2)",
-                "english": "Er hat sich in sie verliebt.",
-                "example_sentence": ""
+                "english": "to fall in love (with someone)",
+                "example_sentence": "Er hat sich in sie verliebt."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7969,8 +7636,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "weil",
-                "english": "Ich kann nicht kommen, weil ich arbeiten muss.",
-                "example_sentence": ""
+                "english": "because",
+                "example_sentence": "Ich kann nicht kommen, weil ich arbeiten muss."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -7999,18 +7666,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "zufrieden",
-                "english": "Ich bin mit der Wohnung zufrieden. Sie ist nicht groß, aber sie hat einen Balkon.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-emotions-kp-rgern",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "ärgern",
-                "english": "(sich), Warum ärgerst du dich? - Ich ärgere mich, weil das",
-                "example_sentence": ""
+                "english": "satisfied / content",
+                "example_sentence": "Ich bin mit der Wohnung zufrieden."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8019,18 +7676,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "ärgern (sich)",
-                "english": "Warum ärgerst du dich? - Ich ärgere mich, weil das Wetter schlecht ist.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-emotions-kp-rgern--sich--2",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "ärgern (sich)(2)",
-                "english": "hat geärgert",
-                "example_sentence": ""
+                "english": "to get annoyed / to be upset",
+                "example_sentence": "Warum ärgerst du dich?"
               },
               "explanation": "From Goethe A2 word list."
             }
@@ -8154,8 +7801,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "brauchen",
-                "english": "Ich brauche ein neues Auto.",
-                "example_sentence": ""
+                "english": "to need",
+                "example_sentence": "Ich brauche ein neues Auto."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8174,8 +7821,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "brauchen(3)",
-                "english": "hat gebraucht",
-                "example_sentence": ""
+                "english": "to need (past: hat gebraucht)",
+                "example_sentence": "Er hat keinen Arzt gebraucht."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8270,11 +7917,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Kultur",
-                "english": "Ich finde fremde Länder und Kulturen sehr",
+                "english": "culture",
                 "article": "die",
                 "gender": "feminine",
                 "plural": "die -en",
-                "example_sentence": ""
+                "example_sentence": "Ich finde fremde Länder und Kulturen sehr interessant."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8283,8 +7930,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Kultur, -en",
-                "english": "Ich finde fremde Länder und Kulturen sehr interessant.",
-                "example_sentence": ""
+                "english": "culture",
+                "example_sentence": "Ich finde fremde Länder und Kulturen sehr interessant."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8293,8 +7940,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Kultur, -en(2)",
-                "english": "Jana interessiert sich sehr für Kultur. Sie geht jede Woche ins Theater oder ins Museum.",
-                "example_sentence": ""
+                "english": "culture / arts scene",
+                "example_sentence": "Jana interessiert sich sehr für Kultur. Sie geht jede Woche ins Theater oder ins Museum."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8303,8 +7950,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "feiern(2)",
-                "english": "Die Feier war sehr schön.",
-                "example_sentence": ""
+                "english": "to celebrate",
+                "example_sentence": "Die Feier war sehr schön."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8313,8 +7960,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "feiern, feiert",
-                "english": "Wir feiern heute meinen Geburtstag.",
-                "example_sentence": ""
+                "english": "to celebrate",
+                "example_sentence": "Wir feiern heute meinen Geburtstag."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8333,8 +7980,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "neu",
-                "english": "Ich bin der neue Mitarbeiter.",
-                "example_sentence": ""
+                "english": "new",
+                "example_sentence": "Ich bin der neue Mitarbeiter."
               },
               "explanation": "From Goethe A2 word list."
             }
@@ -8474,8 +8121,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "daneben",
-                "english": "Du weißt doch, wo die Post ist. Daneben ist die Bank.",
-                "example_sentence": ""
+                "english": "next to it / beside it",
+                "example_sentence": "Du weißt doch, wo die Post ist."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8484,8 +8131,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Stadtplan, ¨-e",
-                "english": "Haben Sie einen Stadtplan von Salzburg?",
-                "example_sentence": ""
+                "english": "city map / street map",
+                "example_sentence": "Haben Sie einen Stadtplan von Salzburg?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8494,11 +8141,11 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "der Weg",
-                "english": "Das ist der kürzeste Weg.",
+                "english": "way / path / route",
                 "article": "der",
                 "gender": "masculine",
                 "plural": "die -e",
-                "example_sentence": ""
+                "example_sentence": "Das ist der kürzeste Weg."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8517,8 +8164,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Ampel, -n",
-                "english": "Du kannst fahren, die Ampel ist grün.",
-                "example_sentence": ""
+                "english": "traffic lights",
+                "example_sentence": "Du kannst fahren, die Ampel ist grün."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8527,8 +8174,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Ecke, -n",
-                "english": "Gehen Sie an der nächsten Ecke links. Dann kommen Sie zur Apotheke.",
-                "example_sentence": ""
+                "english": "corner",
+                "example_sentence": "Gehen Sie an der nächsten Ecke links."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8537,8 +8184,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Ecke, -n(2)",
-                "english": "Wir stellen das Regal in die Ecke.",
-                "example_sentence": ""
+                "english": "corner (room)",
+                "example_sentence": "Wir stellen das Regal in die Ecke."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8547,20 +8194,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "die Kreuzung, -en",
-                "english": "Fahren Sie an der nächsten Kreuzung rechts.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-directions-kp-rechtslage",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "die Rechtslage",
-                "english": "hinsichtlich dieser gewerblichen Schutzrechte berührt.",
-                "article": "die",
-                "gender": "feminine",
-                "example_sentence": ""
+                "english": "crossroads / intersection",
+                "example_sentence": "Fahren Sie an der nächsten Kreuzung rechts."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8569,8 +8204,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "draußen",
-                "english": "Das Wetter ist so schön. Wollen wir draußen sitzen?",
-                "example_sentence": ""
+                "english": "outside / outdoors",
+                "example_sentence": "Das Wetter ist so schön."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8579,8 +8214,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "draußen(2)",
-                "english": "Hunde müssen draußen bleiben.",
-                "example_sentence": ""
+                "english": "outside (no dogs)",
+                "example_sentence": "Hunde müssen draußen bleiben."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8589,8 +8224,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "drinnen",
-                "english": "Wollen Sie drinnen oder draußen sitzen?",
-                "example_sentence": ""
+                "english": "inside / indoors",
+                "example_sentence": "Wollen Sie drinnen oder draußen sitzen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8609,8 +8244,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "echt",
-                "english": "Ist das Bild ein echter Picasso?",
-                "example_sentence": ""
+                "english": "real / genuine",
+                "example_sentence": "Ist das Bild ein echter Picasso?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8629,8 +8264,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "gegenüber(2)",
-                "english": "Die Hausnummer 84 ist gleich gegenüber.",
-                "example_sentence": ""
+                "english": "opposite / across the street",
+                "example_sentence": "Die Hausnummer 84 ist gleich gegenüber."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8639,18 +8274,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "gerade",
-                "english": "Kannst du später anrufen? Wir essen gerade.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-directions-kp-hin",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "Hin",
-                "english": "und zurück? – Nein, bitte nur eine einfache",
-                "example_sentence": ""
+                "english": "just now / at the moment",
+                "example_sentence": "Kannst du später anrufen?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8659,8 +8284,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "hinten",
-                "english": "Die Tür zum Aussteigen ist hinten.",
-                "example_sentence": ""
+                "english": "at the back / behind",
+                "example_sentence": "Die Tür zum Aussteigen ist hinten."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8669,8 +8294,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "hinten(2)",
-                "english": "Bitte hinten aussteigen!",
-                "example_sentence": ""
+                "english": "exit at the back",
+                "example_sentence": "Bitte hinten aussteigen!"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8699,8 +8324,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "nebenan",
-                "english": "Das ist José. Er wohnt nebenan.",
-                "example_sentence": ""
+                "english": "next door",
+                "example_sentence": "Das ist José."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8709,8 +8334,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "oben",
-                "english": "Ich wohne oben im 4. Stock.",
-                "example_sentence": ""
+                "english": "above / upstairs",
+                "example_sentence": "Ich wohne oben im 4."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8739,8 +8364,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "schmecken, schmeckt(2)",
-                "english": "Hat es Ihnen geschmeckt?",
-                "example_sentence": ""
+                "english": "to taste (past)",
+                "example_sentence": "Hat es Ihnen geschmeckt?"
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8759,8 +8384,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "unten",
-                "english": "Er wohnt ganz unten im Haus.",
-                "example_sentence": ""
+                "english": "below / downstairs",
+                "example_sentence": "Er wohnt ganz unten im Haus."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8769,8 +8394,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "wecken, weckt",
-                "english": "Bitte wecken Sie mich morgen früh um fünf.",
-                "example_sentence": ""
+                "english": "to wake (someone) up",
+                "example_sentence": "Bitte wecken Sie mich morgen früh um fünf."
               },
               "explanation": "From Goethe A2 word list."
             },
@@ -8779,18 +8404,8 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "wecken, weckt (2)",
-                "english": "Ich bin um sechs Uhr geweckt worden.",
-                "example_sentence": ""
-              },
-              "explanation": "From Goethe A2 word list."
-            },
-            {
-              "id": "a2-vocab-directions-kp-en",
-              "prompt_data": {
-                "type": "vocabulary",
-                "german": "ßen",
-                "english": "lassen, z. B. der Druckeraus druckenbzw. mit bekannten Präfixen oder Suffixen, z. B.",
-                "example_sentence": ""
+                "english": "to be woken up (passive)",
+                "example_sentence": "Ich bin um sechs Uhr geweckt worden."
               },
               "explanation": "From Goethe A2 word list."
             }
