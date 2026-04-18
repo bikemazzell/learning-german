@@ -141,3 +141,30 @@ test('Grammar-rule KPs in sein topic never pick the conjugation template', () =>
     }
   }
 });
+
+
+test('fill-blank grammar-rule hint shows English meaning', () => {
+  const { Exercises } = loadTrainer();
+  const a1 = loadLevel('a1');
+  const topic = findTopic(a1, 'a1-grammar-questions');
+  assert.ok(topic, 'questions topic must exist');
+
+  const grammarRuleKPs = topic.knowledge_points.filter(
+    kp => kp.prompt_data.type === 'grammar-rule' &&
+          kp.prompt_data.example_sentence &&
+          kp.prompt_data.english
+  );
+  assert.ok(grammarRuleKPs.length > 0, 'test precondition: grammar-rule KPs with example_sentence exist');
+
+  for (const kp of grammarRuleKPs) {
+    const ex = withSeed(1, () =>
+      Exercises.generateExercise(kp, topic.exercise_templates, 2, topic.knowledge_points)
+    );
+    if (ex.type === 'fill-blank') {
+      assert.ok(
+        ex.contextHint && ex.contextHint.indexOf(kp.prompt_data.english) !== -1,
+        `fill-blank for grammar-rule KP ${kp.id} (english="${kp.prompt_data.english}") missing English in contextHint: "${ex.contextHint}"`
+      );
+    }
+  }
+});

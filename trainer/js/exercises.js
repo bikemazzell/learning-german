@@ -373,6 +373,10 @@ window.Exercises = (function () {
       // Prepend English so the exercise reads: "Das ______ ist alt." / "the house — noun only"
       fillContextHint = pd.english + (fillContextHint ? ' — ' + fillContextHint : '');
     }
+    if (pd.type === 'grammar-rule' && pd.english) {
+      // Show the English meaning so "______ kommst du?" displays "When?" instead of nothing.
+      fillContextHint = pd.english + (fillContextHint ? ' — ' + fillContextHint : '');
+    }
     if (pd.type === 'conjugation' && pd.verb) {
       // Prepend the infinitive so the learner knows which verb to conjugate.
       // Without it "Sie ______ Obst im Supermarkt." is unsolvable — any verb fits.
