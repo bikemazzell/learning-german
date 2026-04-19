@@ -48,7 +48,7 @@ function loadTrainer() {
   });
   sandbox.window = win;
 
-  const files = ['progress.js', 'engine.js', 'recommender.js', 'exercises.js'];
+  const files = ['progress.js', 'engine.js', 'recommender.js', 'exercises.js', 'exam.js'];
   for (const f of files) {
     const code = fs.readFileSync(path.join(JS_DIR, f), 'utf8');
     vm.runInContext(code, ctx, { filename: f });
@@ -80,7 +80,8 @@ function loadTrainer() {
     Progress:    sandbox.Progress,
     Engine:      sandbox.Engine,
     Recommender: sandbox.Recommender,
-    Exercises:   sandbox.Exercises
+    Exercises:   sandbox.Exercises,
+    Exam:        sandbox.Exam
   };
 }
 

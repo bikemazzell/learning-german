@@ -12,6 +12,11 @@ window.App = (function () {
     levels: {},          // { a1: { level, domains }, a2: ... }
     allTopics: [],       // flat array of topics for current level (with _domain tag)
     progress: null,      // Progress data for current level
+    examData: {},
+    examProgress: null,
+    currentExamSkill: null,
+    currentExamTask: null,
+    currentExamResult: null,
     currentView: 'dashboard',
     previousView: null,
     session: null        // active quiz session
@@ -27,10 +32,13 @@ window.App = (function () {
     Promise.all([
       fetch('data/levels/a1.json').then(function (r) { return r.json(); }),
       fetch('data/levels/a2.json').then(function (r) { return r.json(); }),
-      Exercises.loadTemplates('data/templates')
+      Exercises.loadTemplates('data/templates'),
+      Exam.loadExamData('data/exam')
     ]).then(function (results) {
       state.levels.a1 = results[0];
       state.levels.a2 = results[1];
+      state.examData = results[3];
+      state.examProgress = Exam.loadProgress();
       setLevel(state.currentLevel);
       renderLevelTabs();
       setupEventDelegation();
@@ -54,6 +62,7 @@ window.App = (function () {
   function setLevel(level) {
     state.currentLevel = level;
     state.progress = Progress.loadProgress(level);
+    state.examProgress = Exam.loadProgress();
     state.allTopics = flattenTopics(state.levels[level]);
   }
 
@@ -113,6 +122,21 @@ window.App = (function () {
         break;
       case 'settings':
         UI.renderSettings(state);
+        break;
+      case 'exam':
+        UI.renderExamOverview(state);
+        break;
+      case 'exam-section':
+        UI.renderExamSection(state, params);
+        break;
+      case 'exam-reading-task':
+        UI.renderExamReadingTask(state.currentExamTask);
+        break;
+      case 'exam-writing-task':
+        UI.renderExamWritingTask(state.currentExamTask);
+        break;
+      case 'exam-reading-result':
+        UI.renderExamReadingResult(state.currentExamTask, state.currentExamResult);
         break;
       default:
         UI.renderDashboard(state);
@@ -354,6 +378,26 @@ window.App = (function () {
           navigate('topics');
           break;
 
+        case 'show-exam':
+          navigate('exam');
+          break;
+
+        case 'view-exam-section':
+          navigate('exam-section', target.getAttribute('data-skill'));
+          break;
+
+        case 'view-exam-task':
+          openExamTask(target.getAttribute('data-skill'), target.getAttribute('data-task'));
+          break;
+
+        case 'submit-exam-reading':
+          submitExamReading();
+          break;
+
+        case 'mark-exam-writing':
+          markExamWritingDone();
+          break;
+
         case 'view-topic':
           var tid = target.getAttribute('data-topic');
           navigate('topic-detail', tid);
@@ -423,6 +467,13 @@ window.App = (function () {
       }
     });
 
+    document.addEventListener('input', function (e) {
+      if (e.target && e.target.id === 'exam-writing-input') {
+        var countEl = document.getElementById('exam-word-count');
+        if (countEl) countEl.textContent = Exam.countWords(e.target.value);
+      }
+    });
+
     // Keyboard support
     document.addEventListener('keydown', function (e) {
       if (state.currentView !== 'quiz' || !state.session) return;
@@ -453,6 +504,56 @@ window.App = (function () {
         }
       }
     });
+  }
+
+  // ---------------------------------------------------------------------------
+  // Exam practice
+  // ---------------------------------------------------------------------------
+
+  function openExamTask(skill, taskId) {
+    var examLevel = state.examData[state.currentLevel];
+    var task = examLevel ? Exam.findTask(examLevel, skill, taskId) : null;
+    if (!task) {
+      navigate('exam-section', skill);
+      return;
+    }
+
+    state.currentExamSkill = skill;
+    state.currentExamTask = task;
+    state.currentExamResult = null;
+
+    if (skill === 'reading') {
+      navigate('exam-reading-task');
+    } else if (skill === 'writing') {
+      navigate('exam-writing-task');
+    } else {
+      navigate('exam-section', skill);
+    }
+  }
+
+  function submitExamReading() {
+    if (!state.currentExamTask) return;
+
+    var answers = {};
+    var questions = state.currentExamTask.questions || [];
+    for (var i = 0; i < questions.length; i++) {
+      var q = questions[i];
+      var selected = document.querySelector('input[name="exam-q-' + q.id + '"]:checked');
+      if (selected) answers[q.id] = selected.value;
+    }
+
+    var result = Exam.scoreReadingTask(state.currentExamTask, answers);
+    Exam.recordReadingResult(state.currentLevel, state.currentExamTask.id, result);
+    state.examProgress = Exam.loadProgress();
+    state.currentExamResult = result;
+    navigate('exam-reading-result');
+  }
+
+  function markExamWritingDone() {
+    if (!state.currentExamTask) return;
+    Exam.recordWritingPractice(state.currentLevel, state.currentExamTask.id);
+    state.examProgress = Exam.loadProgress();
+    navigate('exam-section', 'writing');
   }
 
   // ---------------------------------------------------------------------------

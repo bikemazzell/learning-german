@@ -1,0 +1,298 @@
+{
+  "level": "A2",
+  "variant": "adult",
+  "sections": [
+    {
+      "id": "a2-reading",
+      "skill": "reading",
+      "name": "Lesen",
+      "duration_minutes": 30,
+      "tasks": [
+        {
+          "id": "a2-reading-article-001",
+          "part": "short-note",
+          "title": "Neuer Bäcker im Viertel",
+          "instruction": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
+          "text": "Seit Montag gibt es in der Gartenstraße eine neue Bäckerei. Frau Özdemir verkauft dort Brot, Kuchen und kleine warme Speisen. Viele Nachbarn kommen schon morgens, weil der Laden ab 6 Uhr geöffnet ist. Am Nachmittag gibt es Kaffee und günstige Angebote für Schüler.",
+          "questions": [
+            { "id": "q1", "prompt": "Was ist neu in der Gartenstraße?", "options": ["eine Bäckerei", "eine Schule", "ein Kino"], "answer": "eine Bäckerei", "explanation": "Im ersten Satz steht, dass es eine neue Bäckerei gibt." },
+            { "id": "q2", "prompt": "Warum kommen viele Nachbarn morgens?", "options": ["Der Laden öffnet früh.", "Der Kaffee ist kostenlos.", "Es gibt Unterricht."], "answer": "Der Laden öffnet früh.", "explanation": "Der Laden ist ab 6 Uhr geöffnet." },
+            { "id": "q3", "prompt": "Für wen gibt es am Nachmittag Angebote?", "options": ["für Schüler", "für Ärzte", "für Autofahrer"], "answer": "für Schüler", "explanation": "Am Nachmittag gibt es günstige Angebote für Schüler." }
+          ]
+        },
+        {
+          "id": "a2-reading-email-001",
+          "part": "short-note",
+          "title": "E-Mail von Paul",
+          "instruction": "Lesen Sie die E-Mail und wählen Sie die richtige Antwort.",
+          "text": "Liebe Mara, ich bin gut in Leipzig angekommen. Die Wohnung ist klein, aber hell. Am Samstag kaufe ich noch einen Schreibtisch. Kannst du mir nächste Woche meine Bücher schicken? Viele Grüße Paul",
+          "questions": [
+            { "id": "q1", "prompt": "Wie findet Paul die Wohnung?", "options": ["klein, aber hell", "groß und dunkel", "teuer und laut"], "answer": "klein, aber hell", "explanation": "Paul schreibt: klein, aber hell." },
+            { "id": "q2", "prompt": "Was kauft Paul am Samstag?", "options": ["einen Schreibtisch", "ein Bett", "Bücher"], "answer": "einen Schreibtisch", "explanation": "Er kauft noch einen Schreibtisch." },
+            { "id": "q3", "prompt": "Was soll Mara schicken?", "options": ["Bücher", "Geld", "Kleidung"], "answer": "Bücher", "explanation": "Paul bittet Mara, seine Bücher zu schicken." }
+          ]
+        },
+        {
+          "id": "a2-reading-message-001",
+          "part": "short-note",
+          "title": "Nachricht im Sportverein",
+          "instruction": "Lesen Sie die Nachricht und wählen Sie die richtige Antwort.",
+          "text": "Das Training am Donnerstag fällt aus, weil die Halle renoviert wird. Als Ersatz treffen wir uns am Freitag um 18 Uhr im Park. Bitte Sportschuhe und Wasser mitbringen.",
+          "questions": [
+            { "id": "q1", "prompt": "Warum fällt das Training aus?", "options": ["Die Halle wird renoviert.", "Der Trainer ist krank.", "Es regnet."], "answer": "Die Halle wird renoviert.", "explanation": "Die Halle wird renoviert." },
+            { "id": "q2", "prompt": "Wann ist der Ersatztermin?", "options": ["Donnerstag 18 Uhr", "Freitag 18 Uhr", "Samstag 8 Uhr"], "answer": "Freitag 18 Uhr", "explanation": "Der Ersatztermin ist Freitag um 18 Uhr." },
+            { "id": "q3", "prompt": "Was soll man mitbringen?", "options": ["Sportschuhe und Wasser", "Bücher und Stifte", "Kuchen und Kaffee"], "answer": "Sportschuhe und Wasser", "explanation": "Im Text steht: Sportschuhe und Wasser mitbringen." }
+          ]
+        },
+        {
+          "id": "a2-reading-ad-001",
+          "part": "ad",
+          "title": "Möbelmarkt",
+          "instruction": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+          "text": "Möbelmarkt Süd: Diese Woche 20 Prozent auf alle Schreibtische. Lieferung innerhalb der Stadt für 15 Euro. Öffnungszeiten: Montag bis Samstag 10-20 Uhr. Beratung auch ohne Termin.",
+          "questions": [
+            { "id": "q1", "prompt": "Was ist günstiger?", "options": ["Schreibtische", "Betten", "Küchen"], "answer": "Schreibtische", "explanation": "Es gibt 20 Prozent auf alle Schreibtische." },
+            { "id": "q2", "prompt": "Was kostet die Lieferung?", "options": ["15 Euro", "20 Euro", "kostenlos"], "answer": "15 Euro", "explanation": "Lieferung innerhalb der Stadt kostet 15 Euro." },
+            { "id": "q3", "prompt": "Braucht man einen Termin für Beratung?", "options": ["ja", "nein", "nur am Samstag"], "answer": "nein", "explanation": "Beratung ist auch ohne Termin möglich." }
+          ]
+        },
+        {
+          "id": "a2-reading-ad-002",
+          "part": "ad",
+          "title": "Computerkurs",
+          "instruction": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+          "text": "Computerkurs für Anfänger: E-Mail, Internet und Text schreiben. Vier Abende, jeweils Dienstag, 18.30 bis 20.30 Uhr. Kursgebühr 48 Euro. Anmeldung bis Freitag.",
+          "questions": [
+            { "id": "q1", "prompt": "Für wen ist der Kurs?", "options": ["für Anfänger", "für Kinder", "für Lehrer"], "answer": "für Anfänger", "explanation": "Der Kurs ist für Anfänger." },
+            { "id": "q2", "prompt": "Wie lange dauert ein Kurstag?", "options": ["eine Stunde", "zwei Stunden", "vier Stunden"], "answer": "zwei Stunden", "explanation": "18.30 bis 20.30 Uhr sind zwei Stunden." },
+            { "id": "q3", "prompt": "Bis wann muss man sich anmelden?", "options": ["bis Freitag", "bis Dienstag", "bis Montag"], "answer": "bis Freitag", "explanation": "Anmeldung ist bis Freitag." }
+          ]
+        },
+        {
+          "id": "a2-reading-ad-003",
+          "part": "ad",
+          "title": "Fahrradwerkstatt",
+          "instruction": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+          "text": "RadFix repariert Ihr Fahrrad schnell. Kleine Reparaturen sofort, größere Reparaturen in zwei Tagen. Im Mai prüfen wir Licht und Bremsen kostenlos. Termine online oder telefonisch.",
+          "questions": [
+            { "id": "q1", "prompt": "Was repariert RadFix?", "options": ["Fahrräder", "Autos", "Telefone"], "answer": "Fahrräder", "explanation": "RadFix repariert Fahrräder." },
+            { "id": "q2", "prompt": "Was ist im Mai kostenlos?", "options": ["Licht und Bremsen prüfen", "ein neues Fahrrad", "alle Reparaturen"], "answer": "Licht und Bremsen prüfen", "explanation": "Im Mai prüft RadFix Licht und Bremsen kostenlos." },
+            { "id": "q3", "prompt": "Wie bekommt man einen Termin?", "options": ["online oder telefonisch", "nur per Brief", "gar nicht"], "answer": "online oder telefonisch", "explanation": "Termine gibt es online oder telefonisch." }
+          ]
+        },
+        {
+          "id": "a2-reading-sign-001",
+          "part": "sign",
+          "title": "Im Rathaus",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Bürgerbüro: Ohne Termin nur montags und mittwochs von 8 bis 12 Uhr. Mit Termin auch nachmittags. Bitte Ausweis mitbringen.",
+          "questions": [
+            { "id": "q1", "prompt": "Wann geht es ohne Termin?", "options": ["montags und mittwochs vormittags", "jeden Nachmittag", "nur samstags"], "answer": "montags und mittwochs vormittags", "explanation": "Ohne Termin geht es montags und mittwochs von 8 bis 12 Uhr." },
+            { "id": "q2", "prompt": "Was braucht man?", "options": ["Ausweis", "Fahrkarte", "Fotoapparat"], "answer": "Ausweis", "explanation": "Bitte Ausweis mitbringen." },
+            { "id": "q3", "prompt": "Wann geht es mit Termin?", "options": ["auch nachmittags", "nur morgens", "nie"], "answer": "auch nachmittags", "explanation": "Mit Termin geht es auch nachmittags." }
+          ]
+        },
+        {
+          "id": "a2-reading-sign-002",
+          "part": "sign",
+          "title": "Im Zug",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Wegen Bauarbeiten fährt die Linie S3 heute nur bis Westbahnhof. Nach Neustadt nehmen Sie bitte den Ersatzbus vor dem Bahnhof.",
+          "questions": [
+            { "id": "q1", "prompt": "Warum fährt die S3 anders?", "options": ["wegen Bauarbeiten", "wegen Schnee", "wegen eines Konzerts"], "answer": "wegen Bauarbeiten", "explanation": "Im Text steht wegen Bauarbeiten." },
+            { "id": "q2", "prompt": "Bis wohin fährt die S3?", "options": ["Westbahnhof", "Neustadt", "Hauptmarkt"], "answer": "Westbahnhof", "explanation": "Die Linie fährt nur bis Westbahnhof." },
+            { "id": "q3", "prompt": "Wie kommt man nach Neustadt?", "options": ["mit dem Ersatzbus", "mit dem Taxi", "zu Fuß"], "answer": "mit dem Ersatzbus", "explanation": "Nach Neustadt soll man den Ersatzbus nehmen." }
+          ]
+        },
+        {
+          "id": "a2-reading-sign-003",
+          "part": "sign",
+          "title": "Im Schwimmbad",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Das Freibad öffnet bei schlechtem Wetter erst um 12 Uhr. Bei Gewitter müssen alle Gäste das Wasser verlassen. Eintrittskarten gelten den ganzen Tag.",
+          "questions": [
+            { "id": "q1", "prompt": "Wann öffnet das Bad bei schlechtem Wetter?", "options": ["um 12 Uhr", "um 8 Uhr", "gar nicht"], "answer": "um 12 Uhr", "explanation": "Bei schlechtem Wetter öffnet es erst um 12 Uhr." },
+            { "id": "q2", "prompt": "Was passiert bei Gewitter?", "options": ["Gäste verlassen das Wasser.", "Alle bekommen Geld zurück.", "Das Café öffnet."], "answer": "Gäste verlassen das Wasser.", "explanation": "Bei Gewitter müssen alle Gäste das Wasser verlassen." },
+            { "id": "q3", "prompt": "Wie lange gelten Eintrittskarten?", "options": ["den ganzen Tag", "eine Stunde", "nur vormittags"], "answer": "den ganzen Tag", "explanation": "Eintrittskarten gelten den ganzen Tag." }
+          ]
+        },
+        {
+          "id": "a2-reading-board-001",
+          "part": "info-board",
+          "title": "Kulturzentrum",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Kulturzentrum West: Montag Fotokurs, Dienstag Theatergruppe, Mittwoch Filmabend, Donnerstag Chorprobe. Karten für den Filmabend gibt es ab 17 Uhr an der Kasse.",
+          "questions": [
+            { "id": "q1", "prompt": "Was ist am Dienstag?", "options": ["Theatergruppe", "Fotokurs", "Chorprobe"], "answer": "Theatergruppe", "explanation": "Dienstag ist Theatergruppe." },
+            { "id": "q2", "prompt": "Wann ist der Filmabend?", "options": ["Mittwoch", "Montag", "Donnerstag"], "answer": "Mittwoch", "explanation": "Mittwoch ist Filmabend." },
+            { "id": "q3", "prompt": "Wann gibt es Filmkarten?", "options": ["ab 17 Uhr", "ab 12 Uhr", "nur online"], "answer": "ab 17 Uhr", "explanation": "Karten gibt es ab 17 Uhr an der Kasse." }
+          ]
+        },
+        {
+          "id": "a2-reading-board-002",
+          "part": "info-board",
+          "title": "Jobmesse",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Jobmesse im Stadthaus: 10 Uhr Begrüßung, 11 Uhr Bewerbungstraining, 13 Uhr Gespräche mit Firmen, 15 Uhr Vortrag Ausbildung. Eintritt frei, Anmeldung empfohlen.",
+          "questions": [
+            { "id": "q1", "prompt": "Wann ist das Bewerbungstraining?", "options": ["um 11 Uhr", "um 10 Uhr", "um 15 Uhr"], "answer": "um 11 Uhr", "explanation": "Bewerbungstraining ist um 11 Uhr." },
+            { "id": "q2", "prompt": "Was kostet der Eintritt?", "options": ["nichts", "10 Euro", "15 Euro"], "answer": "nichts", "explanation": "Eintritt frei bedeutet, dass es nichts kostet." },
+            { "id": "q3", "prompt": "Was wird empfohlen?", "options": ["Anmeldung", "Bewerbungsfoto", "Krawatte"], "answer": "Anmeldung", "explanation": "Anmeldung wird empfohlen." }
+          ]
+        },
+        {
+          "id": "a2-reading-board-003",
+          "part": "info-board",
+          "title": "Restaurantplan",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Mittagskarte im Restaurant Parkblick: Montag vegetarische Suppe, Dienstag Fisch mit Reis, Mittwoch Hähnchen mit Salat. Alle Gerichte kosten 9,50 Euro und enthalten Wasser.",
+          "questions": [
+            { "id": "q1", "prompt": "Was gibt es am Dienstag?", "options": ["Fisch mit Reis", "Suppe", "Hähnchen mit Salat"], "answer": "Fisch mit Reis", "explanation": "Dienstag gibt es Fisch mit Reis." },
+            { "id": "q2", "prompt": "Wie viel kostet ein Gericht?", "options": ["9,50 Euro", "5 Euro", "19 Euro"], "answer": "9,50 Euro", "explanation": "Alle Gerichte kosten 9,50 Euro." },
+            { "id": "q3", "prompt": "Was ist im Preis enthalten?", "options": ["Wasser", "Kaffee", "Kuchen"], "answer": "Wasser", "explanation": "Die Gerichte enthalten Wasser." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-writing",
+      "skill": "writing",
+      "name": "Schreiben",
+      "duration_minutes": 30,
+      "tasks": [
+        {
+          "id": "a2-writing-sms-001",
+          "part": "sms",
+          "title": "Zu spät zum Treffen",
+          "situation": "Sie sind unterwegs in der Stadt und schreiben eine SMS an Ihre Freundin.",
+          "word_count": { "min": 20, "target": 25, "max": 30 },
+          "bullets": ["Entschuldigen Sie sich, dass Sie zu spät kommen.", "Schreiben Sie, warum.", "Nennen Sie einen neuen Ort und eine neue Uhrzeit."],
+          "requirements": ["informeller Ton", "alle drei Punkte", "20-30 Wörter"],
+          "useful_phrases": ["Entschuldigung, ich komme später.", "Der Bus hat Verspätung.", "Treffen wir uns um ...?"],
+          "self_review": ["Sind alle drei Punkte beantwortet?", "Ist der Ton passend für eine Freundin?", "Hat der Text 20-30 Wörter?"]
+        },
+        {
+          "id": "a2-writing-sms-002",
+          "part": "sms",
+          "title": "Kino verschieben",
+          "situation": "Sie können heute nicht ins Kino gehen. Schreiben Sie eine SMS an Ihren Freund.",
+          "word_count": { "min": 20, "target": 25, "max": 30 },
+          "bullets": ["Sagen Sie, dass Sie nicht kommen können.", "Erklären Sie den Grund.", "Schlagen Sie einen neuen Tag vor."],
+          "requirements": ["Absage", "Grund", "neuer Vorschlag"],
+          "useful_phrases": ["Ich kann heute leider nicht.", "Ich muss länger arbeiten.", "Passt dir morgen?"],
+          "self_review": ["Ist die Absage klar?", "Ist ein Grund genannt?", "Gibt es einen neuen Vorschlag?"]
+        },
+        {
+          "id": "a2-writing-sms-003",
+          "part": "sms",
+          "title": "Hilfe beim Einkauf",
+          "situation": "Sie sind krank und bitten Ihre Nachbarin per SMS um Hilfe.",
+          "word_count": { "min": 20, "target": 25, "max": 30 },
+          "bullets": ["Sagen Sie, dass Sie krank sind.", "Bitten Sie um einen kleinen Einkauf.", "Schreiben Sie, wann Sie zu Hause sind."],
+          "requirements": ["höfliche Bitte", "konkreter Einkauf", "Zeitangabe"],
+          "useful_phrases": ["Mir geht es nicht gut.", "Kannst du bitte ... kaufen?", "Ich bin den ganzen Tag zu Hause."],
+          "self_review": ["Ist die Bitte höflich?", "Ist klar, was gekauft werden soll?", "Ist eine Zeit genannt?"]
+        },
+        {
+          "id": "a2-writing-sms-004",
+          "part": "sms",
+          "title": "Sport absagen",
+          "situation": "Sie können heute nicht zum Sport kommen. Schreiben Sie Ihrem Trainer.",
+          "word_count": { "min": 20, "target": 25, "max": 30 },
+          "bullets": ["Entschuldigen Sie sich.", "Nennen Sie den Grund.", "Fragen Sie nach dem nächsten Termin."],
+          "requirements": ["angemessener Ton", "Grund", "Frage"],
+          "useful_phrases": ["Guten Tag,", "Leider kann ich heute nicht kommen.", "Wann ist das nächste Training?"],
+          "self_review": ["Ist der Ton passend?", "Ist der Grund kurz erklärt?", "Gibt es eine Frage?"]
+        },
+        {
+          "id": "a2-writing-sms-005",
+          "part": "sms",
+          "title": "Schlüssel vergessen",
+          "situation": "Sie haben Ihren Schlüssel im Büro vergessen. Schreiben Sie einem Kollegen.",
+          "word_count": { "min": 20, "target": 25, "max": 30 },
+          "bullets": ["Erklären Sie das Problem.", "Bitten Sie um Hilfe.", "Nennen Sie, wann Sie kommen können."],
+          "requirements": ["Problem", "Bitte", "Zeit"],
+          "useful_phrases": ["Ich habe meinen Schlüssel vergessen.", "Kannst du mir helfen?", "Ich kann um ... kommen."],
+          "self_review": ["Ist das Problem verständlich?", "Bitten Sie klar um Hilfe?", "Ist eine Uhrzeit genannt?"]
+        },
+        {
+          "id": "a2-writing-sms-006",
+          "part": "sms",
+          "title": "Geburtstagsgeschenk",
+          "situation": "Sie planen ein Geschenk mit einem Freund. Schreiben Sie eine SMS.",
+          "word_count": { "min": 20, "target": 25, "max": 30 },
+          "bullets": ["Machen Sie einen Geschenk-Vorschlag.", "Sagen Sie, warum er gut ist.", "Fragen Sie nach der Meinung."],
+          "requirements": ["Vorschlag", "Begründung", "Frage"],
+          "useful_phrases": ["Ich habe eine Idee.", "Das passt gut, weil ...", "Was meinst du?"],
+          "self_review": ["Ist der Vorschlag konkret?", "Gibt es eine Begründung?", "Fragen Sie nach der Meinung?"]
+        },
+        {
+          "id": "a2-writing-email-001",
+          "part": "email",
+          "title": "Einladung vom Chef",
+          "situation": "Ihr Chef hat Geburtstag und hat Sie zu seiner Feier eingeladen. Schreiben Sie eine E-Mail.",
+          "word_count": { "min": 30, "target": 35, "max": 40 },
+          "bullets": ["Bedanken Sie sich und sagen Sie, dass Sie kommen.", "Informieren Sie, dass Sie jemanden mitbringen.", "Fragen Sie nach dem Weg."],
+          "requirements": ["formeller Ton", "alle drei Punkte", "30-40 Wörter"],
+          "useful_phrases": ["Sehr geehrter Herr ...,", "Vielen Dank für die Einladung.", "Könnten Sie mir bitte den Weg erklären?"],
+          "self_review": ["Ist der Ton formell?", "Sind alle drei Punkte beantwortet?", "Hat der Text 30-40 Wörter?"]
+        },
+        {
+          "id": "a2-writing-email-002",
+          "part": "email",
+          "title": "Kurs wechseln",
+          "situation": "Sie möchten Ihren Deutschkurs wechseln. Schreiben Sie an die Sprachschule.",
+          "word_count": { "min": 30, "target": 35, "max": 40 },
+          "bullets": ["Erklären Sie, warum Sie wechseln möchten.", "Fragen Sie nach einem Abendkurs.", "Bitten Sie um eine schnelle Antwort."],
+          "requirements": ["formelle Anrede", "Grund", "Bitte um Antwort"],
+          "useful_phrases": ["Sehr geehrte Damen und Herren,", "Ich möchte den Kurs wechseln.", "Ich freue mich auf Ihre Antwort."],
+          "self_review": ["Ist der Wechselwunsch klar?", "Fragen Sie nach einem Abendkurs?", "Bitten Sie um Antwort?"]
+        },
+        {
+          "id": "a2-writing-email-003",
+          "part": "email",
+          "title": "Wohnung besichtigen",
+          "situation": "Sie interessieren sich für eine Wohnung. Schreiben Sie an die Vermieterin.",
+          "word_count": { "min": 30, "target": 35, "max": 40 },
+          "bullets": ["Stellen Sie sich kurz vor.", "Fragen Sie nach der Miete.", "Bitten Sie um einen Besichtigungstermin."],
+          "requirements": ["höfliche Vorstellung", "zwei Fragen", "Gruß"],
+          "useful_phrases": ["Mein Name ist ...", "Wie hoch ist die Miete?", "Wann kann ich die Wohnung besichtigen?"],
+          "self_review": ["Stellen Sie sich vor?", "Fragen Sie nach der Miete?", "Fragen Sie nach einem Termin?"]
+        },
+        {
+          "id": "a2-writing-email-004",
+          "part": "email",
+          "title": "Beschwerde im Hotel",
+          "situation": "Ihr Hotelzimmer war laut und nicht sauber. Schreiben Sie eine E-Mail an das Hotel.",
+          "word_count": { "min": 30, "target": 35, "max": 40 },
+          "bullets": ["Beschreiben Sie das Problem.", "Sagen Sie, wann Sie dort waren.", "Bitten Sie um eine Lösung."],
+          "requirements": ["sachlicher Ton", "Datum oder Zeitraum", "Bitte"],
+          "useful_phrases": ["Ich war vom ... bis ... in Ihrem Hotel.", "Das Zimmer war leider ...", "Bitte schreiben Sie mir."],
+          "self_review": ["Ist das Problem konkret?", "Ist der Zeitraum genannt?", "Bitten Sie um eine Lösung?"]
+        },
+        {
+          "id": "a2-writing-email-005",
+          "part": "email",
+          "title": "Praktikum suchen",
+          "situation": "Sie suchen ein Praktikum in einem Geschäft. Schreiben Sie eine E-Mail.",
+          "word_count": { "min": 30, "target": 35, "max": 40 },
+          "bullets": ["Stellen Sie sich vor.", "Sagen Sie, warum Sie dort arbeiten möchten.", "Fragen Sie nach einem Gespräch."],
+          "requirements": ["formeller Ton", "Motivation", "Gesprächsfrage"],
+          "useful_phrases": ["Ich interessiere mich für ein Praktikum.", "Ich möchte gern ... lernen.", "Können wir einen Termin vereinbaren?"],
+          "self_review": ["Ist Ihr Interesse klar?", "Gibt es einen Grund?", "Fragen Sie nach einem Gespräch?"]
+        },
+        {
+          "id": "a2-writing-email-006",
+          "part": "email",
+          "title": "Reiseinformationen",
+          "situation": "Sie möchten mit Ihrer Familie eine Reise machen. Schreiben Sie an ein Reisebüro.",
+          "word_count": { "min": 30, "target": 35, "max": 40 },
+          "bullets": ["Sagen Sie, wohin Sie reisen möchten.", "Nennen Sie die Anzahl der Personen.", "Fragen Sie nach Preis und Hotel."],
+          "requirements": ["Reiseziel", "Personenzahl", "Preisfrage"],
+          "useful_phrases": ["Wir möchten nach ... reisen.", "Wir sind ... Personen.", "Was kostet die Reise mit Hotel?"],
+          "self_review": ["Ist das Reiseziel genannt?", "Ist die Personenzahl klar?", "Fragen Sie nach Preis und Hotel?"]
+        }
+      ]
+    }
+  ]
+}

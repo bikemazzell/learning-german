@@ -63,6 +63,7 @@ window.UI = (function () {
 
     // Bottom nav
     html += '<div class="bottom-nav">';
+    html += '<button class="btn btn-secondary" data-action="show-exam">Exam Practice</button>';
     html += '<button class="btn btn-secondary" data-action="browse-topics">Browse Topics</button>';
     html += '<button class="btn btn-secondary" data-action="show-settings">Settings</button>';
     html += '</div>';
@@ -328,6 +329,201 @@ window.UI = (function () {
   }
 
   // ---------------------------------------------------------------------------
+  // Exam Practice
+  // ---------------------------------------------------------------------------
+
+  function renderExamOverview(state) {
+    var level = state.currentLevel;
+    var examLevel = state.examData && state.examData[level];
+    var progress = getExamLevelProgress(state, level);
+
+    var html = '<div class="section-header">';
+    html += '<div class="section-title">Exam Practice — ' + level.toUpperCase() + '</div>';
+    html += '<button class="btn btn-sm btn-secondary" data-action="go-dashboard">Back</button>';
+    html += '</div>';
+
+    if (!examLevel || !examLevel.sections) {
+      html += '<div class="card"><div class="card-title">No exam practice available</div></div>';
+      appEl.innerHTML = html;
+      return;
+    }
+
+    html += '<div class="card">';
+    html += '<div class="card-title">Goethe ' + level.toUpperCase() + ' practice</div>';
+    html += '<div class="card-subtitle">Original Lesen and Schreiben tasks for adult exam preparation. Writing drafts stay on this device only until you leave the task.</div>';
+    html += '</div>';
+
+    for (var i = 0; i < examLevel.sections.length; i++) {
+      var section = examLevel.sections[i];
+      var done = completedCount(progress, section.skill);
+      var total = (section.tasks || []).length;
+      html += '<div class="topic-row" data-action="view-exam-section" data-skill="' + esc(section.skill) + '">';
+      html += '<div class="topic-status-dot ' + (done >= total && total > 0 ? 'mastered' : done > 0 ? 'learning' : 'new') + '"></div>';
+      html += '<div class="topic-info">';
+      html += '<div class="topic-name">' + esc(section.name) + '</div>';
+      html += '<div class="topic-meta">' + esc(section.duration_minutes) + ' minutes · ' + done + ' / ' + total + ' tasks</div>';
+      html += '</div>';
+      html += '<div class="topic-mastery">' + Math.round(total ? (done / total) * 100 : 0) + '%</div>';
+      html += '</div>';
+    }
+
+    appEl.innerHTML = html;
+  }
+
+  function renderExamSection(state, skill) {
+    var level = state.currentLevel;
+    var examLevel = state.examData && state.examData[level];
+    var section = examLevel && findExamSection(examLevel, skill);
+    var progress = getExamLevelProgress(state, level);
+
+    var html = '<div class="section-header">';
+    html += '<div class="section-title">' + esc(section ? section.name : 'Exam Practice') + ' — ' + level.toUpperCase() + '</div>';
+    html += '<button class="btn btn-sm btn-secondary" data-action="show-exam">Back</button>';
+    html += '</div>';
+
+    if (!section) {
+      html += '<div class="card"><div class="card-title">Section not found</div></div>';
+      appEl.innerHTML = html;
+      return;
+    }
+
+    html += '<div class="card">';
+    html += '<div class="card-title">' + esc(section.name) + '</div>';
+    html += '<div class="card-subtitle">' + esc(section.description || '') + '</div>';
+    html += '<div class="topic-meta">' + esc(section.duration_minutes) + ' minutes in the real exam</div>';
+    html += '</div>';
+
+    var tasks = section.tasks || [];
+    for (var i = 0; i < tasks.length; i++) {
+      var task = tasks[i];
+      var isDone = isExamTaskComplete(progress, section.skill, task.id);
+      html += '<div class="topic-row" data-action="view-exam-task" data-skill="' + esc(section.skill) + '" data-task="' + esc(task.id) + '">';
+      html += '<div class="topic-status-dot ' + (isDone ? 'mastered' : 'new') + '"></div>';
+      html += '<div class="topic-info">';
+      html += '<div class="topic-name">' + esc(task.title) + '</div>';
+      html += '<div class="topic-meta">' + esc(task.part || task.type || '') + '</div>';
+      html += '</div>';
+      html += '<div class="topic-mastery">' + (isDone ? 'Done' : 'Start') + '</div>';
+      html += '</div>';
+    }
+
+    appEl.innerHTML = html;
+  }
+
+  function renderExamReadingTask(task) {
+    var html = '<div class="section-header">';
+    html += '<div class="section-title">' + esc(task.title) + '</div>';
+    html += '<button class="btn btn-sm btn-secondary" data-action="view-exam-section" data-skill="reading">Back</button>';
+    html += '</div>';
+
+    html += '<div class="quiz-card exam-task">';
+    html += '<div class="quiz-context-hint">' + esc(task.instruction || '') + '</div>';
+    html += '<div class="quiz-prompt">' + esc(task.text || '') + '</div>';
+
+    var questions = task.questions || [];
+    for (var i = 0; i < questions.length; i++) {
+      var q = questions[i];
+      html += '<div class="exam-question">';
+      html += '<div class="card-title">' + esc(q.prompt) + '</div>';
+      html += '<div class="mc-options">';
+      for (var j = 0; j < (q.options || []).length; j++) {
+        var option = q.options[j];
+        var inputId = 'exam-' + esc(q.id) + '-' + j;
+        html += '<label class="mc-option" for="' + inputId + '">';
+        html += '<input type="radio" id="' + inputId + '" name="exam-q-' + esc(q.id) + '" value="' + esc(option) + '">';
+        html += '<span>' + esc(option) + '</span>';
+        html += '</label>';
+      }
+      html += '</div></div>';
+    }
+
+    html += '<button class="btn btn-primary btn-block mt-16" data-action="submit-exam-reading">Check Answers</button>';
+    html += '<div id="exam-feedback-area"></div>';
+    html += '</div>';
+
+    appEl.innerHTML = html;
+  }
+
+  function renderExamReadingResult(task, result) {
+    var html = '<div class="section-header">';
+    html += '<div class="section-title">' + esc(task.title) + '</div>';
+    html += '<button class="btn btn-sm btn-secondary" data-action="view-exam-section" data-skill="reading">Back</button>';
+    html += '</div>';
+
+    html += '<div class="card">';
+    html += '<div class="card-title">Score: ' + esc(result.correct) + ' / ' + esc(result.total) + '</div>';
+    html += '<div class="card-subtitle">' + esc(result.percent) + '% correct</div>';
+    html += '</div>';
+
+    var details = result.details || [];
+    for (var i = 0; i < details.length; i++) {
+      var d = details[i];
+      html += '<div class="feedback ' + (d.correct ? 'correct' : 'incorrect') + '">';
+      html += '<strong>' + esc(d.prompt) + '</strong>';
+      html += '<div class="feedback-explanation">Your answer: ' + esc(d.givenAnswer || 'No answer') + '</div>';
+      html += '<div class="feedback-explanation">Correct answer: ' + esc(d.answer) + '</div>';
+      html += '<div class="feedback-explanation">' + esc(d.explanation || '') + '</div>';
+      html += '</div>';
+    }
+
+    appEl.innerHTML = html;
+  }
+
+  function renderExamWritingTask(task) {
+    var wc = task.word_count || {};
+    var html = '<div class="section-header">';
+    html += '<div class="section-title">' + esc(task.title) + '</div>';
+    html += '<button class="btn btn-sm btn-secondary" data-action="view-exam-section" data-skill="writing">Back</button>';
+    html += '</div>';
+
+    html += '<div class="quiz-card exam-task">';
+    html += '<div class="quiz-prompt">' + esc(task.situation || '') + '</div>';
+    html += '<div class="card-subtitle">Ziel: ' + esc(wc.min) + '-' + esc(wc.max) + ' Wörter</div>';
+    html += renderList('Schreiben Sie über:', task.bullets);
+    html += renderList('Achten Sie auf:', task.requirements);
+    html += renderList('Useful phrases', task.useful_phrases);
+    html += '<textarea class="answer-input exam-writing-area" id="exam-writing-input" rows="8" placeholder="Write your answer here..."></textarea>';
+    html += '<div class="topic-meta mt-8">Words: <span id="exam-word-count">0</span> · Target: ' + esc(wc.target || '') + '</div>';
+    html += renderList('Self-review', task.self_review);
+    html += '<button class="btn btn-primary btn-block mt-16" data-action="mark-exam-writing">Mark Practice Done</button>';
+    html += '</div>';
+
+    appEl.innerHTML = html;
+  }
+
+  function renderList(title, items) {
+    if (!items || !items.length) return '';
+    var html = '<div class="exam-list"><div class="card-title">' + esc(title) + '</div><ul>';
+    for (var i = 0; i < items.length; i++) {
+      html += '<li>' + esc(items[i]) + '</li>';
+    }
+    html += '</ul></div>';
+    return html;
+  }
+
+  function findExamSection(examLevel, skill) {
+    var sections = examLevel.sections || [];
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].skill === skill) return sections[i];
+    }
+    return null;
+  }
+
+  function getExamLevelProgress(state, level) {
+    return (state.examProgress && state.examProgress[level]) || {};
+  }
+
+  function completedCount(progress, skill) {
+    var section = progress[skill] || {};
+    return (section.completedTaskIds || []).length;
+  }
+
+  function isExamTaskComplete(progress, skill, taskId) {
+    var section = progress[skill] || {};
+    return (section.completedTaskIds || []).indexOf(taskId) !== -1;
+  }
+
+  // ---------------------------------------------------------------------------
   // Session Summary
   // ---------------------------------------------------------------------------
 
@@ -412,6 +608,11 @@ window.UI = (function () {
     renderTopicDetail: renderTopicDetail,
     renderQuizQuestion: renderQuizQuestion,
     showFeedback: showFeedback,
+    renderExamOverview: renderExamOverview,
+    renderExamSection: renderExamSection,
+    renderExamReadingTask: renderExamReadingTask,
+    renderExamReadingResult: renderExamReadingResult,
+    renderExamWritingTask: renderExamWritingTask,
     renderSessionSummary: renderSessionSummary,
     renderSettings: renderSettings,
     esc: esc

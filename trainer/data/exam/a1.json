@@ -1,0 +1,298 @@
+{
+  "level": "A1",
+  "variant": "adult",
+  "sections": [
+    {
+      "id": "a1-reading",
+      "skill": "reading",
+      "name": "Lesen",
+      "duration_minutes": 25,
+      "tasks": [
+        {
+          "id": "a1-reading-note-001",
+          "part": "short-note",
+          "title": "Nachricht von Anna",
+          "instruction": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
+          "text": "Hallo Tom, ich komme heute um 18 Uhr. Bitte kauf Brot und Milch. Anna",
+          "questions": [
+            { "id": "q1", "prompt": "Wann kommt Anna?", "options": ["um 16 Uhr", "um 18 Uhr", "morgen"], "answer": "um 18 Uhr", "explanation": "Anna schreibt: ich komme heute um 18 Uhr." },
+            { "id": "q2", "prompt": "Was soll Tom kaufen?", "options": ["Brot und Milch", "Kaffee und Tee", "Obst und Wasser"], "answer": "Brot und Milch", "explanation": "Im Text steht: Bitte kauf Brot und Milch." },
+            { "id": "q3", "prompt": "Wer schreibt die Nachricht?", "options": ["Tom", "Anna", "Milch"], "answer": "Anna", "explanation": "Die Nachricht endet mit dem Namen Anna." }
+          ]
+        },
+        {
+          "id": "a1-reading-note-002",
+          "part": "short-note",
+          "title": "Termin beim Arzt",
+          "instruction": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
+          "text": "Guten Tag, Frau Weber. Ihr Termin ist am Dienstag um 9.30 Uhr. Bitte bringen Sie Ihre Versicherungskarte mit. Praxis Dr. Klein",
+          "questions": [
+            { "id": "q1", "prompt": "Wann ist der Termin?", "options": ["am Montag", "am Dienstag", "am Donnerstag"], "answer": "am Dienstag", "explanation": "Im Text steht: am Dienstag um 9.30 Uhr." },
+            { "id": "q2", "prompt": "Was soll Frau Weber mitbringen?", "options": ["einen Pass", "eine Versicherungskarte", "ein Foto"], "answer": "eine Versicherungskarte", "explanation": "Sie soll ihre Versicherungskarte mitbringen." },
+            { "id": "q3", "prompt": "Wo ist der Termin?", "options": ["in einer Praxis", "im Supermarkt", "im Kino"], "answer": "in einer Praxis", "explanation": "Der Text kommt von Praxis Dr. Klein." }
+          ]
+        },
+        {
+          "id": "a1-reading-note-003",
+          "part": "short-note",
+          "title": "Kursraum",
+          "instruction": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
+          "text": "Deutsch A1 heute nicht in Raum 2. Der Kurs ist in Raum 5. Beginn: 17.00 Uhr.",
+          "questions": [
+            { "id": "q1", "prompt": "Wo ist der Kurs heute?", "options": ["in Raum 2", "in Raum 5", "zu Hause"], "answer": "in Raum 5", "explanation": "Der Kurs ist in Raum 5." },
+            { "id": "q2", "prompt": "Wann beginnt der Kurs?", "options": ["um 15.00 Uhr", "um 17.00 Uhr", "um 19.00 Uhr"], "answer": "um 17.00 Uhr", "explanation": "Im Text steht: Beginn: 17.00 Uhr." },
+            { "id": "q3", "prompt": "Welcher Kurs ist gemeint?", "options": ["Deutsch A1", "Englisch A2", "Sport"], "answer": "Deutsch A1", "explanation": "Am Anfang steht Deutsch A1." }
+          ]
+        },
+        {
+          "id": "a1-reading-ad-001",
+          "part": "ad",
+          "title": "Zimmer frei",
+          "instruction": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+          "text": "Zimmer frei in Köln, 16 qm, hell und ruhig. Küche und Bad gemeinsam. 420 Euro warm. Telefon: 0221 445566.",
+          "questions": [
+            { "id": "q1", "prompt": "Was ist frei?", "options": ["ein Zimmer", "ein Auto", "ein Fahrrad"], "answer": "ein Zimmer", "explanation": "Die Anzeige beginnt mit Zimmer frei." },
+            { "id": "q2", "prompt": "Wo ist das Zimmer?", "options": ["in Bonn", "in Köln", "in Berlin"], "answer": "in Köln", "explanation": "Im Text steht: in Köln." },
+            { "id": "q3", "prompt": "Wie viel kostet es?", "options": ["240 Euro", "420 Euro", "520 Euro"], "answer": "420 Euro", "explanation": "Die Miete ist 420 Euro warm." }
+          ]
+        },
+        {
+          "id": "a1-reading-ad-002",
+          "part": "ad",
+          "title": "Fahrrad zu verkaufen",
+          "instruction": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+          "text": "Verkaufe Damenfahrrad, blau, fast neu. Preis: 95 Euro. Abholung am Wochenende. Kontakt: Lara.",
+          "questions": [
+            { "id": "q1", "prompt": "Was verkauft Lara?", "options": ["ein Damenfahrrad", "einen Tisch", "eine Lampe"], "answer": "ein Damenfahrrad", "explanation": "Im Text steht: Verkaufe Damenfahrrad." },
+            { "id": "q2", "prompt": "Welche Farbe hat es?", "options": ["rot", "blau", "schwarz"], "answer": "blau", "explanation": "Das Fahrrad ist blau." },
+            { "id": "q3", "prompt": "Wann kann man es abholen?", "options": ["am Morgen", "am Wochenende", "im April"], "answer": "am Wochenende", "explanation": "Abholung ist am Wochenende." }
+          ]
+        },
+        {
+          "id": "a1-reading-ad-003",
+          "part": "ad",
+          "title": "Sprachkurs",
+          "instruction": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+          "text": "Deutsch am Abend: A1-Kurs, Montag und Mittwoch, 18 bis 20 Uhr. Kleine Gruppe, nette Lehrerin. Start am 3. Mai.",
+          "questions": [
+            { "id": "q1", "prompt": "Wann ist der Kurs?", "options": ["am Vormittag", "am Abend", "am Sonntag"], "answer": "am Abend", "explanation": "Die Anzeige sagt: Deutsch am Abend." },
+            { "id": "q2", "prompt": "An welchen Tagen ist der Kurs?", "options": ["Montag und Mittwoch", "Dienstag und Freitag", "Samstag und Sonntag"], "answer": "Montag und Mittwoch", "explanation": "Im Text steht Montag und Mittwoch." },
+            { "id": "q3", "prompt": "Wann startet der Kurs?", "options": ["am 3. Mai", "am 5. Juni", "am 30. Mai"], "answer": "am 3. Mai", "explanation": "Start ist am 3. Mai." }
+          ]
+        },
+        {
+          "id": "a1-reading-sign-001",
+          "part": "sign",
+          "title": "Im Bahnhof",
+          "instruction": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
+          "text": "Gleis 4: Zug nach Hamburg 10 Minuten später. Bitte Durchsage beachten.",
+          "questions": [
+            { "id": "q1", "prompt": "Wohin fährt der Zug?", "options": ["nach Hamburg", "nach Köln", "nach Wien"], "answer": "nach Hamburg", "explanation": "Auf dem Schild steht Zug nach Hamburg." },
+            { "id": "q2", "prompt": "Wie spät ist der Zug?", "options": ["5 Minuten", "10 Minuten", "20 Minuten"], "answer": "10 Minuten", "explanation": "Der Zug ist 10 Minuten später." },
+            { "id": "q3", "prompt": "Wo fährt der Zug ab?", "options": ["Gleis 1", "Gleis 4", "Gleis 9"], "answer": "Gleis 4", "explanation": "Am Anfang steht Gleis 4." }
+          ]
+        },
+        {
+          "id": "a1-reading-sign-002",
+          "part": "sign",
+          "title": "In der Bibliothek",
+          "instruction": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
+          "text": "Bitte leise sein. Essen und Trinken sind im Lesesaal nicht erlaubt. Öffnungszeiten: 9-18 Uhr.",
+          "questions": [
+            { "id": "q1", "prompt": "Was ist im Lesesaal nicht erlaubt?", "options": ["lesen", "essen und trinken", "leise sein"], "answer": "essen und trinken", "explanation": "Essen und Trinken sind nicht erlaubt." },
+            { "id": "q2", "prompt": "Wie soll man sein?", "options": ["leise", "laut", "schnell"], "answer": "leise", "explanation": "Auf dem Schild steht: Bitte leise sein." },
+            { "id": "q3", "prompt": "Wann öffnet die Bibliothek?", "options": ["um 8 Uhr", "um 9 Uhr", "um 18 Uhr"], "answer": "um 9 Uhr", "explanation": "Die Öffnungszeiten beginnen um 9 Uhr." }
+          ]
+        },
+        {
+          "id": "a1-reading-sign-003",
+          "part": "sign",
+          "title": "Am Geschäft",
+          "instruction": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
+          "text": "Heute wegen Inventur geschlossen. Morgen wieder geöffnet von 10 bis 19 Uhr.",
+          "questions": [
+            { "id": "q1", "prompt": "Ist das Geschäft heute offen?", "options": ["ja", "nein", "nur am Abend"], "answer": "nein", "explanation": "Heute ist es geschlossen." },
+            { "id": "q2", "prompt": "Warum ist geschlossen?", "options": ["wegen Urlaub", "wegen Inventur", "wegen Krankheit"], "answer": "wegen Inventur", "explanation": "Im Text steht: wegen Inventur." },
+            { "id": "q3", "prompt": "Wann ist morgen geöffnet?", "options": ["10 bis 19 Uhr", "9 bis 12 Uhr", "18 bis 20 Uhr"], "answer": "10 bis 19 Uhr", "explanation": "Morgen ist von 10 bis 19 Uhr geöffnet." }
+          ]
+        },
+        {
+          "id": "a1-reading-board-001",
+          "part": "info-board",
+          "title": "Volkshochschule",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Volkshochschule Mitte: Deutsch A1 Raum 12, Computer Raum 8, Yoga Raum 3. Anmeldung im Büro, Erdgeschoss.",
+          "questions": [
+            { "id": "q1", "prompt": "Wo ist Deutsch A1?", "options": ["Raum 12", "Raum 8", "Erdgeschoss"], "answer": "Raum 12", "explanation": "Deutsch A1 ist in Raum 12." },
+            { "id": "q2", "prompt": "Wo meldet man sich an?", "options": ["im Büro", "im Yogaraum", "im Computerraum"], "answer": "im Büro", "explanation": "Anmeldung ist im Büro." },
+            { "id": "q3", "prompt": "Wo ist das Büro?", "options": ["Raum 12", "Erdgeschoss", "Raum 3"], "answer": "Erdgeschoss", "explanation": "Das Büro ist im Erdgeschoss." }
+          ]
+        },
+        {
+          "id": "a1-reading-board-002",
+          "part": "info-board",
+          "title": "Kaufhaus",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "1. Stock: Damenmode und Schuhe. 2. Stock: Herrenmode. 3. Stock: Möbel und Lampen. Kasse im Erdgeschoss.",
+          "questions": [
+            { "id": "q1", "prompt": "Wo findet man Schuhe?", "options": ["1. Stock", "2. Stock", "3. Stock"], "answer": "1. Stock", "explanation": "Schuhe sind im 1. Stock." },
+            { "id": "q2", "prompt": "Wo sind Möbel?", "options": ["Erdgeschoss", "2. Stock", "3. Stock"], "answer": "3. Stock", "explanation": "Möbel sind im 3. Stock." },
+            { "id": "q3", "prompt": "Wo ist die Kasse?", "options": ["im Erdgeschoss", "im 1. Stock", "im 3. Stock"], "answer": "im Erdgeschoss", "explanation": "Die Kasse ist im Erdgeschoss." }
+          ]
+        },
+        {
+          "id": "a1-reading-board-003",
+          "part": "info-board",
+          "title": "Schwimmbad",
+          "instruction": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+          "text": "Schwimmbad Nord: Montag geschlossen. Dienstag bis Freitag 7-21 Uhr. Eintritt Erwachsene 6 Euro, Kinder 3 Euro.",
+          "questions": [
+            { "id": "q1", "prompt": "Wann ist das Schwimmbad geschlossen?", "options": ["Montag", "Dienstag", "Freitag"], "answer": "Montag", "explanation": "Montag ist geschlossen." },
+            { "id": "q2", "prompt": "Wie viel bezahlen Kinder?", "options": ["3 Euro", "6 Euro", "7 Euro"], "answer": "3 Euro", "explanation": "Kinder bezahlen 3 Euro." },
+            { "id": "q3", "prompt": "Wie lange ist am Dienstag geöffnet?", "options": ["bis 18 Uhr", "bis 20 Uhr", "bis 21 Uhr"], "answer": "bis 21 Uhr", "explanation": "Dienstag bis Freitag ist bis 21 Uhr geöffnet." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-writing",
+      "skill": "writing",
+      "name": "Schreiben",
+      "duration_minutes": 20,
+      "tasks": [
+        {
+          "id": "a1-writing-form-001",
+          "part": "form-fill",
+          "title": "Hotelanmeldung",
+          "situation": "Ihr Freund bucht ein Hotelzimmer. Helfen Sie und notieren Sie die fehlenden Informationen.",
+          "word_count": { "min": 5, "target": 10, "max": 20 },
+          "bullets": ["Name und Vorname", "Adresse", "Ankunft und Abreise"],
+          "requirements": ["kurze korrekte Formularangaben", "lesbare Zahlen und Daten"],
+          "useful_phrases": ["Familienname:", "Vorname:", "Adresse:"],
+          "self_review": ["Sind alle Felder ausgefüllt?", "Sind Datum und Zahlen klar?", "Sind Namen großgeschrieben?"]
+        },
+        {
+          "id": "a1-writing-form-002",
+          "part": "form-fill",
+          "title": "Sprachkurs",
+          "situation": "Sie melden eine Kollegin zu einem Deutschkurs an.",
+          "word_count": { "min": 5, "target": 10, "max": 20 },
+          "bullets": ["Name", "Telefonnummer", "Kurszeit"],
+          "requirements": ["alle drei Informationen", "klare Telefonnummer"],
+          "useful_phrases": ["Telefon:", "Kurs:", "Uhrzeit:"],
+          "self_review": ["Sind alle drei Informationen da?", "Ist die Telefonnummer richtig?", "Ist die Uhrzeit verständlich?"]
+        },
+        {
+          "id": "a1-writing-form-003",
+          "part": "form-fill",
+          "title": "Bibliothekskarte",
+          "situation": "Sie beantragen eine Bibliothekskarte.",
+          "word_count": { "min": 5, "target": 10, "max": 20 },
+          "bullets": ["Adresse", "Geburtsdatum", "E-Mail"],
+          "requirements": ["vollständige Kontaktangaben", "korrektes Datum"],
+          "useful_phrases": ["Geburtsdatum:", "E-Mail:", "Straße:"],
+          "self_review": ["Ist die E-Mail lesbar?", "Ist das Datum vollständig?", "Fehlt ein Feld?"]
+        },
+        {
+          "id": "a1-writing-form-004",
+          "part": "form-fill",
+          "title": "Sportkurs",
+          "situation": "Ihr Nachbar möchte einen Sportkurs besuchen.",
+          "word_count": { "min": 5, "target": 10, "max": 20 },
+          "bullets": ["Kursname", "Wochentag", "Zahlungsweise"],
+          "requirements": ["passende Kursdaten", "klare Zahlungsweise"],
+          "useful_phrases": ["Kurs:", "Tag:", "bar / Karte"],
+          "self_review": ["Ist der Wochentag klar?", "Ist die Zahlungsweise genannt?", "Ist der Kursname richtig?"]
+        },
+        {
+          "id": "a1-writing-form-005",
+          "part": "form-fill",
+          "title": "Busfahrt",
+          "situation": "Sie füllen eine Anmeldung für eine Busfahrt aus.",
+          "word_count": { "min": 5, "target": 10, "max": 20 },
+          "bullets": ["Anzahl der Personen", "Reisetermin", "Unterschrift"],
+          "requirements": ["alle Zahlen korrekt", "Termin klar"],
+          "useful_phrases": ["Personen:", "Termin:", "Unterschrift:"],
+          "self_review": ["Sind die Zahlen richtig?", "Ist der Termin eindeutig?", "Ist der Name geschrieben?"]
+        },
+        {
+          "id": "a1-writing-form-006",
+          "part": "form-fill",
+          "title": "Arztpraxis",
+          "situation": "Sie füllen ein kurzes Formular in einer Arztpraxis aus.",
+          "word_count": { "min": 5, "target": 10, "max": 20 },
+          "bullets": ["Name", "Krankenkasse", "Telefon"],
+          "requirements": ["Name und Kontakt", "kurze klare Angaben"],
+          "useful_phrases": ["Name:", "Krankenkasse:", "Telefon:"],
+          "self_review": ["Sind Name und Telefon da?", "Ist die Krankenkasse genannt?", "Sind die Angaben lesbar?"]
+        },
+        {
+          "id": "a1-writing-short-001",
+          "part": "short-text",
+          "title": "Touristeninformation",
+          "situation": "Sie möchten im August Dresden besuchen. Schreiben Sie an die Touristeninformation.",
+          "word_count": { "min": 25, "target": 30, "max": 40 },
+          "bullets": ["Warum schreiben Sie?", "Bitten Sie um Informationen über Kulturprogramm.", "Fragen Sie nach Hoteladressen."],
+          "requirements": ["Anrede", "alle drei Punkte", "Gruß"],
+          "useful_phrases": ["Sehr geehrte Damen und Herren,", "Können Sie mir bitte ... schicken?", "Mit freundlichen Grüßen"],
+          "self_review": ["Sind alle drei Punkte beantwortet?", "Hat der Text eine Anrede und einen Gruß?", "Ist der Text ungefähr 30 Wörter lang?"]
+        },
+        {
+          "id": "a1-writing-short-002",
+          "part": "short-text",
+          "title": "Einladung absagen",
+          "situation": "Sie können am Samstag nicht zu einer Einladung kommen. Schreiben Sie an Ihre Freundin.",
+          "word_count": { "min": 25, "target": 30, "max": 40 },
+          "bullets": ["Bedanken Sie sich.", "Sagen Sie, warum Sie nicht kommen.", "Schlagen Sie einen neuen Termin vor."],
+          "requirements": ["persönliche Anrede", "Entschuldigung", "neuer Termin"],
+          "useful_phrases": ["Liebe ...,", "Es tut mir leid.", "Können wir uns am ... treffen?"],
+          "self_review": ["Ist die Absage höflich?", "Ist ein Grund genannt?", "Gibt es einen neuen Termin?"]
+        },
+        {
+          "id": "a1-writing-short-003",
+          "part": "short-text",
+          "title": "Wohnung suchen",
+          "situation": "Sie suchen ein Zimmer. Schreiben Sie an einen Vermieter.",
+          "word_count": { "min": 25, "target": 30, "max": 40 },
+          "bullets": ["Stellen Sie sich kurz vor.", "Fragen Sie nach dem Preis.", "Bitten Sie um einen Besichtigungstermin."],
+          "requirements": ["Anrede", "Frage nach Preis", "Terminfrage"],
+          "useful_phrases": ["Guten Tag,", "Ich suche ein Zimmer.", "Wann kann ich das Zimmer sehen?"],
+          "self_review": ["Ist Ihr Name genannt?", "Fragen Sie nach dem Preis?", "Fragen Sie nach einem Termin?"]
+        },
+        {
+          "id": "a1-writing-short-004",
+          "part": "short-text",
+          "title": "Kursinformation",
+          "situation": "Sie möchten einen Deutschkurs besuchen. Schreiben Sie an die Sprachschule.",
+          "word_count": { "min": 25, "target": 30, "max": 40 },
+          "bullets": ["Sagen Sie Ihr Niveau.", "Fragen Sie nach Kurszeiten.", "Fragen Sie nach dem Preis."],
+          "requirements": ["formelle Anrede", "zwei Fragen", "Gruß"],
+          "useful_phrases": ["Ich lerne Deutsch auf Niveau A1.", "Wann beginnt der Kurs?", "Was kostet der Kurs?"],
+          "self_review": ["Ist das Niveau genannt?", "Sind Kurszeit und Preis gefragt?", "Gibt es einen Gruß?"]
+        },
+        {
+          "id": "a1-writing-short-005",
+          "part": "short-text",
+          "title": "Geburtstagsfeier",
+          "situation": "Sie laden einen Kollegen zu Ihrer Geburtstagsfeier ein.",
+          "word_count": { "min": 25, "target": 30, "max": 40 },
+          "bullets": ["Nennen Sie den Anlass.", "Nennen Sie Ort und Zeit.", "Bitten Sie um Antwort."],
+          "requirements": ["Einladung", "Ort und Zeit", "Antwortbitte"],
+          "useful_phrases": ["Ich lade dich ein.", "Die Feier ist am ... um ...", "Bitte antworte mir."],
+          "self_review": ["Ist klar, warum Sie schreiben?", "Sind Ort und Zeit da?", "Bitten Sie um Antwort?"]
+        },
+        {
+          "id": "a1-writing-short-006",
+          "part": "short-text",
+          "title": "Hilfe beim Umzug",
+          "situation": "Sie ziehen um und brauchen Hilfe. Schreiben Sie an einen Freund.",
+          "word_count": { "min": 25, "target": 30, "max": 40 },
+          "bullets": ["Sagen Sie, wann Sie umziehen.", "Bitten Sie um Hilfe.", "Schreiben Sie, was Sie zusammen machen können."],
+          "requirements": ["persönliche Anrede", "Bitte um Hilfe", "konkreter Termin"],
+          "useful_phrases": ["Lieber ...,", "Kannst du mir helfen?", "Danach können wir Pizza essen."],
+          "self_review": ["Ist der Termin klar?", "Ist die Bitte höflich?", "Gibt es eine freundliche Idee danach?"]
+        }
+      ]
+    }
+  ]
+}

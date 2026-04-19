@@ -1,4 +1,4 @@
-var CACHE = 'german-trainer-v1';
+var CACHE = 'german-trainer-v2';
 var ASSETS = [
   './',
   'index.html',
@@ -6,11 +6,14 @@ var ASSETS = [
   'js/app.js',
   'js/engine.js',
   'js/exercises.js',
+  'js/exam.js',
   'js/progress.js',
   'js/recommender.js',
   'js/ui.js',
   'data/levels/a1.json',
   'data/levels/a2.json',
+  'data/exam/a1.json',
+  'data/exam/a2.json',
   'data/templates/grammar.json',
   'data/templates/vocab.json',
   'manifest.json'
