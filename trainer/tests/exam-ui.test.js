@@ -85,6 +85,29 @@ test('dashboard includes an Exam Practice entry point', () => {
   assert.match(appEl.innerHTML, /data-action="show-exam"/);
 });
 
+test('dashboard shows exam skills as first-class sections', () => {
+  const { UI, appEl } = loadUI();
+  UI.renderDashboard({
+    currentLevel: 'a1',
+    allTopics: [],
+    progress: {},
+    examData: {
+      a1: {
+        sections: [
+          { skill: 'reading', name: 'Lesen', duration_minutes: 25, tasks: [{ id: 'r1' }, { id: 'r2' }] },
+          { skill: 'writing', name: 'Schreiben', duration_minutes: 20, tasks: [{ id: 'w1' }] }
+        ]
+      }
+    },
+    examProgress: { a1: { reading: { completedTaskIds: ['r1'] }, writing: { completedTaskIds: [] } } }
+  });
+
+  assert.match(appEl.innerHTML, /Exam Practice/);
+  assert.match(appEl.innerHTML, /Lesen/);
+  assert.match(appEl.innerHTML, /Schreiben/);
+  assert.match(appEl.innerHTML, /data-action="view-exam-section"/);
+});
+
 test('exam overview renders reading and writing sections', () => {
   const { UI, appEl } = loadUI();
   UI.renderExamOverview({

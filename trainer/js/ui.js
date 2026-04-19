@@ -60,6 +60,8 @@ window.UI = (function () {
     html += topicMapSection('Grammar', grammarTopics, progress, level);
     // Topic map — Vocabulary
     html += topicMapSection('Vocabulary', vocabTopics, progress, level);
+    // Exam practice — Lesen / Schreiben
+    html += examPracticeMapSection(state);
 
     // Bottom nav
     html += '<div class="bottom-nav">';
@@ -101,6 +103,30 @@ window.UI = (function () {
       var pct = Math.round(Engine.getTopicProgressScore(states) * 100);
       html += '<div class="topic-dot ' + state + '" data-action="view-topic" data-topic="' + esc(t.id) + '">';
       html += '<div class="topic-dot-name">' + esc(t.name) + '</div>';
+      html += '<div class="topic-dot-pct">' + pct + '%</div>';
+      html += '</div>';
+    }
+    html += '</div></div>';
+    return html;
+  }
+
+  function examPracticeMapSection(state) {
+    var level = state.currentLevel;
+    var examLevel = state.examData && state.examData[level];
+    if (!examLevel || !examLevel.sections || !examLevel.sections.length) return '';
+
+    var progress = getExamLevelProgress(state, level);
+    var html = '<div class="topic-map">';
+    html += '<div class="topic-map-label">Exam Practice</div>';
+    html += '<div class="topic-grid">';
+    for (var i = 0; i < examLevel.sections.length; i++) {
+      var section = examLevel.sections[i];
+      var done = completedCount(progress, section.skill);
+      var total = (section.tasks || []).length;
+      var pct = Math.round(total ? (done / total) * 100 : 0);
+      var stateClass = done >= total && total > 0 ? 'mastered' : done > 0 ? 'learning' : 'new';
+      html += '<div class="topic-dot ' + stateClass + '" data-action="view-exam-section" data-skill="' + esc(section.skill) + '">';
+      html += '<div class="topic-dot-name">' + esc(section.name) + '</div>';
       html += '<div class="topic-dot-pct">' + pct + '%</div>';
       html += '</div>';
     }
