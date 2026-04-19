@@ -6,7 +6,7 @@ A mastery-based German language trainer modeled on [MathAcademy.com](https://www
 
 The trainer guides students through all grammar and vocabulary topics required for Goethe A1 and A2 certification using:
 
-- **Knowledge graph** with 55 topics and 555 knowledge points across two levels
+- **Knowledge graph** with 55 topics and 1398 knowledge points across two levels
 - **SM-2 spaced repetition** per knowledge point, with adaptive review scheduling
 - **Mastery-based progression** — topics are marked mastered when 85% of knowledge points reach mastery (7+ day interval, 85%+ accuracy)
 - **Adaptive recommendations** — the system tells you what to study next based on due reviews, in-progress topics, and prerequisite dependencies
@@ -19,7 +19,7 @@ The trainer guides students through all grammar and vocabulary topics required f
 |---|---|---|---|
 | Grammar topics | 18 | 15 | 33 |
 | Vocabulary topics | 12 | 10 | 22 |
-| Knowledge points | 303 | 252 | 555 |
+| Knowledge points | 700 | 698 | 1398 |
 
 **A1 Grammar:** Personal pronouns, sein/haben, nominative articles, present tense, negation, questions, possessives, accusative case, prepositions, adjectives, plurals, irregular verbs, modals, imperatives, numbers/time, word order, connectors.
 
@@ -77,8 +77,8 @@ learning-german/
 │   │   └── ui.js              # DOM rendering for all views
 │   └── data/
 │       ├── levels/
-│       │   ├── a1.json        # A1 knowledge graph (30 topics, 303 KPs)
-│       │   └── a2.json        # A2 knowledge graph (25 topics, 252 KPs)
+│       │   ├── a1.json        # A1 knowledge graph (30 topics, 700 KPs)
+│       │   └── a2.json        # A2 knowledge graph (25 topics, 698 KPs)
 │       └── templates/
 │           ├── grammar.json   # Exercise templates for grammar topics
 │           └── vocab.json     # Exercise templates for vocabulary topics

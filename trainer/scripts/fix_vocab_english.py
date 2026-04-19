@@ -14,6 +14,7 @@ REMOVE_IDS = {
     'a1-vocab-numbers-kp-gemeinsamen', 'a1-vocab-numbers-kp-gemeinsamer',
     'a1-vocab-numbers-kp-sie',
     'a1-vocab-food-kp-chen', 'a1-vocab-food-kp-eine', 'a1-vocab-food-kp-meine',
+    'a1-vocab-food-kp-scheidt', 'a1-vocab-food-kp-schweizerischen',
     'a1-vocab-routines-kp-sche', 'a1-vocab-routines-kp-schen',
     'a1-vocab-home-kp-hin', 'a1-vocab-months-kp-die',
     'a1-vocab-shopping-kp-europ-ischen', 'a1-vocab-shopping-kp-den',
@@ -29,10 +30,11 @@ REMOVE_IDS = {
     'a2-vocab-services-kp-sich',
     'a2-vocab-weather-kp-anweisungssprache', 'a2-vocab-weather-kp-beispielsweise',
     'a2-vocab-weather-kp-hinweis', 'a2-vocab-weather-kp-preise',
-    'a2-vocab-weather-kp-reisef-hrer',
+    'a2-vocab-weather-kp-reisef-hrer', 'a2-vocab-weather-kp-beispiels-tze',
+    'a2-vocab-education-kp-den',
     'a2-vocab-clothing-kp-pass', 'a2-vocab-clothing-kp-lichtschalter',
     'a2-vocab-clothing-kp-zug', 'a2-vocab-clothing-kp-t-shirt',
-    'a2-vocab-clothing-kp-tasche',
+    'a2-vocab-clothing-kp-tasche', 'a2-vocab-clothing-kp-sche',
     'a2-vocab-emotions-kp-eine', 'a2-vocab-emotions-kp-einen',
     'a2-vocab-emotions-kp-liebe', 'a2-vocab-emotions-kp-rgern',
     'a2-vocab-emotions-kp-rgern--sich--2', 'a2-vocab-emotions-kp-verlieben',
@@ -776,24 +778,31 @@ e('a2-vocab-directions-kp-wecken--weckt--2','to be woken up (passive)', 'Ich bin
 
 # ─── Entries missed on first pass ────────────────────────────────────────────
 # A1 family
-e('a1-vocab-family-kp-frau',        'woman / wife')
+e('a1-vocab-family-kp-frau',        'woman / wife', 'Das ist Frau Becker.')
 e('a1-vocab-family-kp-frau---en-1', 'woman',         'Das ist Frau Becker.')
-e('a1-vocab-family-kp-nicht',       'not')
+e('a1-vocab-family-kp-nicht',       'not',           'Das stimmt nicht.')
 # A1 food (misc words)
-e('a1-vocab-food-kp-allein',        'alone / by oneself')
+e('a1-vocab-food-kp-allein',        'alone / by oneself', 'Er kommt allein.')
+e('a1-vocab-food-kp-arbeiten',      'to work')
+e('a1-vocab-food-kp-arm',           'arm')
 e('a1-vocab-food-kp-aus-sein-1',    'to be off / switched off',  'Das Licht ist aus.')
 e('a1-vocab-food-kp-aus-sein-2',    'to be finished / over (school, etc.)', 'Die Schule ist aus.')
-e('a1-vocab-food-kp-dein',          'your (singular informal)')
+e('a1-vocab-food-kp-dein',          'your (singular informal)', 'Ist das dein Auto?')
 e('a1-vocab-food-kp-dein--1',       'your (singular informal)',  'Ist das dein Auto?')
 e('a1-vocab-food-kp-dein--2',       'yours (pronoun)',           'Ist das deins?')
-e('a1-vocab-food-kp-karte',         'card / postcard / map / menu')
-e('a1-vocab-food-kp-gleich',        'same / right away / makes no difference')
+e('a1-vocab-food-kp-karte',         'card / postcard / map / menu', 'Ich schreibe meinen Bekannten eine Karte.')
+e('a1-vocab-food-kp-gleich',        'same / right away / makes no difference', 'Das ist mir gleich.')
 e('a1-vocab-food-kp-gleich-1',      "doesn't matter / all the same", 'Das ist mir gleich.')
 e('a1-vocab-food-kp-gleich-3',      'right away / in a moment',  'Ich komme gleich.')
-e('a1-vocab-food-kp-reisen',        'to travel')
-e('a1-vocab-food-kp-scheinen',      'to shine / to seem')
+e('a1-vocab-food-kp-mein',          'my')
+e('a1-vocab-food-kp-reisen',        'to travel', 'Ich reise gern.')
+e('a1-vocab-food-kp-scheinen',      'to shine / to seem', 'Die Sonne scheint.')
+e('a1-vocab-food-kp-sein-2',        'to be')
+e('a1-vocab-home-kp-wer',           'who', 'Wer ist das?')
 # A1 travel
-e('a1-vocab-travel-kp-koffer',      'suitcase')
+e('a1-vocab-travel-kp-abfliegen',   'to depart / to take off')
+e('a1-vocab-travel-kp-alt',         'old')
+e('a1-vocab-travel-kp-koffer',      'suitcase', 'Ist das Ihr Koffer?')
 # A1 hobbies – fix "Wörterbuch" umlaut in english translation
 e('a1-vocab-hobbies-kp-buch------er-2','dictionary / reference book',
   'In diesem Wörterbuch finden Sie mehr als 20.000 Wörter.')
@@ -801,48 +810,56 @@ e('a1-vocab-hobbies-kp-buch------er-2','dictionary / reference book',
 e('a1-vocab-months-kp-april',       'April',    'Im April ist oft schlechtes Wetter.')
 e('a1-vocab-months-kp-februar',     'February', 'Der Februar ist der kürzeste Monat.')
 e('a1-vocab-months-kp-mai',         'May',      'Im Mai blühen viele Blumen.')
-e('a1-vocab-months-kp-vormittag',   'morning / before noon')
-e('a1-vocab-months-kp-wochentag',   'weekday')
-e('a1-vocab-months-kp-minute',      'minute')
-e('a1-vocab-months-kp-sekunde',     'second')
-e('a1-vocab-months-kp-stunde',      'hour / lesson')
+e('a1-vocab-months-kp-vormittag',   'morning / before noon', 'Am Vormittag habe ich Deutschkurs.')
+e('a1-vocab-months-kp-wochentag',   'weekday', 'Montag ist ein Wochentag.')
+e('a1-vocab-months-kp-minute',      'minute', 'Der Bus kommt in fünf Minuten.')
+e('a1-vocab-months-kp-sekunde',     'second', 'Warten Sie bitte eine Sekunde.')
+e('a1-vocab-months-kp-stunde',      'hour / lesson', 'Der Unterricht dauert eine Stunde.')
 # A1 shopping
 e('a1-vocab-shopping-kp-billig-2',  'cheap (exclamation)',  'Die ist aber billig!')
 # A1 professions
-e('a1-vocab-professions-kp-student',    'student (male)')
-e('a1-vocab-professions-kp-student---en','student (male)')
+e('a1-vocab-professions-kp-student',    'student (male)', 'Ich bin Student.')
+e('a1-vocab-professions-kp-student---en','student (male)', 'Ich bin Student.')
 # A2 health
-e('a2-vocab-health-kp-auge---n',    'eye')
+e('a2-vocab-health-kp-arm---e',     'arm')
+e('a2-vocab-health-kp-auge---n',    'eye', 'Er hat blaue Augen.')
 e('a2-vocab-health-kp-fu--2',       'on foot',   'Gehen Sie zu Fuß zur Arbeit?')  # no umlaut in value
-e('a2-vocab-health-kp-schmerz',     'pain / ache')
-e('a2-vocab-health-kp-schmerz---en','pain / ache')
+e('a2-vocab-health-kp-kopf----e',   'head')
+e('a2-vocab-health-kp-schmerz',     'pain / ache', 'Haben Sie Schmerzen?')
+e('a2-vocab-health-kp-schmerz---en','pain / ache', 'Haben Sie Schmerzen?')
 # A2 weather
+e('a2-vocab-weather-kp-alt',        'old')
+e('a2-vocab-weather-kp-kalt-3',     'cold')
 e('a2-vocab-weather-kp-reis',       'rice',      'Ich esse gern Reis mit Gemüse und Fisch.')
-e('a2-vocab-weather-kp-wind---e',   'wind')
-e('a2-vocab-weather-kp-sonne---n',  'sun')
-e('a2-vocab-weather-kp-reisen--reist','to travel')
+e('a2-vocab-weather-kp-wind---e',   'wind', 'Der Wind ist kalt.')
+e('a2-vocab-weather-kp-sonne---n',  'sun', 'Die Sonne scheint.')
+e('a2-vocab-weather-kp-reisen--reist','to travel', 'Ich reise gern.')
 # A2 work
+e('a2-vocab-work-kp-arbeiten--arbeitet', 'to work')
 e('a2-vocab-work-kp-bestellen-3',   'to order (past form: hat bestellt)',  'Sie hat das Buch bestellt.')
 e('a2-vocab-work-kp-praktikum',     'internship / work placement', 'Ich mache ein Praktikum bei Siemens.')
-e('a2-vocab-work-kp-stelle',        'position / job / spot')
+e('a2-vocab-work-kp-stelle',        'position / job / spot', 'Ich habe eine neue Stelle.')
 # A2 education
 e('a2-vocab-education-kp-student---en---die-studentin--','student',
   'Ich bin Studentin.')
 # A2 services
-e('a2-vocab-services-kp-karte',     'card / map / menu / ticket')
+e('a2-vocab-services-kp-karte',     'card / map / menu / ticket', 'Ich schreibe meinen Bekannten eine Karte.')
 # A2 entertainment – verb past-participle-only KPs → treat as verb entries
 e('a2-vocab-entertainment-kp-buchen-3',       'to book (past: hat gebucht)',       'Sie hat den Flug online gebucht.')
 e('a2-vocab-entertainment-kp-buchstabieren-3','to spell out (past: hat buchstabiert)', 'Er hat seinen Namen buchstabiert.')
 e('a2-vocab-entertainment-kp-buch',           'book',   'Das Buch ist fantastisch. Du musst es unbedingt lesen!')
 e('a2-vocab-entertainment-kp-fernsehen-2',    'to watch TV (past: hat ferngesehen)', 'Er hat den ganzen Abend ferngesehen.')
+e('a2-vocab-entertainment-kp-sendung',         'TV programme / broadcast', 'Welche Sendungen schaust du gern an?')
 # A2 clothing – verb past-participle-only KPs
 e('a2-vocab-clothing-kp-aufpassen-3',  'to watch out (past: hat aufgepasst)', 'Er hat gut aufgepasst.')
 e('a2-vocab-clothing-kp-bringen-2',    'to bring (past: hat gebracht)',       'Sie hat Blumen mitgebracht.')
-e('a2-vocab-clothing-kp-rock----e',    'skirt')
+e('a2-vocab-clothing-kp-brille---n',   'glasses')
+e('a2-vocab-clothing-kp-rock----e',    'skirt', 'Der Rock ist zu eng.')
 # A2 emotions – fix umlaut in my own translation
 e('a2-vocab-emotions-kp-freundlich-2','friendly / kind (formal letter: "Mit freundlichen Grussen" = Yours sincerely)',
   'Mit freundlichen Grüßen')
-e('a2-vocab-emotions-kp-lieben--liebt--hat-geliebt','to love')
+e('a2-vocab-emotions-kp-langweilig', 'boring / bored')
+e('a2-vocab-emotions-kp-lieben--liebt--hat-geliebt','to love', 'Ich liebe dich!')
 # A2 culture
 e('a2-vocab-culture-kp-brauchen-3',   'to need (past: hat gebraucht)', 'Er hat keinen Arzt gebraucht.')
 # A2 education misc
@@ -860,7 +877,10 @@ def has_german(text):
     starters = ('ich ', 'du ', 'er ', 'sie ', 'wir ', 'ihr ', 'der ', 'die ', 'das ',
                  'ein ', 'eine ', 'einen ', 'dem ', 'den ', 'des ', 'ist ', 'sind ',
                  'hat ', 'haben ', 'gehen ', 'kommen ', 'hin ', 'auf ', 'ab ',
-                 'bitte ', 'danke ', 'guten ', 'herzlich', 'vielen ')
+                 'bitte ', 'danke ', 'guten ', 'herzlich', 'vielen ', 'wo ', 'wie ',
+                 'wann ', 'warum ', 'was ', 'wer ', 'welche ', 'welcher ', 'welches ',
+                 'mein ', 'meine ', 'mir ', 'hier ', 'heute ', 'morgen ', 'seit ',
+                 'bei ', 'unter ')
     return any(lo.startswith(s) for s in starters)
 
 def clean_example(raw):
@@ -893,20 +913,27 @@ def process_topics(topics):
                 continue
             kid = kp['id']
             en  = pd.get('english', '')
+            example = pd.get('example_sentence', '')
+            before = json.dumps(pd, sort_keys=True, ensure_ascii=False)
             # Skip KPs already fixed or not needing a fix
-            if not has_german(en):
+            needs_fix = (
+                has_german(en)
+                or (isinstance(example, str) and example.startswith('TODO:'))
+                or (kid in EN and example and example == en)
+            )
+            if not needs_fix:
                 continue
             if kid in EN:
                 new_en, new_ex = EN[kid]
                 pd['english'] = new_en
                 if new_ex is not None:
                     pd['example_sentence'] = new_ex
-                elif not pd.get('example_sentence'):
+                elif not pd.get('example_sentence') or pd.get('example_sentence', '').startswith('TODO:'):
                     pd['example_sentence'] = clean_example(en)
-                changed += 1
             else:
                 # Not in our dict – leave a visible TODO so we can catch it
                 pd['english'] = f'TODO: {pd.get("german", "?")} → {en[:40]}'
+            if json.dumps(pd, sort_keys=True, ensure_ascii=False) != before:
                 changed += 1
         # Recurse into subtopics (not used in current data but safe)
         process_topics(t.get('subtopics', []))
