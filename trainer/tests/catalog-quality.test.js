@@ -122,6 +122,26 @@ test('A1 wir pronoun explanation is not overgeneralized to all verbs', () => {
   assert.match(wir.explanation, /regular present-tense verbs/i);
 });
 
+test('A1 numbers topic keeps plain translations for core number vocabulary', () => {
+  const numbers = flattenTopics(loadLevel('a1')).find(t => t.id === 'a1-vocab-numbers');
+  assert.ok(numbers, 'A1 numbers topic exists');
+
+  const expected = {
+    'a1-vocab-numbers-kp-macht': 'that comes to',
+    'a1-vocab-numbers-kp-f-nf': 'five',
+    'a1-vocab-numbers-kp-viertel': 'quarter',
+    'a1-vocab-numbers-kp-zahlen': 'to pay',
+    'a1-vocab-numbers-kp-zweihundert': 'two hundred',
+    'a1-vocab-numbers-kp-zweiten': 'second'
+  };
+
+  for (const [kpId, english] of Object.entries(expected)) {
+    const kp = numbers.knowledge_points.find(item => item.id === kpId);
+    assert.ok(kp, `knowledge point ${kpId} exists`);
+    assert.equal(kp.prompt_data.english, english, `${kpId} has a clean English gloss`);
+  }
+});
+
 test('README content counts match the current catalog', () => {
   const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
   const a1KPs = allKPs().filter(x => x.levelId === 'a1').length;

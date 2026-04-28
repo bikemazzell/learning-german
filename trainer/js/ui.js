@@ -347,8 +347,12 @@ window.UI = (function () {
       var options = appEl.querySelectorAll('.mc-option');
       for (var i = 0; i < options.length; i++) {
         options[i].style.pointerEvents = 'none';
-        if (options[i].getAttribute('data-value') === exercise.correctAnswer) {
+        var value = options[i].getAttribute('data-value');
+        if (value === exercise.correctAnswer) {
           options[i].classList.add('correct');
+        }
+        if (!result.correct && value === result.selectedAnswer) {
+          options[i].classList.add('incorrect');
         }
       }
     }

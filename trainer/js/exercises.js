@@ -558,6 +558,7 @@ window.Exercises = (function () {
     var correct = selected === exercise.correctAnswer;
     return {
       correct: correct,
+      selectedAnswer: selected,
       correctAnswer: exercise.correctAnswer,
       feedback: correct ? 'Correct!' : 'The correct answer is: ' + exercise.correctAnswer
     };

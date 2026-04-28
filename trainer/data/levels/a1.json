@@ -3037,7 +3037,7 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "das macht",
-                "english": "5 Euro 95.",
+                "english": "that comes to",
                 "article": "das",
                 "gender": "neuter",
                 "example_sentence": ""
@@ -3151,7 +3151,7 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "fünf",
-                "english": "Minuten vor/nach eins (ein Uhr)",
+                "english": "five",
                 "example_sentence": ""
               },
               "explanation": "From Goethe A1 word list."
@@ -3201,7 +3201,7 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "Viertel",
-                "english": "vor/nach zwei (zwei Uhr)",
+                "english": "quarter",
                 "example_sentence": ""
               },
               "explanation": "From Goethe A1 word list."
@@ -3211,7 +3211,7 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "zahlen",
-                "english": "Zahlen, bitte!",
+                "english": "to pay",
                 "example_sentence": ""
               },
               "explanation": "From Goethe A1 word list."
@@ -3221,7 +3221,7 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "zweihundert",
-                "english": "Kilometer = 200 km",
+                "english": "two hundred",
                 "example_sentence": ""
               },
               "explanation": "From Goethe A1 word list."
@@ -3231,7 +3231,7 @@
               "prompt_data": {
                 "type": "vocabulary",
                 "german": "zweiten",
-                "english": "Stock.",
+                "english": "second",
                 "example_sentence": ""
               },
               "explanation": "From Goethe A1 word list."
